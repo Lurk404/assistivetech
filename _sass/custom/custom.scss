@@ -1,0 +1,51 @@
+// Extra styles for the AT User Guides site.
+// Just the Docs loads this file automatically after its own styles.
+
+// Collapsible sections: <details markdown="block"><summary>Title</summary> ... </details>
+.main-content details {
+  margin: 0.75rem 0;
+  border: 1px solid $grey-lt-300;
+  border-radius: $border-radius;
+  padding: 0 1rem;
+}
+
+.main-content details > summary {
+  margin: 0 -1rem;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  color: $grey-dk-200;
+}
+
+.main-content details[open] > summary {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid $grey-lt-300;
+}
+
+.main-content details > summary:hover {
+  background-color: $grey-lt-000;
+}
+
+.main-content details > summary:focus-visible {
+  outline: 3px solid $link-color;
+  outline-offset: 2px;
+}
+
+// Collapsible sections inside collapsible sections
+.main-content details details {
+  border-style: dashed;
+}
+
+// Keyboard keys: <kbd>Ctrl</kbd> + <kbd>C</kbd>
+.main-content kbd {
+  display: inline-block;
+  padding: 0.05em 0.4em;
+  font-family: inherit;
+  font-size: 0.875em;
+  line-height: 1.4;
+  color: $grey-dk-200;
+  white-space: nowrap;
+  background-color: $grey-lt-000;
+  border: 1px solid $grey-dk-000;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+}

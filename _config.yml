@@ -1,5 +1,42 @@
 title: AT User Guides
-description: Guides to assistive technology tools and strategies.
-remote_theme: just-the-docs/just-the-docs
+description: Explore this collection of assistive technology user guides to learn new strategies, discover tips, and enhance your digital experience.
+
+# Theme: Just the Docs, pinned to a release so updates don't change the site unexpectedly
+remote_theme: just-the-docs/just-the-docs@v0.12.0
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Files that stay in the repository but are not part of the website
+exclude:
+  - README.md
+  - LICENSE
+
+# Search box at the top of every page (Ctrl+K / Command+K jumps to it)
+search_enabled: true
+search:
+  focus_shortcut_key: "k"
+
+# Page features
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Link in the top right corner of every page
+aux_links:
+  "View on GitHub":
+    - "https://github.com/Lurk404/assistivetech"
+
+# Callout boxes for the website. In a page, put {: .tip } (or .note / .warning)
+# on the line directly above a paragraph. Note: in the GitHub repo view and the
+# wiki, the {: .tip } line shows up as plain text.
+callouts:
+  tip:
+    title: Tip
+    color: green
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: red
