@@ -1,3 +1,8 @@
+   ---
+   title: Morphic
+   nav_order: 12
+   ---
+
 # Morphic
 
 Morphic is a basic toolbar that helps with quick access to built-in accessibility tools. Morphic is free and available for Windows and macOS.
