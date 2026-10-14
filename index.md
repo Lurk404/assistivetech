@@ -3,7 +3,7 @@
    nav_order: 1
    ---
 
-   # Assistive Technology User Guides
+   # AT User Guides
 
    Welcome! Choose a guide from the menu.
 
