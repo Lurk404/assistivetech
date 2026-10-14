@@ -1,0 +1,5 @@
+title: Assistive Technology User Guides
+   description: Guides to assistive technology tools and strategies.
+   remote_theme: just-the-docs/just-the-docs
+   plugins:
+     - jekyll-remote-theme
