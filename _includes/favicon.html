@@ -1,0 +1,8 @@
+{%- comment -%}
+  Replaces the theme's favicon include so the site can offer:
+  favicon.ico for older browsers, favicon.svg for current browsers,
+  and apple-touch-icon.png for phone and tablet home screens.
+{%- endcomment -%}
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="32x32">
+<link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
