@@ -1,6 +1,6 @@
 ---
 title: Accessibility Statement
-nav_order: 17
+nav_order: 3
 ---
 
 # Accessibility Statement
