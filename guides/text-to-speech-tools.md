@@ -31,7 +31,7 @@ ReadSpeaker has four tools for reading different types of content: webReader and
 <details id="webreader" markdown="block">
 <summary>webReader</summary>
 
-There is a text to speech tool included in Brightspace. The tool can be accessed via the **Listen** button that appears on topic, discussion, and quiz pages:
+There is a text to speech tool included in Brightspace. The tool can be accessed via the **Listen** button that appears on topic, discussion, and quiz pages:  
 ![The ReadSpeaker Listen button, with a menu button on its left and a play button on its right.](../assets/images/text-to-speech-tools/webreader-listen-button.png) <!-- review-alt -->
 
 Activating the **Listen** button will reveal the Player:  
