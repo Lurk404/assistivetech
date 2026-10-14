@@ -6,8 +6,6 @@ permalink: /
 
 # AT User Guides
 
-<img src="assets/images/general/at-user-guides-cover.png" alt="" width="200"> <!-- review-alt -->
-
 Explore this collection of assistive technology user guides to learn new strategies, discover tips, and enhance your digital experience.
 
 Welcome! Choose a guide from the list below or from the menu.
