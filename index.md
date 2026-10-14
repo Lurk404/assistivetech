@@ -1,10 +1,10 @@
-   ---
-   title: Home
-   nav_order: 1
-   ---
+---
+title: Home
+nav_order: 1
+---
 
-   # AT User Guides
+# AT User Guides
 
-   Welcome! Choose a guide from the menu.
+Welcome! Choose a guide from the menu.
 
-   To be updated
+To be updated
