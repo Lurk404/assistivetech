@@ -296,7 +296,7 @@ VoiceOver has a practice area where you can try out different gestures and Voice
   - Flick left or right with three fingers to move between apps.
   - Flick three fingers up to close an app.
 
-[Use Voice Control to interact with iPhone](https://support.apple.com/en-ca/guide/iphone/iph2c21a3c88/ios)
+[Getting started with VoiceOver](https://support.apple.com/en-ca/guide/iphone/iph3e2e415f/ios)
 
 [AppleVis](https://www.applevis.com) is a resource for blind and low vision users of Apple products.
 
