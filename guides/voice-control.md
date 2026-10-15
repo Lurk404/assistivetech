@@ -276,6 +276,7 @@ The voice access bar appears at the top of the screen. Some useful commands:
 - “Show numbers” to number the things you can click, then say a number.
 - “Show grid” to point at anything on the screen.
 
+### Learn more
 - [Set up voice access – Microsoft Support](https://support.microsoft.com/en-us/accessibility/windows/voice-access/set-up-voice-access)
 - [Get started with voice access – Microsoft Support](https://support.microsoft.com/en-us/accessibility/windows/voice-access/get-started-with-voice-access)
 
