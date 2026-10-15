@@ -209,21 +209,11 @@ To begin:
 1. Choose a document type: Diagram, Outline, or Map.
    ![The Inspiration Starter window with Diagram, Outline, Map, Open, Templates and Learn to Use buttons.](../assets/images/mind-mapping/inspiration-starter.png) <!-- review-alt -->
    1. A diagram lets you arrange topics, subtopics, and notes freely.
-      1. [Learn more about the diagram toolbar](https://v10.inspiration-manual.com/219.html).
-      2. [Overview of how the diagram tool works](https://v10.inspiration-manual.com/3256.html).
    2. Maps follow a more structured process with a central main idea.
-      1. [Learn more about the map view toolbar](https://v10.inspiration-manual.com/2437.html).
-      2. [Overview of how maps work](https://v10.inspiration-manual.com/3314.html).
    3. An outline is a text list of your ideas, arranged in levels.
-      1. [Learn more about the outline toolbar](https://v10.inspiration-manual.com/510.html).
-      2. [Overview of the outline tool](https://v10.inspiration-manual.com/3257.html).
 2. Start with your main topic and add subtopics.
    1. Use the **Relate** tool in a Map to create connections.
-      1. Learn more about the [Relate tool](https://v10.inspiration-manual.com/2474.html).
-      2. [Adding notes to a map](https://v10.inspiration-manual.com/2476.html).
    2. Use the **Link** tool in a Diagram to create connections.
-      1. Learn about [creating links in a diagram](https://v10.inspiration-manual.com/262.html).
-      2. [Work with notes in a diagram](https://v10.inspiration-manual.com/427.html).
 3. In a Diagram or Map, select **Outline** (or open the **View** menu and choose **Outline**) to see it as a text outline.
 4. When your outline is complete, select **File > Export**.
 5. Choose **Microsoft Word**.
