@@ -21,24 +21,28 @@ Explore this collection of assistive technology user guides to learn new strateg
 - [Text to Speech Tools](guides/text-to-speech-tools.md): have text read aloud in Brightspace, Word, browsers, and on your devices.
 - [Reading Alternate Format Material](guides/reading-alternate-format-material.md): TextAid, Calibre, Kurzweil, Speechify, and NaturalReader.
 - [Optical Character Recognition](guides/optical-character-recognition.md): get the text out of scans, images, and inaccessible PDFs.
-- [Equatio Quick Start Guide](guides/equatio-quick-start-guide.md): write math, and have it read aloud.
 
-## Writing and Notes
-
+##Voice and Dictation
 - [Speech to Text Tools](guides/speech-to-text-tools.md): type with your voice in Word, Windows, Android, iOS, macOS, and Dragon.
 - [Voice Control](guides/voice-control.md): control your computer or phone with your voice.
+
+## Notetaking and Mind Mapping
+
 - [Note-taking and Transcription](guides/note-taking.md): note-taking methods, and apps that record and transcribe.
 - [Mind Mapping](guides/mind-mapping.md): organize ideas visually and turn them into an outline.
 
-## Seeing and Hearing
+##Closed Captions
+- [Closed Captions](guides/closed-captions.md): captions in video players, meetings, browsers, and devices.
+
+## Vision and Screen Enhancement
 
 - [Screen Readers](guides/screen-readers.md): JAWS, NVDA, VoiceOver, TalkBack, and ChromeVox.
 - [Magnifiers](guides/magnifiers.md): ZoomText and the magnifiers built into your devices.
-- [Closed Captions](guides/closed-captions.md): captions in video players, meetings, browsers, and devices.
 
 ## More Tools
 
 - [Browsers](guides/browsers.md): accessibility settings and tools in Chrome, Edge, Firefox, and Safari.
+- [Equatio Quick Start Guide](guides/equatio-quick-start-guide.md): write math, and have it read aloud.
 - [Morphic](guides/morphic.md): a free toolbar for your computer’s accessibility features.
 - [Finding More Tools](guides/finding-more-tools.md): websites for finding other assistive technology.
 
