@@ -3,7 +3,6 @@
 Guides to assistive technology tools and strategies: text to speech, speech to text, screen readers, magnifiers, captions, OCR, mind mapping and more. Originally published in Pressbooks as *Assistive Technology User Guides* by Luke McKnight.
 
 - **Website:** https://lurk404.github.io/assistivetech/
-- **Wiki:** https://github.com/Lurk404/assistivetech/wiki
 
 ## What's in this repository
 
