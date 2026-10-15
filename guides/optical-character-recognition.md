@@ -133,8 +133,6 @@ To select specific text:
 4. Right-click and choose **Grab Text**.
 5. The **Grab Text Results** window appears allowing you to edit and copy the text.
 
-Email [edtech@langara.ca](mailto:edtech@langara.ca) if you would like a Snagit license.
-
 [Grab & Edit Text – Snagit tutorial](https://www.techsmith.com/learn/tutorials/snagit/edit-image-text/)
 
 </details>
