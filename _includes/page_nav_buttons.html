@@ -68,8 +68,11 @@
     document.documentElement.classList.add('page-nav-floating');
 
     function threshold() {
-      if (source) return source.getBoundingClientRect().bottom + window.scrollY;
-      return window.innerHeight;
+      if (source) {
+        var box = source.getBoundingClientRect();
+        return box.top + box.height / 2 + window.scrollY;
+      }
+      return window.innerHeight * 0.6;
     }
 
     /* On short screens (or at high zoom) the bar doesn't float: it stays at the
