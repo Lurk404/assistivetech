@@ -1,6 +1,6 @@
 ---
 title: Speech to Text Tools
-parent: Voice and Dictation
+parent: Dictation and Voice Control
 nav_order: 1
 ---
 
