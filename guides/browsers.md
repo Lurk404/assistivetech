@@ -138,7 +138,6 @@ To reset all customizations to default, right-click the extension icon and choos
 - [Chrome keyboard shortcuts – Google Chrome Help](https://support.google.com/chrome/answer/157179?co=GENIE.Platform%3DDesktop&hl=en)
 - [Use Chrome with accessibility extensions – Google Chrome Help](https://support.google.com/chrome/answer/7040464)
 - [Google Accessibility for customers and partners](https://www.google.com/accessibility/customers-partners/) (accessibility conformance reports for Google products)
-- [8 great Chrome accessibility extensions – Educators’ Technology](https://www.educatorstechnology.com/2021/10/8-great-chrome-accessibility-extensions.html) (2021)
 
 </details>
 
