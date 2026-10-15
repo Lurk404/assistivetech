@@ -31,7 +31,7 @@ Popular note-taking methods include:
 
 [Outline](https://academicresourcecenter.harvard.edu/note-taking#ui-accordion-2-header-1) notes are bullet points that mimic the organization of the material or presentation.
 
-[Cornell](https://academicresourcecenter.harvard.edu/note-taking#ui-accordion-2-header-0) notes organize material using a template ([Word](https://www.ohio.edu/university-college/sites/ohio.edu.university-college/files/sites/university-college/Notetaking%20System.doc), [Google Docs Template](https://docs.google.com/document/d/1X5vuSm8piiUwnsoYlyTt28inijWNTBvj7-jGWTUSmSQ/edit)).
+[Cornell](https://academicresourcecenter.harvard.edu/note-taking#ui-accordion-2-header-0) notes organize material using a template ([Word](https://www.google.com/goto?url=CAESlAEB6zswFR_h2mC_2UKhVzvb3hsuPqTGZBB9ih_sYCSPPNMpiKfS4LpYruUGEuUxE2I0hWreprMPDdrZdShYUTvo0M6m8__aKeTx3_7wz4atWusksSNYNDbS_1Ys-w_rzDkIsfH5xuFmm3CUJ53V9Eb3S4P6cOa8uObmxveapMNyS9lmbmO5FbOZJrxdH876pgEF3Ckw), [Google Docs Template](https://docs.google.com/document/d/1X5vuSm8piiUwnsoYlyTt28inijWNTBvj7-jGWTUSmSQ/edit)).
 
 [Sentence](https://academicresourcecenter.harvard.edu/note-taking#ui-accordion-2-header-3) note-taking means writing a sentence for each point, then organizing the material once the overall structure is clear.
 
