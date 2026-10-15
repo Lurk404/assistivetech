@@ -47,7 +47,7 @@ Explore this collection of assistive technology user guides to learn new strateg
 - [Finding More Tools](guides/finding-more-tools.md): websites for finding other assistive technology.
 
 
-{: .warning }
+{: .warning .mt-6 }
 > Software changes often. If something in a guide is out of date, or you have questions or comments, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
 
 ---
