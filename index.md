@@ -13,8 +13,8 @@ Welcome! Choose a guide from the list below or from the menu.
 <details id="about" markdown="block">
 <summary>About this resource</summary>
 
-- [Using This Resource](using-this-resource.md) explains how to find your way around.
-- The [Accessibility Statement](accessibility-statement.md) describes the accessibility features of this resource and how to report a barrier.
+- [Using This Resource](about/using-this-resource.md) explains how to find your way around.
+- The [Accessibility Statement](about/accessibility-statement.md) describes the accessibility features of this resource and how to report a barrier.
 
 </details>
 
