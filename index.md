@@ -46,9 +46,8 @@ Explore this collection of assistive technology user guides to learn new strateg
 - [Morphic](guides/morphic.md): a free toolbar for your computer’s accessibility features.
 - [Finding More Tools](guides/finding-more-tools.md): websites for finding other assistive technology.
 
----
-
-Software changes often. If something in a guide is out of date, or you have questions or comments, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
+{: .warning }
+> Software changes often. If something in a guide is out of date, or you have questions or comments, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
 
 ---
 
