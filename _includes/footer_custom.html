@@ -32,8 +32,8 @@
       '</svg>';
 
     document.querySelectorAll('.main-content a[href^="http"]').forEach(function (a) {
-      if (a.hostname === location.hostname) return; // internal link: leave alone
-      if (a.querySelector('img')) return;           // skip image links
+      if (a.hostname === location.hostname) return; /* internal link: leave alone */
+      if (a.querySelector('img')) return;           /* skip image links */
 
       a.target = '_blank';
       a.rel = 'noopener';
