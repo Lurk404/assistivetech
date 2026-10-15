@@ -10,6 +10,14 @@ Explore this collection of assistive technology user guides to learn new strateg
 
 Welcome! Choose a guide from the list below or from the menu.
 
+<details id="about" markdown="block">
+<summary>About these guides</summary>
+
+- [Using This Resource](using-this-resource.md) explains how to find your way around.
+- The [Accessibility Statement](accessibility-statement.md) describes the accessibility features of this resource and how to report a barrier.
+
+</details>
+
 ## Guides
 
 - [Text to Speech Tools](guides/text-to-speech-tools.md)
@@ -27,10 +35,7 @@ Welcome! Choose a guide from the list below or from the menu.
 - [Browsers](guides/browsers.md)
 - [Finding More Tools](guides/finding-more-tools.md)
 
-## About these guides
-
-- [Using This Resource](using-this-resource.md) explains how to find your way around.
-- The [Accessibility Statement](accessibility-statement.md) describes the accessibility features of this resource and how to report a barrier.
+---
 
 Questions or comments? Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
 
