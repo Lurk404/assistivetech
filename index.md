@@ -22,7 +22,7 @@ Explore this collection of assistive technology user guides to learn new strateg
 - [Reading Alternate Format Material](guides/reading-alternate-format-material.md): TextAid, Calibre, Kurzweil, Speechify, and NaturalReader.
 - [Optical Character Recognition](guides/optical-character-recognition.md): get the text out of scans, images, and inaccessible PDFs.
 
-## Voice and Dictation
+## Dictation and Voice Control
 - [Speech to Text Tools](guides/speech-to-text-tools.md): type with your voice in Word, Windows, Android, iOS, macOS, and Dragon.
 - [Voice Control](guides/voice-control.md): control your computer or phone with your voice.
 
