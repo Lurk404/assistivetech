@@ -203,7 +203,9 @@ Select **Audio Options** to change voice and speed.
 To see the highlighting without hearing the voice, turn off **Audible Reading**.
 ![The Kurzweil reading toolbar with the Audible Reading button circled.](../assets/images/reading-alternate-format-material/kurzweil-audible-reading.png) <!-- review-alt -->
 
-You can also press <kbd>F3</kbd> to play or pause reading, <kbd>F2</kbd> to go to the previous Reading Unit, and <kbd>F4</kbd> to go to the next one.
+- Press <kbd>F3</kbd> to play or pause reading
+- Press <kbd>F2</kbd> to go to the previous Reading Unit (word, line, sentence, and so on)
+- Press <kbd>F4</kbd> to go to the next Reading Unit
 
 Kurzweil also has tools for writing and [mind mapping](mind-mapping.md#kurzweil). Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for information and resources on Kurzweil, or see the [Kurzweil Academy](https://www.kurzweiledu.com/kurzweil-academy/kurzweil-academy.html) for how-to videos and guides.
 
