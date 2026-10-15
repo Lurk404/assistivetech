@@ -346,30 +346,6 @@ Reading mode doesn’t work on every page, for example forms, quizzes, and login
 
 </details>
 
-<details id="firefox" markdown="block">
-<summary>Firefox</summary>
-
-Press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (Windows) or <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> (macOS) to open or close Reader View, or click the lined paper icon in the address bar.
-![The Firefox address bar with the Reader View button circled and its tooltip, Toggle reader view (F9).](../assets/images/text-to-speech-tools/firefox-reader-view-button.png) <!-- review-alt -->
-
-Reader View includes built-in text to speech and display customization.
-![The Reader View toolbar with buttons for close, text and layout, theme, read aloud and save to Pocket.](../assets/images/text-to-speech-tools/firefox-reader-view-toolbar.png) <!-- review-alt -->
-
-The look of webpages can be customized, including the font as well as line, character, and word spacing.
-![Reader View text and layout settings: text size, font, font weight, content width, line spacing, and advanced options for character spacing, word spacing and text alignment.](../assets/images/text-to-speech-tools/firefox-reader-view-text-layout.png) <!-- review-alt -->
-
-The background colour can be changed, as well as the colour of links, font, background, and highlighting under the **Custom** tab.
-![Reader View theme settings with Default and Custom tabs. The Default tab offers Auto, Light, Dark, Sepia, Contrast and Gray.](../assets/images/text-to-speech-tools/firefox-reader-view-theme.png) <!-- review-alt -->
-
-The **Read aloud** tool (headphone icon) offers read aloud functions, variable speed, and voice options.
-![Reader View read aloud controls with previous, play and next buttons, a speed slider and a voice menu.](../assets/images/text-to-speech-tools/firefox-reader-view-read-aloud.png) <!-- review-alt -->
-
-Reader View is not available on all webpages.
-
-[Firefox Reader View for clutter-free web pages](https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages)
-
-</details>
-
 <details id="edge" markdown="block">
 <summary>Edge</summary>
 
@@ -391,6 +367,30 @@ Immersive Reader offers a simplified version of webpages with full Read Aloud fu
 
 - [Read aloud – Microsoft Edge](https://www.microsoft.com/en-us/edge/features/read-aloud)
 - [Use Immersive Reader in Microsoft Edge – Microsoft Support](https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1)
+
+</details>
+
+<details id="firefox" markdown="block">
+<summary>Firefox</summary>
+
+Press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (Windows) or <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> (macOS) to open or close Reader View, or click the lined paper icon in the address bar.
+![The Firefox address bar with the Reader View button circled and its tooltip, Toggle reader view (F9).](../assets/images/text-to-speech-tools/firefox-reader-view-button.png) <!-- review-alt -->
+
+Reader View includes built-in text to speech and display customization.
+![The Reader View toolbar with buttons for close, text and layout, theme, read aloud and save to Pocket.](../assets/images/text-to-speech-tools/firefox-reader-view-toolbar.png) <!-- review-alt -->
+
+The look of webpages can be customized, including the font as well as line, character, and word spacing.
+![Reader View text and layout settings: text size, font, font weight, content width, line spacing, and advanced options for character spacing, word spacing and text alignment.](../assets/images/text-to-speech-tools/firefox-reader-view-text-layout.png) <!-- review-alt -->
+
+The background colour can be changed, as well as the colour of links, font, background, and highlighting under the **Custom** tab.
+![Reader View theme settings with Default and Custom tabs. The Default tab offers Auto, Light, Dark, Sepia, Contrast and Gray.](../assets/images/text-to-speech-tools/firefox-reader-view-theme.png) <!-- review-alt -->
+
+The **Read aloud** tool (headphone icon) offers read aloud functions, variable speed, and voice options.
+![Reader View read aloud controls with previous, play and next buttons, a speed slider and a voice menu.](../assets/images/text-to-speech-tools/firefox-reader-view-read-aloud.png) <!-- review-alt -->
+
+Reader View is not available on all webpages.
+
+[Firefox Reader View for clutter-free web pages](https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages)
 
 </details>
 
