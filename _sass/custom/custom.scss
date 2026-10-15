@@ -53,6 +53,6 @@
 // Bump base text on small screens (Just the Docs sets html to 14px there)
 @media (max-width: 49.99rem) {
   html {
-    font-size: 100%;   // the reader's browser default, usually 16px
+    font-size: 100% !important;   // the reader's browser default, usually 16px
   }
 }
