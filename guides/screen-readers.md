@@ -69,7 +69,9 @@ Press <kbd>JAWS</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to do the same for just 
 <details markdown="block">
 <summary>Forms Mode</summary>
 
-When you move into a field in a properly coded form (on the web or in a PDF), JAWS switches to Forms Mode and plays a sound. In Forms Mode, most single-key JAWS commands are turned off so you can type into the form. To enter Forms Mode yourself, press <kbd>Enter</kbd> on a form field. To leave it, press <kbd>Num Pad Plus</kbd>, or <kbd>Escape</kbd> on a laptop without a number pad.
+When you move into a field in a properly coded form (on the web or in a PDF), JAWS switches to Forms Mode and plays a sound. In Forms Mode, most single-key JAWS commands are turned off so you can type into the form. To enter Forms Mode yourself, press <kbd>Enter</kbd> on a form field. 
+
+To leave it, press <kbd>Num Pad Plus</kbd>, or <kbd>Escape</kbd> on a laptop without a number pad. Some laptops may be set up to require pressing <kbd>fn</kbd> <kbd>?</kbd>.
 
 </details>
 
