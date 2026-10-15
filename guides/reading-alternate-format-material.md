@@ -1,6 +1,7 @@
 ---
 title: Reading Alternate Format Material
-nav_order: 4
+parent: Reading
+nav_order: 2
 ---
 
 # Reading Alternate Format Material
@@ -11,15 +12,15 @@ nav_order: 4
 - [Calibre](#calibre)
 - [Kurzweil](#kurzweil)
 - [Speechify](#speechify)
-- [Natural Reader](#natural-reader)
+- [NaturalReader](#naturalreader)
 
-When physical material, or inaccessible digital material, is converted there are a number of tools that will be useful to read that material.
+Alternate format material is print, or inaccessible digital material, that has been converted into an accessible format such as EPUB, Word, or accessible PDF. The tools on this page can read it aloud and let you change how it looks.
 
 ## TextAid
 
 ![](../assets/images/logos/textaid.png) <!-- review-alt -->
 
-The TextAid web portal offers a number of tools to assist with reading.
+The TextAid web app has several tools to help with reading. Sign in as described under [TextAid](text-to-speech-tools.md#textaid) on the Text to Speech Tools page.
 
 <details markdown="block">
 <summary>New Text</summary>
@@ -27,15 +28,15 @@ The TextAid web portal offers a number of tools to assist with reading.
 1. Select **New Text**.
    ![The TextAid sidebar with the pointer on New Text.](../assets/images/reading-alternate-format-material/textaid-new-text.png) <!-- review-alt -->
 2. Type or paste text from another source.
-3. Create, edit, and read content all in this window.
-4. Save to your Library for later, Print to paper or PDF, or Download as mp3 for listening.
+3. Create, edit, and listen to the text in this window.
+4. **Save** it to your Library, **Print** it to paper or PDF, or **Download** it as an MP3 to listen to later.
 
 </details>
 
 <details markdown="block">
 <summary>Library</summary>
 
-Library organizes files you have saved, created, or uploaded.
+The Library holds the files you have saved, created, or uploaded.
 
 ![The TextAid Library window listing saved files and folders, with Create Folder and Upload Document buttons at the top.](../assets/images/reading-alternate-format-material/textaid-library.png) <!-- review-alt -->
 
@@ -46,7 +47,7 @@ To add a new document to TextAid:
 3. Once uploaded, click on the file in the Library window to access and read it.
 4. Click **Listen** to begin reading.
    ![The TextAid sidebar with Listen circled.](../assets/images/reading-alternate-format-material/textaid-listen.png) <!-- review-alt -->
-   1. Select **Text Mode** to see a plain text conversion of the content. Note that this may change the layout or formatting of the document.
+   1. Select **Text Mode** to see the document as plain text. This may change its layout or formatting.
       ![The document toolbar in TextAid with the Text Mode button circled.](../assets/images/reading-alternate-format-material/textaid-text-mode-button.png) <!-- review-alt -->
 5. Select text and click **Listen** to read only selected passages.
    ![A selected passage in a document with a pop-up menu offering Listen, Dictionary and Translate. Listen is circled.](../assets/images/reading-alternate-format-material/textaid-listen-selection.png) <!-- review-alt -->
@@ -62,7 +63,7 @@ To add a new document to TextAid:
    ![The Annotations toolbar with tools for selection, text, sticky notes, lines, ellipses, rectangles, highlighting, freehand drawing, colour, line thickness and opacity.](../assets/images/reading-alternate-format-material/textaid-annotations-toolbar.png) <!-- review-alt -->
 3. Make notes and other markings and then select **Save** in the toolbar on the left.
 
-The **Highlighter** tool allows users to highlight passages of text and then organize and export those highlights.
+The **Highlighter** lets you highlight passages of text and then collect and download your highlights.
 
 1. Select the **Highlighter** tool in the left-hand toolbar.
    ![The TextAid sidebar with Highlighter selected.](../assets/images/reading-alternate-format-material/textaid-highlighter.png) <!-- review-alt -->
@@ -70,11 +71,10 @@ The **Highlighter** tool allows users to highlight passages of text and then org
    ![The Highlighter toolbar with a pointer button, yellow, blue, green and red highlighters, a menu button and a close button.](../assets/images/reading-alternate-format-material/textaid-highlighter-toolbar.png) <!-- review-alt -->
 3. After highlighting content, select the menu for options.
    ![The Highlighter menu with Collect and Download Highlights, Clear Page Highlights, Clear Document Highlights and Show Highlight Borders.](../assets/images/reading-alternate-format-material/textaid-highlighter-menu.png) <!-- review-alt -->
-   1. Select **Collect and Download Highlights** to organize highlights and open a new TextAid document with your highlights.
-      1. This option includes collection and sorting options.
-      2. A common method is to use different colours for different topics to easily organize notes.
+   1. Select **Collect and Download Highlights** to gather your highlights into a new TextAid document. You can choose how they are collected and sorted.
+      - Tip: use a different colour for each topic, so your highlights are sorted by topic.
    2. **Clear Page Highlights** and **Clear Document Highlights** will remove highlights from the active page or whole document.
-   3. **Show Highlight Borders** toggles on or off different borders such as solid lines, dashes, and dots to assist users that have trouble distinguishing highlights by colour.
+   3. **Show Highlight Borders** adds a different border (solid, dashed, or dotted) to each highlight colour, which helps if you have trouble telling the colours apart.
 
 </details>
 
@@ -84,11 +84,11 @@ The **Highlighter** tool allows users to highlight passages of text and then org
 ![The TextAid sidebar with Tools open, showing Page Mask, Reading Ruler, Calculator and Settings.](../assets/images/reading-alternate-format-material/textaid-tools-menu.png) <!-- review-alt -->
 
 1. **Page Mask**
-   1. Dims, or blocks out depending on your customization, the rest of the screen except for the line(s) you are reading.
+   1. Dims or blocks out the rest of the screen except for the line(s) you are reading.
 2. **Reading Ruler**
    1. Places a solid bar on screen that follows your mouse.
 3. **Calculator**
-   1. A very basic calculator that can read basic math aloud.
+   1. A basic calculator that reads its calculations aloud.
 4. **Settings**
    1. Settings to customize Page Mask and Reading Ruler.
 
@@ -97,7 +97,7 @@ The **Highlighter** tool allows users to highlight passages of text and then org
 <details markdown="block">
 <summary>Image to Text</summary>
 
-Users can upload an image of text that is converted to machine-readable text and saved to the TextAid library.
+Upload a picture of text and TextAid converts it to text it can read aloud, and saves it to your Library.
 
 To use Image to Text:
 
@@ -107,10 +107,10 @@ To use Image to Text:
    <img src="../assets/images/reading-alternate-format-material/textaid-choose-file.png" alt="The Convert Image to Text window with the Choose File button circled. Other options include reading voice, save-to folder, and saving as a read-only document or editable text." width="500"> <!-- review-alt -->
 3. Wait for the file to process and then select **Go to your library** to access your file.
    <img src="../assets/images/reading-alternate-format-material/textaid-image-processed.png" alt="A message reading The image was processed successfully, with the saved file name, its size, and a Go to your library button." width="500"> <!-- review-alt -->
-4. Once the processing is completed, you can use the reading options and tools discussed above.
+4. You can now use the reading options and tools described above.
 5. Select the **Listen** button to read the whole document.
    ![The converted document open in TextAid, with page thumbnails on the left and the scanned page on the right.](../assets/images/reading-alternate-format-material/textaid-converted-document.png) <!-- review-alt -->
-6. Select **Text Mode** to see a plain text conversion and use additional tools such as select to listen.
+6. Select **Text Mode** to see the text as plain text and use more tools, such as selecting text to listen to it.
    ![The converted document in Text Mode as plain text, with a selected word and a pop-up menu offering Listen, Dictionary and Translate.](../assets/images/reading-alternate-format-material/textaid-converted-text-mode.png) <!-- review-alt -->
 
 </details>
@@ -127,11 +127,11 @@ To use Image to Text:
    3. Changes made here will only be visible in **Text Mode**.
 3. **Highlighting**
    1. These are settings for word and sentence highlighting while reading, not the Highlighter tool.
-   2. Use this menu to select colour of highlighted word, colour of highlighted sentence, and text colour.
+   2. Choose the colours for the highlighted word, the highlighted sentence, and the text.
 4. **Reading Area**
-   1. Offers options to change how text is selected for reading or highlighting.
-   2. **Mouse selection** requires users click and drag over desired text.
-   3. **Text selection** automatically selects groupings, such as paragraph, when the mouse is hovered over text.
+   1. Choose how text is selected for reading or highlighting.
+   2. **Mouse selection**: click and drag over the text you want.
+   3. **Text selection**: hovering the mouse over text selects a block of it, such as a paragraph.
    4. **From mouse pointer to page end** selects all text from the mouse pointer location to the end of the page.
 
 </details>
@@ -146,12 +146,12 @@ To use Image to Text:
 
 ## Calibre
 
-Calibre is available on Langara computers and free. Calibre is available to [download for macOS and Windows](https://calibre-ebook.com/download).
+Calibre is a free e-book reader and library. It is installed on Langara computers, and you can [download Calibre for Windows, macOS, and Linux](https://calibre-ebook.com/download).
 
 <details markdown="block">
 <summary>Set up Calibre</summary>
 
-Calibre is primarily for reading EPUB files. To read PDFs in Calibre, users must first change a default setting:
+Calibre is mainly for reading EPUB files. To read PDFs in Calibre, first change one setting:
 
 1. Navigate to **Preferences**.
    ![The Calibre toolbar with the Preferences button circled.](../assets/images/reading-alternate-format-material/calibre-preferences-button.png) <!-- review-alt -->
@@ -165,17 +165,17 @@ Calibre is primarily for reading EPUB files. To read PDFs in Calibre, users must
 <details markdown="block">
 <summary>Using Calibre</summary>
 
-Calibre can be used as a library to organize content including etexts, PDFs, and other documents. To add files to Calibre, select the menu beside **Add books**:
+Calibre can organize e-texts, PDFs, and other documents in a library. To add files, select the menu beside **Add books**:
 ![The Add books menu open, with Add books from a single folder at the top, followed by Add from folders and sub-folders.](../assets/images/reading-alternate-format-material/calibre-add-books-menu.png) <!-- review-alt -->
 
 Select **Add books from a single folder** for single files or **Add from folders and sub-folders** for multiple files.
 
-To read a book or file, double click on desired file. To have the book read aloud, right-click in the document window then select **Read aloud**:
+To open a book or file, double-click it. To have it read aloud, right-click in the document window and select **Read aloud**:
 ![The Calibre e-book viewer menu with the pointer on Read aloud.](../assets/images/reading-alternate-format-material/calibre-read-aloud.png) <!-- review-alt -->
 
-Various other options are available in the menu. **Font size** and **Preferences** allow users to change many appearance settings to suit their reading preferences.
+The same menu has **Font size** and **Preferences**, where you can change how the book looks.
 
-When reading aloud, a toolbar with options to pause, adjust speed, and change voice appears.
+While Calibre reads aloud, a toolbar appears with options to pause, change the speed, and change the voice.
 ![The read aloud toolbar with pause, slower, faster, settings and close buttons, and the hint Tap/click on a word to skip to it.](../assets/images/reading-alternate-format-material/calibre-read-aloud-toolbar.png) <!-- review-alt -->
 
 [calibre User Manual – calibre E-Book Viewer](https://manual.calibre-ebook.com/#the-calibre-e-book-viewer)
@@ -184,68 +184,66 @@ When reading aloud, a toolbar with options to pause, adjust speed, and change vo
 
 ## Kurzweil
 
-Kurzweil is available for use in L121. Students may be able to request funding for personal software from Assistive Technology British Columbia (ATBC). Accessibility Services can assist you in completing an [application for funding or equipment loan from ATBC](https://www.at-bc.ca/for-students).
+Kurzweil 3000 is available for use in L121. Students may be able to get funding for their own copy, or borrow equipment, through Assistive Technology British Columbia (ATBC). Accessibility Services can help you [apply to ATBC for funding or an equipment loan](https://www.at-bc.ca/for-students/).
 
-Kurzweil can handle many document types including Word, PDF, EPUB, and specialized KESI Kurzweil files.
+Kurzweil opens many document types, including Word, PDF, EPUB, and Kurzweil’s own KES files.
 
 Select **File > Open** and choose the file you want to read.
 
-The first time you open a file in Kurzweil, a conversion process will run. This may take some time depending on the length of the document.
+The first time you open a file, Kurzweil converts it. Long documents may take a while.
 ![The Kurzweil reading toolbar with previous, play, next and audible reading buttons.](../assets/images/reading-alternate-format-material/kurzweil-reading-toolbar.png) <!-- review-alt -->
 
-By default, Kurzweil will begin reading from the blinking red cursor. Kurzweil has many settings for reading options.
+By default, Kurzweil starts reading from the blinking red cursor.
 
 Select **Audio Options** to change voice and speed.
 ![The Audio Options menu with reading speed (170 WPM), voice, Reading Mode (Continuous, Self-Paced, Word by Word), Reading Units (Word, Phrase, Line, Sentence, Paragraph, Heading, Highlight) and language.](../assets/images/reading-alternate-format-material/kurzweil-audio-options.png) <!-- review-alt -->
 
-**Reading Mode** and **Reading Units** change reading settings. **Continuous** reads until paused by the user whereas **Self-Paced** will pause based on the set **Reading Units**. Users can select text and press **Play** to read only the selected content.
+**Reading Mode** and **Reading Units** control how Kurzweil reads. **Continuous** reads until you pause it, while **Self-Paced** pauses after each **Reading Unit** (word, line, sentence, and so on). To read only part of a document, select it and press **Play**.
 
-Some users may benefit from highlighted content without Kurzweil’s audio output. Toggle **Audible Reading** off to mute audio.
+To see the highlighting without hearing the voice, turn off **Audible Reading**.
 ![The Kurzweil reading toolbar with the Audible Reading button circled.](../assets/images/reading-alternate-format-material/kurzweil-audible-reading.png) <!-- review-alt -->
 
-In addition to the toolbar buttons, users can press <kbd>F3</kbd> to play or pause reading, <kbd>F2</kbd> to move to the previous Reading Unit, and <kbd>F4</kbd> to move to the next Reading Unit.
+You can also press <kbd>F3</kbd> to play or pause reading, <kbd>F2</kbd> to go to the previous Reading Unit, and <kbd>F4</kbd> to go to the next one.
 
-Kurzweil also has tools for writing and mind mapping. Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for information and resources on Kurzweil. Consult the [Kurzweil Academy](https://www.kurzweiledu.com/kurzweil-academy/kurzweil-academy.html) for more how-to videos and guides.
+Kurzweil also has tools for writing and [mind mapping](mind-mapping.md#kurzweil). Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for information and resources on Kurzweil, or see the [Kurzweil Academy](https://www.kurzweiledu.com/kurzweil-academy/kurzweil-academy.html) for how-to videos and guides.
 
 ## Speechify
 
-Speechify is available on most platforms:
+Speechify is a text to speech app with a free version. It is available for:
 
-- [Speechify for iOS](https://speechify.com/text-to-speech-ios/?landing_url=https%3A%2F%2Fspeechify.com%2Ftext-to-speech-ios%2F)
-- [Speechify for Android](https://speechify.com/text-to-speech-android/?landing_url=https%3A%2F%2Fspeechify.com%2Ftext-to-speech-ios%2F)
-- [Speechify for macOS](https://speechify.com/text-to-speech-mac/?landing_url=https%3A%2F%2Fspeechify.com%2Ftext-to-speech-ios%2F)
-- [Speechify Chrome Extension](https://chrome.google.com/webstore/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
-- [Speechify web portal](https://app.speechify.com/?page=1)
+- [iOS](https://speechify.com/ios/)
+- [Android](https://speechify.com/android/)
+- [macOS](https://speechify.com/mac/)
+- [Chrome (extension)](https://chromewebstore.google.com/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
+- [the web](https://app.speechify.com/)
 
-On the web portal, users can upload various file types from their device, Dropbox, or Google Drive.
+In the web app, you can add files from your device, Dropbox, or Google Drive.
 <img src="../assets/images/reading-alternate-format-material/speechify-new-menu.png" alt="The Speechify New menu with Local Documents, Web Link, Text Document, Google Drive, Dropbox, Scan Documents, Connect Canvas Account and Create Professional Voice Over." width="500"> <!-- review-alt -->
 
-Users can build a library of files with folders. Click the plus to create a folder.
+Your files are kept in a library, which you can organize into folders. Click the plus button to create a folder.
 <img src="../assets/images/reading-alternate-format-material/speechify-new-folder.png" alt="My Library in Speechify with the plus button circled, above a test folder and Trash." width="500"> <!-- review-alt -->
 
 Folders can be edited, renamed, and deleted.
 
-Users can change settings including voice, speed, and appearance in the left-hand menu when a document is open.
+When a document is open, change the voice, speed, and appearance in the menu on the left.
 ![The Speechify reading menu with Voice, Speed (1.2x) and More buttons.](../assets/images/reading-alternate-format-material/speechify-reading-settings.png) <!-- review-alt -->
 
 **Note**: Only the standard voices (those without a golden diamond on the profile picture) are free.
 
-## Natural Reader
+## NaturalReader
 
-Natural Reader is a text-to-speech tool available as a [web platform](https://www.naturalreaders.com/online). [NaturalReader is available for macOS and Windows](https://www.naturalreaders.com/software.html). There is also a [NaturalReader app for Android and iOS](https://www.naturalreaders.com/appdownload.html?source=mobiledownload&campaign=pw_app_mobile_button&ct=pw_app_mobile_button).
+NaturalReader is a text to speech tool with a free version. Use it [online](https://www.naturalreaders.com/online/), or download [NaturalReader for Windows and macOS](https://www.naturalreaders.com/software.html) or the [NaturalReader app for Android and iOS](https://www.naturalreaders.com/appdownload.html).
 
-To use Natural Reader, navigate to [https://www.naturalreaders.com/online/](https://www.naturalreaders.com/online).
-
-Users can build a library of files:
+You can build a library of files:
 ![The NaturalReader menu with Add Files, Library, Account and Apps.](../assets/images/reading-alternate-format-material/naturalreader-menu.png) <!-- review-alt -->
 
 Add files from various sources:
 <img src="../assets/images/reading-alternate-format-material/naturalreader-add-files.png" alt="Add Files circled in the NaturalReader menu, with the Add dialog offering Document, Text, Images and Webpage." width="500"> <!-- review-alt -->
 
-Users can change settings such as voice and playback speed with the toolbar along the top:
+Change the voice and playback speed with the toolbar along the top:
 <img src="../assets/images/reading-alternate-format-material/naturalreader-toolbar.png" alt="The NaturalReader toolbar with voice, rewind, play, forward and speed (1x) buttons." width="500"> <!-- review-alt -->
 
-Note, there are very few free voices and most voices require a paid subscription.
+Only a few voices are free. Most need a paid subscription.
 
 **Settings** are available from the **More** icon (three dots) in the top right corner.
 <img src="../assets/images/reading-alternate-format-material/naturalreader-more-menu.png" alt="The More button circled in the top right, opening a menu with MP3, Find, Font, Timer, Pronunciation, Share, Dark Mode and More Settings." width="500"> <!-- review-alt -->

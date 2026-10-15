@@ -1,11 +1,14 @@
 ---
 title: Magnifiers
-nav_order: 13
+parent: Seeing and Hearing
+nav_order: 2
 ---
 
 # Magnifiers
 
 <img src="../assets/images/magnifiers/magnifiers-icon.png" alt="" width="150"> <!-- review-alt -->
+
+Magnifiers enlarge part or all of the screen. Most computers and phones have one built in, and most also let you make text and everything else on screen bigger.
 
 **On this page:**
 
@@ -20,16 +23,16 @@ nav_order: 13
 
 <img src="../assets/images/logos/zoomtext.png" alt="" width="350"> <!-- review-alt -->
 
-ZoomText Magnifier/Reader is a magnification and reading program tailored for low-vision users. ZoomText enlarges and enhances your computer screen, echoes your typing and essential program activity, and automatically reads content. ZoomText can be controlled by mouse, keyboard, or voice commands.
+ZoomText Magnifier/Reader is a Windows magnification and reading program for people with low vision. It enlarges and enhances what’s on screen, echoes your typing and important program activity, and reads content aloud. You can control ZoomText with the mouse, keyboard, or voice commands.
 
 This guide uses <kbd>Caps Lock</kbd> for the ZoomText modifier key.
 
 <details markdown="block">
 <summary>Setup</summary>
 
-[ZoomText quick start guide](https://www.freedomscientific.com/training/zoomtext/getting-started)
+[Getting Started with ZoomText – Freedom Scientific](https://www.freedomscientific.com/training/zoomtext/getting-started)
 
-Open ZoomText before any other programs such as web browsers or document software.
+Open ZoomText before other programs, such as web browsers or document software.
 
 When ZoomText opens, the ZoomText toolbar appears.
 ![The ZoomText toolbar on the Magnifier tab, with Zoom Level, Window, Color, Pointer, Cursor, Focus and Navigation buttons.](../assets/images/magnifiers/zoomtext-toolbar.png) <!-- review-alt -->
@@ -40,8 +43,8 @@ Navigate menus using the mouse or keyboard:
   - Arrow down for help, configurations, and settings.
   - Go to **Preferences**.
     - Check the **Start ZoomText automatically when Windows starts** checkbox, if desired.
-    - Users can also enable ZoomText to run on the login screen.
-  - When making changes to settings, navigate to **ZoomText > Configurations > Save As Default**, or press <kbd>Alt</kbd> + <kbd>Z</kbd>, then <kbd>C</kbd>, <kbd>S</kbd> and <kbd>Enter</kbd>.
+    - You can also set ZoomText to run on the Windows sign-in screen.
+  - To keep changes to your settings, go to **ZoomText > Configurations > Save As Default**, or press <kbd>Alt</kbd> + <kbd>Z</kbd>, then <kbd>C</kbd>, <kbd>S</kbd> and <kbd>Enter</kbd>.
   - Go to **Command Keys** for a searchable list of keyboard shortcuts.
 - At any point press <kbd>Esc</kbd> to close menus.
 
@@ -49,11 +52,11 @@ Press <kbd>Tab</kbd> to move focus between menus, tabs, and controls.
 
 Use the <kbd>Left Arrow</kbd> and <kbd>Right Arrow</kbd> keys to move between tabs and controls.
 
-Press <kbd>Enter</kbd> on any control to toggle it on or off and/or open its menu.
+Press <kbd>Enter</kbd> on a control to turn it on or off, or to open its menu.
 
 <kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>U</kbd> brings the ZoomText toolbar to the front.
 
-<kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> disables or enables ZoomText without closing ZoomText.
+<kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> turns ZoomText off or on without closing it.
 
 Or select the **ZoomText** menu on the toolbar and select **Enable ZoomText** or **Disable ZoomText**.
 
@@ -71,7 +74,7 @@ To set zoom level 1 as default on startup:
 
 ![The ZoomText Magnifier tab with an arrow pointing to the Zoom Level setting.](../assets/images/magnifiers/zoomtext-magnifier-tab.png) <!-- review-alt -->
 
-The Magnifier tab has a number of tools and options, including:
+The Magnifier tab has these tools and options:
 
 <details markdown="block">
 <summary>Zoom Level</summary>
@@ -94,7 +97,7 @@ Keyboard:
 
 - **Window > One Monitor** to select a zoom mode (full, overlay, docked, lens, line).
 - <kbd>Caps Lock</kbd> + <kbd>Z</kbd> to cycle through zoom modes.
-- **Freeze View** to capture a screen so you can zoom without any changes occurring.
+- **Freeze View** freezes part of the screen so you can zoom in on it while it stays still.
 
 </details>
 
@@ -102,8 +105,8 @@ Keyboard:
 <summary>Color</summary>
 
 - <kbd>Caps Lock</kbd> + <kbd>C</kbd> to toggle on and off.
-- Color enhancements (**Color > Settings** for options).
-- Select **Scheme** to change mode (invert, yellow on black, black and white, etc.).
+- **Color > Settings** has the colour enhancement options.
+- Select **Scheme** to choose a colour scheme (inverted, yellow on black, black and white, and so on).
 
 </details>
 
@@ -111,7 +114,7 @@ Keyboard:
 <summary>Pointer</summary>
 
 - <kbd>Caps Lock</kbd> + <kbd>P</kbd> to toggle pointer enhancements on or off.
-- Pointer enhancements (size, color, customize by selecting **Pointer** and moving to **Settings**).
+- To change the pointer’s size and colour, select **Pointer > Settings**.
 
 </details>
 
@@ -119,8 +122,7 @@ Keyboard:
 <summary>Cursor</summary>
 
 - <kbd>Caps Lock</kbd> + <kbd>R</kbd> to toggle cursor enhancements on or off.
-- Additional modes available under **Cursor > Scheme**.
-- Cursor enhancements (**Cursor > Settings** for options).
+- More styles are under **Cursor > Scheme**, and more options under **Cursor > Settings**.
 
 </details>
 
@@ -128,14 +130,14 @@ Keyboard:
 <summary>Focus</summary>
 
 - <kbd>Caps Lock</kbd> + <kbd>F</kbd> to toggle focus enhancements on or off.
-- Highlight the focused object; change via **Focus > Scheme**.
+- Focus enhancements highlight the item that has keyboard focus. Change the style under **Focus > Scheme**.
 
 </details>
 
 <details markdown="block">
 <summary>Navigation</summary>
 
-Settings for where ZoomText zooms and reads from, and how ZoomText follows mouse or keyboard focus.
+Settings for how ZoomText follows the mouse pointer and keyboard focus, and where it zooms and reads from.
 
 </details>
 
@@ -144,64 +146,62 @@ Settings for where ZoomText zooms and reads from, and how ZoomText follows mouse
 <details markdown="block">
 <summary>Reader Tab</summary>
 
-ZoomText also includes a powerful screen reader. While not as interactive as JAWS or NVDA, ZoomText can read the entire context of the screen and has numerous options for reading text and documents aloud.
+ZoomText Magnifier/Reader also includes a screen reader. It isn’t as full-featured as JAWS or NVDA, but it can read everything on the screen and has many options for reading text and documents aloud.
 
-Press <kbd>Alt</kbd> + <kbd>R</kbd> to move to the Reader tab of the ZoomText toolbar to view various settings such as keyboard and mouse echo (audio feedback of words read or highlighted content) as well as different reader modes.
+Press <kbd>Alt</kbd> + <kbd>R</kbd> to go to the Reader tab of the ZoomText toolbar. It has settings for keyboard and mouse echo (speaking what you type or point at) and different reading modes.
 
-Deactivate, change, and add new voices in the **Voice** menu.
+Turn off, change, and add voices in the **Voice** menu.
 ![The Reader tab with the Voice menu open, offering Disable, Add/Remove Voices and Settings. The Rate is set to 100.](../assets/images/magnifiers/zoomtext-voice-menu.png) <!-- review-alt -->
 
-Adjust voice speed by changing the number above **Rate**.
+Change the speaking speed with the number above **Rate**.
 
 ### AppReader
 
 <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> launches AppReader in the mode selected on the toolbar.
 ![The Reader tab with an arrow pointing to it and the AppReader menu open, with Use App View checked. Other options are Use Text View, Use SpeakIt Tool and settings for each view.](../assets/images/magnifiers/zoomtext-appreader-menu.png) <!-- review-alt -->
 
-<kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> launches App View. App View reads text in the open document or webpage with a ringed highlight of what is being read.
+<kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> starts App View, which reads the open document or web page and outlines what is being read.
 
-Press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + left click to begin reading from the mouse pointer.
+Press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + left-click to start reading from the mouse pointer.
 
-Press <kbd>Ctrl</kbd> to pause reading and <kbd>Enter</kbd> to resume.
+While AppReader is reading:
 
-<kbd>Left Arrow</kbd> moves to the previous sentence and <kbd>Right Arrow</kbd> moves to the end of the current sentence.
+- Press <kbd>Enter</kbd> to pause, and <kbd>Enter</kbd> again to resume.
+- <kbd>Right Arrow</kbd> and <kbd>Left Arrow</kbd> move to the next and previous sentence; <kbd>Down Arrow</kbd> and <kbd>Up Arrow</kbd> move by paragraph.
+- Press <kbd>Tab</kbd> to switch between App View and Text View.
+- Press <kbd>Escape</kbd> to stop AppReader.
 
-Press <kbd>Escape</kbd> to stop AppReader.
+Text View shows the text being read in a separate window, in the colours and font you choose. Press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to start it.
 
-When reading, press <kbd>Tab</kbd> to switch to Text View. Text View opens the content being read in a new window with customized contrast. Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open Text View.
-
-SpeakIt allows users to click on a word, image, icon, or other element and have ZoomText read the content. On the Reader tab, click **AppReader**, and select **Use SpeakIt Tool** or press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>.
+With SpeakIt, click a word, image, icon, or other item and ZoomText reads it. On the Reader tab, click **AppReader** and select **Use SpeakIt Tool**, or press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>.
 ![The AppReader menu with the pointer on Use SpeakIt Tool.](../assets/images/magnifiers/zoomtext-speakit.png) <!-- review-alt -->
 
-SpeakIt also allows users to highlight text to be read. When SpeakIt is active, click and drag over text to have it read aloud. Press <kbd>Escape</kbd> before selecting new text to be read. Note: SpeakIt does not visually indicate what is being read word by word like App View and Text View do.
+You can also click and drag over text while SpeakIt is on to hear it. Press <kbd>Escape</kbd> before selecting the next text. SpeakIt doesn’t highlight each word as it reads, as App View and Text View do.
 
-Background Reader allows users to highlight text and hear it read aloud in the background while completing other tasks. To use Background Reader:
-
-1. Highlight text.
-2. Press <kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>B</kbd> or navigate to the **Tools** tab and select **Background Reader**.
+To listen to text while you do other things, use **Background Reader** (see [Tools](#zoomtext-tools) below).
 
 </details>
 
-<details markdown="block">
+<details id="zoomtext-tools" markdown="block">
 <summary>Tools</summary>
 
-Navigate to the **Tools** tab or press <kbd>Alt</kbd> + <kbd>T</kbd>.
+Go to the **Tools** tab or press <kbd>Alt</kbd> + <kbd>T</kbd>.
 ![The ZoomText Tools tab with Finder, Camera, Background Reader, Recorder and Voice Assistant.](../assets/images/magnifiers/zoomtext-tools-tab.png) <!-- review-alt -->
 
-**Finder** allows users to find, search, and list results. Activate with <kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>F</kbd>.
+**Finder** searches the page or document and lists what it finds. Press <kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>F</kbd>.
 
-**Camera** allows users to hold up a document to the webcam to have it zoomed on screen. Activate by pressing <kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>C</kbd>. The accompanying toolbar has zoom and colour options.
+**Camera** shows a printed document held up to a webcam, enlarged on screen. Press <kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>C</kbd>. Its toolbar has zoom and colour options.
 
-**Background Reader** allows users to highlight text and hear it read aloud in the background while completing other tasks. To use Background Reader:
+**Background Reader** reads highlighted text aloud while you do other things:
 
 1. Highlight text.
 2. Press <kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>B</kbd> or navigate to the **Tools** tab and select **Background Reader**.
 
 **Recorder** can create audio files of text you have copied to the Windows clipboard. You can listen to the audio later or on a different device.
 
-**Voice Assistant** allows users to give ZoomText commands using their voice. Press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> or click the microphone icon in the top right of the ZoomText toolbar. On the **Tools** tab, select **Voice Assistant > Getting Started** to set up Voice Assistant.
+**Voice Assistant** lets you give ZoomText commands with your voice. Press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> or click the microphone icon at the top right of the ZoomText toolbar. To set it up, on the **Tools** tab select **Voice Assistant > Getting Started**.
 
-By default, ZoomText will read back what is typed. Select **Reader > Keyboard > No Echo** to turn this off.
+By default, ZoomText reads back what you type. To turn this off, select **Reader > Keyboard > No Echo**.
 ![The Reader tab with the Keyboard echo menu open and the pointer on No Echo. Words is currently checked.](../assets/images/magnifiers/zoomtext-keyboard-echo.png) <!-- review-alt -->
 
 </details>
@@ -209,9 +209,9 @@ By default, ZoomText will read back what is typed. Select **Reader > Keyboard > 
 <details markdown="block">
 <summary>Links</summary>
 
-- [ZoomText introductory video](https://www.youtube.com/watch?v=YpGF_Q4PIlY)
-- Complete [ZoomText user guide](https://support.freedomscientific.com/content/documents/manuals/ZoomText/ZoomText_User_Guide_English_US.pdf)
-- Complete list of [ZoomText keyboard shortcuts](https://www.freedomscientific.com/training/zoomtext/zoomtext-hotkeys)
+- [ZoomText Toolbar (video) – Vispero Training](https://www.youtube.com/watch?v=YpGF_Q4PIlY)
+- [ZoomText User Guide (PDF)](https://support.freedomscientific.com/content/documents/manuals/ZoomText/ZoomText_User_Guide_English_US.pdf)
+- [ZoomText hotkeys](https://www.freedomscientific.com/training/zoomtext/zoomtext-hotkeys)
 
 </details>
 
@@ -219,12 +219,14 @@ By default, ZoomText will read back what is typed. Select **Reader > Keyboard > 
 
 <img src="../assets/images/logos/android.png" alt="" width="172"> <!-- review-alt -->
 
-### Visibility Enhancements
+### Visibility Enhancements (Samsung)
 
-1. Navigate to **Settings > Accessibility**.
+These steps are for Samsung phones. On other Android phones, look under **Settings > Accessibility** for **Magnification** and **Display size and text**.
+
+1. Go to **Settings > Accessibility**.
 2. Select **Visibility Enhancements**.
    1. Choose **High contrast** or **Large display**.
-3. Select **Magnification** and toggle **Magnification shortcut** to On.
+3. Select **Magnification** and turn on **Magnification shortcut**.
    1. Use two fingers to move the zoom window around the screen.
    2. Tap the two-arrow icon in the bottom right to toggle full screen zoom.
    3. Tap the Accessibility shortcut in the bottom right and select Magnification to turn it off.
@@ -233,8 +235,8 @@ By default, ZoomText will read back what is typed. Select **Reader > Keyboard > 
 5. Select **Font size and style**.
    1. Drag the slider to change the default font size.
    2. Select the default font style.
-      1. Use the **Bold font** toggle to make all font bold.
-6. There are other settings on the **Visibility Enhancements** menu.
+      1. Turn on **Bold font** to make all text bold.
+6. The **Visibility Enhancements** menu has more settings to explore.
 
 ## Windows
 
@@ -244,21 +246,26 @@ By default, ZoomText will read back what is typed. Select **Reader > Keyboard > 
 <summary>Magnifier</summary>
 
 1. Open **Settings** and select **Accessibility**.
-2. Select **Magnifier** in the sidebar.
-   1. Alternatively, press <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>M</kbd> to quickly open the Magnifier menu.
+2. Select **Magnifier**.
+   1. Or press <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>M</kbd> to open Magnifier settings directly.
 
-This menu allows users to turn Magnifier on or off, change default zoom levels, zoom increments, and other settings such as launching Magnifier automatically when you log in.
+Here you can turn Magnifier on or off and change the zoom level, the zoom increments, and other settings, such as starting Magnifier when you sign in.
 
-To activate **Magnifier** press <kbd>Windows</kbd> + <kbd>+</kbd> (this may be function/fn ? on laptops).
+To turn on **Magnifier** and zoom in, press <kbd>Windows</kbd> + <kbd>+</kbd> (plus sign). On most keyboards the plus sign is on the <kbd>=</kbd> key, so <kbd>Windows</kbd> + <kbd>=</kbd> works too.
 
-Press <kbd>Windows</kbd> + <kbd>=</kbd> to zoom in and <kbd>Windows</kbd> + <kbd>-</kbd> to zoom out.
+Press <kbd>Windows</kbd> + <kbd>-</kbd> to zoom out.
 
 <kbd>Windows</kbd> + <kbd>Esc</kbd> turns off Magnifier.
 
-Magnifier offers three views: Full Screen, Docked, and Lens. Change views in the Magnifier menu or, when Magnifier is running, press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> to cycle through views, <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> to switch to Lens, <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> for Full Screen (hold <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> to temporarily reset zoom level), or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>D</kbd> to switch to Docked view.
+Magnifier has three views: Full Screen, Docked, and Lens. Change views in the Magnifier menu, or while Magnifier is running press:
 
-- View additional [information about Windows Magnifier](https://support.microsoft.com/en-us/windows/use-magnifier-to-make-things-on-the-screen-easier-to-see-414948ba-8b1c-d3bd-8615-0e5e32204198).
-- Read [how to magnify the screen with the Magnifier tool in Windows 11](https://mcmw.abilitynet.org.uk/how-to-magnify-the-screen-with-the-magnifier-tool-in-windows-11).
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> to cycle through the views
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> for Full Screen (hold <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> to see the whole screen for a moment)
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>D</kbd> for Docked
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> for Lens
+
+- [Use Magnifier to make things on the screen easier to see – Microsoft Support](https://support.microsoft.com/en-us/windows/use-magnifier-to-make-things-on-the-screen-easier-to-see-414948ba-8b1c-d3bd-8615-0e5e32204198)
+- [How to magnify the screen with the Magnifier tool in Windows 11 – My Computer My Way](https://mcmw.abilitynet.org.uk/how-to-magnify-the-screen-with-the-magnifier-tool-in-windows-11)
 
 See also [Morphic](morphic.md), a toolbar with quick access to Magnifier and other Windows accessibility tools.
 
@@ -267,22 +274,22 @@ See also [Morphic](morphic.md), a toolbar with quick access to Magnifier and oth
 <details markdown="block">
 <summary>Display Settings</summary>
 
-1. Navigate to **Settings > Accessibility**.
-2. Choose **Display** from the sidebar.
-3. Use the **Make text bigger** slider to increase text size.
-4. Select a percentage under **Make everything bigger** to increase the size of everything on screen.
+To make text or everything on screen bigger:
 
-[Make Windows easier to see](https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d#PickTab=Windows_11&ID0EBF=Windows_10)
+1. Go to **Settings > Accessibility**.
+2. Choose **Text size** and use the slider to make text bigger.
+3. To make everything bigger, go to **Settings > System > Display** and choose a percentage under **Scale**.
 
-1. Navigate to **Settings > Accessibility**.
-2. Choose **High contrast** in the sidebar.
-3. Toggle **Turn on high contrast** and choose a theme.
-4. Choose **Color Filter** in the sidebar.
-5. Toggle **Turn on color filter** and select a colour filter to use.
-   1. Check **Allow the shortcut key to toggle filter on or off**.
-   2. Press <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>C</kbd> to toggle the default colour filter on or off.
+To change colours and contrast:
 
-**Mouse Pointer** and **Text Cursor** in the **Accessibility** menu have options to make cursors easier to see.
+1. Go to **Settings > Accessibility**.
+2. Choose **Contrast themes** and pick a theme.
+3. Or choose **Color filters**, turn them on, and pick a filter.
+   1. Turn on **Keyboard shortcut for color filters**, then press <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>C</kbd> to turn the filter on or off.
+
+**Mouse pointer and touch** and **Text cursor** under **Settings > Accessibility** have options to make the pointer and cursor easier to see.
+
+[Make Windows easier to see – Microsoft Support](https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d)
 
 </details>
 
@@ -290,33 +297,37 @@ See also [Morphic](morphic.md), a toolbar with quick access to Magnifier and oth
 
 ![](../assets/images/logos/macos.png) <!-- review-alt -->
 
-macOS has a built-in magnifier tool. To enable:
+macOS has a built-in magnifier called Zoom. To turn it on:
 
-1. Navigate to **System Settings > Accessibility > Zoom**.
-2. Toggle **Use keyboard shortcuts to zoom** on.
+1. Go to **System Settings > Accessibility > Zoom**.
+2. Turn on **Use keyboard shortcuts to zoom**.
    1. Keyboard shortcuts:
       1. <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>8</kbd> toggles zoom on/off.
       2. <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>=</kbd> zooms in.
       3. <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>-</kbd> zooms out.
-3. Or, toggle **Use trackpad gesture to zoom** on and use the listed instructions to zoom.
+3. Or turn on **Use trackpad gesture to zoom** and follow the instructions shown.
 
-In the same menu users can change the zoom style from **Picture-in-picture**, which displays a small zoomed box that follows the cursor, **Full screen**, which zooms the entire screen, and **Split screen**, which anchors a window at the top of the screen that zooms where the cursor is.
+In the same settings, choose a **Zoom style**:
 
-The **Advanced…** menu has more options and tweaks available.
+- **Full Screen** zooms the whole screen.
+- **Split Screen** shows a zoomed window at the top of the screen that follows the pointer.
+- **Picture-in-Picture** shows a small zoomed box that follows the pointer.
 
-Users can select the **Use scroll gesture with modifier keys to zoom** checkbox to use the trackpad or scroll wheel to zoom. The default modifier key is <kbd>Control</kbd>.
+**Advanced…** has more options.
 
-Finally, toggle **Hover Text** on and users can hold <kbd>Command</kbd> and macOS will zoom text under the cursor. **Options…** allows users to change the modifier key and zoom level/text size.
+Turn on **Use scroll gesture with modifier keys to zoom** to zoom with the trackpad or scroll wheel while holding a key (<kbd>Control</kbd> by default).
 
-[How to zoom in or out on Mac](https://support.apple.com/en-ca/guide/mac-help/mchl779716b8/15.0/mac/15.0)
+Turn on **Hover Text** to show a large version of the text under the pointer while you hold <kbd>Command</kbd>. **Options…** changes the key and the text size.
 
-Some users may wish to increase the zoom of the entire macOS display. To do so:
+[Zoom in on what’s onscreen on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchl779716b8/mac)
 
-1. Navigate to **System Settings**.
+To make everything on the screen bigger:
+
+1. Go to **System Settings**.
 2. Select **Displays**.
-3. Choose the level of zoom desired between **Larger Text** and **More Space**.
+3. Choose a size between **Larger Text** and **More Space**.
 
-[Make text and other items on the screen bigger on Mac](https://support.apple.com/en-ca/guide/mac-help/mchld786f2cd/mac#:~:text=Make%20everything%20on%20the%20screen%20bigger,-You%20can%20adjust&text=On%20your%20Mac%2C%20choose%20Apple,of%20everything%20on%20the%20screen.)
+[Increase font size and icons on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchld786f2cd/mac)
 
 ## iOS
 
@@ -325,29 +336,28 @@ Some users may wish to increase the zoom of the entire macOS display. To do so:
 <details markdown="block">
 <summary>Zoom</summary>
 
-1. Navigate to **Settings > Accessibility**.
+1. Go to **Settings > Accessibility**.
 2. Choose **Zoom**.
-3. Toggle **Zoom** on.
-   1. Tap with three fingers to toggle Zoom on and off.
+3. Turn on **Zoom**.
+   1. Double-tap with three fingers to zoom in and out.
    2. Drag with three fingers to move around the screen.
-4. Select **Zoom Region** to switch between **Full Screen Zoom** or **Window Zoom**.
+4. Select **Zoom Region** to choose **Full Screen Zoom** or **Window Zoom**.
 
-[Zoom in on the iPhone screen – Apple Support](https://support.apple.com/en-ca/guide/iphone/iph3e2e367e/ios#:~:text=then%20tap%20Zoom.-,Use%20Zoom,then%20drag%20up%20or%20down.)
+[Zoom in on the iPhone screen – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iph3e2e367e/ios)
 
 </details>
 
 <details markdown="block">
 <summary>Display & Text Size</summary>
 
-1. Navigate to **Settings > Accessibility**.
-2. Choose **Zoom**.
-3. Select **Display & Text Size**.
-   1. Select **Larger Text**.
-   2. Toggle **Larger Accessibility Sizes** on.
-   3. Drag the slider to adjust the size.
-4. Customize other options such as contrast and colour invert.
+1. Go to **Settings > Accessibility**.
+2. Choose **Display & Text Size**.
+3. Select **Larger Text**.
+   1. Turn on **Larger Accessibility Sizes**.
+   2. Drag the slider to choose the size.
+4. Back in **Display & Text Size**, there are other options such as **Bold Text**, **Increase Contrast**, and colour inversion.
 
-[Change the font size on your iPhone, iPad, and iPod touch – Apple Support](https://support.apple.com/en-ca/102453#:~:text=Make%20the%20font%20even%20bigger,the%20font%20size%20you%20want.)
+[Change the font size on your iPhone and iPad – Apple Support (CA)](https://support.apple.com/en-ca/102453)
 
 </details>
 
@@ -356,216 +366,26 @@ Some users may wish to increase the zoom of the entire macOS display. To do so:
 
 1. Open the Magnifier app.
    ![The Magnifier app icon, a magnifying glass with a plus sign.](../assets/images/magnifiers/ios-magnifier-app-icon.png) <!-- review-alt -->
-   1. Swipe down on the screen and type “Magnifier.”
-2. Zoom in and out with the slider or by swiping up and down in the viewfinder.
+   1. Or swipe down on the Home Screen and type “Magnifier.”
+2. Zoom in and out with the slider, or by swiping up and down in the viewfinder.
 3. Tap the screen to focus.
-4. To freeze the current view, tap the shutter button (concentric circles, bottom centre) or press one of your volume buttons.
-5. There are various tools, including:
-   1. Adjust brightness, change contrast, turn on flashlight, apply colour filters.
+4. To freeze the current view, tap the shutter button (bottom centre) or press a volume button.
+5. Other controls adjust the brightness and contrast, turn on the flashlight, and apply colour filters.
 
-[Use Magnifier on your iPhone or iPad – Apple Support](https://support.apple.com/en-us/HT209517)
+[Magnify or describe things around you with Magnifier on iPhone – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iphe867dc99c/ios)
 
 </details>
 
 ## Browser Tools
 
-See also [Browsers](browsers.md) for more browser accessibility settings.
-
-### Chrome
-
-![](../assets/images/logos/chrome.png) <!-- review-alt -->
-
-<details markdown="block">
-<summary>Page Zoom</summary>
+Every web browser can zoom in on web pages:
 
 - Zoom in: <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) + <kbd>=</kbd>
-- Zoom out: <kbd>Ctrl</kbd> + <kbd>-</kbd>
-- Reset to actual size: <kbd>Ctrl</kbd> + <kbd>0</kbd>
+- Zoom out: <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) + <kbd>-</kbd>
+- Reset to actual size: <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) + <kbd>0</kbd>
 
-The zoom settings can also be accessed from the **View** menu on the toolbar (macOS) or under **More** on Windows.
+Browsers can also set a default zoom level for all pages, a minimum font size, and your own fonts and colours. See [Browsers](browsers.md) for step-by-step instructions for Chrome, Edge, Firefox, and Safari, and for the UI Options Plus extension.
 
-Chrome will remember your zoom level on a specific webpage. Simply zoom to your desired zoom level and when signed in on your device the page will load to that zoom level. To reset default zoom to 100% follow these steps:
-
-1. Select **More > Settings**.
-2. Click **Privacy and security > Site Settings**.
-3. Click **Additional content settings > Zoom levels**.
-4. Click **X (Remove zoom level)** to reset default zoom to 100%.
-
-</details>
-
-<details markdown="block">
-<summary>Default Fonts</summary>
-
-1. Select **More > Settings**.
-2. Select **Appearance**.
-3. **Font Size** allows users to set font size.
-4. Additional options are available under **Customize fonts**:
-   1. Minimum font size
-   2. Default font styles
-
-[Additional information on customizing Chrome](https://support.google.com/chrome/answer/96810?hl=en&co=GENIE.Platform%3DDesktop)
-
-</details>
-
-<details markdown="block">
-<summary>UI Options Plus</summary>
-
-[UI Options Plus](https://chrome.google.com/webstore/detail/ui-options-plus-uio%2B/okenndailhmikjjfcnmolpaefecbpaek) is a Chrome extension that provides many visual customizations in one interface. Use the scrollbar or left and right arrows to move between tools. The following options are available:
-
-- Zoom – uses Chrome browser zoom up to 500%.
-- Letter spacing – up to 2x website default.
-- Word spacing – up to 4x website default.
-- Line spacing – up to 3x website default.
-- Syllables – Divides words by placing a dot between syllables.
-- Contrast – Offers multiple combinations of background and text colours.
-- Right-click to select – Allows users to select a text block by right-clicking on any part of it.
-  - This may help users employ text-to-speech software on a specific bit of text and/or assist with copying.
-- Selection highlight – Allows users to change the default colour when highlighting text.
-- Text-to-speech – Toggle this tool to use text-to-speech on highlighted text. Click the Play button to hear text.
-- Reading mode – Toggle reading mode to simplify the page and remove distractions like ads or sidebars (note: this could break the layout of some pages).
-- Table of contents – This tool generates a table of contents for the page using the page’s heading structure.
-- Enhance inputs – This toggle makes link and button text larger, bold, and underlined.
-
-Customizations can be changed by clicking left or right arrows, entering a numerical value in the textbox, or toggling a setting on or off.
-
-To reset all customizations to default, right-click the extension icon and choose **Reset**.
-
-</details>
-
-### Edge
-
-![](../assets/images/logos/edge.png) <!-- review-alt -->
-
-<details markdown="block">
-<summary>Page Zoom</summary>
-
-- To zoom in: Press <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) + <kbd>=</kbd>
-- To zoom out: Press <kbd>Ctrl</kbd> + <kbd>-</kbd>
-- To reset to actual size: Press <kbd>Ctrl</kbd> + <kbd>0</kbd>
-
-Additionally, open the **Settings and more** button and click the **+** or **–** on the **Zoom** line of the menu.
-
-</details>
-
-<details markdown="block">
-<summary>Default Fonts</summary>
-
-1. Navigate to **Settings**.
-2. Select **Appearance** from the sidebar.
-3. Navigate to **Zoom**.
-   1. Select the **Page zoom** dropdown to set the default zoom percentage.
-4. Navigate to **Fonts**.
-   1. Select the **Font size** dropdown to change the default font size.
-   2. Select **Customize fonts** for additional options.
-
-</details>
-
-### Firefox
-
-![](../assets/images/logos/firefox.png) <!-- review-alt -->
-
-<details markdown="block">
-<summary>Page Zoom</summary>
-
-- To zoom in: <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) + <kbd>=</kbd>
-- To zoom out: <kbd>Ctrl</kbd> + <kbd>-</kbd>
-- To reset to actual size: <kbd>Ctrl</kbd> + <kbd>0</kbd>, or click the zoom percentage icon in the address bar
-
-Or, hold <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) and scroll up (with the mouse wheel or two fingers on a trackpad) to zoom in and scroll down to zoom out.
-
-Firefox allows users to zoom text only (navigate to **View > Zoom > Zoom Text Only**). Use the same keyboard shortcuts as above. Keep in mind, this may break the layout and functionality of a webpage.
-
-[More information about zooming in Firefox](https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages)
-
-In **Settings > General**, under Language and Appearance, change the **Default Zoom** for all pages using the dropdown menu. Read the [Firefox Font size and zoom guide](https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages#w_set-a-default-zoom-level-for-all-websites) for more information.
-
-</details>
-
-<details markdown="block">
-<summary>Default Fonts</summary>
-
-To set a minimum font size:
-
-1. Navigate to **Settings** and move to the Language and Appearance section.
-2. Under Fonts and Colours, select the **Advanced…** button.
-3. In the **Minimum Font Size** drop-down, select the minimum size in pixels for text.
-4. Uncheck **Allow pages to choose their own fonts, instead of their selections above**.
-5. Click **OK**.
-
-Read more about [Firefox minimum text size options](https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages#w_set-a-minimum-text-size).
-
-To override page font styles:
-
-1. Open **Settings**.
-2. Under **Language and Appearance > Fonts and Colours**, select **Advanced**.
-3. Set the various fonts you would like to use.
-4. Uncheck **Allow pages to choose their own fonts, instead of their selections above**.
-5. Click **OK**.
-
-[Firefox guide for overriding page fonts](https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we#w_overriding-page-fonts)
-
-</details>
-
-<details markdown="block">
-<summary>Default Colours</summary>
-
-Firefox allows users to set default colours for text, backgrounds, and links.
-
-1. Navigate to **Settings**.
-2. Under Language and Appearance, select the **Colours** button.
-3. Set your specified colours for each and then select the **Override the colours specified by the page with your selections above** dropdown and set it to **Always**.
-
-More information on overriding [page colours](https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we#w_overriding-page-colors).
-
-</details>
-
-### Safari
-
-![](../assets/images/logos/safari.png) <!-- review-alt -->
-
-Select **Safari > Preferences** in the menu bar or press <kbd>Command</kbd> + <kbd>,</kbd> to open Safari preferences.
-
-<details markdown="block">
-<summary>Page Zoom</summary>
-
-- To zoom in: <kbd>Command</kbd> + <kbd>=</kbd>
-- To zoom out: <kbd>Command</kbd> + <kbd>-</kbd>
-- To reset to actual size: <kbd>Command</kbd> + <kbd>0</kbd>
-
-Safari also offers [options to zoom text only](https://support.apple.com/en-ca/guide/safari/ibrw1068/mac), however this often breaks the layout and functionality of webpages.
-
-</details>
-
-<details markdown="block">
-<summary>Minimum Font Size</summary>
-
-1. Select **Safari > Preferences…**
-2. Select the **Advanced** tab.
-3. Check **Never use font sizes smaller than** and set the size in the drop-down box.
-
-</details>
-
-<details markdown="block">
-<summary>Set defaults for current site</summary>
-
-1. Select **Safari** from the menu bar.
-2. Select **Settings for \[current website\]**.
-3. You can select **Use Reader when available** and set the default zoom with **Page Zoom**.
-
-Website-specific settings can be amended or removed later via **Safari > Preferences > Websites**.
-
-To set defaults for all webpages:
-
-1. Navigate to **Safari** on the menu bar.
-2. Select **Preferences**.
-3. Move to the **Websites** tab.
-4. Select **Page Zoom** from the sidebar.
-5. In the bottom right, choose a default zoom percentage using the dropdown menu beside **When visiting other websites**.
-6. The same process can be used to use Reader View when available by navigating to **Reader** in the sidebar and selecting **On** in the **When visiting other websites** dropdown.
-
-Learn more about [customized settings for websites in Safari](https://support.apple.com/en-ca/guide/safari/ibrw7f78f7fe/15.1/mac/12.0).
-
-</details>
 
 ---
 

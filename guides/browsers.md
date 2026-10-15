@@ -1,15 +1,17 @@
 ---
 title: Browsers
-nav_order: 15
+parent: More Tools
+nav_order: 1
 ---
 
 # Browsers
 
 ![](../assets/images/browsers/browser-logos.png) <!-- review-alt -->
 
-While they are not specifically assistive technology, browsers have settings and tools that can make navigating the internet easier. The following guides refer to desktop (Windows and macOS) use, but some similar features are available in the mobile versions of each.
+Browsers aren’t assistive technology as such, but they have settings and tools that can make the web easier to use. These guides are for the desktop versions (Windows and macOS); the mobile versions have some similar features.
 
-> **Tip:** For Edge and Chrome, consider the [UI Options Plus (UIO+)](https://chromewebstore.google.com/detail/ui-options-plus-uio%2B/okenndailhmikjjfcnmolpaefecbpaek) extension. This helpful tool allows you to quickly and easily adjust appearance settings like zoom; contrast; line, character, and word spacing; and more.
+{: .tip }
+For Chrome and Edge, try the [UI Options Plus (UIO+)](https://chromewebstore.google.com/detail/ui-options-plus-uio%2B/okenndailhmikjjfcnmolpaefecbpaek) extension. It lets you quickly change zoom, contrast, line, letter, and word spacing, and more, all in one place (see [UI Options Plus](#ui-options-plus) below).
 
 **On this page:**
 
@@ -22,7 +24,7 @@ While they are not specifically assistive technology, browsers have settings and
 
 ![](../assets/images/logos/chrome.png) <!-- review-alt -->
 
-Chrome is the most commonly used browser and has the greatest compatibility with assistive technology.
+Chrome is the most widely used browser and works well with most assistive technology.
 
 To find settings and tools, select **Customize and control Google Chrome** (three vertical dots near the top right) or press <kbd>Alt</kbd> + <kbd>F</kbd>.
 ![The Chrome toolbar with the three-dot Customize and control Google Chrome button circled.](../assets/images/browsers/chrome-menu-button.png) <!-- review-alt -->
@@ -36,12 +38,12 @@ To find settings and tools, select **Customize and control Google Chrome** (thre
 
 The zoom settings can also be accessed from the **View** menu on the toolbar (macOS) or under **More** on Windows.
 
-Chrome will remember your zoom level on a specific webpage. Simply zoom to your desired zoom level and when signed in on your device the page will load to that zoom level. To reset default zoom to 100% follow these steps:
+Chrome remembers the zoom level for each website: the next time you visit, the site opens at the same zoom. To clear the zoom levels Chrome has saved:
 
 1. Select **More > Settings**.
-2. Click **Privacy and security > Site Settings**.
+2. Click **Privacy and security > Site settings**.
 3. Click **Additional content settings > Zoom levels**.
-4. Click **X (Remove zoom level)** to reset default zoom to 100%.
+4. Click **X (Remove zoom level)** beside a site to set it back to the default.
 
 </details>
 
@@ -50,47 +52,47 @@ Chrome will remember your zoom level on a specific webpage. Simply zoom to your 
 
 1. Select **More > Settings**.
 2. Select **Appearance**.
-3. **Font Size** allows users to set font size.
-4. Additional options are available under **Customize fonts**:
+3. **Font size** sets the default text size, and **Page zoom** sets the default zoom for all sites.
+4. **Customize fonts** has more options:
    1. Minimum font size
-   2. Default font styles
+   2. Default fonts
 
-[Additional information on customizing Chrome](https://support.google.com/chrome/answer/96810?hl=en&co=GENIE.Platform%3DDesktop)
+[Change text, image and video sizes (zoom) – Google Chrome Help](https://support.google.com/chrome/answer/96810?co=GENIE.Platform%3DDesktop&hl=en)
 
 </details>
 
 <details markdown="block">
 <summary>Live Caption</summary>
 
-Chrome includes an automatic captioning tool for videos. The captions are not a substitute for proper captioning of videos but may be a useful tool for users when encountering an uncaptioned video. To enable:
+Chrome can automatically caption audio and video playing in the browser. To turn it on, select **More > Settings > Accessibility** and turn on **Live Caption**.
 
-1. Select **More > Settings**.
-2. Select **Advanced > Accessibility > Captions**.
-3. Turn on **Live Captions**.
+See [Chrome in Closed Captions](closed-captions.md#chrome) for details, and for other captioning tools.
 
-Chrome live captions uses the operating system’s default captioning.
+</details>
 
-- [Windows caption settings](https://support.microsoft.com/en-us/windows/change-caption-settings-135c465b-8cfd-3bac-9baf-4af74bc0069a)
-- [macOS subtitles and captions settings](https://support.apple.com/en-mt/guide/mac-help/mchlc1cb8d54/mac)
+<details markdown="block">
+<summary>Reading Mode</summary>
 
-See [Closed Captions](closed-captions.md) for more captioning tools.
+Chrome’s **Reading mode** shows a simplified version of a page, with your choice of font, size, spacing, and colours, and can read it aloud. Right-click on the page and select **Open in reading mode**.
+
+See [Chrome in Text to Speech Tools](text-to-speech-tools.md#chrome) for step-by-step instructions.
 
 </details>
 
 <details markdown="block">
 <summary>Get Image Descriptions</summary>
 
-When running a screen reader, Chrome may be able to provide image descriptions for images lacking alt text. Follow the [instructions to enable this setting](https://support.google.com/chrome/answer/9311597?hl=en&ref_topic=7437725). The descriptions are machine generated and may not be accurate.
+If you use a screen reader, Chrome can describe images that have no alt text. See [Get image descriptions on Chrome – Google Chrome Help](https://support.google.com/chrome/answer/9311597) to turn this on. The descriptions are generated automatically and may not be accurate.
 
 </details>
 
 <details markdown="block">
 <summary>Highlight Focused Elements</summary>
 
-When navigating with a keyboard, Chrome can show a highlight of links, menus, and buttons when focused and selectable. To enable:
+When you navigate with a keyboard, Chrome can briefly highlight the link, menu, or button that has focus. To turn this on:
 
-1. Navigate to **Settings**.
-2. Select **Advanced > Accessibility**.
+1. Go to **Settings**.
+2. Select **Accessibility**.
 3. Turn on **Show a quick highlight on the focused object**.
 
 </details>
@@ -98,32 +100,32 @@ When navigating with a keyboard, Chrome can show a highlight of links, menus, an
 <details markdown="block">
 <summary>Caret Browsing</summary>
 
-Press <kbd>F7</kbd> to activate caret browsing, allowing the keyboard to move around and select text.
+Press <kbd>F7</kbd> to turn on caret browsing, which lets you move a text cursor around the page with the keyboard and select text.
 
-[Complete list of Google Chrome keyboard shortcuts](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop)
+[Chrome keyboard shortcuts – Google Chrome Help](https://support.google.com/chrome/answer/157179?co=GENIE.Platform%3DDesktop&hl=en)
 
 </details>
 
-<details markdown="block">
+<details id="ui-options-plus" markdown="block">
 <summary>UI Options Plus</summary>
 
-[UI Options Plus](https://chrome.google.com/webstore/detail/ui-options-plus-uio%2B/okenndailhmikjjfcnmolpaefecbpaek) is a Chrome extension that provides many visual customizations in one interface. Use the scrollbar or left and right arrows to move between tools. The following options are available:
+[UI Options Plus](https://chromewebstore.google.com/detail/ui-options-plus-uio%2B/okenndailhmikjjfcnmolpaefecbpaek) is a Chrome extension (it also works in Edge) with many display settings in one panel. Use the scrollbar or the left and right arrows to move between tools:
 
 - Zoom – uses Chrome browser zoom up to 500%.
 - Letter spacing – up to 2x website default.
 - Word spacing – up to 4x website default.
 - Line spacing – up to 3x website default.
-- Syllables – Divides words by placing a dot between syllables.
-- Contrast – Offers multiple combinations of background and text colours.
-- Right-click to select – Allows users to select a text block by right-clicking on any part of it.
-  - This may help users employ text-to-speech software on a specific bit of text and/or assist with copying.
-- Selection highlight – Allows users to change the default colour when highlighting text.
-- Text-to-speech – Toggle this tool to use text-to-speech on highlighted text. Click the Play button to hear text.
-- Reading mode – Toggle reading mode to simplify the page and remove distractions like ads or sidebars (note: this could break the layout of some pages).
-- Table of contents – This tool generates a table of contents for the page using the page’s heading structure.
-- Enhance inputs – This toggle makes link and button text larger, bold, and underlined.
+- Syllables – puts a dot between the syllables of words.
+- Contrast – several combinations of background and text colours.
+- Right-click to select – right-click any part of a block of text to select all of it.
+  - This makes it easier to copy text or have it read aloud.
+- Selection highlight – changes the colour of selected text.
+- Text-to-speech – reads selected text aloud when you click **Play**.
+- Reading mode – simplifies the page and removes distractions like ads and sidebars (this can break the layout of some pages).
+- Table of contents – builds a table of contents from the page’s headings.
+- Enhance inputs – makes link and button text larger, bold, and underlined.
 
-Customizations can be changed by clicking left or right arrows, entering a numerical value in the textbox, or toggling a setting on or off.
+Change a setting with the left and right arrows, by typing a number, or with its on/off switch.
 
 To reset all customizations to default, right-click the extension icon and choose **Reset**.
 
@@ -132,14 +134,11 @@ To reset all customizations to default, right-click the extension icon and choos
 <details markdown="block">
 <summary>Links</summary>
 
-- Overview of [accessibility features in Chrome](https://support.google.com/chrome/topic/7437725)
-- [Google Accessibility Statement](https://www.google.ca/accessibility/customers-partners)
-- [Complete list of Google Chrome keyboard shortcuts](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop)
-- [Additional keyboard shortcut information](https://sites.google.com/a/chromium.org/dev/user-experience/keyboard-access)
-- [Chrome low-vision support guide](https://sites.google.com/a/chromium.org/dev/user-experience/low-vision-support)
-- [Chrome guide to accessibility extensions](https://support.google.com/chrome/answer/7040464#zippy=%2Ccaret-browsing-navigate-using-your-keyboard%2Ccolor-enhancer-adjust-webpage-colors)
-- [Chrome web store collection of accessibility extensions](https://chrome.google.com/webstore/category/collection/3p_accessibility_extensions)
-- [List of useful education accessibility extensions](https://www.educatorstechnology.com/2021/10/8-great-chrome-accessibility-extensions.html)
+- [Accessibility on Chrome – Google Chrome Help](https://support.google.com/chrome/topic/7437725)
+- [Chrome keyboard shortcuts – Google Chrome Help](https://support.google.com/chrome/answer/157179?co=GENIE.Platform%3DDesktop&hl=en)
+- [Use Chrome with accessibility extensions – Google Chrome Help](https://support.google.com/chrome/answer/7040464)
+- [Google Accessibility for customers and partners](https://www.google.com/accessibility/customers-partners/) (accessibility conformance reports for Google products)
+- [8 great Chrome accessibility extensions – Educators’ Technology](https://www.educatorstechnology.com/2021/10/8-great-chrome-accessibility-extensions.html) (2021)
 
 </details>
 
@@ -147,7 +146,7 @@ To reset all customizations to default, right-click the extension icon and choos
 
 ![](../assets/images/logos/edge.png) <!-- review-alt -->
 
-Edge is the default browser of Windows 10/11. Edge is built on the same software engine as Google Chrome, so many features and settings are the same and Chrome extensions will run in Edge.
+Edge is the default browser in Windows. It is built on the same engine as Chrome, so many features and settings are the same, and Chrome extensions work in Edge.
 
 To find settings and tools, select **Settings and more** on the toolbar or press <kbd>Alt</kbd> + <kbd>F</kbd>.
 
@@ -178,17 +177,13 @@ Additionally, open the **Settings and more** button and click the **+** or **–
 <details markdown="block">
 <summary>Read Aloud</summary>
 
-Microsoft Edge has a built-in reader mode. **Read Aloud** allows you to have text read aloud. Immersive Reader is a distraction-free reading mode that also reads text aloud. To start **Read Aloud**, select text or right-click where you would like to begin reading and select **Read aloud**.
+Edge has two reading tools. **Read aloud** reads the page aloud, and **Immersive Reader** is a distraction-free view of the page that can also read it aloud.
 
-The read aloud toolbar will appear at the top of the screen, allowing users to pause, skip ahead or back, and change voice and speed options.
+To start **Read aloud**, select text, or right-click where you want it to start, and select **Read aloud**. Or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd>. A toolbar at the top of the window lets you pause, skip ahead or back, and change the voice and speed.
 
-Read aloud can also be opened by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd>.
+Immersive Reader isn’t available on every page. When it is, an icon of an open book with a speaker appears in the address bar. Click the icon or press <kbd>F9</kbd>. Its toolbar has options for text size and spacing, font, and page colour themes, plus grammar, focus, and pronunciation tools.
 
-Immersive Reader may not be available on all webpages, but when it is, an icon of an open book with a speaker on it will appear in the address bar. To open Immersive Reader, you can click on the icon or press <kbd>F9</kbd>.
-
-In Immersive Reader a toolbar appears at the top of the page that contains options to change text size and spacing, font style, and page colour themes. Additionally, there are grammar, focus, and pronunciation options.
-
-Read [more about Edge Immersive Reader](https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1).
+[Use Immersive Reader in Microsoft Edge – Microsoft Support](https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1)
 
 See [Text to Speech Tools](text-to-speech-tools.md#edge) for step-by-step instructions with screenshots.
 
@@ -197,20 +192,19 @@ See [Text to Speech Tools](text-to-speech-tools.md#edge) for step-by-step instru
 <details markdown="block">
 <summary>Keyboard Navigation</summary>
 
-1. Open **Settings**.
-2. Navigate to **Accessibility** in the sidebar.
-3. Navigate to **Keyboard**.
-4. Toggle **Navigate pages with a text cursor** on.
+Caret browsing lets you move a text cursor around web pages with the keyboard and select text to copy. Press <kbd>F7</kbd> to turn it on or off, or:
 
-Use <kbd>F7</kbd> to activate caret browsing. Caret browsing allows the keyboard to move a cursor within text on the web and select text to be highlighted or copied.
+1. Open **Settings**.
+2. Select **Accessibility**.
+3. Under **Keyboard**, turn on **Navigate pages with a text cursor**.
 
 </details>
 
 <details markdown="block">
 <summary>Links</summary>
 
-- [Microsoft Support page on accessibility features in Microsoft Edge](https://support.microsoft.com/en-us/microsoft-edge/accessibility-features-in-microsoft-edge-4c696192-338e-9465-b2cd-bd9b698ad19a)
-- [List of keyboard shortcuts for Microsoft Edge](https://support.microsoft.com/en-us/microsoft-edge/keyboard-shortcuts-in-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad)
+- [Accessibility features in Microsoft Edge – Microsoft Support](https://support.microsoft.com/en-us/microsoft-edge/accessibility-features-in-microsoft-edge-4c696192-338e-9465-b2cd-bd9b698ad19a)
+- [Keyboard shortcuts in Microsoft Edge – Microsoft Support](https://support.microsoft.com/en-us/microsoft-edge/keyboard-shortcuts-in-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad)
 
 </details>
 
@@ -218,7 +212,7 @@ Use <kbd>F7</kbd> to activate caret browsing. Caret browsing allows the keyboard
 
 ![](../assets/images/logos/firefox.png) <!-- review-alt -->
 
-Firefox is a web browser that is not based on the Chromium engine, and as such does not support the same extensions, settings, and keyboard shortcuts. However, Firefox is still a popular browser and has many excellent features (including built-in text to speech) and is highly customizable.
+Firefox isn’t built on the same engine as Chrome and Edge, so its extensions, settings, and some keyboard shortcuts are different. It is still a popular browser, very customizable, with many excellent features, including built-in text to speech.
 
 <details markdown="block">
 <summary>Page Zoom</summary>
@@ -229,11 +223,11 @@ Firefox is a web browser that is not based on the Chromium engine, and as such d
 
 Or, hold <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) and scroll up (with the mouse wheel or two fingers on a trackpad) to zoom in and scroll down to zoom out.
 
-Firefox allows users to zoom text only (navigate to **View > Zoom > Zoom Text Only**). Use the same keyboard shortcuts as above. Keep in mind, this may break the layout and functionality of a webpage.
+Firefox can also zoom only the text (select **View > Zoom > Zoom Text Only**, then use the same shortcuts). This may break the layout of some pages.
 
-[More information about zooming in Firefox](https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages)
+To set the zoom for all pages, go to **Settings > General** and, under **Language and Appearance**, choose a **Default zoom**.
 
-In **Settings > General**, under Language and Appearance, change the **Default Zoom** for all pages using the dropdown menu. Read the [Firefox Font size and zoom guide](https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages#w_set-a-default-zoom-level-for-all-websites) for more information.
+[Font size and zoom – Firefox Help](https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages)
 
 </details>
 
@@ -242,7 +236,7 @@ In **Settings > General**, under Language and Appearance, change the **Default Z
 
 To set a minimum font size:
 
-1. Navigate to **Settings** and move to the Language and Appearance section.
+1. Go to **Settings** and find the **Language and Appearance** section.
 2. Under Fonts and Colours, select the **Advanced…** button.
 3. In the **Minimum Font Size** drop-down, select the minimum size in pixels for text.
 4. Uncheck **Allow pages to choose their own fonts, instead of their selections above**.
@@ -265,11 +259,11 @@ To override page font styles:
 <details markdown="block">
 <summary>Default Colours</summary>
 
-Firefox allows users to set default colours for text, backgrounds, and links.
+Firefox lets you choose your own colours for text, backgrounds, and links.
 
-1. Navigate to **Settings**.
-2. Under Language and Appearance, select the **Colours** button.
-3. Set your specified colours for each and then select the **Override the colours specified by the page with your selections above** dropdown and set it to **Always**.
+1. Go to **Settings**.
+2. Under **Language and Appearance**, select the **Colours** button.
+3. Choose your colours, then set **Override the colours specified by the page with your selections above** to **Always**.
 
 More information on overriding [page colours](https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we#w_overriding-page-colors).
 
@@ -278,41 +272,39 @@ More information on overriding [page colours](https://support.mozilla.org/en-US/
 <details markdown="block">
 <summary>Reader View</summary>
 
-Firefox offers a Reader View on many pages. This feature strips the page down to text and important images and allows users to change the background colour, font style, text size, text alignment, and spacing. When you see a page icon in the address bar, Reader View is available.
+Firefox’s Reader View strips many pages down to the text and main images, and lets you change the background colour, font, text size, alignment, and spacing. When Reader View is available, a page icon appears in the address bar.
 ![The Firefox address bar with the Reader View page icon circled.](../assets/images/browsers/firefox-reader-view-icon.png) <!-- review-alt -->
 
-Select the icon or press <kbd>F9</kbd>.
+Select the icon, or press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (<kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> on macOS).
 
-A floating toolbar appears on the simplified page with options to modify appearance and have the content read aloud via text to speech.
+A toolbar on the simplified page has options to change its appearance and to have it read aloud. See [Firefox in Text to Speech Tools](text-to-speech-tools.md#firefox).
 
-Read more about [Firefox Reader View](https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages).
+[Firefox Reader View for clutter-free web pages – Firefox Help](https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages)
 
 </details>
 
 <details markdown="block">
 <summary>Page Viewing</summary>
 
-Firefox allows users to view the page with style elements removed.
-
-Select **View > Page Style > No Style** to see the webpage with styling removed (text, links, and images only).
+To see a page without its styles (just the text, links, and images), select **View > Page Style > No Style**.
 
 </details>
 
 <details markdown="block">
 <summary>Keyboard Navigation</summary>
 
-Firefox, like most modern browsers, allows users to move focus between links, buttons, menus, and other interactive elements using <kbd>Tab</kbd> (and <kbd>Shift</kbd> + <kbd>Tab</kbd> to move back).
+As in other browsers, press <kbd>Tab</kbd> to move between links, buttons, menus, and other controls, and <kbd>Shift</kbd> + <kbd>Tab</kbd> to move back.
 
-Pressing <kbd>F7</kbd> toggles caret browsing on or off. This feature allows users to move a cursor through the content of a webpage and select text as if they were in a text editor.
+Press <kbd>F7</kbd> to turn caret browsing on or off. It lets you move a text cursor through a web page and select text, as in a text editor.
 
-Read more about [keyboard navigation in Firefox](https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we#w_using-a-keyboard-to-navigate-within-webpages).
+[Accessibility features in Firefox – Firefox Help](https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we)
 
 </details>
 
 <details markdown="block">
 <summary>Search</summary>
 
-To search within a webpage, press <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) + <kbd>F</kbd> to open the search field. You can also use <kbd>/</kbd> for quick search with fewer options. Press <kbd>&#39;</kbd> to search only links on the page; this may be useful to quickly skip to a section of the page.
+To search within a web page, press <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) + <kbd>F</kbd>. For a quick search with fewer options, press <kbd>/</kbd>. Press <kbd>&#39;</kbd> (apostrophe) to search only the links on the page, which is a quick way to jump to a section.
 
 Press <kbd>Escape</kbd> to close the search tool.
 
@@ -332,7 +324,7 @@ macOS:
 1. Select **Tools**.
 2. Choose **Eyedropper**.
 
-Using the magnified view that appears, click on a colour. The HEX colour code will be automatically copied to your clipboard to be pasted in another application.
+Click a colour in the magnified view that appears. Its hex colour code is copied to the clipboard, ready to paste into another app.
 
 </details>
 
@@ -343,25 +335,26 @@ Using the magnified view that appears, click on a colour. The HEX colour code wi
 2. Select **Copy Text from Image**.
 3. A pop-up containing the image’s text appears.
    1. The complete text is automatically copied to the clipboard.
-   2. Or, you can select just part of the text and copy with <kbd>Command</kbd> + <kbd>C</kbd>.
+   2. To copy only part of it, select that text and press <kbd>Command</kbd> + <kbd>C</kbd>.
 4. Click **Close** or press <kbd>Escape</kbd>.
+
+See [Optical Character Recognition](optical-character-recognition.md) for other ways to copy text from images.
 
 </details>
 
 <details markdown="block">
 <summary>Known Issues</summary>
 
-- Firefox is a highly customizable browser, however as it is not as popular as Google Chrome and not built on the same software engine, some web pages and functions may behave differently.
-- Some developers only build extensions for Chrome and as such many extensions are not available for Firefox.
+- Because Firefox isn’t built on the same engine as Chrome, some web pages and features may behave differently.
+- Some extensions are only made for Chrome and aren’t available for Firefox.
 
 </details>
 
 <details markdown="block">
 <summary>Links</summary>
 
-- [Accessibility features in Firefox](https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we) overview
-- [Mouse shortcuts for Firefox](https://support.mozilla.org/en-US/kb/mouse-shortcuts-perform-common-tasks) (zoom, navigate back and forward, manipulate tabs)
-- [Access Firefox](https://accessfirefox.org): Accessibility resources and links for Firefox users
+- [Accessibility features in Firefox – Firefox Help](https://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we)
+- [Mouse shortcuts in Firefox – Firefox Help](https://support.mozilla.org/en-US/kb/mouse-shortcuts-perform-common-tasks) (zoom, go back and forward, work with tabs)
 
 </details>
 
@@ -369,9 +362,9 @@ Using the magnified view that appears, click on a colour. The HEX colour code wi
 
 ![](../assets/images/logos/safari.png) <!-- review-alt -->
 
-Safari is the built-in web browser on macOS, iOS, and iPadOS. Safari lacks many of the extensions available for Chrome, but offers some proprietary features not available on other browsers.
+Safari is the built-in web browser on macOS, iOS, and iPadOS. It has fewer extensions than Chrome, but some features of its own.
 
-Select **Safari > Preferences** in the menu bar or press <kbd>Command</kbd> + <kbd>,</kbd> to open Safari preferences.
+Select **Safari > Settings** in the menu bar (**Preferences** in older versions), or press <kbd>Command</kbd> + <kbd>,</kbd>, to open Safari’s settings.
 
 <details markdown="block">
 <summary>Page Zoom</summary>
@@ -380,16 +373,16 @@ Select **Safari > Preferences** in the menu bar or press <kbd>Command</kbd> + <k
 - To zoom out: <kbd>Command</kbd> + <kbd>-</kbd>
 - To reset to actual size: <kbd>Command</kbd> + <kbd>0</kbd>
 
-Safari also offers [options to zoom text only](https://support.apple.com/en-ca/guide/safari/ibrw1068/mac), however this often breaks the layout and functionality of webpages.
+Safari can also [zoom text only](https://support.apple.com/en-ca/guide/safari/ibrw1068/mac), but this often breaks the layout of web pages.
 
 </details>
 
 <details markdown="block">
 <summary>Minimum Font Size</summary>
 
-1. Select **Safari > Preferences…**
+1. Select **Safari > Settings…**
 2. Select the **Advanced** tab.
-3. Check **Never use font sizes smaller than** and set the size in the drop-down box.
+3. Check **Never use font sizes smaller than** and choose a size.
 
 </details>
 
@@ -398,65 +391,63 @@ Safari also offers [options to zoom text only](https://support.apple.com/en-ca/g
 
 1. Select **Safari** from the menu bar.
 2. Select **Settings for \[current website\]**.
-3. You can select **Use Reader when available** and set the default zoom with **Page Zoom**.
+3. Choose **Use Reader when available** and set the zoom for that site with **Page Zoom**.
 
-Website-specific settings can be amended or removed later via **Safari > Preferences > Websites**.
+You can change or remove these settings later in **Safari > Settings > Websites**.
 
-To set defaults for all webpages:
+To set defaults for all websites:
 
-1. Navigate to **Safari** on the menu bar.
-2. Select **Preferences**.
-3. Move to the **Websites** tab.
-4. Select **Page Zoom** from the sidebar.
-5. In the bottom right, choose a default zoom percentage using the dropdown menu beside **When visiting other websites**.
-6. The same process can be used to use Reader View when available by navigating to **Reader** in the sidebar and selecting **On** in the **When visiting other websites** dropdown.
+1. Select **Safari** in the menu bar.
+2. Select **Settings**.
+3. Go to the **Websites** tab.
+4. Select **Page Zoom** in the sidebar.
+5. At the bottom right, choose a zoom percentage beside **When visiting other websites**.
+6. To always use Reader when it’s available, select **Reader** in the sidebar and choose **On** beside **When visiting other websites**.
 
-Learn more about [customized settings for websites in Safari](https://support.apple.com/en-ca/guide/safari/ibrw7f78f7fe/15.1/mac/12.0).
+[Customize settings for each website in Safari on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/safari/ibrw7f78f7fe/mac)
 
 </details>
 
 <details markdown="block">
 <summary>Reader View</summary>
 
-When available, Safari can display pages in a simpler, reader-friendly view.
+Safari’s **Reader** shows many articles in a simpler, easier-to-read view.
 
-Look for a page icon in the address bar and select it.
+Select **Show Reader** in the address bar (in newer versions of Safari, it’s in the page menu at the left of the address bar), or press <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>.
 
-Alternatively, you can press <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> when the option is available.
-
-In the address bar, select the **Aa** icon to customize your reader view.
+To change the font, text size, and background colour, use the **Aa** button.
 ![Safari Reader View with the Aa button circled in the address bar, opening options for text size, background colour and font.](../assets/images/browsers/safari-reader-view-options.png) <!-- review-alt -->
 
-[Learn more about Safari Reader View](https://support.apple.com/en-ca/guide/safari/sfri32632/mac)
+[Hide distractions when reading articles in Safari on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/safari/sfri32632/mac)
 
 </details>
 
 <details markdown="block">
 <summary>Text to Speech</summary>
 
-Highlight text and select **Edit > Speech > Start Speaking** or right-click > **Speech > Start Speaking**.
+Highlight text and select **Edit > Speech > Start Speaking**, or right-click and select **Speech > Start Speaking**.
 
-You can also use the **Start Speaking** tool before highlighting text, however some webpages may begin reading at odd points.
+You can also choose **Start Speaking** without highlighting anything, but on some web pages it may start reading at odd points.
 
-Select **Edit > Speech > Stop Speaking** to stop text to speech.
+Select **Edit > Speech > Stop Speaking** to stop.
 
-Change voice options via **System Preferences > Accessibility > Spoken Content**.
+Change the voice in **System Settings > Accessibility > Read & Speak** (**Spoken Content** in older versions of macOS). See [Safari in Text to Speech Tools](text-to-speech-tools.md#safari).
 
 </details>
 
 <details markdown="block">
 <summary>Keyboard Navigation</summary>
 
-To enable keyboard navigation on macOS:
+First, turn on keyboard navigation in macOS:
 
-1. Navigate to **System Preferences > Shortcuts** tab.
-2. Check the **Use keyboard navigation to move focus between controls** checkbox.
+1. Go to **System Settings > Keyboard**.
+2. Turn on **Keyboard navigation**.
 
 Then, in Safari:
 
-1. Navigate to **Safari** in the menu bar and select **Preferences**.
-2. Navigate to the **Advanced** tab.
-3. Under Accessibility, check the **Press Tab to highlight each item on a webpage** checkbox.
+1. Select **Safari > Settings** in the menu bar.
+2. Go to the **Advanced** tab.
+3. Under **Accessibility**, check **Press Tab to highlight each item on a webpage**.
 
 Useful shortcuts:
 
@@ -472,9 +463,9 @@ Useful shortcuts:
 <details markdown="block">
 <summary>Links</summary>
 
-- [Apple Accessibility knowledge base](https://www.apple.com/ca/accessibility)
-- [Apple accessibility user guide](https://support.apple.com/en-ca/guide/safari/mh35884/mac)
-- [Safari keyboard shortcuts list](https://support.apple.com/en-ca/guide/safari/cpsh003/mac)
+- [Accessibility – Apple (CA)](https://www.apple.com/ca/accessibility)
+- [Safari User Guide for Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/safari/mh35884/mac)
+- [Keyboard shortcuts and gestures in Safari on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/safari/cpsh003/mac)
 
 </details>
 
