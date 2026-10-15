@@ -35,7 +35,7 @@ Use the **Search** box at the top of each page to search all the guides. Results
 
 ## Links and videos
 
-Links to other websites open in the same tab. Most guides end with links to the official help pages for each tool.
+Links to other websites open in a new tab. Most guides include links to the official help pages for each tool. Internal navigation, such as moving between guides or tools, remains in the current tab.
 
 Some guides link to demonstration videos on YouTube and other sites. These videos are made by other organizations, so we can’t guarantee their captions. To turn captions on, see [YouTube in Closed Captions](../guides/closed-captions.md#youtube).
 
