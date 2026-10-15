@@ -14,7 +14,7 @@ This resource is designed to meet [Web Content Accessibility Guidelines 2.1](htt
 - All content has appropriate colour contrast.
 - Information is not conveyed by colour alone.
 - Content can be zoomed to 200% with no need for horizontal scrolling.
-- All videos with audio are captioned.
+- All videos with audio created by the authors are accurately captioned.
 - All images include alternative text or are marked decorative.
 - Tables are properly formatted.
 - All link text is descriptive.
