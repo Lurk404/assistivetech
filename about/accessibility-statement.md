@@ -9,7 +9,7 @@ nav_order: 2
 
 This resource is designed to meet [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21), level AA. To create an accessible resource, authors incorporated the following:
 
-- Minimum 12 point body text.
+- Minimum 14 pixel body text.
 - Pages are built with a consistent heading structure.
 - All content has appropriate colour contrast.
 - Information is not conveyed by colour alone.
