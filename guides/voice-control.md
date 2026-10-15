@@ -1,6 +1,6 @@
 ---
 title: Voice Control
-parent: Writing and Notes
+parent: Voice and Dictation
 nav_order: 2
 ---
 

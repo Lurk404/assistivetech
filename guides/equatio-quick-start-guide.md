@@ -1,7 +1,7 @@
 ---
 title: Equatio Quick Start Guide
-parent: Reading
-nav_order: 4
+parent: More Tools
+nav_order: 2
 ---
 
 # Equatio Quick Start Guide

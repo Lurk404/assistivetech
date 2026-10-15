@@ -1,7 +1,7 @@
 ---
 title: Mind Mapping
-parent: Writing and Notes
-nav_order: 4
+parent: Notetaking and Mind Mapping
+nav_order: 2
 ---
 
 # Mind Mapping

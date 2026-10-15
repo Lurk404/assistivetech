@@ -1,7 +1,6 @@
 ---
 title: Closed Captions
-parent: Seeing and Hearing
-nav_order: 3
+nav_order: 6
 ---
 
 # Closed Captions

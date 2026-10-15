@@ -1,6 +1,6 @@
 ---
 title: Speech to Text Tools
-parent: Writing and Notes
+parent: Voice and Dictation
 nav_order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Magnifiers
-parent: Seeing and Hearing
+parent: Vision and Screen Enhancement
 nav_order: 2
 ---
 

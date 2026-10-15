@@ -1,6 +1,6 @@
 ---
 title: Screen Readers
-parent: Seeing and Hearing
+parent: Vision and Screen Enhancement
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Note-taking and Transcription
-parent: Writing and Notes
-nav_order: 3
+parent: Notetaking and Mind Mapping
+nav_order: 1
 ---
 
 # Note-taking and Transcription
