@@ -29,8 +29,8 @@ The Morphic toolbar has these buttons:
    1. Use **+** and **–** to make text bigger or smaller.
 2. **Magnifier**
    1. Click **Show** or **Hide**.
-   2. Magnifier starts with its default settings. To change them, go to **Settings > Accessibility > Magnifier** (**Ease of Access** in Windows 10).
-   3. While Magnifier is on, its window has options to change the view, zoom level, and other settings. See [Magnifiers](magnifiers.md#windows).
+   2. Magnifier starts with its default settings. To change them, go to **Settings > Accessibility (**Ease of Access** in Windows 10) > Magnifier**.
+   3. While Magnifier is on, its window has options to change the view, zoom level, and other settings. See [Magnifiers guide](magnifiers.md#windows) for more information.
 3. **Snip** takes a screenshot and copies it, ready to paste into a document.
    1. Select **Snip**, then click and drag over the area you want.
 4. **Read Selected**
