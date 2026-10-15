@@ -49,3 +49,11 @@
   border-bottom-width: 2px;
   border-radius: 3px;
 }
+
+// Bump body text on small screens (Just the Docs defaults to 14px there)
+@media (max-width: 49.99rem) {
+  body {
+    font-size: 1rem;      // 16px; try 1.0625rem (17px) if you want a bit more
+    line-height: 1.6;
+  }
+}
