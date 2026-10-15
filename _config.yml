@@ -19,7 +19,7 @@ search:
 
 # Page features
 heading_anchors: true
-back_to_top: true
+back_to_top: false   # replaced by the floating buttons in _includes/page_nav_buttons.html
 back_to_top_text: "Back to top"
 
 # Link in the top right corner of every page

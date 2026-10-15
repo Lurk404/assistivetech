@@ -70,3 +70,108 @@
     font-size: 100% !important;   // the reader's browser default, usually 16px
   }
 }
+
+// Page navigation buttons: "Back to top" and "On this page"
+// (markup and script in _includes/page_nav_buttons.html)
+.page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.page-nav-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;              // big enough to tap
+  padding: 0 1rem;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: $link-color;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: $body-background-color;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+
+  &:hover {
+    text-decoration: underline;
+    background-color: $grey-lt-000;
+  }
+
+  &:focus-visible {
+    outline: 3px solid $link-color;
+    outline-offset: 2px;
+  }
+}
+
+// Float in the bottom-right corner, but only when the screen is tall enough.
+// On short screens or at high zoom the buttons stay at the end of the page.
+// (The 30rem must match the script in page_nav_buttons.html.)
+@media (min-height: 30rem) {
+  .page-nav-floating .page-nav {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 10;
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(0.5rem);
+    transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+  }
+
+  .page-nav-floating .page-nav.is-visible {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+
+  // Room at the bottom so the buttons never cover the end of the page
+  .page-nav-floating .main-content-wrap {
+    padding-bottom: 5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-nav {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+// The "On this page" popover, just above the buttons
+.page-toc {
+  position: fixed;
+  inset: auto 1rem 4.5rem auto;
+  width: 22rem;
+  max-width: calc(100vw - 2rem);
+  max-height: 70vh;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  overflow: auto;
+  color: $body-text-color;
+  background-color: $body-background-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.page-toc-title {
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+}
+
+@media print {
+  .page-nav,
+  .page-toc {
+    display: none !important;
+  }
+}

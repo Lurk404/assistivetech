@@ -1,0 +1,93 @@
+<!--
+  Floating "Back to top" and "On this page" buttons, bottom-right.
+  Included from footer_custom.html. Styles are in _sass/custom/custom.scss
+  (search for "Page navigation buttons").
+
+  - Without JavaScript, "Back to top" stays here as a plain link at the end of the page.
+  - With JavaScript, the buttons float in the bottom-right corner and appear once you
+    have scrolled past the page's "On this page" list (or one screen, if there is none).
+  - "On this page" copies the page's own "On this page" list into a popover, so there is
+    nothing extra to maintain. Pages without a list only get "Back to top".
+-->
+<div class="page-nav" id="page-nav">
+  <a class="page-nav-button" href="#top" id="back-to-top">Back to top</a>
+</div>
+
+<script>
+  (function () {
+    var bar = document.getElementById('page-nav');
+    if (!bar) return;
+
+    /* Find the page's "On this page" list: a paragraph that says "On this page"
+       followed by a list. */
+    var source = null;
+    var labels = document.querySelectorAll('.main-content p');
+    for (var i = 0; i < labels.length; i++) {
+      var p = labels[i];
+      var next = p.nextElementSibling;
+      if (/^\s*On this page:?\s*$/i.test(p.textContent) && next && (next.tagName === 'UL' || next.tagName === 'OL')) {
+        source = next;
+        break;
+      }
+    }
+
+    /* "On this page" button and popover (only where the browser supports popovers) */
+    var popover = null;
+    if (source && typeof HTMLElement.prototype.showPopover === 'function') {
+      popover = document.createElement('div');
+      popover.id = 'page-toc';
+      popover.className = 'page-toc';
+      popover.setAttribute('popover', '');
+
+      var nav = document.createElement('nav');
+      nav.setAttribute('aria-labelledby', 'page-toc-title');
+      var title = document.createElement('p');
+      title.id = 'page-toc-title';
+      title.className = 'page-toc-title';
+      title.textContent = 'On this page';
+      nav.appendChild(title);
+      nav.appendChild(source.cloneNode(true));
+      popover.appendChild(nav);
+
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'page-nav-button';
+      button.setAttribute('popovertarget', 'page-toc');
+      button.textContent = 'On this page';
+
+      bar.insertBefore(button, bar.firstChild);
+      bar.insertBefore(popover, button.nextSibling);  /* right after the button in tab order */
+
+      /* Choosing a link closes the popover; the page then jumps to that section. */
+      popover.addEventListener('click', function (e) {
+        if (e.target.closest('a')) popover.hidePopover();
+      });
+    }
+
+    /* Float the bar, and show it only once you've scrolled down. */
+    document.documentElement.classList.add('page-nav-floating');
+
+    function threshold() {
+      if (source) return source.getBoundingClientRect().bottom + window.scrollY;
+      return window.innerHeight;
+    }
+
+    /* On short screens (or at high zoom) the bar doesn't float: it stays at the
+       end of the page and is always shown. Must match the media query in custom.scss. */
+    var floats = window.matchMedia('(min-height: 30rem)');
+
+    function update() {
+      var popoverOpen = popover && popover.matches(':popover-open');
+      var show = !floats.matches || window.scrollY > threshold() || popoverOpen;
+      bar.classList.toggle('is-visible', show);
+      /* Hidden buttons shouldn't be reachable with Tab or by screen readers */
+      if (show) bar.removeAttribute('inert'); else bar.setAttribute('inert', '');
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    if (floats.addEventListener) floats.addEventListener('change', update);
+    if (popover) popover.addEventListener('toggle', update);
+    update();
+  })();
+</script>
