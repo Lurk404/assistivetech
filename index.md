@@ -8,6 +8,14 @@ permalink: /
 
 Explore this collection of assistive technology user guides to learn new strategies, discover tips, and enhance your digital experience. Choose a guide below or from the menu.
 
+<details id="about" markdown="block">
+<summary>About this resource</summary>
+
+- [Using This Resource](using-this-resource.md) explains how to find your way around.
+- The [Accessibility Statement](accessibility-statement.md) describes the accessibility features of this resource and how to report a barrier.
+
+</details>
+
 ## Reading
 
 - [Text to Speech Tools](guides/text-to-speech-tools.md): have text read aloud in Brightspace, Word, browsers, and on your devices.
@@ -34,10 +42,7 @@ Explore this collection of assistive technology user guides to learn new strateg
 - [Morphic](guides/morphic.md): a free toolbar for your computer’s accessibility features.
 - [Finding More Tools](guides/finding-more-tools.md): websites for finding other assistive technology.
 
-## About these guides
-
-- [Using This Resource](using-this-resource.md) explains how to find your way around.
-- The [Accessibility Statement](accessibility-statement.md) describes the accessibility features of this resource and how to report a barrier.
+---
 
 Software changes often. If something in a guide is out of date, or you have questions or comments, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
 
