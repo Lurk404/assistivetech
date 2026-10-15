@@ -1,19 +1,20 @@
 ---
 title: Equatio Quick Start Guide
-nav_order: 5
+parent: Reading
+nav_order: 4
 ---
 
 # Equatio Quick Start Guide
 
 ![The Equatio toolbar, with Edit Math and Insert Math buttons on the right.](../assets/images/equatio-quick-start-guide/equatio-toolbar.png) <!-- review-alt -->
 
-**Equatio** is software that allows you to insert, edit, and interact with digital STEM content.
+**Equatio** is software for writing, editing, and reading math and other STEM content on a computer.
 
 Use Equatio to:
 
 - Create accessible STEM content in Google Docs, Microsoft Word and PowerPoint, and Brightspace.
-- Create and consume STEM content in a variety of formats.
-- Use multiple input options, text-to-speech, and accessible chemistry tools.
+- Write math by typing, handwriting, or speaking, and hear math read aloud.
+- Use accessible chemistry and graphing tools.
 
 ## Install
 
@@ -28,29 +29,29 @@ Select **Sign in with Microsoft** and use your Langara email and password.
 
 <img src="../assets/images/equatio-quick-start-guide/equatio-sign-in.png" alt="The Equatio sign-in screen with Sign in with Microsoft circled." width="200"> <!-- review-alt -->
 
-## Basic Function
+## Basic Functions
 
-### Creating STEM Content
+### Writing math
 
 1. Open Equatio.
 2. Open the **Equation Editor** to type math.
    ![The Equatio toolbar with the Equation Editor button circled.](../assets/images/equatio-quick-start-guide/equation-editor-button.png) <!-- review-alt -->
-3. Enter text as you would speak it, or with specific notation. Select appropriate suggestions as you type by pressing <kbd>Enter</kbd>.
-4. Click the **Copy Math As…** or **Insert Math** button to put accessible digital math in documents.
+3. Type the math as you would say it (for example, “x squared”), or use math notation. Press <kbd>Enter</kbd> to accept a suggestion as you type.
+4. Click **Insert Math**, or **Copy Math As…**, to put accessible math into your document.
 
-### Read STEM
+### Reading math
 
-Equatio’s **Screenshot Reader** can be used to capture images of math or other inaccessible math content.
+Equatio’s **Screenshot Reader** reads aloud math that is only available as a picture, such as math in a scanned PDF or on a web page.
 
 To use Equatio’s Screenshot Reader:
 
 1. Open Equatio.
 2. Select **Screenshot Reader** on the toolbar.
    ![The Equatio toolbar with the Screenshot Reader button circled.](../assets/images/equatio-quick-start-guide/screenshot-reader-button.png) <!-- review-alt -->
-3. Draw a box around math in documents or on the web. The content will be read aloud and can be exported to various formats (MathML, LaTeX, accessible image) or opened in the equation editor for further revision or completion.
+3. Draw a box around the math. Equatio reads it aloud. You can also copy it as MathML or LaTeX, or open it in the Equation Editor to change it.
    ![A math expression captured with Screenshot Reader, with play, menu and close buttons and a menu offering Copy LaTeX, Copy MathML and Edit with Equatio.](../assets/images/equatio-quick-start-guide/screenshot-reader-result.png) <!-- review-alt -->
 
-For more information, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
+For videos and guides, see [Equatio on Texthelp Academy](https://academy.texthelp.com/equatio/). For help at Langara, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
 
 ---
 

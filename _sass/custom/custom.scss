@@ -50,9 +50,22 @@
   border-radius: 3px;
 }
 
+// Images: screenshots sit on their own line, below the text that introduces them.
+// Small icons inside a sentence use class="inline", for example
+// <img class="inline" src="..." alt="..." width="30">
+.main-content img {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.main-content img.inline {
+  display: inline;
+  margin: 0;
+  vertical-align: middle;
+}
+
 // Bump base text on small screens (Just the Docs sets html to 14px there)
 @media (max-width: 49.99rem) {
   html {
     font-size: 100% !important;   // the reader's browser default, usually 16px
   }
-}

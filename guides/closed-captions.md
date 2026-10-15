@@ -1,13 +1,14 @@
 ---
 title: Closed Captions
-nav_order: 10
+parent: Seeing and Hearing
+nav_order: 3
 ---
 
 # Closed Captions
 
 ![](../assets/images/closed-captions/closed-captions-icon.png) <!-- review-alt -->
 
-This page covers several ways users can enable closed captions. Ensuring videos have closed captions is the responsibility of the content owner.
+This page covers ways to turn on captions in video players, meeting apps, browsers, and devices, including automatic live captions for audio that isn’t captioned. Making sure videos have accurate captions is the responsibility of whoever owns the content.
 
 **On this page:**
 
@@ -20,7 +21,6 @@ This page covers several ways users can enable closed captions. Ensuring videos 
 - [Chrome](#chrome)
 - [iOS](#ios)
 - [macOS](#macos)
-- [Group Transcribe](#group-transcribe)
 
 <details id="kaltura" markdown="block">
 <summary>Kaltura</summary>
@@ -29,9 +29,9 @@ To display closed captions in Kaltura:
 
 1. Select the **Closed Captions** button.
    <img src="../assets/images/closed-captions/kaltura-cc-button.png" alt="The Kaltura player toolbar with the Closed Captions (CC) button circled." width="500"> <!-- review-alt -->
-2. Choose the desired language.
+2. Choose a language.
    <img src="../assets/images/closed-captions/kaltura-cc-language.png" alt="The Closed Captions menu open with Off and English [auto]." width="500"> <!-- review-alt -->
-   1. Note that \[auto\] indicates the captions are machine-generated and may contain errors, especially in spelling of names and terminology.
+   1. \[auto\] means the captions are machine-generated and may contain errors, especially in names and specialized terms.
 
 To customize the appearance of captions in Kaltura:
 
@@ -54,57 +54,62 @@ To view captions on YouTube videos:
 1. Click **Settings**.
 2. Select **Subtitles/closed captions**.
    <img src="../assets/images/closed-captions/youtube-settings-subtitles.png" alt="The YouTube Settings menu with Subtitles/CC selected." width="500"> <!-- review-alt -->
-   1. Choose the desired language.
+   1. Choose a language.
       <img src="../assets/images/closed-captions/youtube-subtitles-language.png" alt="The Subtitles/CC menu with Off, English (checked), English (auto-generated) and Auto-translate." width="500"> <!-- review-alt -->
 3. Click **Subtitles/closed captions** on the player toolbar to toggle captions on and off.
    <img src="../assets/images/closed-captions/youtube-cc-button.png" alt="The YouTube player toolbar with the tooltip Subtitles/closed captions (c) above the CC button." width="500"> <!-- review-alt -->
 
-[Manage subtitle settings – YouTube Help](https://support.google.com/youtube/answer/100078?hl=en&co=GENIE.Platform%3DAndroid)
+[Manage caption settings – YouTube Help](https://support.google.com/youtube/answer/100078?co=GENIE.Platform%3DDesktop&hl=en)
 
 </details>
 
 <details id="zoom" markdown="block">
 <summary>Zoom</summary>
 
-To enable captions in a meeting:
+To show captions in a meeting:
 
-1. Select the **Closed Caption** or **Live Transcript** button in the toolbar.
-2. Under **Live Transcription**, select **Enable**.
-3. This will inform participants captions are available.
+1. Select **Show Captions** in the meeting toolbar (it may be under **More**).
+2. Choose the language being spoken and select **Save**.
 
-Participants can request the host turn on captioning. Please approve requests as each user can choose to view or hide captions when available. Best practice would be to enable them when you start a meeting before participants must request.
+Each participant can show or hide captions for themselves.
 
-To save a copy of the transcript:
+{: .tip }
+To always see captions, open the Zoom app’s settings, go to **Accessibility**, and check **Always show captions**.
 
-1. Select the up arrow on the **Live Transcript** button and select **View Full Transcript**.
+To view and save the full transcript:
+
+1. Select the arrow (**^**) on the **Show Captions** button and select **View Full Transcript**.
 2. Select **Save Transcript**.
 
-If you are recording the meeting, the transcript will be saved to the same folder as the video. Contact [Langara’s Assistive Technologist](mailto:assistivetech@langara.ca) for assistance in using the transcript to create a captioned version to be distributed.
+Transcripts are not saved automatically with local recordings, so save the transcript yourself. Contact [Langara’s Assistive Technologist](mailto:assistivetech@langara.ca) for help using a transcript to create a captioned version of a recording.
 
-If you are not seeing the **Closed Caption** or **Live Transcript** button on the Zoom toolbar, you need to enable the option in the [Zoom web portal](https://zoom.us/signin).
+If **Show Captions** is missing, the meeting host needs to turn on automated captions in the [Zoom web portal](https://zoom.us/signin):
 
 1. Sign in to Zoom.
-2. Navigate to **Settings**.
+2. Go to **Settings**.
 3. Select the **Meeting** tab.
-4. Move to **In Meeting (Advanced)**.
-5. Select the **Allow live transcription service to transcribe meeting automatically** checkbox.
+4. Scroll to **In Meeting (Advanced)**.
+5. Turn on **Automated captions**. To allow saving transcripts, also turn on **Full transcript** and **Save Captions**.
 
-- [Managing closed captioning and live transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription#h_01F65KWFB6QWPTM2JK0JMG7YZQ) in Zoom.
-- [Enabling closed captioning and live transcription](https://support.zoom.us/hc/en-us/articles/4409683389709) in Zoom.
+[Zoom Support](https://support.zoom.com/hc/en) (search for “automated captions”)
 
 </details>
 
 <details id="teams" markdown="block">
 <summary>Teams</summary>
 
-To view live captions in a Teams meeting:
+To turn on live captions during a Teams meeting, select **More actions** (three dots) in the meeting controls, then **Captions**.
 
-1. Select **Settings and more**.
+To show captions in every meeting:
+
+1. Select **Settings and more** (three dots beside your profile picture).
 2. Select **Settings**.
 3. Select **Captions and transcripts**.
-4. Toggle **Always show live captions in meetings** on.
-5. When joining a meeting Teams will prompt for the spoken language. Select **English (Canada)** or another listed language and click **Confirm**.
-6. At the bottom of the meeting window is the captions window. Select **Settings** to change the language, style, font, and position of the captions.
+4. Turn on **Always show live captions in meetings**.
+
+The first time captions start, Teams may ask for the language being spoken. Select **English (Canada)** or another language and click **Confirm**.
+
+Captions appear at the bottom of the meeting window. Select **Settings** beside them to change the language, style, font, and position.
 
 [Use live captions in Microsoft Teams meetings – Microsoft Support](https://support.microsoft.com/en-au/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260)
 
@@ -113,15 +118,15 @@ To view live captions in a Teams meeting:
 <details id="windows" markdown="block">
 <summary>Windows</summary>
 
-Windows 11 can automatically transcribe audio to text. The captions are not a substitute for proper captioning of videos but may be a useful tool for users when encountering an uncaptioned video. To enable:
+Windows 11 can caption any audio playing on your computer, and speech picked up by your microphone. Automatic captions don’t replace proper captions, but they help when a video has none. To turn them on:
 
 1. Open **Settings** and select **Accessibility**.
 2. Choose **Captions**.
 3. Toggle **Live captions** on.
    1. Alternatively, press <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>L</kbd>.
-4. Use the Settings cog icon on the captions window to move the window around, change language, include (or exclude) microphone audio, and change caption appearance.
+4. Use the Settings (gear) icon on the captions window to move it, change the language, include or exclude microphone audio, and change how captions look.
 
-For more details, read [use live captions to better understand audio](https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df#bkmk_turnoncaptions).
+[Use live captions to better understand audio – Microsoft Support](https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df)
 
 </details>
 
@@ -130,40 +135,51 @@ For more details, read [use live captions to better understand audio](https://su
 
 ### Live Transcribe
 
-1. Navigate to **Settings > Accessibility**.
-2. Select **Installed apps** (requires the [Android Accessibility Suite](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_CA&gl=US)).
-3. Choose **Live Transcribe** and toggle **Live Transcribe shortcut** to **On**.
-4. Tap on **Accessibility shortcut**.
+**Live Transcribe** shows conversations around you as text on screen. If it isn’t on your phone, install [Live Transcribe & Sound Notifications](https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe) from Google Play.
+
+1. Go to **Settings > Accessibility**.
+2. Select **Installed apps**.
+3. Choose **Live Transcribe** and turn on **Live Transcribe shortcut**.
+4. Tap **Accessibility shortcut**.
 5. Select **Live Transcribe**.
-   1. Follow prompts to set permissions.
-6. Dictate your text or use Live Transcribe to see text of conversations.
-   1. Many default apps (Chrome, Play Store) will include a microphone icon in the search box. Use that to search using your voice.
+   1. Follow the prompts to set permissions.
+6. Use the shortcut to open Live Transcribe.
 
-[Live Transcribe for Android](https://www.android.com/accessibility/live-transcribe)
+### Live Caption
 
-### Captions
+**Live Caption** captions audio playing on your phone, such as videos and podcasts. Press a volume button, then tap the **Live Caption** icon under the volume controls.
 
-1. Navigate to **Settings > Accessibility**.
+[Audio accessibility features for Android](https://www.android.com/accessibility/audio/)
+
+### Caption style
+
+On Samsung phones:
+
+1. Go to **Settings > Accessibility**.
 2. Select **Hearing enhancements**.
 3. Tap **Caption preference**.
-4. Toggle **Show captions** to on.
-   1. Tap **Caption size and style** to change appearance.
+4. Turn on **Show captions**.
+   1. Tap **Caption size and style** to change how captions look.
+
+On other phones, look for **Caption preferences** under **Settings > Accessibility**.
 
 </details>
 
 <details id="chrome" markdown="block">
 <summary>Chrome</summary>
 
-Chrome includes an automatic captioning tool for videos. The captions are not a substitute for proper captioning of videos but may be a useful tool for users when encountering an uncaptioned video. To enable:
+Chrome can automatically caption audio and video playing in the browser. Automatic captions don’t replace proper captions, but they help when a video has none. To turn them on:
 
-1. Select **More > Settings**.
-2. Select **Advanced > Accessibility > Captions**.
-3. Turn on **Live Captions**.
+1. Open the Chrome menu (three dots) and select **Settings**.
+2. Select **Accessibility**.
+3. Turn on **Live Caption**.
 
-Chrome live captions uses the operating system’s default captioning styling:
+Chrome’s captions use your computer’s caption style settings:
 
-- [Windows caption settings](https://support.microsoft.com/en-us/windows/change-caption-settings-135c465b-8cfd-3bac-9baf-4af74bc0069a)
-- [macOS subtitles and captions settings](https://support.apple.com/en-mt/guide/mac-help/mchlc1cb8d54/mac)
+- [Change caption settings – Windows](https://support.microsoft.com/en-us/windows/change-caption-settings-135c465b-8cfd-3bac-9baf-4af74bc0069a)
+- [Use subtitles and closed captions on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchlc1cb8d54/mac)
+
+[Manage captions and translations in Chrome – Google Chrome Help](https://support.google.com/chrome/answer/10538231)
 
 </details>
 
@@ -172,35 +188,27 @@ Chrome live captions uses the operating system’s default captioning styling:
 
 ### Subtitles & Captioning
 
-When available, captions can be displayed:
+To show captions automatically when a video has them:
 
-1. Navigate to **Settings > Accessibility**.
+1. Go to **Settings > Accessibility**.
 2. Select **Subtitles & Captioning**.
-3. Toggle **Closed Captions + SDH** on.
-4. Select **Style** to change the appearance of captions.
+3. Turn on **Closed Captions + SDH**.
+4. Select **Style** to change how captions look.
 
 ### Live Captions
 
-Live Captions can transcribe audio in videos and live conversation. To use:
+Live Captions automatically captions audio playing on your iPhone, such as videos and calls, and conversations around you. To use it:
 
-1. Navigate to **Settings > Accessibility**.
-2. Select **Live Captions (Beta)** and toggle **Live Captions** on.
-3. Select **Appearance** to customize caption text, colour, and opacity.
-4. Tap the Live Captions widget (opaque soundwave icon) to activate.
-5. Tap the window for options including fullscreen, pause, and close.
-6. Tap the microphone to toggle between Live Captions (device audio) and Active Captions (real world audio picked up by your microphone).
+1. Go to **Settings > Accessibility**.
+2. Select **Live Captions** (labelled **Beta** in some versions) and turn on **Live Captions**.
+3. Select **Appearance** to change the caption text, colour, and opacity.
+4. Tap the Live Captions widget (sound wave icon) to start captioning.
+5. Tap the Live Captions window for options including full screen, pause, and close.
+6. Tap the microphone to switch between captioning audio on your iPhone and speech around you (picked up by the microphone).
 
-\*This feature is new to iOS 16 and may not provide captions everywhere.
+Live Captions may not be available in every language or region, and automatic captions can contain errors.
 
-[Get live captions in real time on iPhone – Apple Support](https://support.apple.com/en-ca/guide/iphone/iphe0990f7bb/ios#:~:text=Go%20to%20Settings%20%3E%20Accessibility%20%3E%20Live,below%20In%2DApp%20Live%20Captions.)
-
-### Dictation
-
-1. Set up and turn on **Voice Control**.
-2. Ensure **Voice Control** is listening and when in an active textbox, simply start speaking.
-3. Or, navigate to **Settings > General > Keyboard**.
-4. Toggle **Enable Dictation** on.
-5. When the onscreen keyboard appears, tap the microphone icon in the bottom right.
+[Get live captions of spoken audio on iPhone – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iphe0990f7bb/ios)
 
 </details>
 
@@ -209,53 +217,33 @@ Live Captions can transcribe audio in videos and live conversation. To use:
 
 ### Subtitles and Closed Captions
 
-1. Navigate to **System Preferences > Accessibility**.
-2. Choose **Captions** in the sidebar.
-3. Change style and options for default captions.
+1. Go to **System Settings > Accessibility**.
+2. Choose **Captions**.
+3. Choose a caption style and options.
 
-macOS caption settings are still dependent on the source captions. If a video is not captioned, macOS cannot create its own captions.
+These settings change how existing captions look. To caption a video that has none, use Live Captions (below).
 
-Additional information on [subtitles and closed caption settings](https://support.apple.com/en-mt/guide/mac-help/mchlc1cb8d54/mac).
+[Use subtitles and closed captions on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchlc1cb8d54/mac)
 
 ### Live Captions
 
-macOS may be able to provide live captions for video and live conversation:
+On a Mac with Apple silicon, Live Captions can caption audio from apps, calls, and videos, and conversations around you:
 
 1. Open **System Settings > Accessibility**.
-2. Under Hearing, select **Live Captions (Beta)**.
-3. Toggle **Live Captions** on.
-   1. Use the settings to change font style and background colour.
+2. Under **Hearing**, select **Live Captions** (labelled **Beta** in some versions).
+3. Turn on **Live Captions**.
+   1. Use the settings to change the font and background colour.
 4. Click and drag the Live Captions widget anywhere on the screen.
    1. Click and drag from any corner to resize the widget.
 5. Click anywhere on the widget to reveal controls.
    1. Use **Pause** to pause captions.
-   2. Click the microphone to toggle between Live Captions (computer audio) and Active Captions (real world audio picked up by your microphone).
+   2. Click the microphone to switch between captioning your Mac’s audio and speech around you (picked up by the microphone).
 
-[Use Live Captions on Mac – Apple Support](https://support.apple.com/en-ca/guide/mac-help/mchldd11f4fd/mac)
-
-### Dictation
-
-macOS has a built-in dictation feature to use speech input to write documents. To enable:
-
-1. Navigate to **System Preferences**.
-2. Select **Keyboard**.
-3. Select the **Dictation** tab.
-4. Select the **On** radio button.
-
-To dictate text, select a text edit field (such as the browser address bar or a document) and click the microphone window or navigate to **Edit > Start Dictation**.
-
-Speak slowly and articulate as best you can. Use natural language for commands, such as “new line” or “exclamation point”. macOS has a [complete list of dictation commands](https://support.apple.com/en-ca/guide/mac-help/mh40695/12.0/mac/12.0).
-
-Learn more about how to [dictate messages and documents](https://support.apple.com/en-ca/guide/mac-help/mh40584/mac) on Mac.
+[Get captions of spoken and computer audio on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchldd11f4fd/mac)
 
 </details>
 
-<details id="group-transcribe" markdown="block">
-<summary>Group Transcribe</summary>
-
-[Group Transcribe](https://www.microsoft.com/en-us/garage/profiles/group-transcribe) is a Microsoft app for iOS only. Group Transcribe creates a digital space for in-person meetings. Each attendee opens Group Transcribe and all conversation is converted to text and displayed in a stream with speaker labels.
-
-</details>
+For dictation (typing with your voice) on any device, see [Speech to Text Tools](speech-to-text-tools.md). To record and transcribe lectures and meetings, see [Note-taking and Transcription](note-taking.md).
 
 ---
 

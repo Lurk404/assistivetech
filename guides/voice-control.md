@@ -1,6 +1,7 @@
 ---
 title: Voice Control
-nav_order: 11
+parent: Writing and Notes
+nav_order: 2
 ---
 
 # Voice Control
@@ -10,19 +11,22 @@ nav_order: 11
 **On this page:**
 
 - [Dragon](#dragon)
+- [Windows Voice Access](#windows-voice-access)
 - [macOS/iOS Voice Control](#macosios-voice-control)
 - [Android](#android)
 
+Voice control lets you operate a computer or phone with your voice: open apps, click buttons and links, and dictate and edit text. For dictation only, see [Speech to Text Tools](speech-to-text-tools.md).
+
 ## Dragon
 
-Dragon is software that allows for dictating text and operating a computer using voice commands.
+Dragon is Windows software for dictating text and operating a computer with voice commands.
 
 <details markdown="block">
 <summary>Setup</summary>
 
-[Dragon Quickstart Guide](https://www.nuance.com/content/dam/nuance/en_us/collateral/dragon/guide/gd-dragon-naturally-speaking-quickstart-en-us.pdf)
+[Dragon user documentation](https://dragon.nuance.com/en-us/user-documentation) has quick start guides and command cheat sheets.
 
-Use an external microphone to cut down on background noise and ensure maximum accuracy in dictation and voice commands. Make sure the microphone is plugged in before starting Dragon. To ensure Dragon is using the correct microphone source:
+Use an external microphone (such as a headset) to cut down background noise and get the best accuracy. Plug in the microphone before starting Dragon. To make sure Dragon is using the right microphone:
 
 1. Open the **Profile** menu.
 2. Choose **Manage Dictation Sources…**
@@ -31,9 +35,9 @@ Use an external microphone to cut down on background noise and ensure maximum ac
    ![The Choose a Microphone dialog listing five audio sources, with the active microphone selected.](../assets/images/voice-control/dragon-choose-microphone.png) <!-- review-alt -->
 4. Click **Finish**.
 
-If using Dragon on the web (Brightspace, O365, Google Docs, etc.) install the Dragon [extension for Chrome](https://chrome.google.com/webstore/detail/dragon-web-extension/ddaloccgjfibfpkalenodgehlhkgoahe?hl=en).
+To use Dragon on the web (Brightspace, Microsoft 365, Google Docs, and so on), install the [Dragon Web Extension for Chrome](https://chromewebstore.google.com/detail/dragon-web-extension/ddaloccgjfibfpkalenodgehlhkgoahe).
 
-When first using Dragon, set up a user profile. Dragon will walk users through setting up a profile, adjusting the microphone, and tuning the software to their voice. After creating a profile, Dragon will automatically open an interactive tutorial. This tutorial is recommended for new users and introduces basic Dragon features, dictation, correction, and editing.
+The first time you use Dragon, it walks you through creating a user profile, adjusting the microphone, and tuning Dragon to your voice. It then opens an interactive tutorial on basic features, dictation, correction, and editing. New users should do the tutorial.
 
 </details>
 
@@ -44,14 +48,14 @@ To turn Dragon on or off:
 
 1. When the microphone icon is red, Dragon is not listening. Click the icon to start Dragon.
    ![The DragonBar with a red microphone button and the tooltip Currently off – click to turn on.](../assets/images/speech-to-text-tools/dragonbar-off.png) <!-- review-alt -->
-2. When the microphone icon is green, Dragon is listening and will transcribe what is said.
+2. When the microphone icon is green, Dragon is listening and will type what you say.
    ![The DragonBar with a green microphone button and the tooltip Currently on – click to turn off.](../assets/images/speech-to-text-tools/dragonbar-on.png) <!-- review-alt -->
 3. Click the green icon to stop Dragon.
-4. When dictating, say “go to sleep” and the icon will turn blue. Dragon is in sleep mode and won’t transcribe what is said. Say “wake up” or click the icon to continue using Dragon to transcribe speech.
+4. Say “go to sleep” and the icon turns blue. Dragon is in sleep mode and won’t type what you say. Say “wake up” or click the icon to continue.
    ![The DragonBar with a blue sleeping microphone button and the tooltip Currently sleeping – click to wake up.](../assets/images/speech-to-text-tools/dragonbar-sleeping.png) <!-- review-alt -->
 5. On a desktop computer, press the <kbd>+</kbd> key on the number pad to toggle the microphone on and off.
 
-In addition to using the **Help** menu, users can say “Dragon learning center” or “What can I say?”
+For help, use the **Help** menu, or say “Dragon learning center” or “What can I say?”
 
 </details>
 
@@ -62,12 +66,11 @@ To dictate text using Dragon, open a word processor, **DragonPad**, or **Dictati
 
 ![The DragonBar Tools menu with arrows pointing to DragonPad and Dictation Box.](../assets/images/voice-control/dragon-tools-menu.png) <!-- review-alt -->
 
-1. Ensure the blinking text cursor is in the area you want to dictate text.
-2. Activate Dragon.
-3. Begin speaking.
-4. Text will be transcribed directly into the text field selected.
+1. Put the blinking text cursor where you want the text to go.
+2. Turn on Dragon’s microphone.
+3. Start speaking. Your words are typed into the text field.
 
-Speak naturally as Dragon transcribes more accurately when there are as few pauses as possible.
+Speak naturally, in whole phrases: Dragon is more accurate when you pause less.
 
 To add punctuation, say:
 
@@ -75,14 +78,14 @@ To add punctuation, say:
 - “Comma,” “exclamation mark,” or “question mark”
 - “open paren,” “close paren,” “open quote,” “close quote”
 - “at sign,” “plus sign,” “underscore,” “semi colon,” etc.
-- After transcribing text, say “bullet that,” “bold that,” or “underline that.”
+- After dictating text, say “bullet that,” “bold that,” or “underline that.”
 - Say “new line” and “new paragraph” to move to a new line.
 
 To delete transcribed text, say:
 
-- “delete that” or “undo that” to delete last transcribed text.
-- “delete last (number) words” to delete the last (number) of words.
-- “delete last line”
+- “delete that” or “undo that” to delete what you last dictated.
+- “delete last (number) words”, for example “delete last 3 words”.
+- “delete last line”.
 
 If Dragon makes a spelling error, say “correct that.” If the correct word appears in the menu, select it to automatically replace the incorrect word with the correct one. If the correct word does not appear in the menu, say “spell that” and spell the word letter by letter.
 
@@ -95,7 +98,7 @@ Open **DragonPad** by saying “Open DragonPad” or by selecting **Tools > Drag
 
 ![An empty DragonPad document window with File, Edit, View, Format and Help menus and a formatting toolbar.](../assets/images/voice-control/dragonpad.png) <!-- review-alt -->
 
-DragonPad can be used as a basic word processor. Users can save in common formats from DragonPad or copy and paste into other programs.
+DragonPad is a basic word processor. You can save your text in common formats, or copy and paste it into other programs.
 
 </details>
 
@@ -106,16 +109,17 @@ Open **Dictation Box** by saying “Open Dictation Box”, by pressing <kbd>Ctrl
 
 ![An empty Dictation Box window with Cancel and Transfer buttons.](../assets/images/voice-control/dictation-box.png) <!-- review-alt -->
 
-To use **Dictation Box** the mouse cursor must be in the field where text is to be entered.
+Before opening **Dictation Box**, put the text cursor in the field where the text should go. Dictate into the box, then select **Transfer** to send the text to that field.
 
-When using **Dictation Box**, select and copy (using right-click > **Copy** or <kbd>Ctrl</kbd> + <kbd>C</kbd>) all dictated content then paste (right-click > **Paste** or <kbd>Ctrl</kbd> + <kbd>V</kbd>) in the appropriate field to avoid the possibility of losing dictated text with the **Transfer** tool. Very rarely the built-in **Transfer** button will not work and dictated content could be lost.
+{: .tip }
+Occasionally **Transfer** fails and the dictated text is lost. To be safe, copy everything in the Dictation Box (<kbd>Ctrl</kbd> + <kbd>A</kbd>, then <kbd>Ctrl</kbd> + <kbd>C</kbd>) and paste it into the field yourself (<kbd>Ctrl</kbd> + <kbd>V</kbd>).
 
 </details>
 
 <details markdown="block">
 <summary>Vocabulary Editor</summary>
 
-**Vocabulary Editor** allows users to search for terms and refine Dragon’s speech recognition. Select **Vocabulary** on DragonBar to access vocabulary tools such as **Learn from**, **Add new word or phrase**, and **Vocabulary editor**. Users can personalize Dragon’s dictation by navigating to **Help > Improve my accuracy**.
+The **Vocabulary Editor** lets you look up words and teach Dragon new ones, which improves recognition. Select **Vocabulary** on the DragonBar for tools such as **Learn from**, **Add new word or phrase**, and **Vocabulary editor**. To train Dragon further, go to **Help > Improve my accuracy**.
 
 </details>
 
@@ -139,14 +143,14 @@ Common commands for controlling a device:
   - Note: Caret browsing must be enabled to select text on the web. Press <kbd>F7</kbd> to turn on caret browsing.
   - “Copy that” “Cut that” “Paste that”
 
-[Dragon v15 Command cheat sheet](https://www.nuance.com/content/dam/nuance/en_us/collateral/dragon/command-cheat-sheet/ct-dragon-professional-individual-en-us.pdf)
+[Dragon Professional Individual command cheat sheet (PDF)](https://dragon.nuance.com/shared/user-docs/ct-dragon-professional-individual-en-us.pdf)
 
 </details>
 
 <details markdown="block">
 <summary>Navigating the Internet</summary>
 
-To use Dragon to navigate the internet, install the Dragon [extension for Chrome](https://chrome.google.com/webstore/detail/dragon-web-extension/ddaloccgjfibfpkalenodgehlhkgoahe?hl=en).
+To use Dragon on the web, install the [Dragon Web Extension for Chrome](https://chromewebstore.google.com/detail/dragon-web-extension/ddaloccgjfibfpkalenodgehlhkgoahe).
 
 Useful voice commands include:
 
@@ -155,16 +159,16 @@ Useful voice commands include:
 - “Go to next tab” “Go to third tab” etc.
 - “Click type text” to see all the places where text can be entered.
 
-If having difficulty navigating on the web, try saying “Show links” or “Show choices” and then say “Choose (number)” of the link or field you would like to select. This is helpful for most interactive elements such as text fields, radio buttons, and checkboxes as well.
+If you have trouble selecting something on a web page, say “Show links” or “Show choices”, then “Choose (number)” for the link or field you want. This also works for text fields, radio buttons, and checkboxes.
 
-[Dragon guide to web navigation basics](https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/professionalgroup/main/Content/Web/web_basics.htm)
+[Web browser basics – Dragon Help](https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/professionalgroup/main/Content/Web/web_basics.htm)
 
 </details>
 
 <details markdown="block">
 <summary>MouseGrid</summary>
 
-MouseGrid allows Dragon users to move the mouse with speech recognition.
+MouseGrid lets you move the mouse pointer by voice.
 
 1. Say “MouseGrid”.
 2. Say “click (1 to 9)” to select a grid square.
@@ -197,28 +201,28 @@ MouseGrid allows Dragon users to move the mouse with speech recognition.
 <details markdown="block">
 <summary>Recognition History</summary>
 
-Dragon retains a history of “recognized utterances” or a list of the recent things users have said that Dragon has recognized. This tool may be useful if a user loses work dictated but not saved. However, in the Recognition History window the user’s speech may be broken up into many different lines and may cause frustration. Remind users to save often.
+Dragon keeps a list of the recent things you have said (“recognized utterances”). If you lose dictated work that wasn’t saved, you may be able to get it back from here, although your speech may be split across many lines. Save your work often.
 
 To open Recognition History:
 
 1. On the Dragon toolbar, select **Tools**.
 2. Select **Recognition History…**
-3. Click **Save…** to save the entire recent history as a plain text file. That file can then be used to recover lost text.
-4. Or, users can select individual utterances and copy the text from the **Utterance Selection** window.
+3. Click **Save…** to save the whole recent history as a plain text file, then copy the lost text from it.
+4. Or select individual utterances and copy the text from the **Utterance Selection** window.
 
 </details>
 
 <details markdown="block">
 <summary>Speed vs. Accuracy</summary>
 
-Open **Tools > Options > Miscellaneous** and change the **Speed vs. Accuracy** slider. This setting increases or decreases the number of words Dragon searches in its vocabulary as it processes speech. The more words examined, the greater the accuracy. However, more examination requires greater computing power.
+Open **Tools > Options > Miscellaneous** and move the **Speed vs. Accuracy** slider. Toward **Accuracy**, Dragon checks more words in its vocabulary for each thing you say: it is more accurate, but needs more computing power and may respond more slowly.
 
 </details>
 
 <details markdown="block">
 <summary>Dictation Box in Unsupported Applications</summary>
 
-Disable Dragon Dictation Box in unsupported programs (such as LockDown Browser):
+To stop the Dictation Box opening in programs Dragon doesn’t support (such as LockDown Browser):
 
 1. Navigate to DragonBar, **Tools > Options**.
 2. Select the **Miscellaneous** tab.
@@ -230,14 +234,14 @@ Disable Dragon Dictation Box in unsupported programs (such as LockDown Browser):
 <details markdown="block">
 <summary>Transcription</summary>
 
-Dragon can be used to transcribe .wav, .mp3, .wma, .dss, .ds2, and .m4a audio files to text.
+Dragon can transcribe .wav, .mp3, .wma, .dss, .ds2, and .m4a audio files to text.
 
 1. Open the **Tools** menu.
 2. Select **Transcribe Recording**.
 3. Choose a file.
 4. Click **Transcribe**.
 
-Dragon creates a .rtf text file that can be opened and edited in DragonPad or Word directly or saved for later.
+Dragon creates an .rtf text file, which you can open and edit in DragonPad or Word, or keep for later.
 
 See [Note-taking and Transcription](note-taking.md#record-and-transcribe) for step-by-step transcription instructions with screenshots.
 
@@ -246,70 +250,83 @@ See [Note-taking and Transcription](note-taking.md#record-and-transcribe) for st
 <details markdown="block">
 <summary>Links and Further Reading</summary>
 
-- Visit Dragon [Watch and Learn](https://www.nuance.com/dragon/dragon-for-pc/how-to-videos.html) for videos of common Dragon features in action.
-- [Dragon user documentation](https://www.nuance.com/dragon/user-documentation.html#!tab2)
-- [Dragon support knowledge base](https://www.nuance.com/dragon/support/dragon-naturallyspeaking.html?elqTrackId=b7ba8f437d7640db904e5a739fa00e41&elq=8152061983a2408fa4ae3a3027d72b95&elqaid=23478&elqat=1&elqCampaignId=13204)
-- [Dragon resource library](https://www.nuance.com/dragon/resources.html)
-- [Dragon guide to DragonPad](https://www.nuance.com/products/help/dragon/dragon-for-mac/enx/Content/Dictating/DragonPad.htm)
-- [Dragon guide to Dictation Box](https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/professionalgroup/main/Content/Dictation/using_the_dictation_box.htm)
-- [Using Dragon with Microsoft Word](https://www.nuance.com/content/dam/nuance/en_us/collateral/dragon/command-cheat-sheet/ct-dragon-for-word-2007-en-us.pdf)
-- [Using Dragon with Microsoft Excel](https://www.nuance.com/content/dam/nuance/en_us/collateral/dragon/command-cheat-sheet/ct-microsoft-word-dragon-for-excel.doc-en-us.pdf)
+- [Dragon user documentation](https://dragon.nuance.com/en-us/user-documentation): guides and cheat sheets
+- [Dragon support](https://dragon.nuance.com/en-us/dragon-support.html)
+- [Dragon videos – Microsoft for Healthcare on YouTube](https://www.youtube.com/@MicrosoftforHealthcare)
+- [Using the Dictation Box – Dragon Help](https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/professionalgroup/main/Content/Dictation/using_the_dictation_box.htm)
+- [Using Dragon with Microsoft Word (PDF)](https://dragon.nuance.com/shared/user-docs/ct-dragon-for-word-2007-en-us.pdf)
+- [Using Dragon with Microsoft Excel (PDF)](https://dragon.nuance.com/shared/user-docs/ct-microsoft-word-dragon-for-excel.doc-en-us.pdf)
 - How to [export and import a Dragon profile](https://nuance.custhelp.com/app/answers/detail/a_id/6874/~/how-to-export-and-import-a-user-profile-in-dragon-naturallyspeaking)
 
 </details>
 
+## Windows Voice Access
+
+**Voice access** is built into Windows 11 (version 22H2 or later). It lets you control your PC and dictate text with your voice. After setup, it works without an internet connection.
+
+1. Go to **Settings > Accessibility > Speech** and turn on **Voice access**. Or search Windows for “voice access” and select **Open**.
+2. The first time, choose your language and select **Agree and continue** to download the speech files.
+3. Check your microphone on the **Setup microphone** screen.
+4. Take the guided tour, or close it to start using voice access.
+
+The voice access bar appears at the top of the screen. Some useful commands:
+
+- “Voice access wake up” and “Voice access sleep” to start and pause listening.
+- “What can I say?” to see the list of commands.
+- “Show numbers” to number the things you can click, then say a number.
+- “Show grid” to point at anything on the screen.
+
+- [Set up voice access – Microsoft Support](https://support.microsoft.com/en-us/accessibility/windows/voice-access/set-up-voice-access)
+- [Get started with voice access – Microsoft Support](https://support.microsoft.com/en-us/accessibility/windows/voice-access/get-started-with-voice-access)
+
 ## macOS/iOS Voice Control
 
-Voice Control allows users to navigate and interact with macOS using only their voice. To enable:
+Voice Control lets you navigate and use your Mac with only your voice. To turn it on:
 
-1. Navigate to **System Settings**.
+1. Go to **System Settings**.
 2. Select **Accessibility**.
 3. Choose **Voice Control**.
-4. Toggle **Voice Control** on.
+4. Turn on **Voice Control**.
    <img src="../assets/images/voice-control/macos-voice-control-setting.png" alt="macOS Voice Control settings with the Voice Control switch circled. Other settings include language, microphone, hints and overlay, plus Open Guide, Commands and Vocabulary buttons." width="500"> <!-- review-alt -->
 
-Select **Commands…** and **Vocabulary…** for further information on available functions and improving the computer’s understanding of the user’s pronunciation.
+Select **Commands…** to see the available commands, and **Vocabulary…** to add words so your Mac understands you better.
 
 Click **Open Guide…** to learn how to use Voice Control.
 
-Voice Control is also available on iOS for iPhones.
+Voice Control is also available on iPhone and iPad:
 
-1. Navigate to **Settings > Accessibility**.
+1. Go to **Settings > Accessibility**.
 2. Choose **Voice Control**.
 3. Tap **Set Up Voice Control**.
 4. Select **Open Voice Control Guide** for help.
-5. The **Voice Control** menu has many options to customize user experience.
+5. The **Voice Control** settings have many options to customize it.
 
 Say “go to sleep” to pause listening and “wake up” to resume. Say “show names”, “show grid” or “show numbers”.
 
-[Use Voice Control to interact with iPhone](https://support.apple.com/en-ca/guide/iphone/iph2c21a3c88/ios)
+[Use Voice Control to interact with iPhone – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iph2c21a3c88/ios)
 
 ### Tips
 
 Use natural language, such as “open Mail” or “quit System Settings”.
 
-For more advanced functions, try saying “show numbers”. This will display numbers next to available choices. Say “click \[number\]” to select the desired function.
+Say “show numbers” to show a number beside everything you can click. Say “click \[number\]” to select it.
 
-Say “show grid” to enable a virtual cursor that allows you to interact with items displayed on screen without a control. With the grid displayed, say whichever number the desired item is in, and repeat as needed to refine the selection. Then say “click \[number\]” to select the desired element. Say “hide grid” to turn off the grid.
+Say “show grid” to point at things that don’t have a number. Say the number of the grid square the item is in, and repeat to narrow it down. Then say “click \[number\]” to click. Say “hide grid” to turn off the grid.
 
-Learn more about using [Voice Control](https://support.apple.com/en-us/HT210539) on your Mac.
+[Use Voice Control commands to interact with your Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mh40719/mac)
 
 ## Android
 
-Android has a tool called Voice Access to control devices using voice. To set up Voice Access:
+Android’s **Voice Access** app lets you control your phone with your voice. To set it up:
 
-1. Navigate to **Settings > Accessibility**.
-2. Choose **Interaction and dexterity**.
-3. Select **Voice Access**.
-   1. If not installed, you will be taken to the Google Play Store.
-4. Navigate to **Settings > Accessibility**.
-5. Choose **Installed apps**.
-6. Select **Voice Access**.
-   1. Toggle the **Voice Access** shortcut to on.
-7. Toggle **Voice Access** to on, or use the Accessibility shortcut to select Voice Access.
-   1. A blue icon with a sound wave will appear on your screen when Voice Access is available.
+1. If Voice Access isn’t on your phone, install [Voice Access](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.voiceaccess) from Google Play.
+2. Go to **Settings > Accessibility**.
+3. Select **Voice Access**. On some phones it is under **Installed apps** or **Interaction and dexterity**.
+4. Turn on the **Voice Access** shortcut.
+5. Turn on **Voice Access**, or start it with the accessibility shortcut.
+   1. A blue icon with a sound wave appears on the screen when Voice Access is ready.
 
-[List of Android voice commands](https://support.google.com/accessibility/android/answer/6151854)
+[Use Voice Access commands – Android Accessibility Help](https://support.google.com/accessibility/android/answer/6151854)
 
 ---
 

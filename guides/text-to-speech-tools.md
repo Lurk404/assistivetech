@@ -1,6 +1,7 @@
 ---
 title: Text to Speech Tools
-nav_order: 3
+parent: Reading
+nav_order: 1
 ---
 
 # Text to Speech Tools
@@ -20,21 +21,22 @@ nav_order: 3
   - [iOS](#ios)
   - [macOS](#macos)
 - [Browser tools](#browser-tools)
-  - [Firefox](#firefox)
+  - [Chrome](#chrome)
   - [Edge](#edge)
+  - [Firefox](#firefox)
   - [Safari](#safari)
 
 ## ReadSpeaker
 
-ReadSpeaker has four tools for reading different types of content: webReader and docReader in Brightspace and TextAid and TextAid extension for reading web content.
+ReadSpeaker makes three tools available to Langara students: **webReader** and **docReader**, which are built into Brightspace, and **TextAid**, a web app and browser extension for reading content anywhere on the web.
 
 <details id="webreader" markdown="block">
 <summary>webReader</summary>
 
-There is a text to speech tool included in Brightspace. The tool can be accessed via the **Listen** button that appears on topic, discussion, and quiz pages:  
+Brightspace has a built-in text to speech tool. Use the **Listen** button that appears on topic, discussion, and quiz pages:
 ![The ReadSpeaker Listen button, with a menu button on its left and a play button on its right.](../assets/images/text-to-speech-tools/webreader-listen-button.png) <!-- review-alt -->
 
-Activating the **Listen** button will reveal the Player:  
+Activating the **Listen** button will reveal the Player:
 ![The expanded ReadSpeaker player with menu, Listen, pause, stop, rewind, fast forward, volume, speed and close buttons.](../assets/images/text-to-speech-tools/webreader-player.png) <!-- review-alt -->
 
 The player will read aloud, and (by default) highlight, content as it is read.
@@ -42,26 +44,26 @@ The player will read aloud, and (by default) highlight, content as it is read.
 In quizzes, each question has its own **Listen** button. The player will stop after reading each question and possible responses. Answer the question and select the next **Listen** button to continue.
 ![A Brightspace practice quiz with a Listen button circled above each question. A red line after the first question's answer options is labelled Reader stops here.](../assets/images/text-to-speech-tools/webreader-quiz-listen-buttons.png) <!-- review-alt -->
 
-There are a number of options on the Player for speed, volume, and controls. Additional settings and tools are available in the Settings menu:
+The Player has controls for playback, speed, and volume. More settings and tools are in the player menu:
 ![The webReader menu with Settings, Reading Voice, Click and Listen, Enlarge Text, Text Mode, Page Mask and Help.](../assets/images/text-to-speech-tools/webreader-menu.png) <!-- review-alt -->
 
 Under **Settings** you can customize the appearance, including colours and highlighting.
 
 Choose **Reading Voices** to change voices.
 
-When reading, a second toolbar will appear at the bottom of the window with simplified controls.
+While it reads, a second, smaller toolbar appears at the bottom of the window.
 ![Text being read aloud with the current sentence highlighted in green and the current word in blue. A small player toolbar is circled at the bottom right of the window.](../assets/images/text-to-speech-tools/webreader-bottom-toolbar.png) <!-- review-alt -->
 
 ### Select Content
 
-You can select content and a button will appear:
+When you select text, a **Listen** button appears beside it:
 ![Selected quiz text with a Listen button circled beside it.](../assets/images/text-to-speech-tools/webreader-selected-text.png) <!-- review-alt -->
 
 Choose **Listen** to hear the selected text.
 
 ### Enlarge Text
 
-Enlarge text opens a window at the bottom of your screen that shows the text being read. There are options to change the appearance.
+Enlarge Text opens a panel at the bottom of the screen that shows the text being read in large print. You can change its appearance.
 
 1. Select the player menu button.
 2. Toggle **Enlarge Text** to on.
@@ -70,7 +72,7 @@ Enlarge text opens a window at the bottom of your screen that shows the text bei
 
 ### Text Mode
 
-Text mode simplifies the view of a page. Keep in mind, this may temporarily alter the appearance of the page.
+Text Mode shows a simplified, text-only view of the page.
 
 1. Select the player menu button.
 2. Choose **Text Mode**.
@@ -80,7 +82,7 @@ Text mode simplifies the view of a page. Keep in mind, this may temporarily alte
 
 ### Page Mask
 
-Page mask dims the page except for where the mouse is. This may help users focus on what is being read.
+Page Mask dims the page except for a strip around the mouse pointer. This can help you focus on what is being read.
 
 1. Select the player menu button.
 2. Choose **Page Mask**.
@@ -88,11 +90,11 @@ Page mask dims the page except for where the mouse is. This may help users focus
 3. The screen will dim except for a horizontal line that follows the mouse.
    ![A quiz page dimmed except for a bright horizontal strip around one answer, with minus, plus and close buttons at the right end of the strip.](../assets/images/text-to-speech-tools/webreader-page-mask.png) <!-- review-alt -->
 
-Users can change the size of the mask using the **+** and **–** buttons on the right side of the mask.
+Change the size of the strip with the **+** and **–** buttons on its right side.
 
 ### Click and Listen
 
-This tool is not available in the quiz tool to prevent accidentally clicking an incorrect answer. In other parts of Brightspace, this option allows you to click on text and have that section read aloud.
+Click and Listen reads aloud whatever text you click. It is turned off in quizzes so that you can't select an answer by accident.
 
 1. Select the player menu button.
 2. Toggle **Click and Listen** to on.
@@ -104,21 +106,19 @@ This tool is not available in the quiz tool to prevent accidentally clicking an 
 
 ![The ReadSpeaker Listen button.](../assets/images/text-to-speech-tools/webreader-listen-button.png) <!-- review-alt -->
 
-When math is created using one of the above methods, it can be read aloud by the Brightspace **Listen** tool.
+Math written with an equation editor, such as the Brightspace equation editor or [Equatio](equatio-quick-start-guide.md), can be read aloud by the **Listen** tool.
 
-Unfortunately, unlike when reading text, the **Listen** tool does not synchronously highlight math content.
+Unlike ordinary text, math is not highlighted as it is read.
 
 </details>
 
 <details id="docreader" markdown="block">
 <summary>docReader</summary>
 
-Brightspace includes a tool called **docReader**. Use the **Open with docReader** button below the document frame.
+docReader reads PDFs and Word documents in Brightspace aloud. Select **Open with docReader** below the document preview.
 ![Below a document preview in Brightspace are Download, Print and Open with docReader buttons.](../assets/images/text-to-speech-tools/docreader-open-button.png) <!-- review-alt -->
 
-docReader will read PDFs and Word documents aloud with various options for highlighting, listening, and reading.
-
-Click **Listen** or highlight text and choose **Listen** to begin reading.
+Select **Listen**, or highlight text and choose **Listen**, to start reading.
 ![A document open in docReader with the Listen button circled in the toolbar.](../assets/images/text-to-speech-tools/docreader-listen.png) <!-- review-alt -->
 
 Select **Text Mode** to see a simplified version of the document.
@@ -126,12 +126,12 @@ Select **Text Mode** to see a simplified version of the document.
 Select **Layout Mode** to return to the original view of the document.
 ![docReader showing the document in Text Mode, with an arrow pointing to the Text Mode button in the toolbar.](../assets/images/text-to-speech-tools/docreader-text-mode.png) <!-- review-alt -->
 
-Select **Expand Toolbar** for more options or **Collapse Toolbar** to hide.
+Select **Expand Toolbar** for more options, or **Collapse Toolbar** to hide them.
 ![docReader with an arrow pointing to the Collapse Toolbar button. The expanded toolbar shows Settings, Page Mask, Reading Ruler and Download Document.](../assets/images/text-to-speech-tools/docreader-expanded-toolbar.png) <!-- review-alt -->
 
-Use **Page Mask** to dim the document except for the lines where your mouse is focused.
+**Page Mask** dims the document except for the lines around the mouse pointer.
 
-Use **Reading Ruler** to move a ruler with your mouse to underline each line as you read it.
+**Reading Ruler** underlines the line under the mouse pointer as you read.
 
 The **Settings** menu has options for reading speed, colour and highlighting settings, as well as font and spacing options in Text Mode.
 ![The docReader Settings panel with General settings (reading speed, menu language, reading area, page flip, toolbar state, pop-up menu), Highlighting Settings (sentence, word and text colours) and Text Mode Settings (text colours and font size).](../assets/images/text-to-speech-tools/docreader-settings.png) <!-- review-alt -->
@@ -141,9 +141,9 @@ The **Settings** menu has options for reading speed, colour and highlighting set
 <details id="textaid" markdown="block">
 <summary>TextAid</summary>
 
-TextAid is a browser extension ([Chrome](https://chrome.google.com/webstore/detail/readspeaker-chrome-extens/hjhgdemcnjlhekapcjegdlckfhbmfokc), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/readspeaker-textaid-add-on)) similar to webReader in Brightspace that helps users to read content anywhere on the web.
+TextAid works like webReader, but anywhere on the web. It is a web app with a browser extension for [Chrome](https://chromewebstore.google.com/detail/readspeaker-chrome-extens/hjhgdemcnjlhekapcjegdlckfhbmfokc) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/readspeaker-textaid-add-on).
 
-To access the browser extension, navigate to [TextAid](https://ws.readspeaker.com/a/wasp/app/8) and select **Sign in with Office 365**. Log in with your Langara email address and password.
+To get the extension, go to [TextAid](https://ws.readspeaker.com/a/wasp/app/8) and select **Sign in with Office 365**. Log in with your Langara email address and password.
 
 1. Select **Web Reading**.
    ![The TextAid menu with Web Reading circled.](../assets/images/text-to-speech-tools/textaid-web-reading.png) <!-- review-alt -->
@@ -153,7 +153,7 @@ To access the browser extension, navigate to [TextAid](https://ws.readspeaker.co
    ![The Web Reading on Computer tab, listing Google Chrome, Microsoft Edge, Mozilla Firefox, Opera and Other Browser.](../assets/images/text-to-speech-tools/textaid-choose-browser.png) <!-- review-alt -->
 4. Each option includes instructions and a link to install the extension.
 
-Once the extension is installed, you don’t have to go through the portal every time you want to use the extension.
+Once the extension is installed, you can open it straight from the browser without going through TextAid first.
 
 ### Using the extension
 
@@ -170,7 +170,7 @@ Once the extension is installed, you don’t have to go through the portal every
 ### Learn More
 
 - [The Complete Guide to TextAid](https://www.readspeaker.com/blog/textaid-features)
-- [Education Technology Resources – Text to Speech Library](https://www.readspeaker.com/education/library)
+- [ReadSpeaker education resources](https://www.readspeaker.com/resources/education/)
 
 </details>
 
@@ -205,7 +205,7 @@ The document’s appearance will change. At the bottom of the window, users can 
 In Immersive Reader, users can customize text size and spacing, font styles, background colour, and more.
 ![Immersive Reader buttons for text preferences, grammar options and reading preferences.](../assets/images/text-to-speech-tools/word-immersive-reader-options.png) <!-- review-alt -->
 
-For more information, read [listen to your Word documents](https://support.microsoft.com/en-gb/office/listen-to-your-word-documents-5a2de7f3-1ef4-4795-b24e-64fc2731b001#:~:text=To%20use%20Speak%3A,the%20Speak%20selected%20text%20icon.).
+For more information, read [Listen to your Word documents – Microsoft Support](https://support.microsoft.com/en-us/office/listen-to-your-word-documents-5a2de7f3-1ef4-4795-b24e-64fc2731b001).
 
 </details>
 
@@ -227,17 +227,17 @@ For more information, read [listen to your Word documents](https://support.micro
    <img src="../assets/images/text-to-speech-tools/android-select-to-speak-play.jpg" alt="A Wikipedia article on an Android phone with the Select to Speak play and stop buttons floating over the text." width="300"> <!-- review-alt -->
    1. Use toolbar to stop, pause, or change settings.
 
-Note, this may be different depending on your Android phone.
+These steps may be slightly different on your phone.
 
-Android has a Reading Mode App for Chrome.
+Android also has a **Reading mode** app, which shows the text on screen in a simplified view and can read it aloud.
 
-1. Install the [Reading mode app](https://play.google.com/store/apps/details?id=com.google.android.accessibility.reader&hl=en_CA&gl=US&pli=1) from the Google Play Store and open **Reading mode**.
+1. Install the [Reading mode app](https://play.google.com/store/apps/details?id=com.google.android.accessibility.reader) from the Google Play Store and open **Reading mode**.
 2. Navigate to **Settings > Accessibility**.
 3. Select **Installed apps**.
 4. Select **Reading Mode**.
 5. Set desired **Reading mode** shortcut.
 6. Open the **Accessibility** shortcut and select **Reading Mode**.
-   1. Note, **Reading mode** does not work on all webpages. Reading mode works best on documents and text heavy pages.
+   1. **Reading mode** does not work on every page. It works best on documents and text-heavy pages.
 7. **Reading mode** changes the appearance of content.
 8. Press **Play** to begin reading.
    1. Press **Settings** to change appearance and audio settings.
@@ -267,70 +267,89 @@ Additional options for voices and highlighting are available under **Settings > 
 <details id="ios" markdown="block">
 <summary>iOS</summary>
 
-Use Spoken Content to read aloud content in iOS.
+Use **Read & Speak** (called **Spoken Content** in iOS 18 and earlier) to have text read aloud.
 
-1. Navigate to **Settings > Accessibility**.
-2. Tap **Spoken Content**.
-3. Toggle **Speak Selection** on.
+1. Go to **Settings > Accessibility**.
+2. Tap **Read & Speak**.
+3. Turn on **Speak Selection**.
    <img src="../assets/images/text-to-speech-tools/ios-speak-selection.png" alt="iOS Spoken Content settings with Speak Selection switched on and circled." width="300"> <!-- review-alt -->
 4. Highlight text and select **Speak** to hear selected text read aloud.
    <img src="../assets/images/text-to-speech-tools/ios-speak-button.png" alt="Selected text on a web page with a pop-up menu offering Translate, Search Web and Speak. Speak is circled." width="300"> <!-- review-alt -->
 
 To hear everything on screen read aloud:
 
-1. Navigate to **Settings > Accessibility > Spoken Content**.
-2. Toggle **Speak Screen** on.
+1. Go to **Settings > Accessibility > Read & Speak**.
+2. Turn on **Speak Screen**.
    <img src="../assets/images/text-to-speech-tools/ios-speak-screen.png" alt="iOS Spoken Content settings with Speak Screen switched on and circled." width="300"> <!-- review-alt -->
-3. Swipe down from top of screen with two fingers to have all page content read.
+3. Swipe down from the top of the screen with two fingers to hear everything on the screen.
 4. Use the toolbar to control speech.
    <img src="../assets/images/text-to-speech-tools/ios-speech-controller.png" alt="The speech controller over a web page in Safari, with buttons for touch to speak, previous, pause, next and speaking speed." width="300"> <!-- review-alt -->
 
 In Safari, use **Listen to Page** when available:
 
-1. Select the <img src="../assets/images/text-to-speech-tools/ios-safari-page-menu-icon.png" alt="AA" width="23"> <!-- review-alt --> icon in the address bar and choose **Listen to Page**.
+1. Select the <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-page-menu-icon.png" alt="AA" width="23"> <!-- review-alt --> icon in the address bar and choose **Listen to Page**.
    ![The Safari page menu with Listen to Page near the bottom.](../assets/images/text-to-speech-tools/ios-safari-listen-to-page.png) <!-- review-alt -->
-2. Control playback by tapping on <img src="../assets/images/text-to-speech-tools/ios-safari-listening-icon.png" alt="the speaker icon" width="26"> <!-- review-alt --> in the address bar.
+2. Control playback by tapping on <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-listening-icon.png" alt="the speaker icon" width="26"> <!-- review-alt --> in the address bar.
 3. Control reading speed, skip forward and back, pause, or stop listening.
    ![Safari listening controls with More Controls, Speaking rate, skip and pause buttons, and End Listening.](../assets/images/text-to-speech-tools/ios-safari-listening-controls.png) <!-- review-alt -->
 
 ### Learn More
 
-- [Hear iPhone speak the screen, selected text, and typing feedback – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iph96b214f0/ios#:~:text=Go%20to%20Settings%20%3E%20Accessibility%20%3E%20Spoken,Select%20what%20you%20want%20spoken.)
+- [Hear iPhone speak the screen, selected text, and typing feedback – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iph96b214f0/ios)
 
 </details>
 
 <details id="macos" markdown="block">
 <summary>macOS</summary>
 
-Turn on Spoken Content:
+Turn on **Speak selection**:
 
-1. Navigate to **System Settings > Accessibility**.
-2. Toggle **Speak selection** on.
-3. Select **ⓘ Show Detail** beside options to customize.
-   1. The default keyboard shortcut for Speak Selection is <kbd>Option</kbd> + <kbd>Escape</kbd>.
-4. Choose **System Voice** and press **Play Sample** to verify voice and speed.
+1. Go to **System Settings > Accessibility > Read & Speak** (called **Spoken Content** in older versions of macOS).
+2. Turn on **Speak selection**.
+3. Select the **ⓘ** button beside it to change options such as highlighting and the controller.
+   1. The default keyboard shortcut for Speak selection is <kbd>Option</kbd> + <kbd>Escape</kbd>.
+4. Choose a **System voice** and select **Play Sample** to check the voice and speed.
 
-When activated, the Spoken Content controller will appear with options for controlling speech.
+To hear text, select it and press <kbd>Option</kbd> + <kbd>Escape</kbd>. The speech controller appears with options for controlling speech.
 
-<img src="../assets/images/text-to-speech-tools/macos-speech-controller.png" alt="The Spoken Content controller. Labels explain that it shows the name of the app and has buttons to decrease the speaking rate, skip back, pause, stop, skip forward and increase the speaking rate." width="500"> <!-- review-alt -->
+<img src="../assets/images/text-to-speech-tools/macos-speech-controller.png" alt="The speech controller. Labels explain that it shows the name of the app and has buttons to decrease the speaking rate, skip back, pause, stop, skip forward and increase the speaking rate." width="500"> <!-- review-alt -->
 
 <img src="../assets/images/logos/accessibility-reader.png" alt="" width="91"> <!-- review-alt -->
 
-Also, depending on your version of macOS, [Accessibility Reader](https://support.apple.com/en-ca/guide/mac-help/mchl799f6fb9/mac) may be a useful, consistent tool that allows for customization and appearance alongside text to speech tools.
+In macOS Tahoe 26 and later, [Accessibility Reader](https://support.apple.com/en-ca/guide/mac-help/mchl799f6fb9/mac) shows the text of any app in a full-screen view where you can change the font, colours, and spacing, and have the text read aloud.
 
 ### Learn More
 
-- [Have your Mac speak text that’s on the screen – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mh27448/mac#:~:text=on%20the%20screen-,On%20your%20Mac%2C%20choose%20Apple%20menu%20%3E%20System%20Settings%2C%20then,Spoken%20Content%20on%20the%20right.&text=By%20default%2C%20your%20Mac%20speaks,the%20keyboard%20shortcut%20Option%2DEsc.)
-- [Change Read & Speak settings for accessibility on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/spch638/27/mac/27)
+- [Have your Mac speak text that’s on the screen – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mh27448/mac)
+- [Change Read & Speak settings for accessibility on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/spch638/mac)
 
 </details>
 
 ## Browser tools
 
+<details id="chrome" markdown="block">
+<summary>Chrome</summary>
+
+Chrome’s **Reading mode** shows a simplified version of a page and can read it aloud.
+
+1. Open Reading mode in one of these ways:
+   - Right-click on the page and select **Open in reading mode**.
+   - Select the **Reading mode** icon in the address bar, when it appears.
+   - Open the Chrome menu (three dots) and select **More tools > Reading mode**.
+   - Press <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> (Windows and ChromeOS) or <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> (macOS).
+2. Select **Play** to have the page read aloud. Use the controls to pause, skip between sentences, and change the speed.
+3. Under **Settings**, choose a voice, the highlighting, and the font, size, spacing, and colours.
+
+Reading mode doesn’t work on every page, for example forms, quizzes, and login pages.
+
+[Use Reading mode in Chrome – Google Chrome Help](https://support.google.com/chrome/answer/14218344)
+
+</details>
+
 <details id="firefox" markdown="block">
 <summary>Firefox</summary>
 
-Press <kbd>F9</kbd> (Windows) or <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> (macOS) to open or close Reader View, or click the lined paper icon in the address bar.
+Press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (Windows) or <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> (macOS) to open or close Reader View, or click the lined paper icon in the address bar.
 ![The Firefox address bar with the Reader View button circled and its tooltip, Toggle reader view (F9).](../assets/images/text-to-speech-tools/firefox-reader-view-button.png) <!-- review-alt -->
 
 Reader View includes built-in text to speech and display customization.
@@ -345,7 +364,7 @@ The background colour can be changed, as well as the colour of links, font, back
 The **Read aloud** tool (headphone icon) offers read aloud functions, variable speed, and voice options.
 ![Reader View read aloud controls with previous, play and next buttons, a speed slider and a voice menu.](../assets/images/text-to-speech-tools/firefox-reader-view-read-aloud.png) <!-- review-alt -->
 
-This is not available on all webpages.
+Reader View is not available on all webpages.
 
 [Firefox Reader View for clutter-free web pages](https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages)
 
@@ -370,23 +389,15 @@ To use **Immersive Reader**, press <kbd>F9</kbd> or click the Immersive Reader i
 Immersive Reader offers a simplified version of webpages with full Read Aloud functions. Additional visual customizations and reading preferences are available.
 ![Immersive Reader text preferences: text size, text spacing, font, text column style and page themes.](../assets/images/text-to-speech-tools/edge-immersive-reader-text-preferences.png) <!-- review-alt -->
 
-- Learn more about [Read aloud](https://www.microsoft.com/en-us/edge/features/read-aloud?form=MA13FJ).
-- [Use Immersive Reader in Microsoft Edge](https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1?form=MA13FJ)
+- [Read aloud – Microsoft Edge](https://www.microsoft.com/en-us/edge/features/read-aloud)
+- [Use Immersive Reader in Microsoft Edge – Microsoft Support](https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1)
 
 </details>
 
 <details id="safari" markdown="block">
 <summary>Safari</summary>
 
-Turn on Spoken Content:
-
-1. Navigate to **System Settings > Accessibility**.
-2. Toggle **Speak selection** on.
-3. Select **ⓘ Show Detail** beside options to customize.
-   1. The default keyboard shortcut for Speak Selection is <kbd>Option</kbd> + <kbd>Escape</kbd>.
-4. Choose **System Voice** and press **Play Sample** to verify voice and speed.
-
-In Safari:
+Safari uses the Mac’s built-in speech. Turn on **Speak selection** first (see [macOS](#macos) above), then in Safari:
 
 1. Highlight text.
 2. **Right-click**.
@@ -396,15 +407,15 @@ In Safari:
 
 Or highlight text, select **Edit** from the menu bar, choose **Speech**, and click **Start Speaking**.
 
-Use the controller window to control reading and speed.
-<img src="../assets/images/text-to-speech-tools/macos-speech-controller.png" alt="The Spoken Content controller. Labels explain that it shows the name of the app and has buttons to decrease the speaking rate, skip back, pause, stop, skip forward and increase the speaking rate." width="500"> <!-- review-alt -->
+Use the speech controller to control reading and speed.
+<img src="../assets/images/text-to-speech-tools/macos-speech-controller.png" alt="The speech controller. Labels explain that it shows the name of the app and has buttons to decrease the speaking rate, skip back, pause, stop, skip forward and increase the speaking rate." width="500"> <!-- review-alt -->
 
-Safari has **Reader View** available on some websites. This simplified view of web content may make reading easier. Click **Show Reader View** in the address bar.
+Safari’s **Reader** shows a simplified version of articles, which may make them easier to read. Click **Show Reader** in the address bar.
 <img src="../assets/images/text-to-speech-tools/safari-reader-view-button.png" alt="The Safari address bar with the Show Reader View button circled." width="500"> <!-- review-alt -->
 
-Reader View can also be activated by pressing <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> or opening the **View** menu and selecting **Show Reader**. Reader View is not available on all websites.
+You can also press <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>, or open the **View** menu and select **Show Reader**. Reader is not available on all websites.
 
-[Hide ads when reading articles in Safari on Mac](https://support.apple.com/en-hk/guide/safari/sfri32632/mac)
+[Hide distractions when reading articles in Safari on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/safari/sfri32632/mac)
 
 </details>
 

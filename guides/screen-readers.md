@@ -1,11 +1,14 @@
 ---
 title: Screen Readers
-nav_order: 12
+parent: Seeing and Hearing
+nav_order: 1
 ---
 
 # Screen Readers
 
 <img src="../assets/images/screen-readers/screen-readers-icon.png" alt="" width="211"> <!-- review-alt -->
+
+A screen reader reads aloud everything on the screen, including menus, buttons, and links, and lets you control the computer or phone with the keyboard or gestures instead of a mouse. Screen readers are used mainly by people who are blind or have low vision. Testing your own web pages and documents with a screen reader is also a good way to check their accessibility.
 
 **On this page:**
 
@@ -17,17 +20,18 @@ nav_order: 12
 
 ## JAWS
 
-JAWS (Job Access With Speech) is the most popular screen reader software. JAWS is available only for Windows but allows almost every function of Windows to be performed with only the use of a keyboard and audio feedback. JAWS is a very expensive (~$1000USD) and complicated piece of software, but indispensable for blind or low vision students. [Download JAWS from Freedom Scientific](https://support.freedomscientific.com/Downloads/JAWS).
+JAWS (Job Access With Speech) is one of the most widely used screen readers. It runs only on Windows, and lets you do almost everything in Windows with the keyboard and audio. JAWS is expensive, paid software and takes time to learn, but many blind and low vision people rely on it. [Download JAWS from Freedom Scientific](https://support.freedomscientific.com/Downloads/JAWS).
 
 <details markdown="block">
 <summary>Common JAWS commands</summary>
 
-This guide uses <kbd>JAWS</kbd> to indicate the modifier key, which could be either <kbd>Caps Lock</kbd> or <kbd>Insert</kbd> depending on the user’s computer and keyboard layout.
+This guide uses <kbd>JAWS</kbd> for the JAWS key, which is <kbd>Insert</kbd> with the desktop keyboard layout or <kbd>Caps Lock</kbd> with the laptop layout. Some commands are different in the laptop layout.
 
 | Action | Key command |
 | --- | --- |
 | Contextual Help (overview of website or document, such as headings, links, etc.) | <kbd>JAWS</kbd> + <kbd>F1</kbd> |
-| View contextual JAWS hotkeys | <kbd>Insert</kbd> + <kbd>B</kbd> (this control is Insert regardless of keyboard setup) |
+| List JAWS hotkeys for the current program | <kbd>JAWS</kbd> + <kbd>H</kbd> |
+| Read the whole window from the top | <kbd>JAWS</kbd> + <kbd>B</kbd> |
 | Show list of all buttons, frames, graphics, lists, links, etc. | <kbd>JAWS</kbd> + <kbd>F3</kbd> |
 | Buttons list | <kbd>Ctrl</kbd> + <kbd>JAWS</kbd> + <kbd>B</kbd> |
 | Form elements (fields, radio buttons, checkboxes, etc.) list | <kbd>JAWS</kbd> + <kbd>F5</kbd> |
@@ -49,41 +53,41 @@ This guide uses <kbd>JAWS</kbd> to indicate the modifier key, which could be eit
 | Refresh screen without reloading page | <kbd>JAWS</kbd> + <kbd>Escape</kbd> |
 | Speech history (last 100 items read by JAWS) | <kbd>JAWS</kbd> + <kbd>Space</kbd>, then <kbd>H</kbd> |
 
-This is not an extensive list of JAWS keystrokes.
+This is not a complete list of JAWS keystrokes. See the links at the end of this section for more.
 
 </details>
 
 <details markdown="block">
 <summary>Virtual Viewer</summary>
 
-Press <kbd>JAWS</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> to open the virtual viewer of the current window. This provides all the text on screen in a line-by-line format that may be easier to navigate or review for messages or codes.
+Press <kbd>JAWS</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> to show all the text in the current window, line by line, in the Virtual Viewer. This can make it easier to review messages or copy codes.
 
-Press <kbd>JAWS</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to open the virtual viewer of the current control, such as a pop-up or notification. This provides all the text in the current control in a line-by-line format that may be easier to navigate or review for messages or codes.
+Press <kbd>JAWS</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to do the same for just the current control, such as a pop-up or notification.
 
 </details>
 
 <details markdown="block">
 <summary>Forms Mode</summary>
 
-When navigating into a properly coded form (on the web, in a PDF) JAWS switches to Forms mode, and a sound will play indicating the change. This mode disables many JAWS keystrokes so users can enter text into the form. If users need to enter forms mode, press <kbd>Enter</kbd> when focused on a form field. Press <kbd>Num Pad Plus</kbd> (which may be **function ?** on laptop keyboards) to exit forms mode.
+When you move into a field in a properly coded form (on the web or in a PDF), JAWS switches to Forms Mode and plays a sound. In Forms Mode, most single-key JAWS commands are turned off so you can type into the form. To enter Forms Mode yourself, press <kbd>Enter</kbd> on a form field. To leave it, press <kbd>Num Pad Plus</kbd>, or <kbd>Escape</kbd> on a laptop without a number pad.
 
 </details>
 
 <details markdown="block">
 <summary>PDFs</summary>
 
-A properly tagged PDF can be navigated by a JAWS user just like they navigate a webpage using headings (press <kbd>H</kbd>), tables (press <kbd>T</kbd>), and links (press <kbd>JAWS</kbd> + <kbd>F7</kbd>). PDFs can be awkward to read with JAWS. Try pressing <kbd>Alt</kbd> + <kbd>Tab</kbd> until the PDF is focused and press <kbd>JAWS</kbd> + <kbd>B</kbd> to begin reading the current window.
+You can move through a properly tagged PDF just like a web page, by headings (<kbd>H</kbd>), tables (<kbd>T</kbd>), and links (<kbd>JAWS</kbd> + <kbd>F7</kbd>). PDFs can still be awkward to read with JAWS. If you get stuck, press <kbd>Alt</kbd> + <kbd>Tab</kbd> until the PDF has focus, then press <kbd>JAWS</kbd> + <kbd>B</kbd> to read the window from the top.
 
 </details>
 
 <details markdown="block">
 <summary>Convenient OCR</summary>
 
-If JAWS indicates a PDF is empty, it likely means it is an inaccessible PDF (image of text). JAWS has a built-in optical character recognition tool to extract text from an image and display it in a format readable by JAWS users. To use Convenient OCR:
+If JAWS says a PDF is empty, the PDF is probably a scanned image of text with no real text in it. JAWS’s built-in optical character recognition (OCR) tool, Convenient OCR, can pull the text out so JAWS can read it:
 
 1. Open a PDF.
-2. JAWS should indicate if the PDF is inaccessible and prompt users to use **Convenient OCR**. <kbd>Tab</kbd> to **Yes** and press <kbd>Enter</kbd>.
-3. If JAWS does not prompt the user, or the dialogue is accidentally closed, press <kbd>JAWS</kbd> + <kbd>Space</kbd>, then <kbd>O</kbd> followed by <kbd>D</kbd>. This will start the Convenient OCR tool.
+2. If the PDF is inaccessible, JAWS should offer to use **Convenient OCR**. <kbd>Tab</kbd> to **Yes** and press <kbd>Enter</kbd>.
+3. If JAWS doesn’t offer, or you closed the dialog by accident, press <kbd>JAWS</kbd> + <kbd>Space</kbd>, then <kbd>O</kbd>, then <kbd>D</kbd> to start Convenient OCR.
 4. When the document is displayed in JAWS Virtual Viewer, press <kbd>Tab</kbd> to **Open in Word** and press <kbd>Enter</kbd> to view the document in Word.
 
 See [Optical Character Recognition](optical-character-recognition.md) for other OCR tools.
@@ -93,21 +97,21 @@ See [Optical Character Recognition](optical-character-recognition.md) for other 
 <details markdown="block">
 <summary>PlaceMarkers</summary>
 
-For frequently visited websites, users may consider using PlaceMarkers for efficient navigation. Move to the place on the page you want to return to, press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> and then <kbd>Enter</kbd> on the **Add** button. When returning to the page, press <kbd>K</kbd> to cycle through PlaceMarkers or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> to see a list of PlaceMarkers.
+On websites you visit often, PlaceMarkers take you straight to the parts you need. Move to the place on the page you want to come back to, press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>, and press <kbd>Enter</kbd> on the **Add** button. Next time you visit the page, press <kbd>K</kbd> to move through your PlaceMarkers, or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> to see a list of them.
 
 </details>
 
 <details markdown="block">
 <summary>Ignore next key press</summary>
 
-When encountering something that should be keyboard navigable (for example, instructions read “press left or right arrow to move through content”), press <kbd>JAWS</kbd> + <kbd>3</kbd> then the left or right arrow. <kbd>JAWS</kbd> + <kbd>3</kbd> tells JAWS to ignore the next key press and allows navigation of web content as if JAWS weren’t running.
+Sometimes a web page has its own keyboard controls (for example, “press the left or right arrow to move through the slides”) that JAWS intercepts. Press <kbd>JAWS</kbd> + <kbd>3</kbd>, then the key. <kbd>JAWS</kbd> + <kbd>3</kbd> passes the next key press straight to the page, as if JAWS weren’t running.
 
 </details>
 
 <details markdown="block">
 <summary>General Windows Keyboard Commands</summary>
 
-In addition to JAWS commands, there are some Windows keyboard shortcuts that may help users.
+These Windows keyboard shortcuts are also useful with JAWS:
 
 - <kbd>Ctrl</kbd> + <kbd>F</kbd> to search in a webpage or document.
 - <kbd>Alt</kbd> + <kbd>Tab</kbd> to move between open windows.
@@ -122,9 +126,9 @@ In addition to JAWS commands, there are some Windows keyboard shortcuts that may
 
 - [Freedom Scientific JAWS guide to web browsing](https://www.freedomscientific.com/training/jaws/hotkeys)
 - Freedom Scientific [complete list of JAWS keystrokes](https://www.freedomscientific.com/Content/Documents/Manuals/JAWS/Keystrokes.pdf)
-- [Web Accessibility in Mind Keyboard Shortcuts for JAWS](https://webaim.org/resources/shortcuts/jaws)
+- WebAIM [Keyboard Shortcuts for JAWS](https://webaim.org/resources/shortcuts/jaws)
 - Deque University [JAWS Keyboard Shortcuts](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts)
-- JAWS has a [webpage for JAWS users to learn](https://www.freedomscientific.com/SurfsUp/_Surfs_Up_Start_Here.htm) about and practice surfing the web.
+- [Surf’s Up!](https://support.freedomscientific.com/SurfsUp/1-StartHere.htm), Freedom Scientific’s course on browsing the web with JAWS, with practice pages.
 - Portland Community College has a helpful guide to [navigating D2L with JAWS](https://www.pcc.edu/instructional-support/accessibility/resources/jaws/d2l).
 - Cracking the Code, [Reading PDFs with JAWS](https://doccenter.freedomscientific.com/doccenter/archives/2021_04_15_Tips_for_Reading_PDFs_with_JAWS/Cracking_the_Code_Reading_PDFs_with_JAWS_Resource_File.pdf)
 - General [screen reader shortcuts](https://www.a11yproject.com/posts/learning-common-keyboard-shortcuts-for-screen-readers)
@@ -133,9 +137,9 @@ In addition to JAWS commands, there are some Windows keyboard shortcuts that may
 
 ## NVDA
 
-NVDA is a free and open-source screen reader. NVDA is available for Windows only. NVDA is second to JAWS in usage, but has many similar features. [Download NVDA](https://www.nvaccess.org/download) from nvaccess.org.
+NVDA is a free, open source screen reader for Windows. It is nearly as widely used as JAWS and has many similar features. [Download NVDA](https://www.nvaccess.org/download) from nvaccess.org.
 
-The first time NVDA is started, it will prompt users to set various settings (auto start, user settings, etc.) and, most importantly, the NVDA key. This guide will list <kbd>NVDA</kbd> as the modifier key, which will refer to whichever key the user chooses (<kbd>Caps Lock</kbd>, <kbd>Insert</kbd>, and <kbd>Num Pad Insert</kbd> are available options).
+The first time NVDA starts, it asks you to choose some settings, most importantly the NVDA key. This guide uses <kbd>NVDA</kbd> for whichever key you choose: <kbd>Caps Lock</kbd>, <kbd>Insert</kbd>, or <kbd>Num Pad Insert</kbd>.
 
 <details markdown="block">
 <summary>Common NVDA commands</summary>
@@ -148,7 +152,7 @@ The first time NVDA is started, it will prompt users to set various settings (au
 | Open NVDA menu | <kbd>NVDA</kbd> + <kbd>N</kbd> |
 | Preferences | (With NVDA menu open) <kbd>P</kbd> |
 | Tools | (With NVDA menu open) <kbd>T</kbd> |
-| Help | <kbd>NVDA</kbd> + <kbd>1</kbd> |
+| Help | (With NVDA menu open) <kbd>H</kbd> |
 | Read from current position | <kbd>NVDA</kbd> + <kbd>Down Arrow</kbd> |
 | Read current line | <kbd>NVDA</kbd> + <kbd>Up Arrow</kbd> |
 | Read previous/next word | <kbd>Ctrl</kbd> + <kbd>Left Arrow</kbd> / <kbd>Right Arrow</kbd> |
@@ -156,8 +160,8 @@ The first time NVDA is started, it will prompt users to set various settings (au
 | Read next item | <kbd>Down Arrow</kbd> |
 | Stop reading | <kbd>Ctrl</kbd> |
 | Pause/resume reading | <kbd>Shift</kbd> |
-| Change rate of speech | <kbd>NVDA</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Up Arrow</kbd> / <kbd>Down Arrow</kbd> |
-| Input help (announces button but takes no action) | <kbd>NVDA</kbd> + <kbd>1</kbd> |
+| Speak faster/slower | <kbd>NVDA</kbd> + <kbd>Ctrl</kbd> + <kbd>Up Arrow</kbd> / <kbd>Down Arrow</kbd> |
+| Input help (press keys to hear what they do, without doing it) | <kbd>NVDA</kbd> + <kbd>1</kbd> |
 | Elements (links, headings, buttons, etc.) window | <kbd>NVDA</kbd> + <kbd>F7</kbd> |
 | Move between elements lists | <kbd>Tab</kbd> |
 | Move between focusable elements (links, buttons, forms, menus) | <kbd>Tab</kbd> / <kbd>Shift</kbd> + <kbd>Tab</kbd> |
@@ -181,16 +185,15 @@ The first time NVDA is started, it will prompt users to set various settings (au
 | Move to previous instance | <kbd>Shift</kbd> + any of the single keystrokes above |
 | Search | <kbd>NVDA</kbd> + <kbd>Ctrl</kbd> + <kbd>F</kbd> |
 | Move to next/previous search result | <kbd>NVDA</kbd> + <kbd>F3</kbd> / <kbd>NVDA</kbd> + <kbd>Shift</kbd> + <kbd>F3</kbd> |
-| Focus mode (NVDA keystrokes ignored) | <kbd>NVDA</kbd> + <kbd>Space</kbd> |
-| Browse mode (regular NVDA behaviour) | <kbd>NVDA</kbd> + <kbd>Space</kbd> |
-| Ignore next key press | <kbd>NVDA</kbd> + <kbd>F2</kbd> |
+| Switch between browse mode (normal NVDA keys) and focus mode (keys go to the page, for typing in forms) | <kbd>NVDA</kbd> + <kbd>Space</kbd> |
+| Pass the next key press to the page | <kbd>NVDA</kbd> + <kbd>F2</kbd> |
 
 </details>
 
 <details markdown="block">
 <summary>General Windows Keyboard Commands</summary>
 
-In addition to NVDA commands, there are some Windows keyboard shortcuts that may help users.
+These Windows keyboard shortcuts are also useful with NVDA:
 
 - <kbd>Ctrl</kbd> + <kbd>F</kbd> to search in a webpage or document.
 - <kbd>Alt</kbd> + <kbd>Tab</kbd> to move between open windows.
@@ -203,10 +206,10 @@ In addition to NVDA commands, there are some Windows keyboard shortcuts that may
 <details markdown="block">
 <summary>Links</summary>
 
-- Web Accessibility in Mind [introduction to NVDA](https://webaim.org/articles/nvda)
-- Web Accessibility in Mind list of [NVDA keyboard shortcuts](https://webaim.org/resources/shortcuts/nvda)
-- A11y Project [getting started with NVDA](https://www.a11yproject.com/posts/getting-started-with-nvda)
-- [NVDA official user guide](https://www.nvaccess.org/files/nvda/documentation/userGuide.html)
+- WebAIM [Using NVDA to Evaluate Web Accessibility](https://webaim.org/articles/nvda)
+- WebAIM [Keyboard Shortcuts for NVDA](https://webaim.org/resources/shortcuts/nvda)
+- A11y Project [Getting started with NVDA](https://www.a11yproject.com/posts/getting-started-with-nvda)
+- [NVDA User Guide](https://download.nvaccess.org/documentation/userGuide.html)
 
 </details>
 
@@ -219,18 +222,16 @@ VoiceOver is a screen reader built into macOS and iOS.
 
 To activate VoiceOver on macOS:
 
-1. Navigate to **System Settings > Accessibility**.
+1. Go to **System Settings > Accessibility**.
 2. Choose **VoiceOver**.
-3. Toggle **VoiceOver** on.
-   1. Alternatively, VoiceOver can be toggled using <kbd>Command</kbd> + <kbd>F5</kbd>.
+3. Turn on **VoiceOver**.
+   1. Or press <kbd>Command</kbd> + <kbd>F5</kbd> to turn VoiceOver on or off.
 
 Click **Open VoiceOver Training…** for help and training.
 
-Click **Open VoiceOver Utility…**, or press <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>F8</kbd> when VoiceOver is running, to open the options and settings screen for VoiceOver, allowing users to change speech, sound, and keyboard shortcuts.
+Click **Open VoiceOver Utility…**, or press <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>F8</kbd> while VoiceOver is running, to change VoiceOver’s speech, sound, keyboard, and other settings.
 
-The default VoiceOver modifier keys are <kbd>Control</kbd> + <kbd>Option</kbd>. In the following, <kbd>VO</kbd> means pressing <kbd>Control</kbd> + <kbd>Option</kbd>.
-
-\*VoiceOver requires multiple modifier keys as it works within the existing macOS system.
+VoiceOver commands start with the VoiceOver keys, <kbd>Control</kbd> + <kbd>Option</kbd>, so that they don’t clash with other macOS shortcuts. Below, <kbd>VO</kbd> means holding <kbd>Control</kbd> + <kbd>Option</kbd>.
 
 | Action | Keystroke |
 | --- | --- |
@@ -247,11 +248,11 @@ The default VoiceOver modifier keys are <kbd>Control</kbd> + <kbd>Option</kbd>. 
 | Next link, form field, button, etc. | <kbd>Tab</kbd> |
 | Previous link, form field, etc. | <kbd>Shift</kbd> + <kbd>Tab</kbd> |
 
-\*VoiceOver works best with Safari when browsing the internet.
+VoiceOver works best with Safari for browsing the web.
 
-Users may consider using [VoiceOver Quick Nav](https://support.apple.com/en-ca/guide/voiceover/vo27943/mac), which allows users to skip pressing the VO key combination. To enable this setting:
+[VoiceOver Quick Nav](https://support.apple.com/en-ca/guide/voiceover/vo27943/mac) lets you navigate with the arrow keys or single keys, without holding <kbd>VO</kbd>. To turn it on:
 
-1. Navigate to **System Settings**.
+1. Go to **System Settings**.
 2. Choose **Accessibility**.
 3. Select **VoiceOver**.
 4. Select **Open VoiceOver Utility…**
@@ -259,8 +260,7 @@ Users may consider using [VoiceOver Quick Nav](https://support.apple.com/en-ca/g
 6. Move to the **Quick Nav** tab.
 7. Check **Enable arrow-key Quick Nav** and **Enable single-key Quick Nav**.
 
-- [Complete list of VoiceOver commands](https://www.apple.com/voiceover/info/guide/_1131.html)
-- [VoiceOver User Guide](https://support.apple.com/en-ca/guide/voiceover/welcome/mac)
+- [VoiceOver User Guide for Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/voiceover/welcome/mac), including the full list of commands and gestures
 - [Getting started with macOS VoiceOver](https://www.a11yproject.com/posts/getting-started-with-voiceover)
 - [WebAIM VoiceOver guide](https://webaim.org/articles/voiceover)
 
@@ -271,32 +271,32 @@ Users may consider using [VoiceOver Quick Nav](https://support.apple.com/en-ca/g
 
 To turn on VoiceOver:
 
-1. Navigate to **Settings**.
+1. Go to **Settings**.
 2. Choose **Accessibility**.
 3. Tap **VoiceOver**.
-4. Toggle **VoiceOver** on.
-   1. Various settings are available. Select **Speech** and then **Voice** to set voice options.
+4. Turn on **VoiceOver**.
+   1. To change the voice, select **Speech** and then **Voice**.
 
 ### Using VoiceOver
 
-VoiceOver has a practice area where you can try out different gestures and VoiceOver will announce the gesture and what action that gesture does.
+VoiceOver has a practice area where you can try gestures: VoiceOver tells you the name of each gesture and what it does.
 
-1. Navigate to **Settings > Accessibility**.
-2. With VoiceOver on, select **VoiceOver Practice**.
+1. With VoiceOver on, go to **Settings > Accessibility > VoiceOver**.
+2. Select **VoiceOver Practice**.
 
 - Tap anywhere on the screen to have an item read aloud.
 - Drag a finger to move between items.
 - Swipe right to read next, swipe left to read previous.
-- Twist two fingers on the screen to open the rotor.
-  - The rotor allows users to navigate by headings, links, words, or other controls.
-  - Swipe up or down to navigate by the chosen navigation type.
-- Tap on an element to select it, double tap to activate.
-- Tap with two fingers to pause VoiceOver.
+- Rotate two fingers on the screen, like turning a dial, to use the rotor.
+  - The rotor lets you choose to move by headings, links, words, or other items.
+  - Then swipe up or down to move by that item.
+- Tap an item to select it, and double-tap to activate it.
+- Tap with two fingers to pause or resume speech.
 - Swipe up from the bottom to return to Home, and keep dragging up to go to the App Switcher.
   - Flick left or right with three fingers to move between apps.
   - Flick three fingers up to close an app.
 
-[Getting started with VoiceOver](https://support.apple.com/en-ca/guide/iphone/iph3e2e415f/ios)
+[Getting started with VoiceOver – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iph3e2e415f/ios)
 
 [AppleVis](https://www.applevis.com) is a resource for blind and low vision users of Apple products.
 
@@ -311,26 +311,26 @@ TalkBack is the default screen reader for Android.
 
 To enable TalkBack:
 
-1. Navigate to **Settings > Accessibility**.
-2. Turn **TalkBack** on and toggle **TalkBack shortcut** to on.
-   1. With the shortcut on, hold the up and down volume buttons to turn TalkBack on.
+1. Go to **Settings > Accessibility**.
+2. Select **TalkBack**, turn it on, and turn on **TalkBack shortcut**.
+   1. With the shortcut on, press and hold both volume buttons for a few seconds to turn TalkBack on or off.
 3. The first time TalkBack is turned on, a tutorial opens.
 
 Using TalkBack:
 
 - Swipe right to read next, swipe left to read previous.
-- Tap on the screen to read a specific item.
-  - Tap and drag to move reading focus around the page.
-- Double tap to select a link, use a button, or open a menu.
-- Swipe down and up in one motion to cycle navigation options such as headings, controls, or links.
-  - Swipe up or down to move between the selected element type.
+- Tap an item to hear it.
+  - Drag a finger around the screen to hear what is under it.
+- Double-tap to follow a link, press a button, or open a menu.
+- Swipe down then up in one motion to choose how to move: by headings, controls, links, and so on.
+  - Then swipe up or down to move by that item.
 
-TalkBack has a practice area where you can try out different gestures and TalkBack will announce the gesture and what action that gesture does. To use the practice tool:
+TalkBack has a practice area where you can try gestures: TalkBack tells you the name of each gesture and what it does. To use it:
 
-1. Navigate to **TalkBack**.
+1. Go to **Settings > Accessibility > TalkBack**.
 2. Choose **TalkBack Settings > Tutorial and help > Practice gestures**.
 
-[TalkBack getting started guide](https://support.google.com/accessibility/android/topic/10601570?hl=en&ref_topic=3529932&sjid=2464805182940270078-NC)
+[Get started with TalkBack – Android Accessibility Help](https://support.google.com/accessibility/android/topic/10601570)
 
 </details>
 
@@ -343,9 +343,9 @@ ChromeVox is the built-in screen reader on Chromebooks.
 
 Toggle ChromeVox on or off by pressing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Z</kbd>.
 
-To open the ChromeVox menu, press <kbd>Search</kbd>.
+To open the ChromeVox menus, press <kbd>Search</kbd> + <kbd>.</kbd> (period).
 
-The ChromeVox menu includes menus for speech options and help as well as lists of headings, landmarks, links, form controls, and tables.
+The ChromeVox menus include speech options and help, and lists of headings, landmarks, links, form controls, and tables.
 
 | Action | Keystroke |
 | --- | --- |
@@ -361,7 +361,7 @@ The ChromeVox menu includes menus for speech options and help as well as lists o
 | Show links list | <kbd>Search</kbd> + <kbd>Ctrl</kbd> + <kbd>L</kbd> |
 | Show landmark list | <kbd>Search</kbd> + <kbd>Ctrl</kbd> + <kbd>;</kbd> |
 
-[ChromeVox user guide](https://support.google.com/chromebook/answer/7031755?hl=en)
+[Use the built-in screen reader on your Chromebook – Chromebook Help](https://support.google.com/chromebook/answer/7031755)
 
 </details>
 
