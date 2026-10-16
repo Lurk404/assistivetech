@@ -312,7 +312,7 @@ To hear text, select it and press <kbd>Option</kbd> + <kbd>Escape</kbd>. The spe
 
 <img src="../assets/images/text-to-speech-tools/macos-speech-controller.png" alt="The speech controller. Labels explain that it shows the name of the app and has buttons to decrease the speaking rate, skip back, pause, stop, skip forward and increase the speaking rate." width="500"> <!-- review-alt -->
 
-<img src="../assets/images/logos/accessibility-reader.png" alt="" width="91"> <!-- review-alt -->
+<img src="../assets/images/logos/accessibility-reader.png" alt="" width="10%"> <!-- review-alt -->
 
 In macOS Tahoe 26 and later, [Accessibility Reader](https://support.apple.com/en-ca/guide/mac-help/mchl799f6fb9/mac) shows the text of any app in a full-screen view where you can change the font, colours, and spacing, and have the text read aloud.
 

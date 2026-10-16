@@ -23,7 +23,7 @@ The most useful mind mapping tools can turn a map into a text outline, which is 
 <details id="gitmind" markdown="block">
 <summary>GitMind</summary>
 
-<img src="../assets/images/logos/gitmind.jpg" alt="" width="300"> <!-- review-alt -->
+<img src="../assets/images/logos/gitmind.jpg" alt="" width="20%"> <!-- review-alt -->
 
 [GitMind](https://gitmind.com) is a mind mapping tool you can use online or download for Windows, macOS, iOS, and Android. A free account includes many features; some need a paid account.
 
@@ -56,7 +56,7 @@ Learn more in [How to use GitMind](https://gitmind.com/faq/how-to-use-gitmind.ht
 <details id="mindmeister" markdown="block">
 <summary>MindMeister</summary>
 
-![](../assets/images/logos/mindmeister.png) <!-- review-alt -->
+<img src="../assets/images/logos/mindmeister.png" alt="" width="20%"> <!-- review-alt -->
 
 [MindMeister](https://www.mindmeister.com) is an online mind mapping tool that runs in your web browser. You need to create an account. The free plan is limited to a few mind maps; paid plans have more features.
 
@@ -93,7 +93,7 @@ Learn more about [MindMeister features](https://www.mindmeister.com/pages/produc
 <details id="mindmup" markdown="block">
 <summary>MindMup</summary>
 
-![](../assets/images/logos/mindmup.png) <!-- review-alt -->
+<img src="../assets/images/logos/mindmup.png" alt="" width="10%"> <!-- review-alt -->
 
 MindMup is an online mind mapping tool. It is free to use, and a paid version has more features. You need a Google account to use MindMup.
 
@@ -134,7 +134,7 @@ The exported outline uses nested lists to show the structure of the map. To get 
 <details id="mindomo" markdown="block">
 <summary>Mindomo</summary>
 
-![](../assets/images/logos/mindomo.png) <!-- review-alt -->
+<img src="../assets/images/logos/mindomo.png" alt="" width="20%"> <!-- review-alt -->
 
 [Mindomo](https://www.mindomo.com) is an online mind mapping tool that runs in your web browser. It is free to use, and a paid version has more features.
 
@@ -174,7 +174,7 @@ To export an outline:
 <details id="word-outline" markdown="block">
 <summary>Word Outline</summary>
 
-<img src="../assets/images/logos/word.png" alt="" width="150"> <!-- review-alt -->
+<img src="../assets/images/logos/word.png" alt="" width="10%"> <!-- review-alt -->
 
 Word can’t draw a mind map, but its Outline view is a good way to organize ideas as an outline. Outline view is only in the desktop versions of Word (Windows and macOS). To install Word, go to [Microsoft 365](https://www.office.com/?auth=2), sign in with your Langara account, and select **Install apps**.
 
@@ -198,7 +198,7 @@ You can also turn a Word outline into PowerPoint slides: see [Create a PowerPoin
 <details id="inspiration" markdown="block">
 <summary>Inspiration</summary>
 
-<img src="../assets/images/logos/inspiration.jpg" alt="" width="200"> <!-- review-alt -->
+<img src="../assets/images/logos/inspiration.jpg" alt="" width="10%"> <!-- review-alt -->
 
 Inspiration is software for creating diagrams, outlines, and maps, with templates and a built-in tutorial. [Download a free trial of Inspiration](https://www.inspiration-at.com/) or buy a licence. These steps and links are for Inspiration 10; newer versions may look different.
 
@@ -231,7 +231,7 @@ For more information:
 <details id="kurzweil" markdown="block">
 <summary>Kurzweil</summary>
 
-![](../assets/images/logos/kurzweil-3000.png) <!-- review-alt -->
+<img src="../assets/images/logos/kurzweil-3000.png" alt="" width="10%"> <!-- review-alt -->
 
 Kurzweil 3000 is a literacy suite with many tools (see also [Reading Alternate Format Material](reading-alternate-format-material.md#kurzweil)). Its **Brainstorm** tool makes a mind map that can be turned into an outline and then a draft document.
 

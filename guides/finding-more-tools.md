@@ -6,8 +6,6 @@ nav_order: 4
 
 # Finding More Tools
 
-![](../assets/images/finding-more-tools/finding-more-tools-icon.png) <!-- review-alt -->
-
 These free websites help you find more assistive technology and accessibility settings than this resource covers.
 
 **On this page:**

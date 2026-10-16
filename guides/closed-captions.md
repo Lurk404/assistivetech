@@ -5,8 +5,6 @@ nav_order: 6
 
 # Closed Captions
 
-![](../assets/images/closed-captions/closed-captions-icon.png) <!-- review-alt -->
-
 This page covers ways to turn on captions in video players, meeting apps, browsers, and devices, including automatic live captions for audio that isn’t captioned. Making sure videos have accurate captions is the responsibility of whoever owns the content.
 
 **On this page:**
