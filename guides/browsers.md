@@ -6,7 +6,7 @@ nav_order: 1
 
 # Browsers
 
-<img src="../assets/images/browsers/browser-logos.png" alt="" width="75%"> <!-- review-alt -->
+<img src="../assets/images/browsers/browser-logos.png" alt="" width="50%" style="display: block; margin: 0 auto;"> <!-- review-alt -->
 
 Browsers aren’t assistive technology as such, but they have settings and tools that can make the web easier to use. These guides are for the desktop versions (Windows and macOS); the mobile versions have some similar features.
 
