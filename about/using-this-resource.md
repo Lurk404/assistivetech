@@ -41,8 +41,7 @@ Some guides link to demonstration videos on YouTube and other sites. These video
 
 ## Keeping up to date
 
-Software and settings change often, so a screenshot or menu name may not exactly match what you see. If something is out of date or doesn’t work, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
+{: .warning .mt-6 }
+> Software and settings change often, so a screenshot or menu name may not exactly match what you see. If something is out of date or doesn’t work, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
 
----
 
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

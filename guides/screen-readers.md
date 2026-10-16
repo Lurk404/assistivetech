@@ -366,7 +366,3 @@ The ChromeVox menus include speech options and help, and lists of headings, land
 [Use the built-in screen reader on your Chromebook – Chromebook Help](https://support.google.com/chromebook/answer/7031755)
 
 </details>
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

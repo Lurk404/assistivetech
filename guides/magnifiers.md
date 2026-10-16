@@ -383,8 +383,3 @@ Every web browser can zoom in on web pages:
 - Reset to actual size: <kbd>Ctrl</kbd> (<kbd>Command</kbd> on macOS) + <kbd>0</kbd>
 
 Browsers can also set a default zoom level for all pages, a minimum font size, and your own fonts and colours. See [Browsers](browsers.md) for step-by-step instructions for Chrome, Edge, Firefox, and Safari, and for the UI Options Plus extension.
-
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

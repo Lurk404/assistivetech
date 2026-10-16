@@ -467,7 +467,3 @@ Useful shortcuts:
 - [Keyboard shortcuts and gestures in Safari on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/safari/cpsh003/mac)
 
 </details>
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -228,7 +228,3 @@ The free Adobe Acrobat Reader can’t do OCR. You need a paid version of Acrobat
 </details>
 
 Langara has an OCR scanner and Kurzweil software available. Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for more information.
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

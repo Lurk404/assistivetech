@@ -52,7 +52,3 @@ Morphic also has shortcuts to the Windows accessibility settings.
 - [Morphic](https://morphic.org)
 - [Morphic FAQ](https://morphic.org/faq)
 - [Finding More Tools](finding-more-tools.md): Morphic is made by Raising the Floor, which also runs the Unified Listing.
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

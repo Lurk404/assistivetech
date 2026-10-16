@@ -328,7 +328,3 @@ Android’s **Voice Access** app lets you control your phone with your voice. To
    1. A blue icon with a sound wave appears on the screen when Voice Access is ready.
 
 [Use Voice Access commands – Android Accessibility Help](https://support.google.com/accessibility/android/answer/6151854)
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -251,7 +251,3 @@ To use Otter to transcribe pre-recorded audio:
 [Otter.ai Help Center](https://help.otter.ai/hc/en-us)
 
 </details>
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

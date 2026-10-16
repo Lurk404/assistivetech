@@ -261,7 +261,3 @@ The AT Hive includes only a few of the tools and settings built into devices, an
 [The AT Hive – AHEAD](https://www.ahead.ie/The-AT-Hive)
 
 </details>
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -268,7 +268,3 @@ To convert the diagram to an outline:
 [Kurzweil 3000 for Windows Getting Started Guide (PDF)](https://www.kurzweiledu.com/files/pdf/2018shared/win_getting_started_guide.pdf)
 
 </details>
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

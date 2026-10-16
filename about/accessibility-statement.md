@@ -48,8 +48,5 @@ Please include as much of the following information as possible:
 
 A thorough description will assist us in addressing any issues and improving the accessibility and usability of this resource.
 
-This statement was last updated on **October 14, 2026**.
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+{: .note }
+> This statement was last updated on **October 14, 2026**.

@@ -243,7 +243,3 @@ On a Mac with Apple silicon, Live Captions can caption audio from apps, calls, a
 </details>
 
 For dictation (typing with your voice) on any device, see [Speech to Text Tools](speech-to-text-tools.md). To record and transcribe lectures and meetings, see [Note-taking and Transcription](note-taking.md).
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

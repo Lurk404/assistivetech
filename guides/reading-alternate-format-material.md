@@ -249,7 +249,3 @@ Only a few voices are free. Most need a paid subscription.
 
 **Settings** are available from the **More** icon (three dots) in the top right corner.
 <img src="../assets/images/reading-alternate-format-material/naturalreader-more-menu.png" alt="The More button circled in the top right, opening a menu with MP3, Find, Font, Timer, Pronunciation, Share, Dark Mode and More Settings." width="500"> <!-- review-alt -->
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

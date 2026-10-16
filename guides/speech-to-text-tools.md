@@ -170,7 +170,3 @@ Dragon has a [YouTube playlist of videos](https://www.youtube.com/watch?v=6jzDdc
 See [Voice Control](voice-control.md) for more on using Dragon.
 
 </details>
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -418,7 +418,3 @@ You can also press <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>, or open
 [Hide distractions when reading articles in Safari on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/safari/sfri32632/mac)
 
 </details>
-
----
-
-*Assistive Technology User Guides* by Luke McKnight is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
