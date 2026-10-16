@@ -6,6 +6,8 @@ nav_order: 1
 
 # Note-taking and Transcription
 
+Note-taking is a skill, and technology helps most when paired with a method that works for you. This page covers popular note-taking methods, and apps that record and transcribe lectures, either afterward or live as you listen.
+
 **On this page:**
 
 - [Note-taking Strategies](#note-taking-strategies)

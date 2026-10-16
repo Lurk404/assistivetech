@@ -6,6 +6,8 @@ nav_order: 1
 
 # Speech to Text Tools
 
+Speech to text, also called dictation, turns what you say into typed text. This page covers dictation in Word, Windows, Android, iOS, and macOS, and Dragon; to control your computer or phone with your voice, see [Voice Control](voice-control.md).
+
 **On this page:**
 
 - [Word Dictate](#word-dictate)

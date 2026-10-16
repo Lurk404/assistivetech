@@ -6,6 +6,8 @@ nav_order: 1
 
 # Text to Speech Tools
 
+Text to speech tools read digital text aloud, which can help with focus, understanding, and proofreading your own writing. This page covers the tools built into Brightspace, Word, your devices, and your browser.
+
 **On this page:**
 
 - [ReadSpeaker](#readspeaker)
