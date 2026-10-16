@@ -219,6 +219,9 @@ Speechify is a text to speech app with a free version. It is available for:
 - [Chrome (extension)](https://chromewebstore.google.com/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm)
 - [the web](https://app.speechify.com/)
 
+<details markdown="block">
+<summary>Getting started with Speechify</summary>
+
 In the web app, you can add files from your device, Dropbox, or Google Drive.
 <img src="../assets/images/reading-alternate-format-material/speechify-new-menu.png" alt="The Speechify New menu with Local Documents, Web Link, Text Document, Google Drive, Dropbox, Scan Documents, Connect Canvas Account and Create Professional Voice Over." width="500"> <!-- review-alt -->
 
@@ -229,6 +232,7 @@ Folders can be edited, renamed, and deleted.
 
 When a document is open, change the voice, speed, and appearance in the menu on the left.
 ![The Speechify reading menu with Voice, Speed (1.2x) and More buttons.](../assets/images/reading-alternate-format-material/speechify-reading-settings.png) <!-- review-alt -->
+</details>
 
 {: .note }
 Only the standard voices (those without a golden diamond on the profile picture) are free.
@@ -236,6 +240,9 @@ Only the standard voices (those without a golden diamond on the profile picture)
 ## NaturalReader
 
 NaturalReader is a text to speech tool with a free version. Use it [online](https://www.naturalreaders.com/online/), or download [NaturalReader for Windows and macOS](https://www.naturalreaders.com/software.html) or the [NaturalReader app for Android and iOS](https://www.naturalreaders.com/appdownload.html).
+
+<details markdown="block">
+<summary>Getting started with NaturalReader</summary>
 
 You can build a library of files:
 ![The NaturalReader menu with Add Files, Library, Account and Apps.](../assets/images/reading-alternate-format-material/naturalreader-menu.png) <!-- review-alt -->
@@ -251,3 +258,5 @@ Only a few voices are free. Most need a paid subscription.
 
 **Settings** are available from the **More** icon (three dots) in the top right corner.
 <img src="../assets/images/reading-alternate-format-material/naturalreader-more-menu.png" alt="The More button circled in the top right, opening a menu with MP3, Find, Font, Timer, Pronunciation, Share, Dark Mode and More Settings." width="500"> <!-- review-alt -->
+
+</details>
