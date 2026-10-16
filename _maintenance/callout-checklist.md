@@ -6,32 +6,32 @@ This file is for maintaining the guides. It sits in the `_maintenance` folder, s
 
 ## Notes still in plain text
 
-- [ ] **Reading Alternate Format Material > Speechify**
+- [x] **Reading Alternate Format Material > Speechify**
   - File: `guides/reading-alternate-format-material.md` (about line 231)
   - Pressbooks: "**Note:** Only the standard voices (those without golden diamond on profile picture) are free."
   - Now: "**Note**: Only the standard voices (those without a golden diamond on the profile picture) are free." Still a bold "Note" paragraph; a note box would replace the bold "Note".
-- [ ] **Reading Alternate Format Material > NaturalReader**
+- [x] **Reading Alternate Format Material > NaturalReader**
   - File: `guides/reading-alternate-format-material.md` (about line 246)
   - Pressbooks: "Note, there are very few free voices and most voices require a paid subscription."
   - Now: "Only a few voices are free. Most need a paid subscription."
-- [ ] **Text to Speech Tools > Android**
+- [x] **Text to Speech Tools > Android**
   - File: `guides/text-to-speech-tools.md` (about line 230)
   - Pressbooks: "Note, this may be different depending on your Android phone."
   - Now: "These steps may be slightly different on your phone."
-- [ ] **Note-taking and Transcription > Microsoft Word**
+- [x] **Note-taking and Transcription > Microsoft Word**
   - File: `guides/note-taking.md` (about line 82)
   - Pressbooks: "Note: users can transcribe 300 minutes per month."
   - Now: "You can upload up to 300 minutes of audio a month."
-- [ ] **Mind Mapping > GitMind**
+- [x] **Mind Mapping > GitMind**
   - File: `guides/mind-mapping.md` (about line 44)
   - Pressbooks: "Note, when exported to a Word document nodes and subnodes appear as different size text but are not coded as hierarchical heading levels."
   - Now: "When you export to a Word document, nodes and subnodes appear as different sizes of text but are not real heading levels."
   - This one is indented inside a numbered list (step 6). To make it a callout, indent the `{: .note }` line by the same three spaces.
-- [ ] **Voice Control > Voice Commands**
+- [x] **Voice Control > Voice Commands**
   - File: `guides/voice-control.md` (about line 143)
   - Pressbooks: "Note: Caret browsing must be enabled to select text on the web. Press F7 to turn on Caret browsing."
   - Now: "Note: Caret browsing must be enabled to select text on the web. Press F7 to turn on caret browsing." Still a bullet in the list of commands. A callout can't sit inside a bullet list, so it would need to move below the list.
-- [ ] **Magnifiers > Reader Tab (SpeakIt)**
+- [x] **Magnifiers > Reader Tab (SpeakIt)**
   - File: `guides/magnifiers.md` (about line 179)
   - Pressbooks: "Note: SpeakIt does not visually indicate what is being read word by word like App View and Text View do."
   - Now: the last sentence of a paragraph: "SpeakIt doesn't highlight each word as it reads, as App View and Text View do." It would need to become its own paragraph first.

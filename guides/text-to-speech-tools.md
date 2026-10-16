@@ -227,6 +227,7 @@ For more information, read [Listen to your Word documents – Microsoft Support]
    <img src="../assets/images/text-to-speech-tools/android-select-to-speak-play.jpg" alt="A Wikipedia article on an Android phone with the Select to Speak play and stop buttons floating over the text." width="300"> <!-- review-alt -->
    1. Use toolbar to stop, pause, or change settings.
 
+{: .note }
 These steps may be slightly different on your phone.
 
 Android also has a **Reading mode** app, which shows the text on screen in a simplified view and can read it aloud.

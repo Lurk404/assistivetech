@@ -79,6 +79,7 @@ Microsoft Word for Windows and Word for the web have an excellent transcription 
    ![A message saying the transcript is saved, with Add to document and New transcription buttons.](../assets/images/note-taking/word-transcript-saved.png) <!-- review-alt -->
    ![The Add to document menu with Just text, With speakers, With timestamps, and With speakers and timestamps.](../assets/images/note-taking/word-add-to-document.png) <!-- review-alt -->
 
+{: .tip }
 You can upload up to 300 minutes of audio a month.
 
 - [Transcribe your recordings – Microsoft Support](https://support.microsoft.com/en-us/office/transcribe-your-recordings-7fc2efec-245e-45f0-b053-2a97531ecf57)
@@ -135,7 +136,7 @@ Live transcription apps record and transcribe audio as it happens, and let you a
 
 Because the audio is recorded by your own device, they may not work well in large lectures or noisy rooms, where the speaker is far from the microphone or there is background noise and echo. They work best for **small meetings, seminars, and group work**.
 
-{: .note }
+{: .warning }
 Most of these apps upload your recordings to the company’s servers. Check their privacy terms, and ask your instructor and group before recording.
 
 <details markdown="block">

@@ -109,7 +109,7 @@ Open **Dictation Box** by saying “Open Dictation Box”, by pressing <kbd>Ctrl
 
 Before opening **Dictation Box**, put the text cursor in the field where the text should go. Dictate into the box, then select **Transfer** to send the text to that field.
 
-{: .tip }
+{: .warning }
 Occasionally **Transfer** fails and the dictated text is lost. To be safe, copy everything in the Dictation Box (<kbd>Ctrl</kbd> + <kbd>A</kbd>, then <kbd>Ctrl</kbd> + <kbd>C</kbd>) and paste it into the field yourself (<kbd>Ctrl</kbd> + <kbd>V</kbd>).
 
 </details>

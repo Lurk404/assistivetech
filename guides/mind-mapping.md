@@ -39,7 +39,9 @@ The most useful mind mapping tools can turn a map into a text outline, which is 
    ![The view menu at the bottom of the map with Mind Map, Outline View and Outline+Mind Map.](../assets/images/mind-mapping/gitmind-outline-view.png) <!-- review-alt -->
 6. **Export** as an image or document.
    ![The Export button with its tooltip, Export to other formats.](../assets/images/mind-mapping/gitmind-export.png) <!-- review-alt -->
-   When you export to a Word document, nodes and subnodes appear as different sizes of text but are not real heading levels.
+
+{: .warning }
+When you export to a Word document, nodes and subnodes appear as different sizes of text but are not real heading levels.
 
 One especially useful GitMind feature is **Split Screen**.
 

@@ -174,7 +174,10 @@ Text View shows the text being read in a separate window, in the colours and fon
 With SpeakIt, click a word, image, icon, or other item and ZoomText reads it. On the Reader tab, click **AppReader** and select **Use SpeakIt Tool**, or press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>.
 ![The AppReader menu with the pointer on Use SpeakIt Tool.](../assets/images/magnifiers/zoomtext-speakit.png) <!-- review-alt -->
 
-You can also click and drag over text while SpeakIt is on to hear it. Press <kbd>Escape</kbd> before selecting the next text. SpeakIt doesn’t highlight each word as it reads, as App View and Text View do.
+You can also click and drag over text while SpeakIt is on to hear it. Press <kbd>Escape</kbd> before selecting the next text. 
+
+{: .note }
+SpeakIt doesn’t highlight each word as it reads, as App View and Text View do.
 
 To listen to text while you do other things, use **Background Reader** (see [Tools](#zoomtext-tools) below).
 

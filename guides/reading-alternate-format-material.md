@@ -230,7 +230,8 @@ Folders can be edited, renamed, and deleted.
 When a document is open, change the voice, speed, and appearance in the menu on the left.
 ![The Speechify reading menu with Voice, Speed (1.2x) and More buttons.](../assets/images/reading-alternate-format-material/speechify-reading-settings.png) <!-- review-alt -->
 
-**Note**: Only the standard voices (those without a golden diamond on the profile picture) are free.
+{: .note }
+Only the standard voices (those without a golden diamond on the profile picture) are free.
 
 ## NaturalReader
 
@@ -245,6 +246,7 @@ Add files from various sources:
 Change the voice and playback speed with the toolbar along the top:
 <img src="../assets/images/reading-alternate-format-material/naturalreader-toolbar.png" alt="The NaturalReader toolbar with voice, rewind, play, forward and speed (1x) buttons." width="500"> <!-- review-alt -->
 
+{: .note }
 Only a few voices are free. Most need a paid subscription.
 
 **Settings** are available from the **More** icon (three dots) in the top right corner.
