@@ -10,9 +10,6 @@ nav_order: 1
 
 Browsers aren’t assistive technology as such, but they have settings and tools that can make the web easier to use. These guides are for the desktop versions (Windows and macOS); the mobile versions have some similar features.
 
-{: .tip }
-For Chrome and Edge, try the [UI Options Plus (UIO+)](https://chromewebstore.google.com/detail/ui-options-plus-uio%2B/okenndailhmikjjfcnmolpaefecbpaek) extension. It lets you quickly change zoom, contrast, line, letter, and word spacing, and more, all in one place (see [UI Options Plus](#ui-options-plus) below).
-
 **On this page:**
 
 - [Chrome](#chrome)
@@ -28,6 +25,31 @@ Chrome is the most widely used browser and works well with most assistive techno
 
 To find settings and tools, select **Customize and control Google Chrome** (three vertical dots near the top right) or press <kbd>Alt</kbd> + <kbd>F</kbd>.
 ![The Chrome toolbar with the three-dot Customize and control Google Chrome button circled.](../assets/images/browsers/chrome-menu-button.png) <!-- review-alt -->
+
+<details id="ui-options-plus" markdown="block">
+<summary>UI Options Plus</summary>
+
+[UI Options Plus](https://chromewebstore.google.com/detail/ui-options-plus-uio%2B/okenndailhmikjjfcnmolpaefecbpaek) is a Chrome extension (it also works in Edge) with many display settings in one panel. Use the scrollbar or the left and right arrows to move between tools:
+
+- Zoom – uses Chrome browser zoom up to 500%.
+- Letter spacing – up to 2x website default.
+- Word spacing – up to 4x website default.
+- Line spacing – up to 3x website default.
+- Syllables – puts a dot between the syllables of words.
+- Contrast – several combinations of background and text colours.
+- Right-click to select – right-click any part of a block of text to select all of it.
+  - This makes it easier to copy text or have it read aloud.
+- Selection highlight – changes the colour of selected text.
+- Text-to-speech – reads selected text aloud when you click **Play**.
+- Reading mode – simplifies the page and removes distractions like ads and sidebars (this can break the layout of some pages).
+- Table of contents – builds a table of contents from the page’s headings.
+- Enhance inputs – makes link and button text larger, bold, and underlined.
+
+Change a setting with the left and right arrows, by typing a number, or with its on/off switch.
+
+To reset all customizations to default, right-click the extension icon and choose **Reset**.
+
+</details>
 
 <details markdown="block">
 <summary>Page Zoom</summary>
@@ -106,6 +128,24 @@ Press <kbd>F7</kbd> to turn on caret browsing, which lets you move a text cursor
 
 </details>
 
+<details markdown="block">
+<summary>Links</summary>
+
+- [Accessibility on Chrome – Google Chrome Help](https://support.google.com/chrome/topic/7437725)
+- [Chrome keyboard shortcuts – Google Chrome Help](https://support.google.com/chrome/answer/157179?co=GENIE.Platform%3DDesktop&hl=en)
+- [Use Chrome with accessibility extensions – Google Chrome Help](https://support.google.com/chrome/answer/7040464)
+- [Google Accessibility for customers and partners](https://www.google.com/accessibility/customers-partners/) (accessibility conformance reports for Google products)
+
+</details>
+
+## Edge
+
+<img src="../assets/images/logos/edge.png" alt="" width="10%">
+
+Edge is the default browser in Windows. It is built on the same engine as Chrome, so many features and settings are the same, and Chrome extensions work in Edge.
+
+To find settings and tools, select **Settings and more** on the toolbar or press <kbd>Alt</kbd> + <kbd>F</kbd>.
+
 <details id="ui-options-plus" markdown="block">
 <summary>UI Options Plus</summary>
 
@@ -130,24 +170,6 @@ Change a setting with the left and right arrows, by typing a number, or with its
 To reset all customizations to default, right-click the extension icon and choose **Reset**.
 
 </details>
-
-<details markdown="block">
-<summary>Links</summary>
-
-- [Accessibility on Chrome – Google Chrome Help](https://support.google.com/chrome/topic/7437725)
-- [Chrome keyboard shortcuts – Google Chrome Help](https://support.google.com/chrome/answer/157179?co=GENIE.Platform%3DDesktop&hl=en)
-- [Use Chrome with accessibility extensions – Google Chrome Help](https://support.google.com/chrome/answer/7040464)
-- [Google Accessibility for customers and partners](https://www.google.com/accessibility/customers-partners/) (accessibility conformance reports for Google products)
-
-</details>
-
-## Edge
-
-<img src="../assets/images/logos/edge.png" alt="" width="10%">
-
-Edge is the default browser in Windows. It is built on the same engine as Chrome, so many features and settings are the same, and Chrome extensions work in Edge.
-
-To find settings and tools, select **Settings and more** on the toolbar or press <kbd>Alt</kbd> + <kbd>F</kbd>.
 
 <details markdown="block">
 <summary>Page Zoom</summary>

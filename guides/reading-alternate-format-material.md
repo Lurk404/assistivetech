@@ -6,6 +6,8 @@ nav_order: 2
 
 # Reading Alternate Format Material
 
+Alternate format material is print, or inaccessible digital material, that has been converted into an accessible format such as EPUB, Word, or accessible PDF. The tools on this page can read it aloud and let you change how it looks.
+
 **On this page:**
 
 - [TextAid](#textaid)
@@ -13,8 +15,6 @@ nav_order: 2
 - [Kurzweil](#kurzweil)
 - [Speechify](#speechify)
 - [NaturalReader](#naturalreader)
-
-Alternate format material is print, or inaccessible digital material, that has been converted into an accessible format such as EPUB, Word, or accessible PDF. The tools on this page can read it aloud and let you change how it looks.
 
 ## TextAid
 

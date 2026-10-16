@@ -6,14 +6,14 @@ nav_order: 2
 
 # Voice Control
 
+Voice control lets you operate a computer or phone with your voice: open apps, click buttons and links, and dictate and edit text. For dictation only, see [Speech to Text Tools](speech-to-text-tools.md).
+
 **On this page:**
 
 - [Dragon](#dragon)
 - [Windows Voice Access](#windows-voice-access)
 - [macOS/iOS Voice Control](#macosios-voice-control)
 - [Android](#android)
-
-Voice control lets you operate a computer or phone with your voice: open apps, click buttons and links, and dictate and edit text. For dictation only, see [Speech to Text Tools](speech-to-text-tools.md).
 
 ## Dragon
 
