@@ -156,7 +156,7 @@ This feature is only available in Firefox for macOS.
 <details markdown="block">
 <summary>Equatio</summary>
 
-<img src="../assets/images/logos/equatio.png" alt="" width="150"> <!-- review-alt -->
+<img src="../assets/images/logos/equatio.png" alt="" width="10%"> <!-- review-alt -->
 
 Equatio’s **Screenshot Reader** reads aloud math that is only available as a picture, and can copy it as MathML or LaTeX. For steps, see [Reading math in the Equatio Quick Start Guide](equatio-quick-start-guide.md#reading-math).
 
