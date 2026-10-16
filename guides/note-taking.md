@@ -6,8 +6,6 @@ nav_order: 1
 
 # Note-taking and Transcription
 
-<img src="../assets/images/note-taking/note-taking-icon.png" alt="" width="150"> <!-- review-alt -->
-
 **On this page:**
 
 - [Note-taking Strategies](#note-taking-strategies)
