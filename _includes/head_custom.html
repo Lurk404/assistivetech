@@ -32,38 +32,3 @@
     });
   })();
 </script>
-<script>
-  /* Dark mode. Just the Docs' own switch changes the first stylesheet on the
-     page, which breaks if a browser extension adds one. These versions find
-     the theme's stylesheet by name instead. */
-  (function () {
-    function themeLink() {
-      return document.querySelector(
-        'link[rel="stylesheet"][href*="just-the-docs-default.css"],' +
-        'link[rel="stylesheet"][href*="just-the-docs-light.css"],' +
-        'link[rel="stylesheet"][href*="just-the-docs-dark.css"]'
-      );
-    }
-
-    jtd.getTheme = function () {
-      var link = themeLink();
-      return link && /just-the-docs-dark\.css/.test(link.getAttribute('href')) ? 'dark' : 'light';
-    };
-
-    jtd.setTheme = function (theme) {
-      var link = themeLink();
-      if (link) {
-        link.setAttribute('href', link.getAttribute('href')
-          .replace(/just-the-docs-(default|light|dark)\.css/, 'just-the-docs-' + theme + '.css'));
-      }
-    };
-
-    /* Use the saved choice, or the device setting if there isn't one */
-    var stored = null;
-    try { stored = localStorage.getItem('jtd-theme'); } catch (e) {}
-    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if ((stored || (prefersDark ? 'dark' : 'light')) === 'dark') {
-      jtd.setTheme('dark');
-    }
-  })();
-</script>
