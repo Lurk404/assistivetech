@@ -55,7 +55,7 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 
 On a Mac, open an image or an inaccessible document in Preview, Photos, or Safari. Over text, the pointer turns into a text cursor: click and drag to select the text, then copy it.
 
-On iPhone and iPad, open the image in Photos (or point the Camera at the text) and tap the **Live Text** button, or touch and hold a word.
+On iPhone and iPad, open the image in Photos (or point the Camera at the text) and tap the **Live Text** button <img class="inline" src="../assets/images/optical-character-recognition/livetext.png" alt="" width="30">, or touch and hold a word.
 
 - [Interact with text in a photo using Live Text in Preview on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/preview/prvw625a5b2c/mac)
 - [Copy and translate text from photos on your iPhone or iPad – Apple Support (CA)](https://support.apple.com/en-ca/120004)
