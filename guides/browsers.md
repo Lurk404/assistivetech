@@ -22,7 +22,7 @@ For Chrome and Edge, try the [UI Options Plus (UIO+)](https://chromewebstore.goo
 
 ## Chrome
 
-![](../assets/images/logos/chrome.png) <!-- review-alt -->
+<img src="../assets/images/logos/chrome.png" alt="" width="10%">
 
 Chrome is the most widely used browser and works well with most assistive technology.
 
@@ -143,7 +143,7 @@ To reset all customizations to default, right-click the extension icon and choos
 
 ## Edge
 
-![](../assets/images/logos/edge.png) <!-- review-alt -->
+<img src="../assets/images/logos/edge.png" alt="" width="10%">"
 
 Edge is the default browser in Windows. It is built on the same engine as Chrome, so many features and settings are the same, and Chrome extensions work in Edge.
 
@@ -209,7 +209,7 @@ Caret browsing lets you move a text cursor around web pages with the keyboard an
 
 ## Firefox
 
-![](../assets/images/logos/firefox.png) <!-- review-alt -->
+<img src="../assets/images/logos/firefox.png" alt="" width="10%">
 
 Firefox isn’t built on the same engine as Chrome and Edge, so its extensions, settings, and some keyboard shortcuts are different. It is still a popular browser, very customizable, with many excellent features, including built-in text to speech.
 
@@ -359,7 +359,7 @@ See [Optical Character Recognition](optical-character-recognition.md) for other 
 
 ## Safari
 
-![](../assets/images/logos/safari.png) <!-- review-alt -->
+<img src="../assets/images/logos/safari.png" alt="" width="10%">
 
 Safari is the built-in web browser on macOS, iOS, and iPadOS. It has fewer extensions than Chrome, but some features of its own.
 
