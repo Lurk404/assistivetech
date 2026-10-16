@@ -6,4 +6,4 @@ has_children: true
 
 # Vision and Screen Enhancement
 
-Screen readers and magnifiers.
+Screen reader and magnifier software for users that are blind or have low vision.
