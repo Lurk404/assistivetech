@@ -17,7 +17,7 @@ Note-taking is a skill, and technology helps most when paired with a method that
 
 ## Note-taking Strategies
 
-Few people have ever been taught how to take notes. Technology and accommodations help most when you already have a note-taking method that works for you. Langara’s [Academic Success Centre](https://langara.ca/academic-success-centre/index.html) has resources, workshops, and tutoring that can help with note-taking.
+Few people have ever been taught how to take notes. Technology and accommodations help most when you already have a note-taking method that works for you. Langara’s [Academic Success Centre](https://langara.ca/student-services/academic-support/academic-success-centre) has resources, workshops, and tutoring that can help with note-taking.
 
 Consider these free tools for note-taking:
 
