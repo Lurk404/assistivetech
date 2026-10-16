@@ -10,7 +10,7 @@
     nothing extra to maintain. Pages without a list only get "Back to top".
 -->
 <div class="page-nav" id="page-nav">
-  <a class="page-nav-button" href="#top" id="back-to-top">Back to top</a>
+  <a class="page-nav-button" href="#top" id="go-to-top">Go to top</a>
 </div>
 
 <script>
@@ -19,13 +19,13 @@
     if (!bar) return;
         /* Swap the plain "Back to top" link for a button, which VoiceOver and
        Voice Control find reliably. (Without JavaScript the link stays.) */
-    var topLink = document.getElementById('back-to-top');
+    var topLink = document.getElementById('go-to-top');
     if (topLink) {
       var topButton = document.createElement('button');
       topButton.type = 'button';
       topButton.className = 'page-nav-button';
-      topButton.id = 'back-to-top';
-      topButton.textContent = 'Back to top';
+      topButton.id = 'go-to-top';
+      topButton.textContent = 'go to top';
       topButton.addEventListener('click', function () {
         var top = document.getElementById('top');
         if (top) {
