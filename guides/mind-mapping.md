@@ -222,7 +222,7 @@ To begin:
 
 For more information:
 
-- [Inspiration resources and videos](https://www.inspiration-at.com/resources)
+- [Inspiration resources and videos](https://www.inspiration-at.com/help)
 - [Inspiration explainer videos](https://www.inspiration-at.com/inspiration-explainer-videos/#explainer-videos)
 - [Inspiration how-to videos](https://www.inspiration-at.com/inspiration-for-windows-how-to-videos)
 - [Inspiration user manuals](https://www.inspiration-at.com/inspiration-help-manual/)
