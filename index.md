@@ -1,5 +1,5 @@
 ---
-title: Home
+title: At User Guides Home
 nav_order: 1
 permalink: /
 ---
@@ -18,28 +18,42 @@ Explore this collection of assistive technology user guides to learn new strateg
 
 ## Reading
 
+Tools that read text aloud or show it in an easier-to-read view, and get the text out of scans and images.
+
 - [Text to Speech Tools](guides/text-to-speech-tools.md): have text read aloud in Brightspace, Word, browsers, and on your devices.
 - [Reading Alternate Format Material](guides/reading-alternate-format-material.md): TextAid, Calibre, Kurzweil, Speechify, and NaturalReader.
 - [Optical Character Recognition](guides/optical-character-recognition.md): get the text out of scans, images, and inaccessible PDFs.
 
 ## Dictation and Voice Control
+
+Type with your voice, or control your computer or phone with voice commands.
+
 - [Speech to Text Tools](guides/speech-to-text-tools.md): type with your voice in Word, Windows, Android, iOS, macOS, and Dragon.
 - [Voice Control](guides/voice-control.md): control your computer or phone with your voice.
 
 ## Notetaking and Mind Mapping
 
+Note-taking methods, apps that record and transcribe, and tools for organizing ideas visually.
+
 - [Note-taking and Transcription](guides/note-taking.md): note-taking methods, and apps that record and transcribe.
 - [Mind Mapping](guides/mind-mapping.md): organize ideas visually and turn them into an outline.
 
 ## Closed Captions
+
+This page covers ways to turn on captions in video players, meeting apps, browsers, and devices, including automatic live captions for audio that isn’t captioned. Ensuring videos have accurate captions is the responsibility of whoever owns the content.
+
 - [Closed Captions](guides/closed-captions.md): captions in video players, meetings, browsers, and devices.
 
 ## Vision and Screen Enhancement
+
+Screen reader and magnifier software for users that are blind or have low vision.
 
 - [Screen Readers](guides/screen-readers.md): JAWS, NVDA, VoiceOver, TalkBack, and ChromeVox.
 - [Magnifiers](guides/magnifiers.md): ZoomText and the magnifiers built into your devices.
 
 ## More Tools
+
+Browser settings, math tools, a free accessibility toolbar, and websites for finding more assistive technology.
 
 - [Browsers](guides/browsers.md): accessibility settings and tools in Chrome, Edge, Firefox, and Safari.
 - [Equatio Quick Start Guide](guides/equatio-quick-start-guide.md): write math, and have it read aloud.
