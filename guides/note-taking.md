@@ -175,29 +175,28 @@ To transcribe the entire audio file:
 <details markdown="block">
 <summary>Glean</summary>
 
-[Glean](https://glean.co) (formerly Sonocent) is a note-taking app that can transcribe audio to text. It is available as a web app and a mobile app.
+[Genio](https://genio.co) (formerly Glean, and before that Sonocent) is a note-taking app that can transcribe audio to text. Its note-taking tool, Genio Notes, is available as a web app and a mobile app. If you already have a Glean account, you will be moved to Genio the next time you sign in.
 
-To use Glean to take notes and transcribe audio:
+To use Genio to take notes and transcribe audio:
 
-1. [Sign in to Glean](https://app.glean.co).
+1. [Sign in to Genio Notes](https://app.genio.co/notes).
 2. Select **New Event**.
-3. Click the red dot **Record** button.
-4. While Glean records, you can add notes, headings, or attachments. Each one is linked to that moment in the recording.
-5. When the presentation is over, click **Transcribe Audio**.
-6. Click **Transcript**.
+3. Click **Record** and choose **Microphone**. The first time you record, allow Genio to use your microphone.
+4. While Genio records, you can add notes, headings, or attachments. Each one is linked to that moment in the recording.
+5. When the presentation is over, stop the recording.
+6. Select **Transcript**, then **Transcribe Audio**. Choose a language and select **Transcribe Audio** again.
+7. When it's ready, select **Transcript** to view the transcript.
 
-To use Glean to transcribe pre-recorded audio:
+To use Genio to transcribe pre-recorded audio:
 
-1. [Sign in to Glean](https://app.glean.co).
+1. [Sign in to Genio Notes](https://app.genio.co/notes).
 2. Select **New Event**.
-3. Open the **Event Options** menu in the top right of the window.
-4. Select **Import Audio** and choose a file.
-5. Click **Transcribe Audio**.
-6. Click **Transcript**.
-7. Select **Text**.
-8. Highlight text and copy to a Word document, or select **Post** to post the transcribed text to the Glean Event, where it is saved automatically.
+3. Select **Import Audio** and choose a file. The file must be an .mp3 or .wav file, up to 3 hours long. Keep the Event open until the import is finished.
+4. Select **Transcript**, then **Transcribe Audio**. Choose a language and select **Transcribe Audio** again.
+5. When it's ready, select **Transcript** to view the transcript.
+6. Highlight text and copy it to a Word document, or select **Post** to add it to your notes in the Genio Event, where it is saved automatically.
 
-[Glean Help Centre](https://help.glean.co)
+[Genio Help Centre](https://help.genio.co)
 
 </details>
 
