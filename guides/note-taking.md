@@ -173,7 +173,7 @@ To transcribe the entire audio file:
 </details>
 
 <details markdown="block">
-<summary>Glean</summary>
+<summary>Genio</summary>
 
 [Genio](https://genio.co) (formerly Glean, and before that Sonocent) is a note-taking app that can transcribe audio to text. Its note-taking tool, Genio Notes, is available as a web app and a mobile app. If you already have a Glean account, you will be moved to Genio the next time you sign in.
 
