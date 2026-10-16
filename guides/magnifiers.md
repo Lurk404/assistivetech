@@ -6,7 +6,7 @@ nav_order: 2
 
 # Magnifiers
 
-<img src="../assets/images/magnifiers/magnifiers-icon.png" alt="" width="150"> <!-- review-alt -->
+<img src="../assets/images/magnifiers/magnifiers-icon.png" alt="" width="35"> <!-- review-alt -->
 
 Magnifiers enlarge part or all of the screen. Most computers and phones have one built in, and most also let you make text and everything else on screen bigger.
 
