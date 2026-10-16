@@ -6,8 +6,6 @@ nav_order: 2
 
 # Voice Control
 
-![](../assets/images/voice-control/voice-control-icon.png) <!-- review-alt -->
-
 **On this page:**
 
 - [Dragon](#dragon)
@@ -264,12 +262,19 @@ See [Note-taking and Transcription](note-taking.md#record-and-transcribe) for st
 
 **Voice access** is built into Windows 11 (version 22H2 or later). It lets you control your PC and dictate text with your voice. After setup, it works without an internet connection.
 
+<details markdown="block">
+<summary>Turn on Voice Access</summary>
+
 1. Go to **Settings > Accessibility > Speech** and turn on **Voice access**. Or search Windows for “voice access” and select **Open**.
 2. The first time, choose your language and select **Agree and continue** to download the speech files.
 3. Check your microphone on the **Setup microphone** screen.
 4. Take the guided tour, or close it to start using voice access.
 
-The voice access bar appears at the top of the screen. Some useful commands:
+</details>
+
+Toggle on Voice Access using <kbd>Control</kbd> <kbd>Win</kbd> <kbd>s</kdb>
+
+When activated, the voice access bar appears at the top of the screen. Some useful commands:
 
 - “Voice access wake up” and “Voice access sleep” to start and pause listening.
 - “What can I say?” to see the list of commands.
@@ -282,7 +287,10 @@ The voice access bar appears at the top of the screen. Some useful commands:
 
 ## macOS/iOS Voice Control
 
-Voice Control lets you navigate and use your Mac with only your voice. To turn it on:
+Voice Control lets you navigate and use your Mac with only your voice. 
+
+<details markdown="block">
+<summary>To turn Voice Control on:<summary>
 
 1. Go to **System Settings**.
 2. Select **Accessibility**.
@@ -302,11 +310,13 @@ Voice Control is also available on iPhone and iPad:
 4. Select **Open Voice Control Guide** for help.
 5. The **Voice Control** settings have many options to customize it.
 
+</details>
+
+### Tips
+
 Say “go to sleep” to pause listening and “wake up” to resume. Say “show names”, “show grid” or “show numbers”.
 
 [Use Voice Control to interact with iPhone – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iph2c21a3c88/ios)
-
-### Tips
 
 Use natural language, such as “open Mail” or “quit System Settings”.
 

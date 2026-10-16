@@ -6,8 +6,6 @@ nav_order: 2
 
 # Mind Mapping
 
-<img src="../assets/images/mind-mapping/mind-mapping-icon.png" alt="" width="140"> <!-- review-alt -->
-
 A mind map is a diagram that organizes information visually, as a hierarchy of topics with links between related ideas. Mind mapping can help you brainstorm ideas for a paper, organize notes and research, plan tasks, and see connections between concepts. It can also help with organization and focus.
 
 The most useful mind mapping tools can turn a map into a text outline, which is a great way to start an essay or assignment. Each tool below explains how.

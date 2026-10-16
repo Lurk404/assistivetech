@@ -18,7 +18,7 @@ Alternate format material is print, or inaccessible digital material, that has b
 
 ## TextAid
 
-![](../assets/images/logos/textaid.png) <!-- review-alt -->
+<img src="../assets/images/logos/textaid.png" alt="" width="20%"> <!-- review-alt -->
 
 The TextAid web app has several tools to help with reading. Sign in as described under [TextAid](text-to-speech-tools.md#textaid) on the Text to Speech Tools page.
 

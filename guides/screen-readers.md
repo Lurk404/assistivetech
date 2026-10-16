@@ -6,8 +6,6 @@ nav_order: 1
 
 # Screen Readers
 
-<img src="../assets/images/screen-readers/screen-readers-icon.png" alt="" width="211"> <!-- review-alt -->
-
 A screen reader reads aloud everything on the screen, including menus, buttons, and links, and lets you control the computer or phone with the keyboard or gestures instead of a mouse. Screen readers are used mainly by people who are blind or have low vision. Testing your own web pages and documents with a screen reader is also a good way to check their accessibility.
 
 **On this page:**

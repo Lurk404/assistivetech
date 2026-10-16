@@ -6,8 +6,6 @@ nav_order: 1
 
 # Speech to Text Tools
 
-<img src="../assets/images/speech-to-text-tools/speech-to-text-icon.png" alt="" width="260"> <!-- review-alt -->
-
 **On this page:**
 
 - [Word Dictate](#word-dictate)

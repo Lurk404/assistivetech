@@ -6,8 +6,6 @@ nav_order: 1
 
 # Text to Speech Tools
 
-![](../assets/images/text-to-speech-tools/text-to-speech-icon.png) <!-- review-alt -->
-
 **On this page:**
 
 - [ReadSpeaker](#readspeaker)

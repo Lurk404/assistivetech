@@ -143,7 +143,7 @@ To reset all customizations to default, right-click the extension icon and choos
 
 ## Edge
 
-<img src="../assets/images/logos/edge.png" alt="" width="10%">"
+<img src="../assets/images/logos/edge.png" alt="" width="10%">
 
 Edge is the default browser in Windows. It is built on the same engine as Chrome, so many features and settings are the same, and Chrome extensions work in Edge.
 

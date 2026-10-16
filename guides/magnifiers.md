@@ -19,7 +19,7 @@ Magnifiers enlarge part or all of the screen. Most computers and phones have one
 
 ## ZoomText
 
-<img src="../assets/images/logos/zoomtext.png" alt="" width="350"> <!-- review-alt -->
+<img src="../assets/images/logos/zoomtext.png" alt="" width="20%"> <!-- review-alt -->
 
 ZoomText Magnifier/Reader is a Windows magnification and reading program for people with low vision. It enlarges and enhances what’s on screen, echoes your typing and important program activity, and reads content aloud. You can control ZoomText with the mouse, keyboard, or voice commands.
 
@@ -215,7 +215,7 @@ By default, ZoomText reads back what you type. To turn this off, select **Reader
 
 ## Android
 
-<img src="../assets/images/logos/android.png" alt="" width="172"> <!-- review-alt -->
+<img src="../assets/images/logos/android.png" alt="" width="10%"> <!-- review-alt -->
 
 ### Visibility Enhancements (Samsung)
 
@@ -238,7 +238,7 @@ These steps are for Samsung phones. On other Android phones, look under **Settin
 
 ## Windows
 
-<img src="../assets/images/logos/windows-11.png" alt="" width="350"> <!-- review-alt -->
+<img src="../assets/images/logos/windows-11.png" alt="" width="20%"> <!-- review-alt -->
 
 <details markdown="block">
 <summary>Magnifier</summary>
@@ -293,7 +293,7 @@ To change colours and contrast:
 
 ## macOS
 
-![](../assets/images/logos/macos.png) <!-- review-alt -->
+<img src="../assets/images/logos/macos.png" alt="" width="10%">
 
 macOS has a built-in magnifier called Zoom. To turn it on:
 
@@ -329,7 +329,7 @@ To make everything on the screen bigger:
 
 ## iOS
 
-<img src="../assets/images/logos/ios.png" alt="" width="267"> <!-- review-alt -->
+<img src="../assets/images/logos/ios.png" alt="" width="20%"> <!-- review-alt -->
 
 <details markdown="block">
 <summary>Zoom</summary>

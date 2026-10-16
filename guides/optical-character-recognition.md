@@ -6,8 +6,6 @@ nav_order: 3
 
 # Optical Character Recognition
 
-<img src="../assets/images/optical-character-recognition/ocr-icon.png" alt="" width="67"> <!-- review-alt -->
-
 Optical character recognition (OCR) turns pictures of text, such as scans, screenshots, and photos, into text you can select, copy, and have read aloud. These tools can help you get the text out of inaccessible documents and websites.
 
 None of these tools replace accessible documents. The people who create content are always responsible for making it accessible.
@@ -37,7 +35,7 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 <details markdown="block">
 <summary>PowerToys</summary>
 
-![](../assets/images/logos/powertoys.png) <!-- review-alt -->
+<img src="../assets/images/logos/powertoys.png" alt="" width="10%"> <!-- review-alt -->
 
 [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys) is a free set of extra tools for Windows. Its **Text Extractor** copies the text from any part of the screen, including images and videos.
 
@@ -51,7 +49,7 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 <details markdown="block">
 <summary>iOS/iPadOS/macOS</summary>
 
-<img src="../assets/images/logos/apple.png" alt="" width="122"> <!-- review-alt -->
+<img src="../assets/images/logos/apple.png" alt="" width="10%"> <!-- review-alt -->
 
 **Live Text** lets you select and copy text in photos, screenshots, and paused videos on iPhone and iPad (iOS and iPadOS 15 or later) and Mac (macOS 12 or later).
 
@@ -67,7 +65,7 @@ On iPhone and iPad, open the image in Photos (or point the Camera at the text) a
 <details markdown="block">
 <summary>OneNote</summary>
 
-<img src="../assets/images/logos/onenote.png" alt="" width="161"> <!-- review-alt -->
+<img src="../assets/images/logos/onenote.png" alt="" width="10%"> <!-- review-alt -->
 
 In OneNote for Windows, insert an image or a file printout, right-click it and select **Copy Text from Picture**, then paste the text into OneNote or another document.
 
@@ -83,7 +81,7 @@ The **Microsoft Lens** scanning app was retired in early 2026 and removed from t
 <details markdown="block">
 <summary>Google Lens</summary>
 
-![](../assets/images/logos/google-lens.png) <!-- review-alt -->
+<img src="../assets/images/logos/google-lens.png" alt="" width="10%">
 
 Google Lens, like Apple’s Live Text, can pick out the text in a photo on your phone. [Download Google Lens for Android](https://play.google.com/store/apps/details?id=com.google.ar.lens). Google Lens is also built into Chrome on computers:
 
@@ -100,7 +98,7 @@ Google Lens, like Apple’s Live Text, can pick out the text in a photo on your 
 <details markdown="block">
 <summary>ShareX</summary>
 
-![](../assets/images/logos/sharex.png) <!-- review-alt -->
+<img src="../assets/images/logos/sharex.png" alt="" width="10%"> <!-- review-alt -->
 
 ShareX is a free screenshot app for Windows that includes OCR. Capture all or part of the screen, then copy the text into another program, for example to have it read aloud.
 
@@ -117,7 +115,7 @@ ShareX is a free screenshot app for Windows that includes OCR. Capture all or pa
 <details markdown="block">
 <summary>Snagit</summary>
 
-![](../assets/images/logos/snagit.png) <!-- review-alt -->
+<img src="../assets/images/logos/snagit.png" alt="" width="10%"> <!-- review-alt -->
 
 Snagit is paid screen capture and recording software for Windows and macOS. Langara has some licences. To copy all the text from an image:
 
@@ -140,7 +138,7 @@ To select specific text:
 <details markdown="block">
 <summary>Firefox (macOS)</summary>
 
-![](../assets/images/logos/firefox.png) <!-- review-alt -->
+<img src="../assets/images/logos/firefox.png" alt="" width="10%"> <!-- review-alt -->
 
 1. Right-click on an image.
 2. Select **Copy Text from Image**.
@@ -174,7 +172,7 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 <details markdown="block">
 <summary>TextAid</summary>
 
-![](../assets/images/logos/textaid.png) <!-- review-alt -->
+<img src="../assets/images/logos/textaid.png" alt="" width="10%"> <!-- review-alt -->
 
 Upload a picture or scan of text and TextAid converts it to text it can read aloud, and saves it to your Library.
 
@@ -198,7 +196,7 @@ Upload a picture or scan of text and TextAid converts it to text it can read alo
 <details markdown="block">
 <summary>Google Drive</summary>
 
-<img src="../assets/images/logos/google-drive.png" alt="" width="169"> <!-- review-alt -->
+<img src="../assets/images/logos/google-drive.png" alt="" width="10%"> <!-- review-alt -->
 
 Google Drive can convert scanned PDFs and images into editable text:
 
@@ -212,7 +210,7 @@ Google Drive can convert scanned PDFs and images into editable text:
 <details markdown="block">
 <summary>Acrobat</summary>
 
-![](../assets/images/logos/adobe-acrobat.png) <!-- review-alt -->
+<img src="../assets/images/logos/adobe-acrobat.png" alt="" width="10%"> <!-- review-alt -->
 
 The free Adobe Acrobat Reader can’t do OCR. You need a paid version of Acrobat.
 
