@@ -290,7 +290,7 @@ When activated, the voice access bar appears at the top of the screen. Some usef
 Voice Control lets you navigate and use your Mac with only your voice. 
 
 <details markdown="block">
-<summary>To turn Voice Control on:<summary>
+<summary>To turn Voice Control on:</summary>
 
 1. Go to **System Settings**.
 2. Select **Accessibility**.
