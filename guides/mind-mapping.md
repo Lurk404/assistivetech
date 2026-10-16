@@ -111,8 +111,8 @@ To create a mind map:
    1. Press <kbd>Tab</kbd> to create a subtopic.
    2. Press <kbd>Enter</kbd> to create a sibling topic.
    3. The toolbar has buttons to create siblings, subtopics, and connections.
-2. [Create connections between nodes](https://www.mindmup.com/tutorials/connections.html) by selecting the first node and then clicking **Connect to another node** on the toolbar and clicking the destination node, or holding <kbd>Alt</kbd> and clicking the destination node.
-3. Press <kbd>N</kbd> to [add a note to a topic](https://www.mindmup.com/tutorials/notes.html).
+2. [Create connections between nodes](https://www.mindmup.com/help/features/connect-nodes/) by selecting the first node and then clicking **Connect to another node** on the toolbar and clicking the destination node, or holding <kbd>Alt</kbd> and clicking the destination node.
+3. Press <kbd>N</kbd> to [add a note to a topic](https://www.mindmup.com/help/features/add-format-and-manage-notes/).
    1. Or open **View > Sidebar > Show Notes** to add and edit notes in the sidebar.
 
 To export an outline:
@@ -127,7 +127,7 @@ To export an outline:
 
 The exported outline uses nested lists to show the structure of the map. To get real heading levels instead, change the **Outline type** setting before exporting.
 
-- [MindMup tutorials and guides](https://www.mindmup.com/tutorials/index.html)
+- [MindMup tutorials and guides](https://www.mindmup.com/help/guides/)
 - [What are concept maps? – MindMup](https://www.mindmup.com/tutorials/concept_mapping.html)
 - [How to create document outlines with MindMup 2.0 (video, 1:08)](https://www.youtube.com/watch?v=hfmfblIqXD0)
 
