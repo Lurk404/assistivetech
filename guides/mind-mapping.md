@@ -198,7 +198,7 @@ You can also turn a Word outline into PowerPoint slides: see [Create a PowerPoin
 <details id="inspiration" markdown="block">
 <summary>Inspiration</summary>
 
-<img src="../assets/images/logos/inspiration.jpg" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/inspiration.jpg" alt="" width="20%"> <!-- review-alt -->
 
 Inspiration is software for creating diagrams, outlines, and maps, with templates and a built-in tutorial. [Download a free trial of Inspiration](https://www.inspiration-at.com/) or buy a licence. These steps and links are for Inspiration 10; newer versions may look different.
 
