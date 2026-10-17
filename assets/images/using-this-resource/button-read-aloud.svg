@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="58" viewBox="0 0 116 58" role="img" aria-label="Read this page aloud button">
+  <title>Read this page aloud button</title>
+  <rect x="1" y="1" width="114" height="56" rx="5" fill="#666666" stroke="#4e4e4e" stroke-width="2"/>
+  <line x1="58" y1="1" x2="58" y2="57" stroke="#4e4e4e" stroke-width="2"/>
+  <ellipse cx="29" cy="27" rx="17" ry="12" fill="#c8c8c8"/>
+  <path d="M19 35 L15 44 L27 38 Z" fill="#c8c8c8"/>
+  <path d="M78 17 L78 41 L98 29 Z" fill="#ffffff"/>
+</svg>
