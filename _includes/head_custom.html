@@ -1,4 +1,13 @@
 <script>
+  /* Dark mode: if the reader chose dark on an earlier visit, switch the stylesheet
+     now, before the page is drawn, so they don't see a flash of the light theme.
+     The toggle button itself is in _includes/theme_toggle.html. */
+  try {
+    if (localStorage.getItem('theme') === 'dark') jtd.setTheme('dark');
+  } catch (e) {}
+</script>
+
+<script>
   /* Open collapsed sections (<details>) when a link points to one.
      Works for links to the section's id, or to anything inside it,
      from the same page or another page. Also opens any sections it is nested in. */
