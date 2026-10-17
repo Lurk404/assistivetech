@@ -11,7 +11,7 @@ These free websites help you find more assistive technology and accessibility se
 **On this page:**
 
 - [My Computer My Way](#my-computer-my-way)
-- [Unified Listing](#unified-listing)
+- [Learn and Try](#learn-and-try)
 - [AT Hive](#at-hive)
 
 ## My Computer My Way
@@ -89,128 +89,85 @@ It is generally up to date, covers older operating systems too, and is the most 
 
 </details>
 
-## Unified Listing
+## Learn and Try
 
-The [Unified Listing](https://ul.gpii.net) is a worldwide directory of assistive technology and accessible products for communication, computers, and digital devices. It combines more than a dozen databases and is run by Raising the Floor (the makers of [Morphic](morphic.md)). If you create a free account, you can get email updates about particular products.
+[Learn and Try](https://learnandtry.org) is a free directory of tools that make computers, tablets and phones easier to use, from Raising the Floor (the makers of [Morphic](morphic.html)). It covers built-in accessibility features, free tools and commercial assistive technology for Windows, Mac, Chromebook, iPhone, iPad and Android. Each tool has a short description, a demonstration video, and a link to the manufacturer's page.
 
-You can find products in five ways:
+You don't need an account, and the site doesn't store your answers or searches.
 
-- Power Search
-- Guided Shopping
-- Classic Search
-- Find Similar Products
-- View Products by Manufacturer
+There are two ways to start:
 
-![The Unified Listing search options: Power Search, Classic Search, Guided Shopping and Find Similar Products, with a View Products By Manufacturer button.](../assets/images/finding-more-tools/ul-search-options.png) <!-- review-alt -->
+- **Tool Finder**: answer a few questions and get a list of suggestions. Best if you're not sure what you're looking for.
+- **Browse All Tools**: filter the full list yourself.
+
+<!-- Screenshot: Learn and Try home page with the Use Tool Finder and Browse All Tools buttons -->
+
+**Using the Tool Finder**
+
+1. Select **Use Tool Finder**, then **Start**.
+2. Choose whether you're looking for yourself or someone else.
+3. Choose what the person needs help with, such as reading, writing or vision. You can choose more than one. Select **Next**.
+4. Choose the devices they use, then select **Next**. The Tool Finder shows how many tools match.
+5. Select **See My Tools** to open the matching list.
+
+The list opens on the Browse All Tools page with your answers already selected as filters, so you can keep narrowing it down from there.
+
+**Browsing the List**
+
+Tools are grouped under light-blue headings by what they help with. If you're new to this, select a heading first: it explains the kinds of features to look for in that type of tool.
+
+Select a tool's name to open it. You'll see:
+
+- a short description and demonstration video
+- the devices it runs on
+- whether it needs to be installed
+- the price, and a link to the manufacturer's page
+
+A tool that fits more than one heading appears in grey the second time, so you can skip it.
+
+The list may also include headings you didn't choose, such as **Vision**, when those tools could still help.
 
 <details markdown="block">
-<summary>Power Search</summary>
+<summary>Filters</summary>
 
-Power Search combines search terms with filters for difficulties (hearing, seeing, reading, and so on), operating systems, and product types. Add one filter at a time to narrow down the results.
-![The Power Search page with Difficulties filters on the left, a search box and results in the middle, and Operating Systems and Product Types filters on the right.](../assets/images/finding-more-tools/ul-power-search.png) <!-- review-alt -->
+The filters are on the left side of the Browse All Tools page. Each one you check narrows the list.
 
-Each filter has a **Clear** button to reset it.
+- **Functions**: what the person needs help with, such as reading, writing, cognitive or vision.
+- **Devices**: the devices the tool needs to run on, such as Windows or Chromebook.
+- **Need to Install?**: show only tools that are built in or web-based. These work even when you can't install software, such as on a college or library computer.
+- **Purchase Options**: show only tools that are free or have a free trial.
 
-Above the search field, select **Share or save this search** to get a link to your results, which you can save or share.
-![The Power Search box with the tooltip Share or save this search above a link button, next to an email button and a Clear all button.](../assets/images/finding-more-tools/ul-share-search.png) <!-- review-alt -->
+Select **Clear all filters** to start over.
+
+Above the list, you can choose how many tools to show at once and sort by **Name**, **Company** or **Newest Added**.
 
 </details>
 
 <details markdown="block">
-<summary>Guided Shopping</summary>
+<summary>Saving and sharing a Short List</summary>
 
-Guided Shopping groups products by type, such as **Computer Access and Use**, **Person-to-Person Communication**, and **Education**.
+When you find a tool you want to come back to, select **Add to Short List**. Your Short List appears at the top of the page, where you can compare the tools you've saved.
 
-Each type leads to more specific questions. When you reach the kind of product you want, you can search the results or filter them by operating system.
-![Guided Shopping results for Access to Equations, with a keyword search box, 8 results, and Operating System filters.](../assets/images/finding-more-tools/ul-guided-shopping-results.png) <!-- review-alt -->
-
-Use the breadcrumb links at the top of the results to go back through your choices.
-![The breadcrumb trail Guided Shopping, Education, Student tools for homework, Mathematics Aids, Access to Equations, outlined in red.](../assets/images/finding-more-tools/ul-guided-shopping-breadcrumbs.png) <!-- review-alt -->
-
-</details>
-
-<details markdown="block">
-<summary>Classic Search</summary>
-
-Classic Search lets you search by keyword or product name and filter by operating system. It is simpler than Power Search.
-
-Above the search field, select **Share or save this search** to get a link to your results.
-![The Classic Search box with the share link button circled.](../assets/images/finding-more-tools/ul-classic-search.png) <!-- review-alt -->
-
-</details>
-
-<details markdown="block">
-<summary>Find Similar Products</summary>
-
-Start with a product you already know, then choose the features of it that matter to you.
-
-1. Search or scroll through the list of products.
-   ![The Find Similar Products page with a box to type in or choose a product name and a Submit button.](../assets/images/finding-more-tools/ul-find-similar-products.png) <!-- review-alt -->
-2. Choose a product, then select the features of it that you use.
-   ![Find Products Similar to Read&Write, with checkboxes for product category, primary features and operating system.](../assets/images/finding-more-tools/ul-similar-to-read-and-write.png) <!-- review-alt -->
-3. Matching products appear below as you select features.
-   ![116 results, starting with Read&Write as the starting point, followed by ClaroRead, WordTalk and Orato.](../assets/images/finding-more-tools/ul-similar-results.png) <!-- review-alt -->
-   1. Results can be sorted.
-4. Select a result to see the guide for that product.
-   ![The Unified Listing guide for ClaroRead, describing each edition, with a Notify me of updates button and a list of partner databases.](../assets/images/finding-more-tools/ul-claroread-guide.png) <!-- review-alt -->
-
-</details>
-
-<details markdown="block">
-<summary>View Products by Manufacturer</summary>
-
-**View Products by Manufacturer** lists manufacturers alphabetically. Select a letter and then a manufacturer to see all its products. For example, **T > TextHelp** shows all of TextHelp’s products in the Unified Listing.
-![Products from this manufacturer: Browsealoud, EquatIO, Fluency Tutor, Read&Write, Snapverter, SpeechStream and WordSmith v2.0.](../assets/images/finding-more-tools/ul-manufacturer-products.png) <!-- review-alt -->
-
-</details>
-
-<details markdown="block">
-<summary>Software Guides</summary>
-
-Each product has a guide.
-![The Unified Listing guide for Read&Write with a description, main features, primary specifications, options and accessories, and links to more information.](../assets/images/finding-more-tools/ul-read-and-write-guide.png) <!-- review-alt -->
-
-Guides describe the product and its main features, with links to more information.
-
-**Find products similar to this one** opens **Find Similar Products** with that product already selected.
-![The Find products similar to this one button.](../assets/images/finding-more-tools/ul-find-similar-button.png) <!-- review-alt -->
+The Short List is **not** saved when you leave the site. To keep it, select **COPY link to SHORT LIST** and save the link, or paste it into an email or message to share it. The link opens the same list again.
 
 </details>
 
 <details markdown="block">
 <summary>Settings</summary>
 
-You can change how the Unified Listing looks. At the top of the page, select **+show preferences**.
-![The top of the Unified Listing home page with an arrow pointing to the show preferences button.](../assets/images/finding-more-tools/ul-show-preferences.png) <!-- review-alt -->
-
-Scroll sideways through the settings:
-
-- **Text size**: up to twice the default size.
-- **Text style**: Times New Roman, Comic Sans, Arial, or Verdana.
-- **Line spacing**: up to twice the default spacing.
-- **Contrast**: five higher-contrast colour schemes.
-- **Table of contents**: adds a table of contents near the top left of the page, to jump to different parts of it.
-- **Enhance inputs**: makes links, buttons, menus, text fields, and other controls larger and easier to see.
-
-Click **reset** to set everything back to the defaults.
-   ![The preferences panel with text size, text style and line spacing controls, and hide preferences and reset buttons.](../assets/images/finding-more-tools/ul-preferences.png) <!-- review-alt -->
+Learn and Try has no settings to change. To make the page larger, use your browser's zoom (<kbd>Ctrl</kbd> + <kbd>+</kbd> on Windows and Chromebook, <kbd>Cmd</kbd> + <kbd>+</kbd> on Mac).
 
 </details>
 
-<details markdown="block">
-<summary>Notable Issues</summary>
+**Notable Issues**
 
-Even with more than a dozen databases, the Unified Listing doesn’t include every product. Some of its databases may be out of date or no longer maintained, so check details with the manufacturer.
+Learn and Try doesn't include every product, and tools change often, so check prices and details on the manufacturer's page before you buy.
 
-</details>
+**Links and Further Reading**
 
-<details markdown="block">
-<summary>Links and Further Reading</summary>
-
-- [About Unified Listing](https://ul.gpii.net/about)
-- [The Global Public Infrastructure – Raising the Floor](https://raisingthefloor.org/the-global-public-infrastructure/)
-
-</details>
+- [Learn and Try](https://learnandtry.org) by Raising the Floor
+- [Transcript of the Learn and Try walkthrough video](https://raisingthefloor.org/lnt-transcript/), which describes each step of the Tool Finder and Browse page
+- [Contact Raising the Floor](https://raisingthefloor.org/contact/) for help or to report a problem
 
 ## AT Hive
 
