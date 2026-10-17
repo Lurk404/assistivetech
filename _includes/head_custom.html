@@ -41,3 +41,36 @@
     });
   })();
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Normalize paths so /page/, /page.html and /page/index.html all match
+  function norm(p) { return p.replace(/(index)?\.html$/, "").replace(/\/$/, ""); }
+  var here = norm(window.location.pathname);
+
+  var link = Array.from(document.querySelectorAll("#site-nav a.nav-list-link"))
+    .find(function (a) { return norm(new URL(a.href).pathname) === here; });
+  if (!link) return;
+
+  // h2s in the page body, skipping any marked {: .no_toc }
+  var headings = document.querySelectorAll("#main-content h2[id]:not(.no_toc)");
+  if (!headings.length) return;
+
+  var list = document.createElement("ul");
+  list.className = "nav-list nav-headings";
+  headings.forEach(function (h) {
+    var li = document.createElement("li");
+    li.className = "nav-list-item";
+    var a = document.createElement("a");
+    a.className = "nav-list-link";
+    a.href = "#" + h.id;
+    a.textContent = h.textContent.trim();
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+
+  // Put headings under the current page, ahead of any child pages
+  var item = link.closest(".nav-list-item");
+  item.insertBefore(list, item.querySelector(":scope > .nav-list"));
+});
+</script>
