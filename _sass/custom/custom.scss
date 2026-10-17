@@ -100,11 +100,6 @@
     background-color: $grey-lt-000;  // same as a collapsible section's summary
   }
 
-  &:hover {
-    text-decoration: underline;
-    background-color: $grey-lt-000;
-  }
-
   &:focus-visible {
     outline: 3px solid $link-color;
     outline-offset: 2px;
