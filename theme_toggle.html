@@ -1,0 +1,48 @@
+<!--
+  Light/dark toggle, in the header next to "View on GitHub".
+  Included from header_custom.html.
+
+  - Light is the default. Dark is the reader's choice, remembered in their
+    browser (localStorage) so it carries over from page to page.
+  - head_custom.html re-applies a saved dark choice before the page is drawn.
+  - The button stays hidden if JavaScript is off, since it can't work without it.
+-->
+<div class="theme-toggle">
+  <button type="button" class="btn js-toggle-dark-mode" hidden>Preview dark color scheme</button>
+</div>
+
+<style>
+  /* Temporary placement styles; move to _sass/custom/custom.scss later */
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+</style>
+
+<script>
+  (function () {
+    var button = document.querySelector('.js-toggle-dark-mode');
+    if (!button || !window.jtd) return;
+
+    function updateLabel() {
+      button.textContent = jtd.getTheme() === 'dark'
+        ? 'Return to the light side'
+        : 'Preview dark color scheme';
+    }
+
+    button.addEventListener('click', function () {
+      if (jtd.getTheme() === 'dark') {
+        jtd.setTheme('default');               /* back to the site default (light) */
+        try { localStorage.removeItem('theme'); } catch (e) {}
+      } else {
+        jtd.setTheme('dark');
+        try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+      }
+      updateLabel();
+    });
+
+    updateLabel();
+    button.hidden = false;
+  })();
+</script>
