@@ -64,30 +64,21 @@ Search is handy when you know what you’re looking for. To discover features an
 
 </details>
 
-<details markdown="block">
-<summary>Settings</summary>
+### Settings
 
 My Computer My Way has no settings to change. If the site isn’t working properly, try clearing its cookies and site data in your browser’s settings.
 
-</details>
-
-<details markdown="block">
-<summary>Notable Issues</summary>
+### Notable Issues
 
 My Computer My Way doesn’t cover separate assistive technology products such as JAWS, Read&Write, or Kurzweil.
 
 It is generally up to date, covers older operating systems too, and is the most complete collection of guides to built-in accessibility tools and settings. Even so, it doesn’t list everything: there may be useful tools and settings that it doesn’t cover.
 
-</details>
-
-<details markdown="block">
-<summary>Links and Further Reading</summary>
+### Links and Further Reading
 
 - [My Computer My Way](https://mcmw.abilitynet.org.uk) by AbilityNet
 - AbilityNet [factsheets on assistive technology](https://abilitynet.org.uk/free-tech-support-and-info/abilitynet-factsheets)
 - [Helpful tech tips: My Computer My Way – AbilityNet](https://abilitynet.org.uk/news-blogs/helpful-tech-tips-my-computer-my-way)
-
-</details>
 
 ## Learn and Try
 
@@ -102,7 +93,8 @@ There are two ways to start:
 
 <!-- Screenshot: Learn and Try home page with the Use Tool Finder and Browse All Tools buttons -->
 
-**Using the Tool Finder**
+<details markdown="block">
+<summary>Using the Tool Finder</summary>
 
 1. Select **Use Tool Finder**, then **Start**.
 2. Choose whether you're looking for yourself or someone else.
@@ -112,7 +104,10 @@ There are two ways to start:
 
 The list opens on the Browse All Tools page with your answers already selected as filters, so you can keep narrowing it down from there.
 
-**Browsing the List**
+</details>
+
+<details markdown="block">
+<summary>Browsing All Tools</summary>
 
 Tools are grouped under light-blue headings by what they help with. If you're new to this, select a heading first: it explains the kinds of features to look for in that type of tool.
 
@@ -126,6 +121,8 @@ Select a tool's name to open it. You'll see:
 A tool that fits more than one heading appears in grey the second time, so you can skip it.
 
 The list may also include headings you didn't choose, such as **Vision**, when those tools could still help.
+
+</details>
 
 <details markdown="block">
 <summary>Filters</summary>
@@ -196,23 +193,14 @@ The home page has an introductory video on how to use it.
 
 </details>
 
-<details markdown="block">
-<summary>Settings</summary>
+### Settings
 
 The AT Hive has no settings to change. If the site isn’t working properly, try clearing its cookies and site data in your browser’s settings.
 
-</details>
-
-<details markdown="block">
-<summary>Notable Issues</summary>
+### Notable Issues
 
 The AT Hive includes only a few of the tools and settings built into devices, and doesn’t list specialist assistive technology such as JAWS, NVDA, or Kurzweil.
 
-</details>
-
-<details markdown="block">
-<summary>Links and Further Reading</summary>
+### Links and Further Reading
 
 [The AT Hive – AHEAD](https://www.ahead.ie/The-AT-Hive)
-
-</details>
