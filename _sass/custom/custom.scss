@@ -93,8 +93,12 @@
   cursor: pointer;
   background-color: $body-background-color;
   border: 1px solid $border-color;
-  border-radius: 999px;
+  border-radius: $border-radius;     // was 999px; matches the collapsible sections
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+
+  &:hover {
+    background-color: $grey-lt-000;  // same as a collapsible section's summary
+  }
 
   &:hover {
     text-decoration: underline;
