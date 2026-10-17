@@ -189,3 +189,99 @@
     display: none !important;
   }
 }
+
+
+// ==========================================================================
+// Dark mode
+// Everything below only goes into the dark stylesheet. Just the Docs builds
+// this file once per colour scheme, and $color-scheme says which one it is.
+// Contrast ratios are against the dark page background (#27262b).
+// ==========================================================================
+@if $color-scheme == dark {
+
+  // Tell the browser the page is dark, so its own parts (scrollbars,
+  // the details arrow, form fields) switch to dark versions too.
+  :root {
+    color-scheme: dark;
+  }
+
+  // Callouts. Just the Docs uses its darkest shade of each colour in dark mode,
+  // which nearly disappears (blue is 1.3:1). These use light shades instead.
+  // If you add a callout in _config.yml, add it here too.
+  $dark-callout-colors: (
+    "tip": $green-000,       // 8.1:1
+    "note": $link-color,     // 5.7:1
+    "warning": $red-000      // 5.9:1
+  );
+
+  @each $name, $color in $dark-callout-colors {
+    p.#{$name},
+    blockquote.#{$name},
+    p.#{$name}-title,
+    blockquote.#{$name}-title {
+      background-color: rgba($color, 0.06);
+      border-color: rgba($color, 0.45);
+      border-left-color: $color;
+      box-shadow: none;
+    }
+
+    p.#{$name}::before,
+    blockquote.#{$name}::before,
+    p.#{$name} > .#{$name}-title,
+    blockquote.#{$name} > .#{$name}-title,
+    p.#{$name}-title > p:first-child,
+    blockquote.#{$name}-title > p:first-child {
+      color: $color;
+    }
+  }
+
+  // Collapsible sections
+  .main-content details {
+    border-color: $grey-dk-100;
+  }
+
+  .main-content details > summary {
+    color: $body-heading-color;       // was dark grey on dark (1.5:1)
+  }
+
+  .main-content details[open] > summary {
+    border-bottom-color: $grey-dk-100;
+  }
+
+  .main-content details > summary:hover {
+    background-color: $grey-dk-250;
+  }
+
+  // Keyboard keys: dark keys instead of bright white ones
+  .main-content kbd {
+    color: $grey-lt-000;
+    background-color: $grey-dk-250;
+    border-color: $grey-dk-000;
+  }
+
+  // Images: many logos and icons are black on a see-through background and
+  // would vanish on a dark page, so every image sits on a white card.
+  // Screenshots look the same as in light mode, with a thin white frame.
+  .main-content img {
+    padding: 0.25rem;
+    background-color: $white;
+    border-radius: $border-radius;
+  }
+
+  .main-content img.inline {
+    padding: 0.1rem;
+  }
+
+  // Floating "Back to top" / "On this page" buttons, the light/dark toggle,
+  // and the "On this page" popover. Shadows don't show on a dark page,
+  // so a lighter border marks their edges instead.
+  .page-nav-button,
+  .page-toc {
+    border-color: $grey-dk-000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .page-nav-button:hover {
+    background-color: $grey-dk-250;   // link colour on this is 5.1:1
+  }
+}
