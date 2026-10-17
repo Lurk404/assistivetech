@@ -58,6 +58,22 @@
         main.classList.add('flc-orator-content');
       }
 
+      /* Extra contrast theme: dark brown on sand (#F9F5E9), second in the list.
+         Its colours are in custom.scss (search for "fl-theme-sand"), and its name
+         ("Dark brown on sand") is in assets/display-preferences/contrast.json. */
+      fluid.defaults("fluid.prefs.schemas.contrast", {
+        gradeNames: ["fluid.prefs.schemas"],
+        schema: {
+          "fluid.prefs.contrast": {
+            "type": "string",
+            "default": "default",
+            "enum": ["default", "sand", "bw", "wb", "by", "yb", "lgdg", "gw", "gd", "bbr"],
+            "enumLabels": ["contrast-default", "contrast-sand", "contrast-bw", "contrast-wb",
+              "contrast-by", "contrast-yb", "contrast-lgdg", "contrast-gw", "contrast-gd", "contrast-bbr"]
+          }
+        }
+      });
+
       fluid.uiOptions(prefs, {
         /* The panels, in order. Infusion also offers "fluid.prefs.tableOfContents",
            left out because every guide already has its own "On this page" list. */
@@ -76,6 +92,16 @@
             /* Paths include the site's address (/assistivetech), so they work on every page */
             templatePrefix: "{{ '/assets/infusion/src/framework/preferences/html' | relative_url }}",
             messagePrefix: "{{ '/assets/infusion/src/framework/preferences/messages' | relative_url }}"
+          },
+          /* The sand theme (see above): its class, and the wording file with its name */
+          "fluid.prefs.contrast": {
+            enactor: {
+              classes: { "sand": "fl-theme-sand" }
+            },
+            panel: {
+              classnameMap: { theme: { "sand": "fl-theme-sand" } },
+              message: "{{ '/assets/display-preferences/contrast.json' | relative_url }}"
+            }
           },
           /* Text-to-speech play button: clearer names than Infusion's "play" / "pause" */
           "fluid.prefs.speak": {
