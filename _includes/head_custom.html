@@ -41,3 +41,16 @@
     });
   })();
 </script>
+
+{%- comment -%}
+  Display preferences (Fluid Infusion UI Options): styles and script.
+  The panel and the script that starts it are in _includes/display_preferences.html.
+  The files are in assets/infusion/ (see the README.txt there).
+  "defer" lets the page draw first; the script still runs before the panel starts.
+{%- endcomment -%}
+{%- assign infusion = '/assets/infusion' | relative_url %}
+<link rel="stylesheet" href="{{ infusion }}/src/framework/core/css/fluid.css">
+<link rel="stylesheet" href="{{ infusion }}/src/framework/preferences/css/Enactors.css">
+<link rel="stylesheet" href="{{ infusion }}/src/framework/preferences/css/PrefsEditor.css">
+<link rel="stylesheet" href="{{ infusion }}/src/framework/preferences/css/SeparatedPanelPrefsEditor.css">
+<script src="{{ infusion }}/infusion-uio.js" defer></script>

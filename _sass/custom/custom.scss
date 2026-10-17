@@ -190,6 +190,122 @@
   }
 }
 
+// ==========================================================================
+// Display preferences (Fluid Infusion UI Options)
+// Markup and script in _includes/display_preferences.html. Infusion's own
+// styles (assets/infusion/) draw the panels; these fit the bar into the site
+// and fix a few things when a reader picks a contrast theme.
+// ==========================================================================
+
+// Hidden until the script starts it. Infusion's styles would otherwise show
+// the empty bar when JavaScript is off.
+.site-prefs[hidden] {
+  display: none !important;
+}
+
+// The bar: a slim row at the top of the page content, buttons on the right.
+// The buttons use .page-nav-button above, so they match "Back to top".
+.site-prefs.fl-prefsEditor-separatedPanel {
+  display: block;
+  background-color: $sidebar-color;
+  border-bottom: $border $border-color;
+}
+
+.site-prefs-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+// The open panel. Infusion lays the panels out in one long row that scrolls
+// sideways; on wider screens they wrap into a grid instead, so all seven are
+// visible at once. On phones Infusion's own one-panel-at-a-time layout stays.
+.site-prefs .fl-prefsEditor {
+  background-color: $grey-lt-200;   // Infusion's default is a taupe
+}
+
+// Panel headings: Just the Docs colours every h2, which in dark mode would be
+// light text on the white panels. Take the panel's own colour instead.
+.site-prefs .fl-prefsEditor-panel h2 {
+  color: inherit;
+}
+
+@media screen and (min-width: 40em) {
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor {
+    overflow-x: visible;
+  }
+
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel {
+    display: block;
+    min-width: 0;
+    padding: 1rem;
+  }
+
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 {
+    height: auto;
+    min-height: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 .fl-heading-text {
+    text-align: left;
+  }
+
+  // Contrast swatches wrap onto a second row instead of spilling out of the card
+  // (the gap leaves room for the arrow that marks the chosen one)
+  .site-prefs .fl-prefsEditor .fl-choices {
+    flex-wrap: wrap;
+    row-gap: 1.75rem;
+  }
+}
+
+@media print {
+  .site-prefs {
+    display: none !important;
+  }
+}
+
+// Contrast themes. Infusion puts a class like "fl-theme-yb" (yellow on black)
+// on <body> and recolours every element. Two things on this site need help.
+body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
+
+  // Images: many logos are black on a see-through background and would vanish
+  // on a black page, so every image sits on a white card (as in dark mode).
+  .main-content img {
+    padding: 0.25rem;
+    background-color: #fff !important;
+    border-radius: $border-radius;
+  }
+
+  .main-content img.inline {
+    padding: 0.1rem;
+  }
+
+  // Callout titles ("Tip", "Note", "Warning") and the numbers in numbered steps
+  // keep their own colours otherwise, which can be hard to read on the theme's
+  // background (for example light grey numbers on yellow).
+  .main-content ol > li::before,
+  p.tip::before, blockquote.tip::before,
+  p.note::before, blockquote.note::before,
+  p.warning::before, blockquote.warning::before,
+  .tip-title > p:first-child,
+  .note-title > p:first-child,
+  .warning-title > p:first-child {
+    color: var(--fl-fgColor) !important;
+  }
+}
+
 
 // ==========================================================================
 // Dark mode
@@ -283,5 +399,11 @@
 
   .page-nav-button:hover {
     background-color: $grey-dk-250;   // link colour on this is 5.1:1
+  }
+
+  // Display preferences: the bar matches the dark sidebar. The panels stay
+  // white with dark text (Infusion's own colours), on a dark background.
+  .site-prefs .fl-prefsEditor {
+    background-color: $grey-dk-250;
   }
 }

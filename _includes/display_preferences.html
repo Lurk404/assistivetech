@@ -1,0 +1,79 @@
+<!--
+  Display preferences panel (Fluid Infusion UI Options), at the top of every page.
+  Included from header_custom.html. Styles and the Infusion script are loaded in
+  head_custom.html; the layout is in _sass/custom/custom.scss (search for
+  "Display preferences"). The Infusion files are in assets/infusion/.
+
+  - Readers can change text size, font, line, letter and word spacing, colour
+    contrast, and make buttons and form fields bigger. The choices apply to every
+    page and are remembered in a browser cookie.
+  - The script below moves the panel to the top of the page content, above the
+    search bar, so it's always visible, including on phones where the header
+    is tucked into the menu.
+  - The panels themselves (templates and wording) are only downloaded the first
+    time someone opens the panel ("lazyLoad").
+  - The panel stays hidden if JavaScript is off, since it can't work without it.
+  - Button wording: the name screen readers hear starts with the visible text,
+    so voice control ("click Show preferences", "click Reset") works. The labels
+    are short so both buttons fit on one line on a phone.
+-->
+<div id="site-prefs" class="site-prefs flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel" hidden>
+  <div class="site-prefs-bar">
+    <button type="button" class="page-nav-button flc-slidingPanel-toggleButton">Show preferences</button>
+    <button type="button" class="page-nav-button flc-prefsEditor-reset" aria-label="Reset preferences">Reset</button>
+  </div>
+  <div class="flc-slidingPanel-panel"></div>
+</div>
+
+<script>
+  (function () {
+    function start() {
+      var prefs = document.getElementById('site-prefs');
+      var main = document.querySelector('.main');
+      if (!prefs || !main || !window.fluid || !fluid.uiOptions) return;
+
+      main.insertBefore(prefs, main.firstChild);
+      prefs.hidden = false;
+
+      fluid.uiOptions(prefs, {
+        /* The panels, in order. Infusion also offers "fluid.prefs.tableOfContents",
+           left out because every guide already has its own "On this page" list. */
+        preferences: [
+          "fluid.prefs.textSize",
+          "fluid.prefs.textFont",
+          "fluid.prefs.lineSpace",
+          "fluid.prefs.letterSpace",
+          "fluid.prefs.wordSpace",
+          "fluid.prefs.contrast",
+          "fluid.prefs.enhanceInputs"
+        ],
+        auxiliarySchema: {
+          terms: {
+            /* Paths include the site's address (/assistivetech), so they work on every page */
+            templatePrefix: "{{ '/assets/infusion/src/framework/preferences/html' | relative_url }}",
+            messagePrefix: "{{ '/assets/infusion/src/framework/preferences/messages' | relative_url }}"
+          }
+        },
+        prefsEditorLoader: {
+          lazyLoad: true,
+          slidingPanel: {
+            strings: {
+              showText: "Show preferences",
+              hideText: "Hide preferences",
+              showTextAriaLabel: "Show preferences",
+              hideTextAriaLabel: "Hide preferences",
+              panelLabel: "Display preferences"
+            }
+          }
+        }
+      });
+    }
+
+    /* infusion-uio.js loads with "defer", so wait until the page is parsed */
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', start);
+    } else {
+      start();
+    }
+  })();
+</script>
