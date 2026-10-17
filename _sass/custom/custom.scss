@@ -286,6 +286,28 @@
   }
 }
 
+// Line spacing. Infusion sets the reader's line spacing on <body> and expects
+// the page to inherit it, but Just the Docs gives page content (1.6) and
+// headings (1.25) their own line heights, so only the sidebar footer changed.
+// Scale those by the reader's choice instead (--fl-lineSpace-factor, e.g. 1.5).
+// The menu keeps its own spacing, since its row heights are fixed.
+body.fl-lineSpace-enabled {
+  .main-content {
+    line-height: calc(#{$content-line-height} * var(--fl-lineSpace-factor, 1)) !important;
+  }
+
+  .main-content h1, .main-content h2, .main-content h3,
+  .main-content h4, .main-content h5, .main-content h6 {
+    line-height: calc(#{$body-heading-line-height} * var(--fl-lineSpace-factor, 1)) !important;
+  }
+}
+
+// Text-to-speech play button, at the top of the page content
+// (Infusion's styles draw the button itself)
+.main-content > .fl-orator-controller {
+  margin-bottom: 1rem;
+}
+
 // Contrast themes. Infusion puts a class like "fl-theme-yb" (yellow on black)
 // on <body> and recolours every element. Two things on this site need help.
 body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {

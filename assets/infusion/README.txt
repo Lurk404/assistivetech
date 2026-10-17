@@ -17,15 +17,16 @@ What's here
   src/framework/preferences/html/          Templates for each panel (loaded when the panel opens)
   src/framework/preferences/messages/      Panel wording, English only
   src/framework/preferences/fonts/         Icon font for the panel
+  src/components/orator/                   Styles and icons for the text-to-speech play button
   src/lib/                                 Fonts readers can choose (OpenDyslexic, Atkinson Hyperlegible)
                                            and the panel's own font (Open Sans)
 
 The files are unchanged from the release. Keep the folder layout as it is:
 the CSS files find the fonts by relative paths (../../../lib/...).
 
-Only the templates and wording for the seven panels in use are included
-(text size, text style, line/letter/word spacing, contrast, enhance inputs),
-in English. If you add a panel in _includes/display_preferences.html (for
+Only the templates and wording for the eight panels in use are included
+(text size, text style, line/letter/word spacing, contrast, enhance inputs,
+text-to-speech), in English. If you add a panel in _includes/display_preferences.html (for
 example "fluid.prefs.tableOfContents"), copy its template from html/ and its
 wording from messages/ in the full Infusion download as well.
 

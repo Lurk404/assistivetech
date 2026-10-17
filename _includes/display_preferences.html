@@ -6,8 +6,13 @@
   "Display preferences"). The Infusion files are in assets/infusion/.
 
   - Readers can change text size, font, line, letter and word spacing, colour
-    contrast, and make buttons and form fields bigger. The choices apply to every
-    page and are remembered in a browser cookie.
+    contrast, make buttons and form fields bigger, and turn on text-to-speech.
+    The choices apply to every page and are remembered in a browser cookie.
+  - Text-to-speech uses the voices built into the reader's browser. When it's on,
+    a play button appears at the top of the page content and reads the page
+    (the <main> element, not the menus or footer), and a small play button
+    appears next to any text the reader selects. Collapsed sections are skipped
+    until they're opened.
   - Infusion needs the buttons and the panel inside one container, so the script
     below wraps the whole header in that container and adds the panel after it.
     The header itself doesn't change.
@@ -44,6 +49,15 @@
       prefs.appendChild(panel);
       buttons.hidden = false;
 
+      /* Text-to-speech: read the page's <main>, and put the play button
+         at the top of the page content */
+      var content = document.querySelector('.main-content');
+      var main = document.querySelector('.main-content main');
+      if (content && main) {
+        content.classList.add('flc-prefs-selfVoicingWidget');
+        main.classList.add('flc-orator-content');
+      }
+
       fluid.uiOptions(prefs, {
         /* The panels, in order. Infusion also offers "fluid.prefs.tableOfContents",
            left out because every guide already has its own "On this page" list. */
@@ -54,13 +68,24 @@
           "fluid.prefs.letterSpace",
           "fluid.prefs.wordSpace",
           "fluid.prefs.contrast",
-          "fluid.prefs.enhanceInputs"
+          "fluid.prefs.enhanceInputs",
+          "fluid.prefs.speak"
         ],
         auxiliarySchema: {
           terms: {
             /* Paths include the site's address (/assistivetech), so they work on every page */
             templatePrefix: "{{ '/assets/infusion/src/framework/preferences/html' | relative_url }}",
             messagePrefix: "{{ '/assets/infusion/src/framework/preferences/messages' | relative_url }}"
+          },
+          /* Text-to-speech play button: clearer names than Infusion's "play" / "pause" */
+          "fluid.prefs.speak": {
+            enactor: {
+              orator: {
+                controller: {
+                  strings: { play: "Read this page aloud", pause: "Pause reading" }
+                }
+              }
+            }
           }
         },
         prefsEditorLoader: {
