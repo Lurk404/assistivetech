@@ -175,3 +175,17 @@
     display: none !important;
   }
 }
+
+// Light/dark toggle in the header (markup and script in _includes/theme_toggle.html).
+// The button itself uses .page-nav-button above, so it matches "Back to top".
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+@media print {
+  .theme-toggle {
+    display: none !important;
+  }
+}
