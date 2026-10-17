@@ -1,0 +1,139 @@
+<!--
+  Display preferences (Fluid Infusion UI Options): buttons in the header, next to
+  the light/dark toggle, and a panel that opens just below the header.
+  Included from header_custom.html. Styles and the Infusion script are loaded in
+  head_custom.html; the layout is in _sass/custom/custom.scss (search for
+  "Display preferences"). The Infusion files are in assets/infusion/.
+
+  - Readers can change text size, font, line, letter and word spacing, colour
+    contrast, make buttons and form fields bigger, and turn on text-to-speech.
+    The choices apply to every page and are remembered in a browser cookie.
+  - Text-to-speech uses the voices built into the reader's browser. When it's on,
+    a play button appears at the top of the page content and reads the page
+    (the <main> element, not the menus or footer), and a small play button
+    appears next to any text the reader selects. Collapsed sections are skipped
+    until they're opened.
+  - Infusion needs the buttons and the panel inside one container, so the script
+    below wraps the whole header in that container and adds the panel after it.
+    The header itself doesn't change.
+  - On phones the header (search, these buttons, the light/dark toggle) is inside
+    the menu, so readers open the menu to find "Show preferences".
+  - The panels themselves (templates and wording) are only downloaded the first
+    time someone opens the panel ("lazyLoad").
+  - The buttons stay hidden if JavaScript is off, since they can't work without it.
+  - Button wording: screen readers hear "Show preferences" / "Hide preferences"
+    (without the + and −), which matches the visible words, so voice control
+    ("click Show preferences", "click Reset") works.
+-->
+<div class="site-prefs-buttons" id="site-prefs-buttons" hidden>
+  <button type="button" class="page-nav-button flc-slidingPanel-toggleButton">+ Show preferences</button>
+  <button type="button" class="page-nav-button flc-prefsEditor-reset" aria-label="Reset preferences">Reset</button>
+</div>
+
+<script>
+  (function () {
+    function start() {
+      var buttons = document.getElementById('site-prefs-buttons');
+      var header = document.getElementById('main-header');
+      if (!buttons || !header || !window.fluid || !fluid.uiOptions) return;
+
+      /* Container: wraps the header, with the panel right after it */
+      var prefs = document.createElement('div');
+      prefs.id = 'site-prefs';
+      prefs.className = 'site-prefs flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel';
+      var panel = document.createElement('div');
+      panel.className = 'flc-slidingPanel-panel';
+
+      header.parentNode.insertBefore(prefs, header);
+      prefs.appendChild(header);
+      prefs.appendChild(panel);
+      buttons.hidden = false;
+
+      /* Text-to-speech: read the page's <main>, and put the play button
+         at the top of the page content */
+      var content = document.querySelector('.main-content');
+      var main = document.querySelector('.main-content main');
+      if (content && main) {
+        content.classList.add('flc-prefs-selfVoicingWidget');
+        main.classList.add('flc-orator-content');
+      }
+
+      /* Extra contrast theme: dark brown on sand (#F9F5E9), second in the list.
+         Its colours are in custom.scss (search for "fl-theme-sand"), and its name
+         ("Dark brown on sand") is in assets/display-preferences/contrast.json. */
+      fluid.defaults("fluid.prefs.schemas.contrast", {
+        gradeNames: ["fluid.prefs.schemas"],
+        schema: {
+          "fluid.prefs.contrast": {
+            "type": "string",
+            "default": "default",
+            "enum": ["default", "sand", "bw", "wb", "by", "yb", "lgdg", "gw", "gd", "bbr"],
+            "enumLabels": ["contrast-default", "contrast-sand", "contrast-bw", "contrast-wb",
+              "contrast-by", "contrast-yb", "contrast-lgdg", "contrast-gw", "contrast-gd", "contrast-bbr"]
+          }
+        }
+      });
+
+      fluid.uiOptions(prefs, {
+        /* The panels, in order. Infusion also offers "fluid.prefs.tableOfContents",
+           left out because every guide already has its own "On this page" list. */
+        preferences: [
+          "fluid.prefs.textSize",
+          "fluid.prefs.textFont",
+          "fluid.prefs.lineSpace",
+          "fluid.prefs.letterSpace",
+          "fluid.prefs.wordSpace",
+          "fluid.prefs.contrast",
+          "fluid.prefs.enhanceInputs",
+          "fluid.prefs.speak"
+        ],
+        auxiliarySchema: {
+          terms: {
+            /* Paths include the site's address (/assistivetech), so they work on every page */
+            templatePrefix: "{{ '/assets/infusion/src/framework/preferences/html' | relative_url }}",
+            messagePrefix: "{{ '/assets/infusion/src/framework/preferences/messages' | relative_url }}"
+          },
+          /* The sand theme (see above): its class, and the wording file with its name */
+          "fluid.prefs.contrast": {
+            enactor: {
+              classes: { "sand": "fl-theme-sand" }
+            },
+            panel: {
+              classnameMap: { theme: { "sand": "fl-theme-sand" } },
+              message: "{{ '/assets/display-preferences/contrast.json' | relative_url }}"
+            }
+          },
+          /* Text-to-speech play button: clearer names than Infusion's "play" / "pause" */
+          "fluid.prefs.speak": {
+            enactor: {
+              orator: {
+                controller: {
+                  strings: { play: "Read this page aloud", pause: "Pause reading" }
+                }
+              }
+            }
+          }
+        },
+        prefsEditorLoader: {
+          lazyLoad: true,
+          slidingPanel: {
+            strings: {
+              showText: "+ Show preferences",
+              hideText: "− Hide preferences",
+              showTextAriaLabel: "Show preferences",
+              hideTextAriaLabel: "Hide preferences",
+              panelLabel: "Display preferences"
+            }
+          }
+        }
+      });
+    }
+
+    /* infusion-uio.js loads with "defer", so wait until the page is parsed */
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', start);
+    } else {
+      start();
+    }
+  })();
+</script>
