@@ -48,8 +48,11 @@ document.addEventListener("DOMContentLoaded", function () {
   function norm(p) { return p.replace(/(index)?\.html$/, "").replace(/\/$/, ""); }
   var here = norm(window.location.pathname);
 
-  var link = Array.from(document.querySelectorAll("#site-nav a.nav-list-link"))
-    .find(function (a) { return norm(new URL(a.href).pathname) === here; });
+  // The theme marks the current page's link "active" (and removes its href),
+  // so find it by class, falling back to matching the address.
+  var link = document.querySelector("#site-nav a.nav-list-link.active") ||
+    Array.from(document.querySelectorAll("#site-nav a.nav-list-link[href]"))
+      .find(function (a) { return norm(new URL(a.href).pathname) === here; });
   if (!link) return;
 
   // h2s in the page body, skipping any marked {: .no_toc }
