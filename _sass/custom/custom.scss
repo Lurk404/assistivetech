@@ -228,6 +228,36 @@
   border-bottom: $border $border-color;
 }
 
+// Tab order: on wider screens the script moves the header above the sidebar
+// in the page (class .site-prefs-top), so keyboard users reach search and the
+// buttons before the menu. These rules keep it in the same place on screen,
+// using Just the Docs' own widths for the content column.
+@include mq(md) {
+  .site-prefs-top {
+    max-width: $content-width;
+    margin-left: $nav-width-md;
+  }
+
+  // The sidebar is fixed to the left; pin it to the top so it doesn't start
+  // below the header now that the header comes first.
+  .site-prefs-top ~ .side-bar {
+    top: 0;
+  }
+
+  // "Back to top" goes to the content column (#top), which now starts below
+  // the header. This lets the page scroll all the way up, header included.
+  .site-prefs-top ~ .main {
+    scroll-margin-top: 100vh;
+  }
+}
+
+@include mq(lg) {
+  .site-prefs-top {
+    // stylelint-disable-next-line function-name-case
+    margin-left: Max(#{$nav-width}, calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}));
+  }
+}
+
 @media print {
   .site-prefs-buttons,
   .site-prefs .flc-slidingPanel-panel {

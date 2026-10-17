@@ -49,6 +49,27 @@
       prefs.appendChild(panel);
       buttons.hidden = false;
 
+      /* Tab order: on wider screens, put the header (search, Show preferences,
+         Dark/Light, View on GitHub) before the sidebar in the page, so keyboard
+         users reach it before the menu. It looks the same: the sidebar is fixed
+         to the left there, and custom.scss lines the header up with the content.
+         On phones it stays where Just the Docs puts it, inside the menu.
+         (50rem matches Just the Docs' "md" breakpoint.) */
+      var sidebar = document.querySelector('.side-bar');
+      var mainCol = document.querySelector('.main');
+      var wide = window.matchMedia('(min-width: 50rem)');
+      function place() {
+        if (wide.matches && sidebar) {
+          document.body.insertBefore(prefs, sidebar);
+          prefs.classList.add('site-prefs-top');
+        } else if (mainCol) {
+          mainCol.insertBefore(prefs, mainCol.firstChild);
+          prefs.classList.remove('site-prefs-top');
+        }
+      }
+      place();
+      if (wide.addEventListener) wide.addEventListener('change', place);
+
       /* Text-to-speech: read the page's <main>, and put the play button
          at the top of the page content */
       var content = document.querySelector('.main-content');
