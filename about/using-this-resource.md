@@ -25,13 +25,13 @@ You can change how these guides look and sound: text size, font, spacing, colour
 Display preferences let you set up every page to suit the way you read. Your choices apply to every guide and are remembered the next time you visit.
 
 1. Select **Show preferences** at the top of the page. On smaller screens, open the **Menu** first.
-   <img src="../assets/images/using-this-resource/button-show-preferences.svg" alt="" width="116" height="30">
+   <img src="../assets/images/using-this-resource/button-show-preferences.svg" alt="" width="170" height="44">
    <!-- Screenshot idea: the preferences panel open below the header on a wide screen, showing the grid of settings (text size, text style, spacing, contrast). Crop to the header and panel. -->
 2. Change any of the settings. The page changes as you go, so you can see the result right away.
 3. Select **Hide preferences** to close the panel.
 
 To undo all your changes, open the panel and select **Reset**.
-<img src="../assets/images/using-this-resource/button-reset.svg" alt="" width="49" height="30">
+<img src="../assets/images/using-this-resource/button-reset.svg" alt="" width="72" height="44">
 
 The settings are:
 
@@ -41,7 +41,7 @@ The settings are:
 - **Contrast**: choose text and background colours, such as dark brown on sand, black on yellow, or yellow on black.
 - **Enhance inputs**: make links, buttons and form fields larger and easier to see.
 - **Text-to-speech**: adds a **Read this page aloud** button to the top of each page. When you select text, a small play button also appears beside it to read just that text. It uses the voices built into your browser.
-  <img src="../assets/images/using-this-resource/button-read-aloud.svg" alt="" width="60" height="30">
+  <img src="../assets/images/using-this-resource/button-read-aloud.svg" alt="" width="115" height="58">
 
 {: .note }
 Your preferences are saved in your browser, so they only apply on this device and browser. Clearing your browser’s cookies resets them.
@@ -51,7 +51,7 @@ The preferences panel is built with the [Preferences Framework](https://fluidpro
 ## Light and dark mode
 
 Select **Dark** at the top of the page to switch to light text on a dark background. The button then changes to **Light**; select it to switch back. On smaller screens, open the **Menu** first. Your choice is remembered in this browser.
-<img src="../assets/images/using-this-resource/button-dark.svg" alt="" width="45" height="30">
+<img src="../assets/images/using-this-resource/button-dark.svg" alt="" width="66" height="44">
 
 If you have also chosen a **Contrast** colour in Display preferences, the contrast colours are used instead.
 
@@ -66,9 +66,9 @@ Most longer pages begin with an “On this page” list of links to specific par
 Once you scroll down, two buttons appear in the bottom-right corner of the page:
 
 - **On this page** opens that same list of links, so you can jump to another part of the page without scrolling back up. Select a link, or press <kbd>Esc</kbd> to close the list. It only appears on pages that have an “On this page” list.
-  <img src="../assets/images/using-this-resource/button-on-this-page.svg" alt="" width="81" height="30">
+  <img src="../assets/images/using-this-resource/button-on-this-page.svg" alt="" width="119" height="44">
 - **Back to top** moves you back to the top of the page.
-  <img src="../assets/images/using-this-resource/button-back-to-top.svg" alt="" width="75" height="30">
+  <img src="../assets/images/using-this-resource/button-back-to-top.svg" alt="" width="110" height="44">
 
 On short screens, or when the page is zoomed in, these buttons appear at the end of the page instead.
 
