@@ -70,9 +70,9 @@
     function threshold() {
       if (source) {
         var box = source.getBoundingClientRect();
-        return box.top + box.height / 3 + window.scrollY;
+        return box.top + box.height / 6 + window.scrollY;
       }
-      return window.innerHeight * 0.4;
+      return window.innerHeight * 0.2;
     }
 
     /* On short screens (or at high zoom) the bar doesn't float: it stays at the
