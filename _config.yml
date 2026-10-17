@@ -40,3 +40,6 @@ callouts:
   warning:
     title: Warning
     color: red
+
+    # Color scheme supports "light" (default) and "dark"
+color_scheme: dark
