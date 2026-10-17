@@ -33,7 +33,8 @@ Display preferences let you set up every page to suit the way you read. Your cho
 To undo all your changes, open the panel and select **Reset**.
 <img src="../assets/images/using-this-resource/button-reset.svg" alt="" width="72" height="44">
 
-The settings are:
+<details  markdown="block">
+<summary>Available settings</summary>
 
 - **Text size**: make all text larger or smaller.
 - **Text style**: change the font, including fonts designed for easier reading, such as Atkinson Hyperlegible and OpenDyslexic.
@@ -42,6 +43,8 @@ The settings are:
 - **Enhance inputs**: make links, buttons and form fields larger and easier to see.
 - **Text-to-speech**: adds a **Read this page aloud** button to the top of each page. When you select text, a small play button also appears beside it to read just that text. It uses the voices built into your browser.
   <img src="../assets/images/using-this-resource/button-read-aloud.svg" alt="" width="115" height="58">
+
+  </details>
 
 {: .note }
 Your preferences are saved in your browser, so they only apply on this device and browser. Clearing your browser’s cookies resets them.

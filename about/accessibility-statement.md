@@ -20,6 +20,8 @@ This resource is designed to meet [Web Content Accessibility Guidelines 2.1](htt
 - All link text is descriptive.
 - Links do not open in a new window or tab, except where indicated.
 
+Use the  <img src="../assets/images/using-this-resource/button-show-preferences.svg" alt="" width="170" height="44"> + Show preferences button at the top of this page to customize the appearance of this resource. For more information, review [Using This Resource](../about/using-this-resource.md).
+
 ## Known Issues
 
 The authors have made a dedicated effort to ensure the accessibility and usability of this resource. Any outstanding issues identified are documented below.
