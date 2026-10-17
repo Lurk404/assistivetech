@@ -67,13 +67,9 @@
     /* Float the bar, and show it only once you've scrolled down. */
     document.documentElement.classList.add('page-nav-floating');
 
-    function threshold() {
-      if (source) {
-        var box = source.getBoundingClientRect();
-        return box.top + box.height / 8 + window.scrollY;
-      }
-      return window.innerHeight * 0.1;
-    }
+  function threshold() {
+  return 0;
+  }
 
     /* On short screens (or at high zoom) the bar doesn't float: it stays at the
        end of the page and is always shown. Must match the media query in custom.scss. */
