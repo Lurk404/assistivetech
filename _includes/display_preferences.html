@@ -1,5 +1,6 @@
 <!--
-  Display preferences panel (Fluid Infusion UI Options), at the top of every page.
+  Display preferences (Fluid Infusion UI Options): buttons in the header, next to
+  the light/dark toggle, and a panel that opens just below the header.
   Included from header_custom.html. Styles and the Infusion script are loaded in
   head_custom.html; the layout is in _sass/custom/custom.scss (search for
   "Display preferences"). The Infusion files are in assets/infusion/.
@@ -7,33 +8,41 @@
   - Readers can change text size, font, line, letter and word spacing, colour
     contrast, and make buttons and form fields bigger. The choices apply to every
     page and are remembered in a browser cookie.
-  - The script below moves the panel to the top of the page content, above the
-    search bar, so it's always visible, including on phones where the header
-    is tucked into the menu.
+  - Infusion needs the buttons and the panel inside one container, so the script
+    below wraps the whole header in that container and adds the panel after it.
+    The header itself doesn't change.
+  - On phones the header (search, these buttons, the light/dark toggle) is inside
+    the menu, so readers open the menu to find "Show preferences".
   - The panels themselves (templates and wording) are only downloaded the first
     time someone opens the panel ("lazyLoad").
-  - The panel stays hidden if JavaScript is off, since it can't work without it.
-  - Button wording: the name screen readers hear starts with the visible text,
-    so voice control ("click Show preferences", "click Reset") works. The labels
-    are short so both buttons fit on one line on a phone.
+  - The buttons stay hidden if JavaScript is off, since they can't work without it.
+  - Button wording: screen readers hear "Show preferences" / "Hide preferences"
+    (without the + and −), which matches the visible words, so voice control
+    ("click Show preferences", "click Reset") works.
 -->
-<div id="site-prefs" class="site-prefs flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel" hidden>
-  <div class="site-prefs-bar">
-    <button type="button" class="page-nav-button flc-slidingPanel-toggleButton">Show preferences</button>
-    <button type="button" class="page-nav-button flc-prefsEditor-reset" aria-label="Reset preferences">Reset</button>
-  </div>
-  <div class="flc-slidingPanel-panel"></div>
+<div class="site-prefs-buttons" id="site-prefs-buttons" hidden>
+  <button type="button" class="page-nav-button flc-slidingPanel-toggleButton">+ Show preferences</button>
+  <button type="button" class="page-nav-button flc-prefsEditor-reset" aria-label="Reset preferences">Reset</button>
 </div>
 
 <script>
   (function () {
     function start() {
-      var prefs = document.getElementById('site-prefs');
-      var main = document.querySelector('.main');
-      if (!prefs || !main || !window.fluid || !fluid.uiOptions) return;
+      var buttons = document.getElementById('site-prefs-buttons');
+      var header = document.getElementById('main-header');
+      if (!buttons || !header || !window.fluid || !fluid.uiOptions) return;
 
-      main.insertBefore(prefs, main.firstChild);
-      prefs.hidden = false;
+      /* Container: wraps the header, with the panel right after it */
+      var prefs = document.createElement('div');
+      prefs.id = 'site-prefs';
+      prefs.className = 'site-prefs flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel';
+      var panel = document.createElement('div');
+      panel.className = 'flc-slidingPanel-panel';
+
+      header.parentNode.insertBefore(prefs, header);
+      prefs.appendChild(header);
+      prefs.appendChild(panel);
+      buttons.hidden = false;
 
       fluid.uiOptions(prefs, {
         /* The panels, in order. Infusion also offers "fluid.prefs.tableOfContents",
@@ -58,8 +67,8 @@
           lazyLoad: true,
           slidingPanel: {
             strings: {
-              showText: "Show preferences",
-              hideText: "Hide preferences",
+              showText: "+ Show preferences",
+              hideText: "− Hide preferences",
               showTextAriaLabel: "Show preferences",
               hideTextAriaLabel: "Hide preferences",
               panelLabel: "Display preferences"

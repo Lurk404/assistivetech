@@ -193,30 +193,46 @@
 // ==========================================================================
 // Display preferences (Fluid Infusion UI Options)
 // Markup and script in _includes/display_preferences.html. Infusion's own
-// styles (assets/infusion/) draw the panels; these fit the bar into the site
-// and fix a few things when a reader picks a contrast theme.
+// styles (assets/infusion/) draw the panels; these fit the buttons and panel
+// into the site and fix a few things when a reader picks a contrast theme.
 // ==========================================================================
 
-// Hidden until the script starts it. Infusion's styles would otherwise show
-// the empty bar when JavaScript is off.
-.site-prefs[hidden] {
-  display: none !important;
+// "Show preferences" and "Reset", in the header just before the light/dark
+// toggle. They use .page-nav-button above, so they match "Dark" and "Back to top".
+.site-prefs-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0 0.5rem 1rem;   // the light/dark toggle supplies the gap on the right
+
+  &[hidden] {
+    display: none;                  // hidden until the script starts it
+  }
+
+  .page-nav-button {
+    white-space: nowrap;            // keep "+ Show preferences" on one line
+  }
 }
 
-// The bar: a slim row at the top of the page content, buttons on the right.
-// The buttons use .page-nav-button above, so they match "Back to top".
+// The container Infusion needs around the buttons and the panel. It wraps the
+// whole header, so it should add nothing of its own (Infusion would give it a
+// taupe background and a border).
 .site-prefs.fl-prefsEditor-separatedPanel {
   display: block;
-  background-color: $sidebar-color;
+  background-color: transparent;
+  border-bottom: 0;
+}
+
+// The open panel sits just below the header
+.site-prefs .flc-slidingPanel-panel {
   border-bottom: $border $border-color;
 }
 
-.site-prefs-bar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
+@media print {
+  .site-prefs-buttons,
+  .site-prefs .flc-slidingPanel-panel {
+    display: none !important;
+  }
 }
 
 // The open panel. Infusion lays the panels out in one long row that scrolls
@@ -267,12 +283,6 @@
   .site-prefs .fl-prefsEditor .fl-choices {
     flex-wrap: wrap;
     row-gap: 1.75rem;
-  }
-}
-
-@media print {
-  .site-prefs {
-    display: none !important;
   }
 }
 
