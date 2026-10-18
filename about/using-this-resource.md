@@ -44,7 +44,7 @@ To undo all your changes, open the panel and select **Reset**.
 - **Text-to-speech**: adds a **Read this page aloud** button to the top of each page. When you select text, a small play button also appears beside it to read just that text. It uses the voices built into your browser.
   <img src="../assets/images/using-this-resource/button-read-aloud.svg" alt="" width="115" height="58">
 
-  </details>
+</details>
 
 {: .note }
 Your preferences are saved in your browser, so they only apply on this device and browser. Clearing your browser’s cookies resets them.
