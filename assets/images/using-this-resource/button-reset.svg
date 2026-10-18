@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="44" viewBox="0 0 72 44" role="img" aria-label="Reset button">
   <title>Reset button</title>
-  <rect x="0.5" y="0.5" width="71" height="43" rx="21.5" fill="#ffffff" stroke="#cdc7d0"/>
-  <text x="36.0" y="22.0" text-anchor="middle" dominant-baseline="central" textLength="38.1" lengthAdjust="spacingAndGlyphs"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#7253ed">Reset</text>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.75" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="1.5" y="0.5" width="69" height="41.5" rx="4" fill="#ffffff" stroke="#d5d0d8" filter="url(#shadow)"/>
+  <text x="36.0" y="21.25" text-anchor="middle" dominant-baseline="central" textLength="38.1" lengthAdjust="spacingAndGlyphs"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#7253ed">Reset</text>
 </svg>
