@@ -49,6 +49,8 @@ Change a setting with the left and right arrows, by typing a number, or with its
 
 To reset all customizations to default, right-click the extension icon and choose **Reset**.
 
+Some websites, such as this one, incorporate a version of the UI Options Plus extension. On this site, select **+ Show preferences** to take advantage of the customizations available.
+
 </details>
 
 <details markdown="block">
@@ -168,6 +170,8 @@ To find settings and tools, select **Settings and more** on the toolbar or press
 Change a setting with the left and right arrows, by typing a number, or with its on/off switch.
 
 To reset all customizations to default, right-click the extension icon and choose **Reset**.
+
+Some websites, such as this one, incorporate a version of the UI Options Plus extension. On this site, select **+ Show preferences** to take advantage of the customizations available.
 
 </details>
 
