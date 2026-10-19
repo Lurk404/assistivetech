@@ -252,7 +252,7 @@ These steps are for Samsung phones. On other Android phones, look under **Settin
 
 Here you can turn Magnifier on or off and change the zoom level, the zoom increments, and other settings, such as starting Magnifier when you sign in.
 
-To turn on **Magnifier** and zoom in, press <kbd>Windows</kbd> + <kbd>+</kbd> (plus sign). On most keyboards the plus sign is on the <kbd>=</kbd> key, so <kbd>Windows</kbd> + <kbd>=</kbd> works too.
+To turn on **Magnifier** and zoom in, press <kbd>Windows</kbd> + <kbd>+</kbd> (plus sign). On most keyboards the plus sign is on the <kbd>=</kbd> key, so <kbd>Windows</kbd> + <kbd>=</kbd> works too. Some laptops may be set up to require pressing <kbd>fn</kbd> <kbd>?</kbd>.
 
 Press <kbd>Windows</kbd> + <kbd>-</kbd> to zoom out.
 
@@ -322,6 +322,9 @@ Turn on **Hover Text** to show a large version of the text under the pointer whi
 
 [Zoom in on what’s onscreen on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchl779716b8/mac)
 
+<details markdown="block">
+<summary>Display Settings</summary>
+
 To make everything on the screen bigger:
 
 1. Go to **System Settings**.
@@ -329,6 +332,8 @@ To make everything on the screen bigger:
 3. Choose a size between **Larger Text** and **More Space**.
 
 [Increase font size and icons on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchld786f2cd/mac)
+
+</details>
 
 ## iOS
 
