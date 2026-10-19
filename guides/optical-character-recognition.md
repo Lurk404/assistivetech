@@ -194,6 +194,32 @@ Upload a picture or scan of text and TextAid converts it to text it can read alo
 </details>
 
 <details markdown="block">
+<summary>Kurzweil</summary>
+
+Kurzweil can scan printed pages and turn them into documents it can read aloud.
+
+1. Select the **Scan** tab.
+2. Select **Scanner Setup** to choose your scanner and page size.
+3. Turn on any options you need before you scan:
+    - **Scan in Color** (scans are black and white by default)
+    - **Double-Sided Scanning** for pages printed on both sides
+    - **Two Page Mode** to scan two pages of an open book at once
+    - **Scan Repeatedly** to scan several pages without pressing scan each time. Turn the page while the timer counts down.
+4. Place the page on the scanner and select **Start a Scan**.
+5. When the scan is done, use the reading tools above to have it read aloud.
+
+If something goes wrong:
+
+- **Rescan Page** replaces a page that came out too light, too dark, or crooked.
+- **Insert Page** adds a page you missed. Go to where it belongs, place it on the scanner, and select **Insert Page**.
+- **Delete Page** removes a duplicate or poor scan.
+- **Edit Underlying Text** lets you fix words Kurzweil read incorrectly.
+
+See the [Kurzweil 3000 for Windows Getting Started Guide (PDF)](https://www.kurzweiledu.com/files/pdf/2018shared/win_getting_started_guide.pdf), pages 22-24 for more.
+
+</details>
+
+<details markdown="block">
 <summary>Google Drive</summary>
 
 <img src="../assets/images/logos/google-drive.png" alt="" width="10%"> <!-- review-alt -->
