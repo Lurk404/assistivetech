@@ -16,6 +16,10 @@ Speech to text, also called dictation, turns what you say into typed text. This 
 - [iOS and macOS](#ios-and-macos)
 - [Dragon](#dragon)
 
+## Word Dicate
+
+Microsoft Word has a built-in dictation tool available on all platforms.
+
 <details id="word-dictate" markdown="block">
 <summary>Word Dictate</summary>
 
@@ -47,6 +51,10 @@ The gear icon on the toolbar opens **Dictation Settings**:
 
 </details>
 
+## Windows
+
+Microsoft Windows 11 has built-in dictation called **Voice Typing**.
+
 <details id="windows-voice-typing" markdown="block">
 <summary>Windows Voice Typing</summary>
 
@@ -70,8 +78,12 @@ To control your whole computer by voice, see [Voice Control](voice-control.md).
 
 </details>
 
+## Android and ChromeOS
+
+Android and ChromeOS devices offer Google Voice Typing allowing users to dictate text.
+
 <details id="android" markdown="block">
-<summary>Android</summary>
+<summary>Android and ChromeOS</summary>
 
 You can dictate text on Android and ChromeOS. Many apps (Chrome, Play Store, Docs) have a microphone icon in the search box for searching with your voice.
 
@@ -100,6 +112,10 @@ Use **Live Transcribe** to turn speech around you into text on screen (see also 
 [Use advanced voice typing features – Gboard Help](https://support.google.com/gboard/answer/11197787) (Pixel phones)
 
 </details>
+
+## iOS and macOS
+
+iOS and macOS offer **Dictation** tools built-in.
 
 <details id="ios-and-macos" markdown="block">
 <summary>iOS and macOS</summary>
@@ -134,6 +150,10 @@ Speak clearly and say commands in plain language, such as “new line” or “e
 - [Dictate messages and documents on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mh40584/mac)
 
 </details>
+
+## Dragon
+
+Dragon Naturally Speaking is powerful speetch to text software.
 
 <details id="dragon" markdown="block">
 <summary>Dragon</summary>
