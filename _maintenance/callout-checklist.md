@@ -1,5 +1,7 @@
 # Callout checklist
 
+**MOVED TO PROJECT**
+
 Notes from the Pressbooks version that are still plain text on the website. For each one, decide whether it should be a callout box. To make one, put `{: .note }` (or `{: .tip }` or `{: .warning }`) on its own line directly above the paragraph, with a blank line before it. If you'd rather leave it as plain text, just tick it off. Change `[ ]` to `[x]` when done.
 
 This file is for maintaining the guides. It sits in the `_maintenance` folder, so it stays in the repository but isn't published on the website.
