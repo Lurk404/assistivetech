@@ -206,7 +206,7 @@ Kurzweil can scan printed pages and turn them into documents it can read aloud.
     - **Two Page Mode** to scan two pages of an open book at once
     - **Scan Repeatedly** to scan several pages without pressing scan each time. Turn the page while the timer counts down.
 4. Place the page on the scanner and select **Start a Scan**.
-5. When the scan is done, use the reading tools above to have it read aloud.
+5. When the scan is done, use the [Kurzweil reading tools](reading-alternate-format-material.html#kurzweil) to have it read aloud.
 
 If something goes wrong:
 
