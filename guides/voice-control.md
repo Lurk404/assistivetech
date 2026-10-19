@@ -230,8 +230,6 @@ To stop the Dictation Box opening in programs Dragon doesn’t support (such as 
 </details>
 
 <details markdown="block">
-
-<details markdown="block">
 <summary>Links and Further Reading</summary>
 
 - [Dragon user documentation](https://dragon.nuance.com/en-us/user-documentation): guides and cheat sheets
