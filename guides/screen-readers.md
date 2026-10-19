@@ -217,8 +217,10 @@ These Windows keyboard shortcuts are also useful with NVDA:
 
 VoiceOver is a screen reader built into macOS and iOS.
 
+### macOS
+
 <details markdown="block">
-<summary>VoiceOver on macOS</summary>
+<summary>Activate VoiceOver on macOS</summary>
 
 To activate VoiceOver on macOS:
 
@@ -227,9 +229,24 @@ To activate VoiceOver on macOS:
 3. Turn on **VoiceOver**.
    1. Or press <kbd>Command</kbd> + <kbd>F5</kbd> to turn VoiceOver on or off.
 
-Click **Open VoiceOver Training…** for help and training.
+Select **Open VoiceOver Training…** for help and training.
 
-Click **Open VoiceOver Utility…**, or press <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>F8</kbd> while VoiceOver is running, to change VoiceOver’s speech, sound, keyboard, and other settings.
+To change VoiceOver’s speech, sound, keyboard, and other settings select **Open VoiceOver Utility…**, or press <kbd>Control</kbd> + <kbd>Option</kbd> + <kbd>F8</kbd> while VoiceOver is running. 
+
+[VoiceOver Quick Nav](https://support.apple.com/en-ca/guide/voiceover/vo27943/mac) lets you navigate with the arrow keys or single keys, without holding <kbd>VO</kbd>. To turn it on:
+
+1. Go to **System Settings**.
+2. Choose **Accessibility**.
+3. Select **VoiceOver**.
+4. Select **Open VoiceOver Utility…**
+5. Move to **Commanders** in the sidebar.
+6. Move to the **Quick Nav** tab.
+7. Check **Enable arrow-key Quick Nav** and **Enable single-key Quick Nav**.
+
+</details>
+
+<details markdown="block">
+<summary>Using VoiceOver on macOS</summary>
 
 VoiceOver commands start with the VoiceOver keys, <kbd>Control</kbd> + <kbd>Option</kbd>, so that they don’t clash with other macOS shortcuts. Below, <kbd>VO</kbd> means holding <kbd>Control</kbd> + <kbd>Option</kbd>.
 
@@ -250,21 +267,13 @@ VoiceOver commands start with the VoiceOver keys, <kbd>Control</kbd> + <kbd>Opti
 
 VoiceOver works best with Safari for browsing the web.
 
-[VoiceOver Quick Nav](https://support.apple.com/en-ca/guide/voiceover/vo27943/mac) lets you navigate with the arrow keys or single keys, without holding <kbd>VO</kbd>. To turn it on:
-
-1. Go to **System Settings**.
-2. Choose **Accessibility**.
-3. Select **VoiceOver**.
-4. Select **Open VoiceOver Utility…**
-5. Move to **Commanders** in the sidebar.
-6. Move to the **Quick Nav** tab.
-7. Check **Enable arrow-key Quick Nav** and **Enable single-key Quick Nav**.
-
 - [VoiceOver User Guide for Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/voiceover/welcome/mac), including the full list of commands and gestures
 - [Getting started with macOS VoiceOver](https://www.a11yproject.com/posts/getting-started-with-voiceover)
 - [WebAIM VoiceOver guide](https://webaim.org/articles/voiceover)
 
 </details>
+
+### iOS
 
 <details markdown="block">
 <summary>VoiceOver on iPhone</summary>
