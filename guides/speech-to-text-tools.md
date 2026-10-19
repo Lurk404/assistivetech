@@ -169,4 +169,17 @@ Dragon has a [YouTube playlist of videos](https://www.youtube.com/watch?v=6jzDdc
 
 See [Voice Control](voice-control.md) for more on using Dragon.
 
+### Transcription
+
+Dragon can transcribe .wav, .mp3, .wma, .dss, .ds2, and .m4a audio files to text.
+
+1. Open the **Tools** menu.
+2. Select **Transcribe Recording**.
+3. Choose a file.
+4. Click **Transcribe**.
+
+Dragon creates an .rtf text file, which you can open and edit in DragonPad or Word, or keep for later.
+
+See [Note-taking and Transcription](note-taking.md#record-and-transcribe) for step-by-step transcription instructions with screenshots.
+
 </details>

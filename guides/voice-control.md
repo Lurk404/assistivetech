@@ -230,20 +230,6 @@ To stop the Dictation Box opening in programs Dragon doesn’t support (such as 
 </details>
 
 <details markdown="block">
-<summary>Transcription</summary>
-
-Dragon can transcribe .wav, .mp3, .wma, .dss, .ds2, and .m4a audio files to text.
-
-1. Open the **Tools** menu.
-2. Select **Transcribe Recording**.
-3. Choose a file.
-4. Click **Transcribe**.
-
-Dragon creates an .rtf text file, which you can open and edit in DragonPad or Word, or keep for later.
-
-See [Note-taking and Transcription](note-taking.md#record-and-transcribe) for step-by-step transcription instructions with screenshots.
-
-</details>
 
 <details markdown="block">
 <summary>Links and Further Reading</summary>
@@ -272,7 +258,7 @@ See [Note-taking and Transcription](note-taking.md#record-and-transcribe) for st
 
 </details>
 
-Toggle on Voice Access using <kbd>Control</kbd> <kbd>Win</kbd> <kbd>s</kdb>
+Toggle on Voice Access using <kbd>Control</kbd> <kbd>Win</kbd> <kbd>s</kbd>
 
 When activated, the voice access bar appears at the top of the screen. Some useful commands:
 
