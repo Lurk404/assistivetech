@@ -88,7 +88,8 @@ If **Show Captions** is missing, the meeting host needs to turn on automated cap
 4. Scroll to **In Meeting (Advanced)**.
 5. Turn on **Automated captions**. To allow saving transcripts, also turn on **Full transcript** and **Save Captions**.
 
-[Zoom Support](https://support.zoom.com/hc/en) (search for “automated captions”)
+[Enabling or disabling automated captions](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058810)
+[Viewing captions in a meeting or webinar](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0059762)
 
 </details>
 
@@ -181,36 +182,9 @@ Chrome’s captions use your computer’s caption style settings:
 </details>
 
 <details id="ios" markdown="block">
-<summary>iOS</summary>
+<summary>macOS and iOS</summary>
 
-### Subtitles & Captioning
-
-To show captions automatically when a video has them:
-
-1. Go to **Settings > Accessibility**.
-2. Select **Subtitles & Captioning**.
-3. Turn on **Closed Captions + SDH**.
-4. Select **Style** to change how captions look.
-
-### Live Captions
-
-Live Captions automatically captions audio playing on your iPhone, such as videos and calls, and conversations around you. To use it:
-
-1. Go to **Settings > Accessibility**.
-2. Select **Live Captions** (labelled **Beta** in some versions) and turn on **Live Captions**.
-3. Select **Appearance** to change the caption text, colour, and opacity.
-4. Tap the Live Captions widget (sound wave icon) to start captioning.
-5. Tap the Live Captions window for options including full screen, pause, and close.
-6. Tap the microphone to switch between captioning audio on your iPhone and speech around you (picked up by the microphone).
-
-Live Captions may not be available in every language or region, and automatic captions can contain errors.
-
-[Get live captions of spoken audio on iPhone – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iphe0990f7bb/ios)
-
-</details>
-
-<details id="macos" markdown="block">
-<summary>macOS</summary>
+## macOS
 
 ### Subtitles and Closed Captions
 
@@ -237,6 +211,32 @@ On a Mac with Apple silicon, Live Captions can caption audio from apps, calls, a
    2. Click the microphone to switch between captioning your Mac’s audio and speech around you (picked up by the microphone).
 
 [Get captions of spoken and computer audio on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchldd11f4fd/mac)
+
+## iOS
+
+### Subtitles & Captioning
+
+To show captions automatically when a video has them:
+
+1. Go to **Settings > Accessibility**.
+2. Select **Subtitles & Captioning**.
+3. Turn on **Closed Captions + SDH**.
+4. Select **Style** to change how captions look.
+
+### Live Captions
+
+Live Captions automatically captions audio playing on your iPhone, such as videos and calls, and conversations around you. To use it:
+
+1. Go to **Settings > Accessibility**.
+2. Select **Live Captions** (labelled **Beta** in some versions) and turn on **Live Captions**.
+3. Select **Appearance** to change the caption text, colour, and opacity.
+4. Tap the Live Captions widget (sound wave icon) to start captioning.
+5. Tap the Live Captions window for options including full screen, pause, and close.
+6. Tap the microphone to switch between captioning audio on your iPhone and speech around you (picked up by the microphone).
+
+Live Captions may not be available in every language or region, and automatic captions can contain errors.
+
+[Get live captions of spoken audio on iPhone – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iphe0990f7bb/ios)
 
 </details>
 
