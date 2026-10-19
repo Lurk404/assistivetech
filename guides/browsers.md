@@ -136,6 +136,7 @@ Press <kbd>F7</kbd> to turn on caret browsing, which lets you move a text cursor
 - [Accessibility on Chrome – Google Chrome Help](https://support.google.com/chrome/topic/7437725)
 - [Chrome keyboard shortcuts – Google Chrome Help](https://support.google.com/chrome/answer/157179?co=GENIE.Platform%3DDesktop&hl=en)
 - [Use Chrome with accessibility extensions – Google Chrome Help](https://support.google.com/chrome/answer/7040464)
+- [Chrome web store collection of accessibility extensions](https://chromewebstore.google.com/collection/3p_accessibility_extensions)
 - [Google Accessibility for customers and partners](https://www.google.com/accessibility/customers-partners/) (accessibility conformance reports for Google products)
 
 </details>
