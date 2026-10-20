@@ -18,6 +18,8 @@ Speech to text, also called dictation, turns what you say into typed text. This 
 
 ## Word Dicate
 
+{% include availability.html tags="Langara paid" %}
+
 Microsoft Word has a built-in dictation tool available on all platforms.
 
 <details id="word-dictate" markdown="block">
@@ -53,6 +55,8 @@ The gear icon on the toolbar opens **Dictation Settings**:
 
 ## Windows
 
+{% include availability.html tags="Langara built-in" %}
+
 Microsoft Windows 11 has built-in dictation called **Voice Typing**.
 
 <details id="windows-voice-typing" markdown="block">
@@ -79,6 +83,8 @@ To control your whole computer by voice, see [Voice Control](voice-control.md).
 </details>
 
 ## Android and ChromeOS
+
+{% include availability.html tags="built-in" %}
 
 Android and ChromeOS devices offer Google Voice Typing allowing users to dictate text.
 
@@ -120,6 +126,8 @@ iOS and macOS offer **Dictation** tools built-in.
 <details id="ios-and-macos" markdown="block">
 <summary>iOS and macOS</summary>
 
+{% include availability.html tags="built-in" %}
+
 ### iOS
 
 1. Go to **Settings > General > Keyboard**.
@@ -152,6 +160,8 @@ Speak clearly and say commands in plain language, such as “new line” or “e
 </details>
 
 ## Dragon
+
+{% include availability.html tags="Langara paid" %}
 
 Dragon Naturally Speaking is powerful speetch to text software.
 

@@ -18,6 +18,8 @@ A screen reader reads aloud everything on the screen, including menus, buttons, 
 
 ## JAWS
 
+{% include availability.html tags="Langara paid" %}
+
 JAWS (Job Access With Speech) is one of the most widely used screen readers. It runs only on Windows, and lets you do almost everything in Windows with the keyboard and audio. JAWS is expensive, paid software and takes time to learn, but many blind and low vision people rely on it. [Download JAWS from Freedom Scientific](https://support.freedomscientific.com/Downloads/JAWS).
 
 <details markdown="block">
@@ -137,6 +139,8 @@ These Windows keyboard shortcuts are also useful with JAWS:
 
 ## NVDA
 
+{% include availability.html tags="free" %}
+
 NVDA is a free, open source screen reader for Windows. It is nearly as widely used as JAWS and has many similar features. [Download NVDA](https://www.nvaccess.org/download) from nvaccess.org.
 
 The first time NVDA starts, it asks you to choose some settings, most importantly the NVDA key. This guide uses <kbd>NVDA</kbd> for whichever key you choose: <kbd>Caps Lock</kbd>, <kbd>Insert</kbd>, or <kbd>Num Pad Insert</kbd>.
@@ -214,6 +218,8 @@ These Windows keyboard shortcuts are also useful with NVDA:
 </details>
 
 ## VoiceOver
+
+{% include availability.html tags="built-in" %}
 
 VoiceOver is a screen reader built into macOS and iOS.
 
@@ -313,6 +319,8 @@ VoiceOver has a practice area where you can try gestures: VoiceOver tells you th
 
 ## TalkBack
 
+{% include availability.html tags="built-in" %}
+
 TalkBack is the default screen reader for Android.
 
 <details markdown="block">
@@ -344,6 +352,8 @@ TalkBack has a practice area where you can try gestures: TalkBack tells you the 
 </details>
 
 ## ChromeVox (ChromeOS)
+
+{% include availability.html tags="built-in" %}
 
 ChromeVox is the built-in screen reader on Chromebooks.
 

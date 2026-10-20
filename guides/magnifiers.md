@@ -19,6 +19,8 @@ Magnifiers enlarge part or all of the screen. Most computers and phones have one
 
 ## ZoomText
 
+{% include availability.html tags="Langara paid" %}
+
 <img src="../assets/images/logos/zoomtext.png" alt="" width="20%"> <!-- review-alt -->
 
 ZoomText Magnifier/Reader is a Windows magnification and reading program for people with low vision. It enlarges and enhances what’s on screen, echoes your typing and important program activity, and reads content aloud. You can control ZoomText with the mouse, keyboard, or voice commands.
@@ -218,6 +220,8 @@ By default, ZoomText reads back what you type. To turn this off, select **Reader
 
 ## Android
 
+{% include availability.html tags="built-in" %}
+
 <img src="../assets/images/logos/android.png" alt="" width="10%"> <!-- review-alt -->
 
 ### Visibility Enhancements (Samsung)
@@ -240,6 +244,8 @@ These steps are for Samsung phones. On other Android phones, look under **Settin
 6. The **Visibility Enhancements** menu has more settings to explore.
 
 ## Windows
+
+{% include availability.html tags="built-in" %}
 
 <img src="../assets/images/logos/windows-11.png" alt="" width="20%"> <!-- review-alt -->
 
@@ -296,6 +302,8 @@ To change colours and contrast:
 
 ## macOS
 
+{% include availability.html tags="built-in" %}
+
 <img src="../assets/images/logos/macos.png" alt="" width="10%">
 
 macOS has a built-in magnifier called Zoom. To turn it on:
@@ -336,6 +344,8 @@ To make everything on the screen bigger:
 </details>
 
 ## iOS
+
+{% include availability.html tags="built-in" %}
 
 <img src="../assets/images/logos/ios.png" alt="" width="20%"> <!-- review-alt -->
 
@@ -383,6 +393,8 @@ To make everything on the screen bigger:
 </details>
 
 ## Browser Tools
+
+{% include availability.html tags="built-in" %}
 
 Every web browser can zoom in on web pages:
 

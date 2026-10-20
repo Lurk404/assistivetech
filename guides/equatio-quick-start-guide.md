@@ -6,6 +6,8 @@ nav_order: 2
 
 # Equatio Quick Start Guide
 
+{% include availability.html tags="Langara paid" %}
+
 ![The Equatio toolbar, with Edit Math and Insert Math buttons on the right.](../assets/images/equatio-quick-start-guide/equatio-toolbar.png) <!-- review-alt -->
 
 **Equatio** is software for writing, editing, and reading math and other STEM content on a computer.

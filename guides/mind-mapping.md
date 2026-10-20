@@ -22,6 +22,8 @@ The most useful mind mapping tools can turn a map into a text outline, which is 
 
 ## GitMind
 
+{% include availability.html tags="free-plan" %}
+
 <img src="../assets/images/logos/gitmind.jpg" alt="" width="20%"> <!-- review-alt -->
 
 [GitMind](https://gitmind.com) is a mind mapping tool you can use online or download for Windows, macOS, iOS, and Android. A free account includes many features; some need a paid account.
@@ -59,6 +61,8 @@ Learn more in [How to use GitMind](https://gitmind.com/faq/how-to-use-gitmind.ht
 
 ## MindMeister
 
+{% include availability.html tags="free-plan" %}
+
 <img src="../assets/images/logos/mindmeister.png" alt="" width="20%"> <!-- review-alt -->
 
 [MindMeister](https://www.mindmeister.com) is an online mind mapping tool that runs in your web browser. You need to create an account. The free plan is limited to a few mind maps; paid plans have more features.
@@ -95,6 +99,8 @@ Learn more about [MindMeister features](https://www.mindmeister.com/pages/produc
 </details>
 
 ## MindMup
+
+{% include availability.html tags="free-plan" %}
 
 <img src="../assets/images/logos/mindmup.png" alt="" width="10%"> <!-- review-alt -->
 
@@ -137,6 +143,8 @@ The exported outline uses nested lists to show the structure of the map. To get 
 
 ## Mindomo
 
+{% include availability.html tags="free-plan" %}
+
 <img src="../assets/images/logos/mindomo.png" alt="" width="20%"> <!-- review-alt -->
 
 [Mindomo](https://www.mindomo.com) is an online mind mapping tool that runs in your web browser. It is free to use, and a paid version has more features.
@@ -177,6 +185,8 @@ To export an outline:
 
 ## Microsoft Word
 
+{% include availability.html tags="Langara paid" %}
+
 <img src="../assets/images/logos/word.png" alt="" width="10%"> <!-- review-alt -->
 
 Use Microsoft Word to create document outlines.
@@ -204,6 +214,8 @@ You can also turn a Word outline into PowerPoint slides: see [Create a PowerPoin
 </details>
 
 ## Inspiration
+
+{% include availability.html tags="Langara paid" %}
 
 Inspiration is software for creating diagrams, outlines, and maps, with templates and a built-in tutorial.
 
@@ -241,6 +253,8 @@ For more information:
 </details>
 
 ## Kurzweil
+
+{% include availability.html tags="Langara paid" %}
 
 <img src="../assets/images/logos/kurzweil-3000.png" alt="" width="10%"> <!-- review-alt -->
 

@@ -6,6 +6,8 @@ nav_order: 3
 
 # Morphic
 
+{% include availability.html tags="free" %}
+
 <img src="../assets/images/logos/morphic-logo.jpg" alt="" width="10%"> <!-- review-alt -->
 
 Morphic is a free toolbar that gives you one-click access to the accessibility tools built into your computer, such as text size, magnification, and read aloud. It is available for Windows 10 and 11 and recent versions of macOS. The steps on this page are for Windows.

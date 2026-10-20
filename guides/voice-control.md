@@ -17,6 +17,8 @@ Voice control lets you operate a computer or phone with your voice: open apps, c
 
 ## Dragon
 
+{% include availability.html tags="Lanagra paid" %}
+
 Dragon is Windows software for dictating text and operating a computer with voice commands.
 
 <details markdown="block">
@@ -244,6 +246,8 @@ To stop the Dictation Box opening in programs Dragon doesn’t support (such as 
 
 ## Windows Voice Access
 
+{% include availability.html tags="built-in" %}
+
 **Voice access** is built into Windows 11 (version 22H2 or later). It lets you control your PC and dictate text with your voice. After setup, it works without an internet connection.
 
 <details markdown="block">
@@ -270,6 +274,8 @@ When activated, the voice access bar appears at the top of the screen. Some usef
 - [Get started with voice access – Microsoft Support](https://support.microsoft.com/en-us/accessibility/windows/voice-access/get-started-with-voice-access)
 
 ## macOS/iOS Voice Control
+
+{% include availability.html tags="built-in" %}
 
 Voice Control lets you navigate and use your Mac with only your voice. 
 
@@ -311,6 +317,7 @@ Say “show grid” to point at things that don’t have a number. Say the numbe
 [Use Voice Control commands to interact with your Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mh40719/mac)
 
 ## Android
+
 
 Android’s **Voice Access** app lets you control your phone with your voice. To set it up:
 

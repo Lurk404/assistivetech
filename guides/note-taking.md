@@ -66,6 +66,8 @@ To transcribe audio to text, use any of the following tools:
 <details markdown="block">
 <summary>Microsoft Word</summary>
 
+{% include availability.html tags="Langara paid" %}
+
 Microsoft Word for Windows and Word for the web have an excellent transcription tool. The audio file must be a .wav, .mp4, .m4a, or .mp3 file.
 
 1. On Windows, open a new Word document.
@@ -91,6 +93,8 @@ You can upload up to 300 minutes of audio a month.
 <details markdown="block">
 <summary>Dragon</summary>
 
+{% include availability.html tags="Lanmgara paid" %}
+
 Dragon for Windows can transcribe .wav, .mp3, and .m4a recordings to text.
 
 1. Open the **Tools** menu and select **Transcribe Recording**.
@@ -112,6 +116,8 @@ Watch a [demonstration of Dragon’s transcription tool (video, 2:01)](https://w
 <details markdown="block">
 <summary>macOS and iOS Voice Memos</summary>
 
+{% include availability.html tags="built-in" %}
+
 Voice Memos can transcribe recordings in some languages, including English. On a Mac:
 
 1. Go to the Voice Memos app <img class="inline" src="../assets/images/note-taking/voice-memos-icon.png" alt="" width="30"> <!-- review-alt --> on your Mac.
@@ -125,6 +131,8 @@ Voice Memos can transcribe recordings in some languages, including English. On a
 
 <details markdown="block">
 <summary>Audapolis</summary>
+
+{% include availability.html tags="free" %}
 
 [Audapolis](https://github.com/bugbakery/audapolis) is a free, open source editor for Windows, macOS, and Linux that transcribes audio on your own computer, without uploading it, and lets you edit the transcript.
 
@@ -141,6 +149,8 @@ Most of these apps upload your recordings to the company’s servers. Check thei
 
 <details markdown="block">
 <summary>OneNote</summary>
+
+{% include availability.html tags="Langara paid" %}
 
 Microsoft OneNote can record audio while you type notes, and links each note to the moment in the recording when you typed it.
 
@@ -175,6 +185,8 @@ To transcribe the entire audio file:
 <details markdown="block">
 <summary>Genio</summary>
 
+{% include availability.html tags="paid" %}
+
 [Genio](https://genio.co) (formerly Glean, and before that Sonocent) is a note-taking app that can transcribe audio to text. Its note-taking tool, Genio Notes, is available as a web app and a mobile app. If you already have a Glean account, you will be moved to Genio the next time you sign in.
 
 To use Genio to take notes and transcribe audio:
@@ -203,6 +215,8 @@ To use Genio to transcribe pre-recorded audio:
 <details markdown="block">
 <summary>Notta</summary>
 
+{% include availability.html tags="free-plan" %}
+
 [Notta](https://www.notta.ai/en) is a transcription and note-taking app with a free plan that includes a limited number of minutes each month.
 
 To use Notta to take notes and transcribe audio:
@@ -226,6 +240,8 @@ To use Notta to transcribe pre-recorded audio:
 
 <details markdown="block">
 <summary>Otter.ai</summary>
+
+{% include availability.html tags="free-plan" %}
 
 [Otter.ai](https://otter.ai) is a transcription app available on the web, as a Chrome extension, and as a mobile app.
 
