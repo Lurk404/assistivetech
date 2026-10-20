@@ -28,7 +28,7 @@ Text to speech tools read digital text aloud, which can help with focus, underst
 
 ## ReadSpeaker
 
-{% include availability.html tags="institution langara" %}
+{% include availability.html tags="langara paid" %}
 
 ReadSpeaker makes three tools available to Langara students: **webReader** and **docReader**, which are built into Brightspace, and **TextAid**, a web app and browser extension for reading content anywhere on the web.
 
@@ -174,7 +174,7 @@ Once the extension is installed, you can open it straight from the browser witho
 
 ## Word
 
-{% include availability.html tags="institution langara" %}
+{% include availability.html tags="langara paid" %}
 
 Microsoft Word has two text to speech tools: **Read Aloud** and **Immersive Reader**.
 
