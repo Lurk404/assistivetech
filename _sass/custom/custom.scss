@@ -508,3 +508,22 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+// Label key on the home page (#availability-labels)
+.main-content .availability-key {
+  padding-left: 0;
+}
+
+.main-content .availability-key > li {
+  margin: 0.5rem 0;
+}
+
+.main-content .availability-key > li::before {
+  content: none; // no bullet: the label marks each item
+}
+
+.main-content .availability-key .label {
+  margin: 0 0.5rem 0 0;
+  font-size: 0.875rem;
+  text-transform: none;
+}
