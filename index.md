@@ -31,7 +31,7 @@ Type with your voice, or control your computer or phone with voice commands.
 - [Speech to Text Tools](guides/speech-to-text-tools.md): type with your voice in Word, Windows, Android, iOS, macOS, and Dragon.
 - [Voice Control](guides/voice-control.md): control your computer or phone with your voice.
 
-## Notetaking and Mind Mapping
+## Note-taking and Mind Mapping
 
 Note-taking methods, apps that record and transcribe, and tools for organizing ideas visually.
 
