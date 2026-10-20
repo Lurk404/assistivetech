@@ -18,6 +18,8 @@ Alternate format material is print, or inaccessible digital material, that has b
 
 ## TextAid
 
+{% include availability.html tags="langara paid" %}
+
 <img src="../assets/images/logos/textaid.png" alt="" width="20%"> <!-- review-alt -->
 
 The TextAid web app has several tools to help with reading. Sign in as described under [TextAid](text-to-speech-tools.md#textaid) on the Text to Speech Tools page.
@@ -146,6 +148,8 @@ To use Image to Text:
 
 ## Calibre
 
+{% include availability.html tags="langara free" %}
+
 Calibre is a free e-book reader and library. It is installed on Langara computers, and you can [download Calibre for Windows, macOS, and Linux](https://calibre-ebook.com/download).
 
 <details markdown="block">
@@ -184,6 +188,8 @@ While Calibre reads aloud, a toolbar appears with options to pause, change the s
 
 ## Kurzweil
 
+{% include availability.html tags="langara paid" %}
+
 Kurzweil 3000 is available for use in L121. Students may be able to get funding for their own copy, or borrow equipment, through Assistive Technology British Columbia (ATBC). Accessibility Services can help you [apply to ATBC for funding or an equipment loan](https://www.at-bc.ca/for-students/).
 
 Kurzweil opens many document types, including Word, PDF, EPUB, and Kurzweil’s own KES files.
@@ -216,6 +222,8 @@ Kurzweil also has tools for writing and [mind mapping](mind-mapping.md#kurzweil)
 
 ## Speechify
 
+{% include availability.html tags="free-plan" %}
+
 Speechify is a text to speech app with a free version. It is available for:
 
 - [iOS](https://speechify.com/ios/)
@@ -243,6 +251,8 @@ When a document is open, change the voice, speed, and appearance in the menu on 
 Only the standard voices (those without a golden diamond on the profile picture) are free.
 
 ## NaturalReader
+
+{% include availability.html tags="free-plan" %}
 
 NaturalReader is a text to speech tool with a free version. Use it [online](https://www.naturalreaders.com/online/), or download [NaturalReader for Windows and macOS](https://www.naturalreaders.com/software.html) or the [NaturalReader app for Android and iOS](https://www.naturalreaders.com/appdownload.html).
 
