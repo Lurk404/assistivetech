@@ -14,10 +14,6 @@ paid:
   label: Paid
   class: label-yellow
   description: you or your organization needs to buy it.
-institution:
-  label: Institutional licence
-  class: label-blue
-  description: usually provided by a school or employer, not bought by individuals.
 langara:
   label: Available at Langara
   class: label-purple
