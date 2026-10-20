@@ -14,6 +14,25 @@ Explore this collection of assistive technology user guides to learn new strateg
 - [Using This Resource](about/using-this-resource.md) explains how to find your way around.
 - The [Accessibility Statement](about/accessibility-statement.md) describes the accessibility features of this resource and how to report a barrier.
 
+## Who these guides are for
+{: #availability-labels }
+
+These guides were written for Langara College students and staff, and anyone is welcome to use them. Most of the tools are free or already built into your computer, phone, or browser. Some cost money, or are licensed by schools and employers.
+
+Each tool has labels that show how to get it:
+
+- **Built in**: part of your device, browser, or an app you already have.
+- **Free**: free to download and use.
+- **Free plan**: free with limits. More features cost money.
+- **Paid**: you or your organization needs to buy it.
+- **Institutional licence**: usually provided by a school or employer, not bought by individuals.
+- **Available at Langara**: Langara provides it to students and/or staff.
+
+Boxes titled **At Langara**, and collapsed sections that start with "At Langara:", apply only to Langara.
+
+{: .note }
+Not at Langara? Your school or workplace may already pay for some of these tools. Ask your accessibility office (it may be called Accessibility Services, Disability Services, or Student Accessibility), your IT help desk, or your library what's available to you and how to sign in.
+
 </details>
 
 ## Reading
