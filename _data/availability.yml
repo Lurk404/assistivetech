@@ -1,0 +1,21 @@
+# Availability labels. Use them in a page with:
+#   {% include availability.html tags="paid langara" %}
+# Each name below is a tag. The label text is what readers see.
+built-in:
+  label: Built in
+  class: label-green
+free:
+  label: Free
+  class: label-green
+free-plan:
+  label: Free plan
+  class: label-blue
+paid:
+  label: Paid
+  class: label-yellow
+institution:
+  label: Institutional licence
+  class: label-blue
+langara:
+  label: Available at Langara
+  class: label-purple
