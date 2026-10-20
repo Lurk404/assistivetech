@@ -22,6 +22,8 @@ Screenshot readers capture part of your screen and pull out the text, for exampl
 <details markdown="block">
 <summary>Windows Snipping Tool</summary>
 
+{% include availability.html tags="built-in" %}
+
 The Windows Snipping Tool has a text extractor for copying text from anything on screen.
 
 Open Snipping Tool with <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> and click the **Text Extractor** button in the toolbar.
@@ -34,6 +36,8 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 
 <details markdown="block">
 <summary>PowerToys</summary>
+
+{% include availability.html tags="free" %}
 
 <img src="../assets/images/logos/powertoys.png" alt="" width="10%"> <!-- review-alt -->
 
@@ -48,6 +52,8 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 
 <details markdown="block">
 <summary>iOS/iPadOS/macOS</summary>
+
+{% include availability.html tags="built-in" %}
 
 <img src="../assets/images/logos/apple.png" alt="" width="10%"> <!-- review-alt -->
 
@@ -65,6 +71,8 @@ On iPhone and iPad, open the image in Photos (or point the Camera at the text) a
 <details markdown="block">
 <summary>OneNote</summary>
 
+{% include availability.html tags="langara paid" %}
+
 <img src="../assets/images/logos/onenote.png" alt="" width="10%"> <!-- review-alt -->
 
 In OneNote for Windows, insert an image or a file printout, right-click it and select **Copy Text from Picture**, then paste the text into OneNote or another document.
@@ -80,6 +88,8 @@ The **Microsoft Lens** scanning app was retired in early 2026 and removed from t
 
 <details markdown="block">
 <summary>Google Lens</summary>
+
+{% include availability.html tags="free" %}
 
 <img src="../assets/images/logos/google-lens.png" alt="" width="10%">
 
@@ -98,6 +108,8 @@ Google Lens, like Apple’s Live Text, can pick out the text in a photo on your 
 <details markdown="block">
 <summary>ShareX</summary>
 
+{% include availability.html tags="free" %}
+
 <img src="../assets/images/logos/sharex.png" alt="" width="10%"> <!-- review-alt -->
 
 ShareX is a free screenshot app for Windows that includes OCR. Capture all or part of the screen, then copy the text into another program, for example to have it read aloud.
@@ -114,6 +126,8 @@ ShareX is a free screenshot app for Windows that includes OCR. Capture all or pa
 
 <details markdown="block">
 <summary>Snagit</summary>
+
+{% include availability.html tags="langara paid" %}
 
 <img src="../assets/images/logos/snagit.png" alt="" width="10%"> <!-- review-alt -->
 
@@ -138,6 +152,8 @@ To select specific text:
 <details markdown="block">
 <summary>Firefox (macOS)</summary>
 
+{% include availability.html tags="built-in" %}
+
 <img src="../assets/images/logos/firefox.png" alt="" width="10%"> <!-- review-alt -->
 
 1. Right-click on an image.
@@ -156,6 +172,8 @@ This feature is only available in Firefox for macOS.
 <details markdown="block">
 <summary>Equatio</summary>
 
+{% include availability.html tags="langara paid" %}
+
 <img src="../assets/images/logos/equatio.png" alt="" width="10%"> <!-- review-alt -->
 
 Equatio’s **Screenshot Reader** reads aloud math that is only available as a picture, and can copy it as MathML or LaTeX. For steps, see [Reading math in the Equatio Quick Start Guide](equatio-quick-start-guide.md#reading-math).
@@ -171,6 +189,8 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 
 <details markdown="block">
 <summary>TextAid</summary>
+
+{% include availability.html tags="langara paid" %}
 
 <img src="../assets/images/logos/textaid.png" alt="" width="10%"> <!-- review-alt -->
 
@@ -195,6 +215,8 @@ Upload a picture or scan of text and TextAid converts it to text it can read alo
 
 <details markdown="block">
 <summary>Kurzweil</summary>
+
+{% include availability.html tags="langara paid" %}
 
 Kurzweil can scan printed pages and turn them into documents it can read aloud.
 
@@ -222,6 +244,8 @@ See the [Kurzweil 3000 for Windows Getting Started Guide (PDF)](https://www.kurz
 <details markdown="block">
 <summary>Google Drive</summary>
 
+{% include availability.html tags="free" %}
+
 <img src="../assets/images/logos/google-drive.png" alt="" width="10%"> <!-- review-alt -->
 
 Google Drive can convert scanned PDFs and images into editable text:
@@ -235,6 +259,8 @@ Google Drive can convert scanned PDFs and images into editable text:
 
 <details markdown="block">
 <summary>Acrobat</summary>
+
+{% include availability.html tags="langara paid" %}
 
 <img src="../assets/images/logos/adobe-acrobat.png" alt="" width="10%"> <!-- review-alt -->
 
