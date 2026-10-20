@@ -21,12 +21,11 @@ These guides were written for Langara College students and staff, and anyone is 
 
 Each tool has labels that show how to get it:
 
-- **Built in**: part of your device, browser, or an app you already have.
-- **Free**: free to download and use.
-- **Free plan**: free with limits. More features cost money.
-- **Paid**: you or your organization needs to buy it.
-- **Institutional licence**: usually provided by a school or employer, not bought by individuals.
-- **Available at Langara**: Langara provides it to students and/or staff.
+<ul class="availability-key">
+{%- for item in site.data.availability %}
+  <li><span class="label {{ item[1].class }}">{{ item[1].label }}</span><span class="separator">: </span>{{ item[1].description }}</li>
+{%- endfor %}
+</ul>
 
 Boxes titled **At Langara**, and collapsed sections that start with "At Langara:", apply only to Langara.
 
