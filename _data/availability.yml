@@ -1,21 +1,24 @@
-# Availability labels. Use them in a page with:
-#   {% include availability.html tags="paid langara" %}
-# Each name below is a tag. The label text is what readers see.
 built-in:
   label: Built in
   class: label-green
+  description: part of your device, browser, or an app you already have.
 free:
   label: Free
   class: label-green
+  description: free to download and use.
 free-plan:
   label: Free plan
   class: label-blue
+  description: free with limits. More features cost money.
 paid:
   label: Paid
   class: label-yellow
+  description: you or your organization needs to buy it.
 institution:
   label: Institutional licence
   class: label-blue
+  description: usually provided by a school or employer, not bought by individuals.
 langara:
   label: Available at Langara
   class: label-purple
+  description: Langara provides it to students and/or staff.
