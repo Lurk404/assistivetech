@@ -28,6 +28,8 @@ Text to speech tools read digital text aloud, which can help with focus, underst
 
 ## ReadSpeaker
 
+{% include availability.html tags="institution" %}
+
 ReadSpeaker makes three tools available to Langara students: **webReader** and **docReader**, which are built into Brightspace, and **TextAid**, a web app and browser extension for reading content anywhere on the web.
 
 <details id="webreader" markdown="block">
