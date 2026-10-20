@@ -330,6 +330,8 @@ In macOS Tahoe 26 and later, [Accessibility Reader](https://support.apple.com/en
 
 ## Browser tools
 
+{% include availability.html tags="built-in" %}
+
 <details id="chrome" markdown="block">
 <summary>Chrome</summary>
 
