@@ -40,6 +40,9 @@ callouts:
   warning:
     title: Warning
     color: red
+  langara:
+    title: At Langara
+    color: purple
 
     # Color scheme supports "light" (default) and "dark"
 color_scheme: light
