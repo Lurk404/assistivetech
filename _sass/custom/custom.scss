@@ -500,7 +500,8 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
 
 // The comma between labels is for screen readers only, so the labels are read
 // as a list ("Paid, Available at Langara") instead of running together.
-.main-content .availability .separator {
+.main-content .availability .separator,
+.main-content .availability-key .separator {
   position: absolute;
   width: 1px;
   height: 1px;
