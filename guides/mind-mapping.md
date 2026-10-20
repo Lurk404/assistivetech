@@ -194,7 +194,10 @@ Use Microsoft Word to create document outlines.
 <details id="word-outline" markdown="block">
 <summary>Word Outline</summary>
 
-Word can’t draw a mind map, but its Outline view is a good way to organize ideas as an outline. Outline view is only in the desktop versions of Word (Windows and macOS). To install Word, go to [Microsoft 365](https://www.office.com/?auth=2), sign in with your Langara account, and select **Install apps**.
+Word can’t draw a mind map, but its Outline view is a good way to organize ideas as an outline. Outline view is only in the desktop versions of Word (Windows and macOS). To install Word, go to [Microsoft 365](https://www.office.com/?auth=2) and select **Install apps**.
+
+{: .langara }
+**Sign in to Microsoft** using your Langara email and password.
 
 To create an outline:
 

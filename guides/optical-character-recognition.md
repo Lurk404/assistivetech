@@ -196,17 +196,19 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 
 Upload a picture or scan of text and TextAid converts it to text it can read aloud, and saves it to your Library.
 
-1. Go to the [TextAid web app](https://ws.readspeaker.com/a/wasp/app/8) and select **Sign in with Office 365**.
-2. Select **Image to Text** in the sidebar.
+{: .langara }
+[Access TextAid](https://ws.readspeaker.com/a/wasp/app/8) using your Langara email and password.
+
+1. Select **Image to Text** in the sidebar.
    ![The TextAid sidebar with Image to Text circled.](../assets/images/reading-alternate-format-material/textaid-image-to-text.png) <!-- review-alt -->
-3. Choose file, set options, and click **Start**.
+2. Choose file, set options, and click **Start**.
    ![The Convert Image to Text window with the Choose File button circled. Other options include reading voice, save-to folder, and saving as a read-only document or editable text, with a Start button at the bottom.](../assets/images/reading-alternate-format-material/textaid-choose-file.png) <!-- review-alt -->
-4. Wait for the file to process and then select **Go to your library** to access your file.
+3. Wait for the file to process and then select **Go to your library** to access your file.
    ![A message reading The image was processed successfully, with the saved file name, its size, and a Go to your library button.](../assets/images/reading-alternate-format-material/textaid-image-processed.png) <!-- review-alt -->
-5. You can now use the reading options and tools described in [Reading Alternate Format Material](reading-alternate-format-material.md#textaid).
-6. Click the **Listen** button to read the whole document.
+4. You can now use the reading options and tools described in [Reading Alternate Format Material](reading-alternate-format-material.md#textaid).
+5. Click the **Listen** button to read the whole document.
    ![The converted document open in TextAid, with page thumbnails on the left and the scanned page on the right.](../assets/images/reading-alternate-format-material/textaid-converted-document.png) <!-- review-alt -->
-7. Select **Text Mode** to see the text as plain text and use more tools, such as selecting text to listen to it.
+6. Select **Text Mode** to see the text as plain text and use more tools, such as selecting text to listen to it.
    ![The converted document in Text Mode as plain text, with a selected word and a pop-up menu offering Listen, Dictionary and Translate.](../assets/images/reading-alternate-format-material/textaid-converted-text-mode.png) <!-- review-alt -->
 
 [TextAid Image to Text Tool](https://www.readspeaker.com/blog/textaid-features/#7)

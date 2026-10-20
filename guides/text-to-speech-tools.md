@@ -141,7 +141,10 @@ The **Settings** menu has options for reading speed, colour and highlighting set
 
 TextAid works like webReader, but anywhere on the web. It is a web app with a browser extension for [Chrome](https://chromewebstore.google.com/detail/readspeaker-chrome-extens/hjhgdemcnjlhekapcjegdlckfhbmfokc) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/readspeaker-textaid-add-on).
 
-To get the extension, go to [TextAid](https://ws.readspeaker.com/a/wasp/app/8) and select **Sign in with Office 365**. Log in with your Langara email address and password.
+To get the extension, go to [TextAid](https://ws.readspeaker.com/a/wasp/app/8) and sign in.
+
+{: .langara }
+Select **Sign in with Microsoft** and use your Langara email and password.
 
 1. Select **Web Reading**.
    (../assets/images/text-to-speech-tools/textaid-web-reading.png)
