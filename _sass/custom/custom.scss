@@ -486,3 +486,25 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
     background-color: $grey-dk-250;
   }
 }
+
+// Availability labels, made by _includes/availability.html
+.main-content .availability {
+  margin: 0.25rem 0 1rem;
+}
+
+.main-content .availability .label {
+  margin: 0 0 0 0.25rem;
+  font-size: 0.875rem;
+  text-transform: none; // Just the Docs labels are all caps by default, which is harder to read
+}
+
+// The comma between labels is for screen readers only, so the labels are read
+// as a list ("Paid, Available at Langara") instead of running together.
+.main-content .availability .separator {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
