@@ -1,5 +1,5 @@
 ---
-title: Equatio Quick Start Guide
+title: Equatio
 parent: More Tools
 nav_order: 2
 ---
@@ -27,8 +27,10 @@ Use Equatio to:
 
 ## Access
 
-Select **Sign in with Microsoft** and use your Langara email and password.
+Sign in with the account your school or organization uses for Equatio.
 
+{: .langara }
+Select **Sign in with Microsoft** and use your Langara email and password.
 <img src="../assets/images/equatio-quick-start-guide/equatio-sign-in.png" alt="The Equatio sign-in screen with Sign in with Microsoft circled." width="10%"> <!-- review-alt -->
 
 ## Basic Functions
