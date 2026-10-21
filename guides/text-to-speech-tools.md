@@ -81,7 +81,7 @@ Text Mode shows a simplified, text-only view of the page.
 
 1. Select the player menu button.
 2. Choose **Text Mode**.
-   (../assets/images/text-to-speech-tools/webreader-text-mode-menu.png)
+   <img src="../assets/images/text-to-speech-tools/webreader-text-mode-menu.png" alt="">
 3. A new overlay window will open showing the simplified version of the page.
    ![A Text Mode window over the dimmed quiz page, showing the question and answer options as plain text with the word being read highlighted, and a Close button.](../assets/images/text-to-speech-tools/webreader-text-mode.png)
 
@@ -91,7 +91,7 @@ Page Mask dims the page except for a strip around the mouse pointer. This can he
 
 1. Select the player menu button.
 2. Choose **Page Mask**.
-   (../assets/images/text-to-speech-tools/webreader-page-mask-menu.png)
+   <img src="../assets/images/text-to-speech-tools/webreader-page-mask-menu.png" alt="">
 3. The screen will dim except for a horizontal line that follows the mouse.
    ![A quiz page dimmed except for a bright horizontal strip around one answer, with minus, plus and close buttons at the right end of the strip.](../assets/images/text-to-speech-tools/webreader-page-mask.png) 
 
@@ -103,7 +103,7 @@ Click and Listen reads aloud whatever text you click. It is turned off in quizze
 
 1. Select the player menu button.
 2. Toggle **Click and Listen** to on.
-   (../assets/images/text-to-speech-tools/webreader-click-and-listen-menu.png) 
+   <img src="../assets/images/text-to-speech-tools/webreader-click-and-listen-menu.png" alt="">
 3. Click on text on the page. You will see a red outline around what is being read as well as the highlighting of sentences and words.
    ![A heading on a web page outlined in red while it is read aloud, with part of the sentence highlighted in green and the current word in blue.](../assets/images/text-to-speech-tools/webreader-click-and-listen.png)
 
@@ -118,18 +118,18 @@ Math written with an equation editor, such as the Brightspace equation editor or
 
 If your school has ReadSpeaker, a Listen button appears on Brightspace, an **Open with docReader** below the document previews of uploaded PDFs, documents, and presentation files.
 
-(../assets/images/text-to-speech-tools/docreader-open-button.png)
+<img src="../assets/images/text-to-speech-tools/docreader-open-button.png" alt="">
 
 Select **Listen**, or highlight text and choose **Listen**, to start reading.
-(../assets/images/text-to-speech-tools/docreader-listen.png) 
+<img src="../assets/images/text-to-speech-tools/docreader-listen.png" alt="">
 
 Select **Text Mode** to see a simplified version of the document.
 
 Select **Layout Mode** to return to the original view of the document.
-(../assets/images/text-to-speech-tools/docreader-text-mode.png)
+<img src="../assets/images/text-to-speech-tools/docreader-text-mode.png" alt=""
 
 Select **Expand Toolbar** for more options, or **Collapse Toolbar** to hide them.
-(../assets/images/text-to-speech-tools/docreader-expanded-toolbar.png)
+<img src="../assets/images/text-to-speech-tools/docreader-expanded-toolbar.png" alt="">
 
 **Page Mask** dims the document except for the lines around the mouse pointer.
 
@@ -151,11 +151,11 @@ To get the extension, go to [TextAid](https://ws.readspeaker.com/a/wasp/app/8) a
 Select **Sign in with Microsoft** and use your Langara email and password.
 
 1. Select **Web Reading**.
-   (../assets/images/text-to-speech-tools/textaid-web-reading.png)
+   <img src="../assets/images/text-to-speech-tools/textaid-web-reading.png" alt="">
 2. Select **Computer** or **Mobile**.
-   (../assets/images/text-to-speech-tools/textaid-web-reading-tools.png)
+   <img src="../assets/images/text-to-speech-tools/textaid-web-reading-tools.png" alt="">
 3. Choose your preferred browser.
-   (../assets/images/text-to-speech-tools/textaid-choose-browser.png)
+   <img src="../assets/images/text-to-speech-tools/textaid-choose-browser.png" alt="">
 4. Each option includes instructions and a link to install the extension.
 
 Once the extension is installed, you can open it straight from the browser without going through TextAid first.
@@ -207,7 +207,7 @@ Users can have Read Aloud read from their cursor position or select text and hav
 Immersive Reader is available in both desktop and browser versions of Word. Immersive Reader is also available in the browser version of PowerPoint.
 
 To open Immersive Reader, move to the **View** tab and select **Immersive Reader**.
-(../assets/images/text-to-speech-tools/word-immersive-reader-button.png)
+<img src="../assets/images/text-to-speech-tools/word-immersive-reader-button.png" alt="">
 
 The document’s appearance will change. At the bottom of the window, users can access Read Aloud tools.
 ![The Immersive Reader play button and voice settings button.](../assets/images/text-to-speech-tools/word-immersive-reader-play.png) 
@@ -301,7 +301,7 @@ To hear everything on screen read aloud:
 In Safari, use **Listen to Page** when available:
 
 1. Select the <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-page-menu-icon.png" alt="AA" width="23"> <!-- review-alt --> icon in the address bar and choose **Listen to Page**.
-   (../assets/images/text-to-speech-tools/ios-safari-listen-to-page.png)
+   <img src="../assets/images/text-to-speech-tools/ios-safari-listen-to-page.png" alt="">
 2. Control playback by tapping on <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-listening-icon.png" alt="" width="26"> in the address bar.
 3. Control reading speed, skip forward and back, pause, or stop listening.
    ![Safari listening controls with More Controls, Speaking rate, skip and pause buttons, and End Listening.](../assets/images/text-to-speech-tools/ios-safari-listening-controls.png)
@@ -370,15 +370,15 @@ There are 3 ways to activate Read Aloud:
 
 1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd>.
 2. Click the **A** icon in the address bar. Read Aloud will begin reading from the top of the page.
-   (../assets/images/text-to-speech-tools/edge-read-aloud-button.png) 
+   <img src="../assets/images/text-to-speech-tools/edge-read-aloud-button.png" alt="">
 3. **Right-click** on text and select **Read Aloud** or **Continue to read aloud from here**. Additionally, users can select text, right-click and click **Read Aloud Selection**.
-   (../assets/images/text-to-speech-tools/edge-right-click-menu.png)
+   <img src="../assets/images/text-to-speech-tools/edge-right-click-menu.png" alt="">
 
 To use **Immersive Reader**, press <kbd>F9</kbd> or click the Immersive Reader icon in the address bar (when available).
-(../assets/images/text-to-speech-tools/edge-immersive-reader-button.png)
+<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-button.png" alt="">
 
 Immersive Reader offers a simplified version of webpages with full Read Aloud functions. Additional visual customizations and reading preferences are available.
-(../assets/images/text-to-speech-tools/edge-immersive-reader-text-preferences.png)
+<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-text-preferences.png" alt="">
 
 - [Read aloud – Microsoft Edge](https://www.microsoft.com/en-us/edge/features/read-aloud)
 - [Use Immersive Reader in Microsoft Edge – Microsoft Support](https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1)
@@ -389,10 +389,10 @@ Immersive Reader offers a simplified version of webpages with full Read Aloud fu
 <summary>Firefox</summary>
 
 Press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (Windows) or <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> (macOS) to open or close Reader View, or click the lined paper icon in the address bar.
-(../assets/images/text-to-speech-tools/firefox-reader-view-button.png)
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-button.png" alt="">
 
 Reader View includes built-in text to speech and display customization.
-(../assets/images/text-to-speech-tools/firefox-reader-view-toolbar.png) 
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-toolbar.png" alt="">
 
 The look of webpages can be customized, including the font as well as line, character, and word spacing.
 ![Reader View text and layout settings: text size, font, font weight, content width, line spacing, and advanced options for character spacing, word spacing and text alignment.](../assets/images/text-to-speech-tools/firefox-reader-view-text-layout.png)
@@ -418,7 +418,7 @@ Safari uses the Mac’s built-in speech. Turn on **Speak selection** first (see 
 2. **Right-click**.
 3. Select **Speech**.
 4. Select **Start Speaking**.
-<img src="../assets/images/text-to-speech-tools/safari-start-speaking.png" alt=""> 
+   <img src="../assets/images/text-to-speech-tools/safari-start-speaking.png" alt=""> 
 
 Or highlight text, select **Edit** from the menu bar, choose **Speech**, and click **Start Speaking**.
 
