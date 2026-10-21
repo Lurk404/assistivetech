@@ -55,3 +55,34 @@
 <link rel="stylesheet" href="{{ infusion }}/src/framework/preferences/css/SeparatedPanelPrefsEditor.css">
 <link rel="stylesheet" href="{{ infusion }}/src/components/orator/css/Orator.css">
 <script src="{{ infusion }}/infusion-uio.js" defer></script>
+
+<script>
+  /* Availability labels (_includes/availability.html): turn each label into a
+     button that shows or hides its own definition, below the row of labels. */
+  document.addEventListener('DOMContentLoaded', function () {
+    var count = 0;
+    document.querySelectorAll('.availability').forEach(function (group) {
+      group.querySelectorAll('.availability-labels .label').forEach(function (span) {
+        var def = group.querySelector('.availability-def[data-def="' + span.dataset.def + '"]');
+        if (!def) return;
+        count++;
+        def.id = 'availability-def-' + count;
+        def.hidden = true;
+
+        var button = document.createElement('button');
+        button.type = 'button';
+        button.className = span.className;
+        button.textContent = span.textContent;
+        button.setAttribute('aria-expanded', 'false');
+        button.setAttribute('aria-controls', def.id);
+        button.addEventListener('click', function () {
+          var open = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', String(!open));
+          def.hidden = open;
+        });
+
+        span.replaceWith(button);
+      });
+    });
+  });
+</script>

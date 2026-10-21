@@ -487,80 +487,47 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   }
 }
 
-// Availability labels, made by _includes/availability.html: a collapsed
-// section whose summary is the row of labels (no arrow, no heading text).
-// Selecting the labels shows what each one means, in a box shaped like a label.
-// These rules undo the boxed style that other collapsed sections get.
-.main-content details.availability {
+// Availability labels, made by _includes/availability.html. The script in
+// head_custom.html turns each label into its own button, which shows or hides
+// its definition below the row.
+.main-content .availability {
   margin: 0.25rem 0 1rem;
-  padding: 0;
-  border: 0;
 }
 
-.main-content details.availability > summary,
-.main-content details.availability[open] > summary {
-  display: inline-block;    // only the labels are clickable, and no arrow
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-  border-bottom: 0;
-  border-radius: 12px;      // the focus outline follows the labels' rounded shape
-  cursor: pointer;
+.main-content .availability-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-// Older Safari draws the arrow this way instead
-.main-content details.availability > summary::-webkit-details-marker {
-  display: none;
-}
-
-.main-content details.availability > summary:hover {
-  background-color: transparent;
-}
-
-.main-content details.availability .label {
+.main-content .availability .label {
   margin: 0;
   font-size: 0.875rem;
   text-transform: none;     // Just the Docs labels are all caps by default, which is harder to read
 }
 
-.main-content details.availability .label + .label {
-  margin-left: 0.25rem;
-}
-
-// Hover: the labels lift slightly with a shadow underneath
-.main-content details.availability .label {
+// The labels once they're buttons
+.main-content .availability button.label {
+  font-family: inherit;
+  line-height: inherit;
+  border: 0;
+  cursor: pointer;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.main-content details.availability > summary:hover .label {
+.main-content .availability button.label:hover {
   transform: translateY(-2px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-// Shadows barely show on a dark page, so use a stronger one there. This sits
-// here rather than in the dark mode section further up, because the rule above
-// comes later in the file and would win.
-@if $color-scheme == dark {
-  .main-content details.availability > summary:hover .label {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-  }
+.main-content .availability button.label:focus-visible {
+  outline: 3px solid $link-color;
+  outline-offset: 2px;
 }
 
-// For readers who turn off animation: no movement, just the shadow
-@media (prefers-reduced-motion: reduce) {
-  .main-content details.availability .label {
-    transition: none;
-  }
-
-  .main-content details.availability > summary:hover .label {
-    transform: none;
-  }
-}
-
-// The definitions: same rounded corners as the labels (Just the Docs uses 12px).
-// Theme colours, so it works in light and dark mode without a separate rule
-// (the same background as code blocks).
-.main-content .availability-defs {
+// A definition: same rounded corners as the labels. Theme colours, so it
+// works in light and dark mode (the same background as code blocks).
+.main-content .availability-def {
   width: fit-content;
   max-width: 100%;
   margin: 0.25rem 0 0;
@@ -572,17 +539,28 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   border-radius: 12px;
 }
 
-.main-content .availability-defs > li {
-  margin: 0.25rem 0;
+// Shadows barely show on a dark page, so use a stronger one there. This sits
+// here rather than in the dark mode section further up, because the rule above
+// comes later in the file and would win.
+@if $color-scheme == dark {
+  .main-content .availability button.label:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  }
 }
 
-.main-content .availability-defs > li::before {
-  content: none;            // no bullets
+// For readers who turn off animation: no movement, just the shadow
+@media (prefers-reduced-motion: reduce) {
+  .main-content .availability button.label {
+    transition: none;
+  }
+
+  .main-content .availability button.label:hover {
+    transform: none;
+  }
 }
 
 // The comma between labels is for screen readers only, so the labels are read
 // as a list ("Paid, Available at Langara") instead of running together.
-.main-content .availability .separator,
 .main-content .availability-key .separator {
   position: absolute;
   width: 1px;

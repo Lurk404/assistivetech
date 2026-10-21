@@ -1,25 +1,25 @@
 {%- comment -%}
   Availability labels, shown under a tool's heading.
   Usage: {% include availability.html tags="paid langara" %}
-  The labels are the summary of a collapsed section. Selecting them shows what
-  each label on this tool means. Label text, colours and definitions are in
-  _data/availability.yml. The home page has the full list (#availability-labels).
-  Text in class="separator" is hidden on screen but read by screen readers.
+  Label text, colours and definitions are in _data/availability.yml.
+  Without JavaScript the labels and definitions show as plain text. The script
+  in head_custom.html turns each label into a button that shows or hides its
+  own definition.
 {%- endcomment -%}
 {%- assign keys = include.tags | split: " " -%}
-<details class="availability">
-<summary>
-{%- for key in keys -%}
-  {%- assign tag = site.data.availability[key] -%}
-  {%- if tag %} <span class="label {{ tag.class }}">{{ tag.label }}{% unless forloop.last %}<span class="separator">,</span>{% endunless %}</span>{%- endif -%}
-{%- endfor -%}
-<span class="separator"> (availability)</span></summary>
-<ul class="availability-defs">
+<div class="availability" role="group" aria-label="Availability">
+<div class="availability-labels">
 {%- for key in keys -%}
   {%- assign tag = site.data.availability[key] -%}
   {%- if tag %}
-  <li><strong>{{ tag.label }}</strong>: {{ tag.description }}</li>
+  <span class="label {{ tag.class }}" data-def="{{ key }}">{{ tag.label }}</span>
   {%- endif -%}
 {%- endfor %}
-</ul>
-</details>
+</div>
+{%- for key in keys -%}
+  {%- assign tag = site.data.availability[key] -%}
+  {%- if tag %}
+<p class="availability-def" data-def="{{ key }}"><strong>{{ tag.label }}</strong>: {{ tag.description }}</p>
+  {%- endif -%}
+{%- endfor %}
+</div>
