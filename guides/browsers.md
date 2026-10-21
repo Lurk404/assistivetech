@@ -6,7 +6,7 @@ nav_order: 1
 
 # Browsers
 
-<img src="../assets/images/browsers/browser-logos.png" alt="" width="50%" style="display: block; margin: 0 auto;"> <!-- review-alt -->
+<img src="../assets/images/browsers/browser-logos.png" alt="" width="50%" style="display: block; margin: 0 auto;">
 
 Browsers aren’t assistive technology as such, but they have settings and tools that can make the web easier to use. These guides are for the desktop versions (Windows and macOS); the mobile versions have some similar features.
 
@@ -24,7 +24,7 @@ Browsers aren’t assistive technology as such, but they have settings and tools
 Chrome is the most widely used browser and works well with most assistive technology.
 
 To find settings and tools, select **Customize and control Google Chrome** (three vertical dots near the top right) or press <kbd>Alt</kbd> + <kbd>F</kbd>.
-![The Chrome toolbar with the three-dot Customize and control Google Chrome button circled.](../assets/images/browsers/chrome-menu-button.png) <!-- review-alt -->
+![](../assets/images/browsers/chrome-menu-button.png)
 
 <details id="ui-options-plus" markdown="block">
 <summary>UI Options Plus</summary>
@@ -299,7 +299,7 @@ More information on overriding [page colours](https://support.mozilla.org/en-US/
 <summary>Reader View</summary>
 
 Firefox’s Reader View strips many pages down to the text and main images, and lets you change the background colour, font, text size, alignment, and spacing. When Reader View is available, a page icon appears in the address bar.
-![The Firefox address bar with the Reader View page icon circled.](../assets/images/browsers/firefox-reader-view-icon.png) <!-- review-alt -->
+![The Firefox address bar with the Reader View page icon circled.](../assets/images/browsers/firefox-reader-view-icon.png)
 
 Select the icon, or press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (<kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> on macOS).
 
@@ -442,7 +442,7 @@ Safari’s **Reader** shows many articles in a simpler, easier-to-read view.
 Select **Show Reader** in the address bar (in newer versions of Safari, it’s in the page menu at the left of the address bar), or press <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>.
 
 To change the font, text size, and background colour, use the **Aa** button.
-![Safari Reader View with the Aa button circled in the address bar, opening options for text size, background colour and font.](../assets/images/browsers/safari-reader-view-options.png) <!-- review-alt -->
+![Safari Reader View with the Aa button circled in the address bar, opening options for text size, background colour and font.](../assets/images/browsers/safari-reader-view-options.png) 
 
 [Hide distractions when reading articles in Safari on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/safari/sfri32632/mac)
 

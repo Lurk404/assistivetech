@@ -19,32 +19,32 @@ These free websites help you find more assistive technology and accessibility se
 [My Computer My Way](https://mcmw.abilitynet.org.uk), from the UK charity AbilityNet, has step-by-step guides to the accessibility features built into phones, tablets, and computers. You can filter the guides by need, symptom, condition, and device.
 
 My Computer My Way detects your device and operating system and shows the guides for it. To look up a different device, for example when helping someone else, change the **Operating system** filter.
-![The My Computer My Way filters with the Operating system menu circled and open, listing All, Android, Android 10, Android 11 and Android 12.](../assets/images/finding-more-tools/mcmw-operating-system-filter.png) <!-- review-alt -->
+![The My Computer My Way filters with the Operating system menu circled and open, listing All, Android, Android 10, Android 11 and Android 12.](../assets/images/finding-more-tools/mcmw-operating-system-filter.png)
 
 <details markdown="block">
 <summary>Filters</summary>
 
 There are five filter menus.
-![The My Computer My Way search box above five filter menus: Category, Adjustment, Condition, Symptom and Operating system, with a Clear all filters link.](../assets/images/finding-more-tools/mcmw-filters.png) <!-- review-alt -->
+![The My Computer My Way search box above five filter menus: Category, Adjustment, Condition, Symptom and Operating system, with a Clear all filters link.](../assets/images/finding-more-tools/mcmw-filters.png)
 
 The first menu is **Category**: Cognitive, Hearing, Motor, and Vision. Each filter menu works with a mouse or keyboard, and you can type to search within it.
-![The Category filter open with checkboxes for Cognitive, Hearing, Motor and Vision.](../assets/images/finding-more-tools/mcmw-category-filter.png) <!-- review-alt -->
+![The Category filter open with checkboxes for Cognitive, Hearing, Motor and Vision.](../assets/images/finding-more-tools/mcmw-category-filter.png)
 
 You can select one or more options in each filter. You don’t need to use every filter, but each one you use narrows down the options in the others.
 
 The next filter, **Adjustment**, includes options such as captioning, colour settings, keyboard settings, magnify, text settings, voice options, zoom and more.
-![The Adjustment filter open with checkboxes including Auto correction, Captions, Colour settings, Font settings and Gestures.](../assets/images/finding-more-tools/mcmw-adjustment-filter.png) <!-- review-alt -->
+![The Adjustment filter open with checkboxes including Auto correction, Captions, Colour settings, Font settings and Gestures.](../assets/images/finding-more-tools/mcmw-adjustment-filter.png)
 
 The next menu, **Condition**, lists common physical, cognitive, vision, hearing, and neurological conditions.
-![The Condition filter open with checkboxes including ADHD, ALS, Amputation, Anxiety and Arthritis.](../assets/images/finding-more-tools/mcmw-condition-filter.png) <!-- review-alt -->
+![The Condition filter open with checkboxes including ADHD, ALS, Amputation, Anxiety and Arthritis.](../assets/images/finding-more-tools/mcmw-condition-filter.png)
 
 Use this filter with caution, even if your condition is listed: a useful tool won’t appear if it isn’t tagged with that condition, so you could miss it.
 
 The fourth menu is **Symptom**, such as eye strain, hearing loss, low dexterity, or problems reading.
-![The Symptom filter open with checkboxes including Back pain, Blurred vision, Colour blind, Concentration problems and Dizziness.](../assets/images/finding-more-tools/mcmw-symptom-filter.png) <!-- review-alt -->
+![The Symptom filter open with checkboxes including Back pain, Blurred vision, Colour blind, Concentration problems and Dizziness.](../assets/images/finding-more-tools/mcmw-symptom-filter.png)
 
 The last menu is **Operating system**, which is set to your own device to start with. You can choose only one operating system at a time.
-![The Operating system filter open, listing All, Android, Android 10, Android 11 and Android 12.](../assets/images/finding-more-tools/mcmw-operating-system-menu.png) <!-- review-alt -->
+![The Operating system filter open, listing All, Android, Android 10, Android 11 and Android 12.](../assets/images/finding-more-tools/mcmw-operating-system-menu.png)
 
 </details>
 
@@ -52,7 +52,7 @@ The last menu is **Operating system**, which is set to your own device to start 
 <summary>Clear Filters</summary>
 
 To remove a filter, select the **X** beside it. To remove them all, select **Clear all filters**.
-![A selected Back pain filter with its X button circled, and the Clear all filters link circled.](../assets/images/finding-more-tools/mcmw-clear-filters.png) <!-- review-alt -->
+!(../assets/images/finding-more-tools/mcmw-clear-filters.png)
 
 </details>
 
@@ -60,7 +60,7 @@ To remove a filter, select the **X** beside it. To remove them all, select **Cle
 <summary>Search</summary>
 
 Search is handy when you know what you’re looking for. To discover features and tools, the filters are usually easier.
-![The My Computer My Way search box, reading Start typing to search.](../assets/images/finding-more-tools/mcmw-search.png) <!-- review-alt -->
+![The My Computer My Way search box, reading Start typing to search.](../assets/images/finding-more-tools/mcmw-search.png)
 
 </details>
 
@@ -171,25 +171,25 @@ Learn and Try doesn't include every product, and tools change often, so check pr
 The [AT Hive](https://www.ahead.ie/Discover-your-AT), from the Irish education charity AHEAD, helps you find assistive technology by what you want to do, the devices you use, and the accounts you have. For each tool, it has how-to guides, links, advice, and demonstration videos.
 
 The home page has an introductory video on how to use it.
-![The Discover your Assistive Technologies page with an introductory video and the Find Assistive Technology button circled.](../assets/images/finding-more-tools/at-hive-home.png) <!-- review-alt -->
+![The Discover your Assistive Technologies page with an introductory video and the Find Assistive Technology button circled.](../assets/images/finding-more-tools/at-hive-home.png)
 
 <details markdown="block">
 <summary>Using the AT Hive</summary>
 
 1. Select **Find Assistive Technology**, then choose what you want help with: reading, magnification, revision and recall, writing, note-taking, spelling & grammar, organisation, motivation and focus, working together, captions and subtitles, recording, or mindset.
-   ![Question 1 of 3, What interests would you like to explore today, with options such as Reading, Magnification, Revision and Recall, Writing, Note-taking, and Spelling & Grammar.](../assets/images/finding-more-tools/at-hive-interests.png) <!-- review-alt -->
+   ![Question 1 of 3, What interests would you like to explore today, with options such as Reading, Magnification, Revision and Recall, Writing, Note-taking, and Spelling & Grammar.](../assets/images/finding-more-tools/at-hive-interests.png)
 2. Choose one or more, then select **Next Question** at the bottom of the page.
-   ![More interest options, with the Next Question button circled at the bottom.](../assets/images/finding-more-tools/at-hive-next-question.png) <!-- review-alt -->
+   ![More interest options, with the Next Question button circled at the bottom.](../assets/images/finding-more-tools/at-hive-next-question.png)
 3. Select the devices you use.
-   ![Question 2 of 3, What do you use, with device options including Chrome Book, Microsoft Surface, iPhone, iPad, Apple Computer, Android Phone, Android Tablet and Windows Computer.](../assets/images/finding-more-tools/at-hive-devices.png) <!-- review-alt -->
+   ![Question 2 of 3, What do you use, with device options including Chrome Book, Microsoft Surface, iPhone, iPad, Apple Computer, Android Phone, Android Tablet and Windows Computer.](../assets/images/finding-more-tools/at-hive-devices.png)
 4. If there is a **Detect My Current Device** button above the options, you can use it to select your current device automatically. Then select **Next Question**.
-   ![The rest of the device options, with the Next Question button circled.](../assets/images/finding-more-tools/at-hive-devices-next.png) <!-- review-alt -->
+   ![The rest of the device options, with the Next Question button circled.](../assets/images/finding-more-tools/at-hive-devices-next.png)
 5. Select **Microsoft Account**, **Google Account**, or **No specific account needed**, then **Show My Results**.
-   ![Question 3 of 3, with Microsoft Account (Office 365), Google Account and No specific account needed, and the Show My Results button circled.](../assets/images/finding-more-tools/at-hive-accounts.png) <!-- review-alt -->
+   ![Question 3 of 3, with Microsoft Account (Office 365), Google Account and No specific account needed, and the Show My Results button circled.](../assets/images/finding-more-tools/at-hive-accounts.png)
 6. The AT Hive shows the tools that match your answers. Click an answer to remove it. You can also filter by price (free, freemium, free trial, or paid) and email yourself the results.
-   ![The AT Matches page showing the chosen answers, pricing filters, and options to email the results or start again.](../assets/images/finding-more-tools/at-hive-matches.png) <!-- review-alt -->
+   ![The AT Matches page showing the chosen answers, pricing filters, and options to email the results or start again.](../assets/images/finding-more-tools/at-hive-matches.png)
 7. Scroll down to the results. Select **Tell me more** for guides, links, and demonstration videos.
-   ![Two results, Blackboard Document to MP3 and Caption Ed, each with a Tell me more button and details on device, account, purpose and pricing.](../assets/images/finding-more-tools/at-hive-results.png) <!-- review-alt -->
+   ![Two results, Blackboard Document to MP3 and Caption Ed, each with a Tell me more button and details on device, account, purpose and pricing.](../assets/images/finding-more-tools/at-hive-results.png)
 
 </details>
 
