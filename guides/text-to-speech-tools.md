@@ -38,7 +38,7 @@ ReadSpeaker is text to speech software. If your school has it, you may see **web
 <details id="webreader" markdown="block">
 <summary>webReader</summary>
 
-If your school has ReadSpeaker, a Listen button appears on Brightspace Topic, Discussion, and Quiz pages.:
+If your school has ReadSpeaker, a Listen button appears on Brightspace Topic, Discussion, and Quiz pages:
 ![The ReadSpeaker Listen button, with a menu button on its left and a play button on its right.](../assets/images/text-to-speech-tools/webreader-listen-button.png) 
 
 Activating the **Listen** button will reveal the Player:
@@ -126,7 +126,7 @@ Select **Listen**, or highlight text and choose **Listen**, to start reading.
 Select **Text Mode** to see a simplified version of the document.
 
 Select **Layout Mode** to return to the original view of the document.
-<img src="../assets/images/text-to-speech-tools/docreader-text-mode.png" alt=""
+<img src="../assets/images/text-to-speech-tools/docreader-text-mode.png" alt="">
 
 Select **Expand Toolbar** for more options, or **Collapse Toolbar** to hide them.
 <img src="../assets/images/text-to-speech-tools/docreader-expanded-toolbar.png" alt="">

@@ -21,7 +21,7 @@ These guides were written for Langara College students and staff, and anyone is 
 
 Each tool has labels that show how to get it:
 
-{% include availability.html tags="built-in free free-plan paid institution langara" %}
+{% include availability.html tags="built-in free free-plan paid langara" %}
 
 Select a label to reveal more information about availability.
 

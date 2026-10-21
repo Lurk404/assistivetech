@@ -17,7 +17,7 @@ Voice control lets you operate a computer or phone with your voice: open apps, c
 
 ## Dragon
 
-{% include availability.html tags="lanagra paid" %}
+{% include availability.html tags="langara paid" %}
 
 {: .langara}
 Langara has a limited number of Dragon licences. Contact Accessibility Services for information.

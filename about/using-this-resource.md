@@ -79,7 +79,7 @@ On short screens, or when the page is zoomed in, these buttons appear at the end
 
 Many pages group instructions into collapsed sections, one for each tool or topic, to keep pages short. Select a section’s title to expand or collapse it. With a keyboard, move focus to the title and press <kbd>Enter</kbd>. Screen readers announce whether each section is expanded or collapsed.
 
-Boxes titled "At Langara:" apply only to Langara. See [Who these guides are for](../index.md#availability-labels).
+Boxes titled "At Langara" apply only to Langara. See [Who these guides are for](../index.md#availability-labels).
 
 ## Search
 
