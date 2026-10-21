@@ -485,12 +485,18 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   .site-prefs .fl-prefsEditor {
     background-color: $grey-dk-250;
   }
+
+    // Availability definitions
+  .main-content .availability-defs {
+    background-color: $grey-dk-250;
+    border-color: $grey-dk-100;
+  }
 }
 
 // Availability labels, made by _includes/availability.html: a collapsed
-// section whose summary is the row of labels. Opening it shows what each
-// label on that tool means. These rules undo the boxed style that other
-// collapsed sections get (top of this file, and the dark mode section).
+// section whose summary is the row of labels (no arrow, no heading text).
+// Selecting the labels shows what each one means, in a box shaped like a label.
+// These rules undo the boxed style that other collapsed sections get.
 .main-content details.availability {
   margin: 0.25rem 0 1rem;
   padding: 0;
@@ -499,11 +505,18 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
 
 .main-content details.availability > summary,
 .main-content details.availability[open] > summary {
+  display: inline-block;    // only the labels are clickable, and no arrow
   margin: 0;
-  padding: 0.25rem 0;
+  padding: 0;
   font-weight: normal;
   border-bottom: 0;
+  border-radius: 12px;      // the focus outline follows the labels' rounded shape
   cursor: pointer;
+}
+
+// Older Safari draws the arrow this way instead
+.main-content details.availability > summary::-webkit-details-marker {
+  display: none;
 }
 
 .main-content details.availability > summary:hover {
@@ -511,20 +524,39 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
 }
 
 .main-content details.availability .label {
-  margin: 0 0 0 0.25rem;
+  margin: 0;
   font-size: 0.875rem;
-  text-transform: none; // Just the Docs labels are all caps by default, which is harder to read
+  text-transform: none;     // Just the Docs labels are all caps by default, which is harder to read
+  text-decoration: underline dotted;   // the only sign the labels can be selected
+  text-underline-offset: 0.2em;
 }
 
-// The definitions, shown when the section is open
+.main-content details.availability .label + .label {
+  margin-left: 0.25rem;
+}
+
+.main-content details.availability > summary:hover .label {
+  text-decoration-style: solid;
+}
+
+// The definitions: same rounded corners as the labels (Just the Docs uses 12px)
 .main-content .availability-defs {
+  width: fit-content;
+  max-width: 100%;
   margin: 0.25rem 0 0;
-  padding: 0.25rem 0 0.25rem 0.75rem;
-  border-left: 3px solid $grey-lt-300;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  background-color: $grey-lt-100;
+  border: 1px solid $grey-lt-300;
+  border-radius: 12px;
+}
+
+.main-content .availability-defs > li {
+  margin: 0.25rem 0;
 }
 
 .main-content .availability-defs > li::before {
-  content: none; // no bullets
+  content: none;            // no bullets
 }
 
 // The comma between labels is for screen readers only, so the labels are read
