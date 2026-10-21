@@ -25,7 +25,7 @@ Each tool has labels that show how to get it:
 
 Select a label to reveal more information about availability.
 
-Boxes titled **At Langara**, and collapsed sections that start with "At Langara:", apply only to Langara.
+Boxes titled **At Langara** apply only to Langara.
 
 {: .note }
 Not at Langara? Your school or workplace may already pay for some of these tools. Ask your accessibility office (it may be called Accessibility Services, Disability Services, or Student Accessibility), your IT help desk, or your library what's available to you and how to sign in.
@@ -36,7 +36,7 @@ Not at Langara? Your school or workplace may already pay for some of these tools
 
 Tools that read text aloud or show it in an easier-to-read view, and get the text out of scans and images.
 
-- [Text to Speech Tools](guides/text-to-speech-tools.md): have text read aloud in Brightspace, Word, browsers, and on your devices.
+- [Text to Speech Tools](guides/text-to-speech-tools.md): have text read aloud with ReadSpeaker, Word, browsers, and your devices.
 - [Reading Alternate Format Material](guides/reading-alternate-format-material.md): TextAid, Calibre, Kurzweil, Speechify, and NaturalReader.
 - [Optical Character Recognition](guides/optical-character-recognition.md): get the text out of scans, images, and inaccessible PDFs.
 
@@ -78,7 +78,7 @@ Browser settings, math tools, a free accessibility toolbar, and websites for fin
 
 
 {: .warning .mt-6 }
-> Software changes often. If something in a guide is out of date, or you have questions or comments, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
+> Software changes often. If something in a guide is out of date, or you have questions or comments about these guides, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
 
 ---
 

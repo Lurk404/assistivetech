@@ -30,10 +30,10 @@ Text to speech tools read digital text aloud, which can help with focus, underst
 
 {% include availability.html tags="langara paid" %}
 
-ReadSpeaker is text to speech software. If your school has it, you may see **webReader** and **docReader** in your learning management system (such as Brightspace), and have access to TextAid, a web app and browser extension for reading content anywhere on the web.
-
 {: .langara }
-Langara provides access to webReader and docReader in Brightspace. TextAid can be accessed using Langara Microsoft email and password.
+Langara provides webReader and docReader in Brightspace. Sign in to TextAid with your Langara email and password.
+
+ReadSpeaker is text to speech software. If your school has it, you may see **webReader** and **docReader** in your learning management system (such as Brightspace), and have access to TextAid, a web app and browser extension for reading content anywhere on the web.
 
 <details id="webreader" markdown="block">
 <summary>webReader</summary>
@@ -116,7 +116,7 @@ Math written with an equation editor, such as the Brightspace equation editor or
 <details id="docreader" markdown="block">
 <summary>docReader</summary>
 
-If your school has ReadSpeaker, a Listen button appears on Brightspace, an **Open with docReader** below the document previews of uploaded PDFs, documents, and presentation files.
+If your school has ReadSpeaker, an **Open with docReader** button appears below the preview of PDFs, documents, and presentations uploaded to Brightspace.
 
 <img src="../assets/images/text-to-speech-tools/docreader-open-button.png" alt="">
 

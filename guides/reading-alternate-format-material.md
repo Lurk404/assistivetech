@@ -151,7 +151,7 @@ To use Image to Text:
 {% include availability.html tags="langara free" %}
 
 {: .langara }
-Calibre is available on Langara devices through the Software Center application
+Calibre is available on Langara devices through the Software Center application.
 
 Calibre is a free e-book reader and library. [Download Calibre for Windows, macOS, and Linux](https://calibre-ebook.com/download).
 
@@ -194,7 +194,9 @@ While Calibre reads aloud, a toolbar appears with options to pause, change the s
 {% include availability.html tags="langara paid" %}
 
 {: .langara }
-Kurzweil 3000 is available for use in L121. Students in British Columbia may be able to get funding for their own copy, or borrow equipment, through Assistive Technology British Columbia (ATBC). Accessibility Services can help you [apply to ATBC for funding or an equipment loan](https://www.at-bc.ca/for-students/).
+Kurzweil 3000 is available on computers in L121. Accessibility Services can help you [apply to ATBC for funding or an equipment loan](https://www.at-bc.ca/for-students/). For information and resources on Kurzweil, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
+
+ Students in British Columbia may be able to get funding for their own copy, or borrow equipment, through Assistive Technology British Columbia (ATBC). Contact your institution or ATBC for more information.
 
 Kurzweil opens many document types, including Word, PDF, EPUB, and Kurzweil’s own KES files.
 
@@ -220,10 +222,7 @@ To see the highlighting without hearing the voice, turn off **Audible Reading**.
 - Press <kbd>F2</kbd> to go to the previous Reading Unit (word, line, sentence, and so on)
 - Press <kbd>F4</kbd> to go to the next Reading Unit
 
-Kurzweil also has tools for writing and [mind mapping](mind-mapping.md#kurzweil) or visit the [Kurzweil Academy](https://www.kurzweiledu.com/kurzweil-academy/kurzweil-academy.html) for how-to videos and guides.
-
-{: .langara }
- Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for information and resources on Kurzweil
+Kurzweil also has tools for writing and [mind mapping](mind-mapping.md#kurzweil). For how-to videos and guides, visit the [Kurzweil Academy](https://www.kurzweiledu.com/kurzweil-academy/kurzweil-academy.html).
 
 </details>
 

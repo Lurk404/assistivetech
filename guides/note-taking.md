@@ -99,7 +99,7 @@ You can upload up to 300 minutes of audio a month.
 {% include availability.html tags="langara paid" %}
 
 {: .langara}
-Langara has a limited number of Dragon licenses. Contact Accessibility Services for information.
+Langara has a limited number of Dragon licences. Contact Accessibility Services for information.
 
 Dragon for Windows can transcribe .wav, .mp3, and .m4a recordings to text.
 
@@ -156,7 +156,7 @@ Most of these apps upload your recordings to the company’s servers. Check thei
 <details markdown="block">
 <summary>OneNote</summary>
 
-{% include availability.html tags="langara paid" %}
+{% include availability.html tags="free" %}
 
 Microsoft OneNote can record audio while you type notes, and links each note to the moment in the recording when you typed it.
 

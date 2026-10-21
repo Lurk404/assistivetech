@@ -16,7 +16,7 @@ Speech to text, also called dictation, turns what you say into typed text. This 
 - [iOS and macOS](#ios-and-macos)
 - [Dragon](#dragon)
 
-## Word Dicate
+## Word Dictate
 
 {% include availability.html tags="langara paid" %}
 
@@ -58,7 +58,7 @@ The gear icon on the toolbar opens **Dictation Settings**:
 
 ## Windows
 
-{% include availability.html tags="langara built-in" %}
+{% include availability.html tags="built-in" %}
 
 Microsoft Windows 11 has built-in dictation called **Voice Typing**.
 
@@ -124,12 +124,12 @@ Use **Live Transcribe** to turn speech around you into text on screen (see also 
 
 ## iOS and macOS
 
+{% include availability.html tags="built-in" %}
+
 iOS and macOS offer **Dictation** tools built-in.
 
 <details id="ios-and-macos" markdown="block">
 <summary>iOS and macOS</summary>
-
-{% include availability.html tags="built-in" %}
 
 ### iOS
 
@@ -167,9 +167,9 @@ Speak clearly and say commands in plain language, such as “new line” or “e
 {% include availability.html tags="langara paid" %}
 
 {: .langara}
-Langara has a limited number of Dragon licenses. Contact Accessibility Services for information.
+Langara has a limited number of Dragon licences. Contact Accessibility Services for information.
 
-Dragon Naturally Speaking is powerful speetch to text software.
+Dragon is powerful speech to text software.
 
 <details id="dragon" markdown="block">
 <summary>Dragon</summary>

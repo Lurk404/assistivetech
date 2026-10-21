@@ -20,7 +20,7 @@ Voice control lets you operate a computer or phone with your voice: open apps, c
 {% include availability.html tags="lanagra paid" %}
 
 {: .langara}
-Langara has a limited number of Dragon licenses. Contact Accessibility Services for information.
+Langara has a limited number of Dragon licences. Contact Accessibility Services for information.
 
 Dragon is Windows software for dictating text and operating a computer with voice commands.
 
@@ -321,6 +321,7 @@ Say “show grid” to point at things that don’t have a number. Say the numbe
 
 ## Android
 
+{% include availability.html tags="built-in" %}
 
 Android’s **Voice Access** app lets you control your phone with your voice. To set it up:
 

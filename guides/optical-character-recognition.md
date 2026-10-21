@@ -71,7 +71,7 @@ On iPhone and iPad, open the image in Photos (or point the Camera at the text) a
 <details markdown="block">
 <summary>OneNote</summary>
 
-{% include availability.html tags="langara paid" %}
+{% include availability.html tags="free" %}
 
 <img src="../assets/images/logos/onenote.png" alt="" width="10%"> <!-- review-alt -->
 
@@ -130,11 +130,11 @@ ShareX is a free screenshot app for Windows that includes OCR. Capture all or pa
 {% include availability.html tags="langara paid" %}
 
 {: .langara }
-Contact edtech@langara.ca for Snagit licensing information
+Contact [edtech@langara.ca](mailto:edtech@langara.ca) for Snagit licensing information.
 
 <img src="../assets/images/logos/snagit.png" alt="" width="10%"> <!-- review-alt -->
 
-Snagit is paid screen capture and recording software for Windows and macOS. Langara has some licences. To copy all the text from an image:
+Snagit is paid screen capture and recording software for Windows and macOS. To copy all the text from an image:
 
 1. Open an image in the Snagit Editor (either via screenshot or existing file).
 2. Right-click and select **Grab Text…**
@@ -195,12 +195,12 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 
 {% include availability.html tags="langara paid" %}
 
+{: .langara }
+[Access TextAid](https://ws.readspeaker.com/a/wasp/app/8) using your Langara email and password.
+
 <img src="../assets/images/logos/textaid.png" alt="" width="10%"> <!-- review-alt -->
 
 Upload a picture or scan of text and TextAid converts it to text it can read aloud, and saves it to your Library.
-
-{: .langara }
-[Access TextAid](https://ws.readspeaker.com/a/wasp/app/8) using your Langara email and password.
 
 1. Select **Image to Text** in the sidebar.
    ![The TextAid sidebar with Image to Text circled.](../assets/images/reading-alternate-format-material/textaid-image-to-text.png) <!-- review-alt -->
@@ -271,7 +271,7 @@ Google Drive can convert scanned PDFs and images into editable text:
 {% include availability.html tags="langara paid" %}
 
 {: .langara}
-Acrobat licenses can be requested through Langara IT.
+Acrobat licences can be requested through Langara IT.
 
 <img src="../assets/images/logos/adobe-acrobat.png" alt="" width="10%"> <!-- review-alt -->
 

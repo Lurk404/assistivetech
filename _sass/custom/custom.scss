@@ -396,17 +396,18 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
     padding: 0.1rem;
   }
 
-  // Callout titles ("Tip", "Note", "Warning") and the numbers in numbered steps
-  // keep their own colours otherwise, which can be hard to read on the theme's
+  // Callout titles ("Tip", "Note", "Warning", "At Langara") and the numbers in numbered steps  // keep their own colours otherwise, which can be hard to read on the theme's
   // background (for example light grey numbers on yellow).
   .main-content ol > li::before,
   .main-content ul > li::before,
   p.tip::before, blockquote.tip::before,
   p.note::before, blockquote.note::before,
   p.warning::before, blockquote.warning::before,
+  p.langara::before, blockquote.langara::before,
   .tip-title > p:first-child,
   .note-title > p:first-child,
-  .warning-title > p:first-child {
+  .warning-title > p:first-child,
+  .langara-title > p:first-child {
     color: var(--fl-fgColor) !important;
   }
   // Availability labels: contrast themes give buttons the page's background
@@ -439,6 +440,7 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
     "tip": $green-000,       // 8.1:1
     "note": $link-color,     // 5.7:1
     "warning": $red-000      // 5.9:1
+    "langara": #a594f9       // 5.9:1 (Just the Docs' own purples are too dark)
   );
 
   @each $name, $color in $dark-callout-colors {
