@@ -355,7 +355,7 @@ body.fl-lineSpace-enabled {
 }
 
 // Contrast themes. Infusion puts a class like "fl-theme-yb" (yellow on black)
-// on <body> and recolours every element. Two things on this site need help.
+// on <body> and recolours every element. Three things on this site need help.
 body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
 
   // Images: many logos are black on a see-through background and would vanish
@@ -382,6 +382,12 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   .note-title > p:first-child,
   .warning-title > p:first-child {
     color: var(--fl-fgColor) !important;
+  }
+  // Availability labels: contrast themes give buttons the page's background
+  // colour, so the labels would look like plain text. A border marks them;
+  // Infusion colours it to match the theme.
+  .main-content .availability button.label {
+    border: 2px solid;
   }
 }
 
