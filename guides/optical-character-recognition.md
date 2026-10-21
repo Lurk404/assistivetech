@@ -14,6 +14,10 @@ None of these tools replace accessible documents. The people who create content 
 
 - [Screenshot Readers](#screenshot-readers)
 - [Optical Character Recognition Tools](#optical-character-recognition-tools)
+   - [TextAid](#textaid)
+   - [Kurzweil](#kurzweil)
+   - [Google Drive](#google-drive)
+   - [Acrobat](#acrobat) 
 
 ## Screenshot Readers
 
