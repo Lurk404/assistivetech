@@ -20,6 +20,9 @@ A screen reader reads aloud everything on the screen, including menus, buttons, 
 
 {% include availability.html tags="Langara paid" %}
 
+{: .langara}
+JAWS is available on computers in L121 as well as Accessibility Services exam computer labs.
+
 JAWS (Job Access With Speech) is one of the most widely used screen readers. It runs only on Windows, and lets you do almost everything in Windows with the keyboard and audio. JAWS is expensive, paid software and takes time to learn, but many blind and low vision people rely on it. [Download JAWS from Freedom Scientific](https://support.freedomscientific.com/Downloads/JAWS).
 
 <details markdown="block">

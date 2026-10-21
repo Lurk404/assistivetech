@@ -223,6 +223,9 @@ Upload a picture or scan of text and TextAid converts it to text it can read alo
 
 {% include availability.html tags="langara paid" %}
 
+{: .langara}
+Kurzweil is available on computers in L121.
+
 Kurzweil can scan printed pages and turn them into documents it can read aloud.
 
 1. Select the **Scan** tab.
@@ -267,6 +270,9 @@ Google Drive can convert scanned PDFs and images into editable text:
 
 {% include availability.html tags="langara paid" %}
 
+{: .langara}
+Acrobat licenses can be requested through Langara IT.
+
 <img src="../assets/images/logos/adobe-acrobat.png" alt="" width="10%"> <!-- review-alt -->
 
 The free Adobe Acrobat Reader can’t do OCR. You need a paid version of Acrobat.
@@ -283,4 +289,4 @@ The free Adobe Acrobat Reader can’t do OCR. You need a paid version of Acrobat
 </details>
 
 {: .langara }
-Langara has an OCR scanner and Kurzweil software available. Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for more information.
+Langara has an OCR scanner and Kurzweil software available in L121. Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for more information.

@@ -194,7 +194,7 @@ While Calibre reads aloud, a toolbar appears with options to pause, change the s
 {% include availability.html tags="langara paid" %}
 
 {: .langara }
-Kurzweil 3000 is available for use in L121. Students may be able to get funding for their own copy, or borrow equipment, through Assistive Technology British Columbia (ATBC). Accessibility Services can help you [apply to ATBC for funding or an equipment loan](https://www.at-bc.ca/for-students/).
+Kurzweil 3000 is available for use in L121. Students in British Columbia may be able to get funding for their own copy, or borrow equipment, through Assistive Technology British Columbia (ATBC). Accessibility Services can help you [apply to ATBC for funding or an equipment loan](https://www.at-bc.ca/for-students/).
 
 Kurzweil opens many document types, including Word, PDF, EPUB, and Kurzweil’s own KES files.
 

@@ -21,6 +21,9 @@ Magnifiers enlarge part or all of the screen. Most computers and phones have one
 
 {% include availability.html tags="Langara paid" %}
 
+{: .langara}
+ZoomText is available on computers in L121 as well as Accessibility Services exam computer labs.
+
 <img src="../assets/images/logos/zoomtext.png" alt="" width="20%"> <!-- review-alt -->
 
 ZoomText Magnifier/Reader is a Windows magnification and reading program for people with low vision. It enlarges and enhances what’s on screen, echoes your typing and important program activity, and reads content aloud. You can control ZoomText with the mouse, keyboard, or voice commands.

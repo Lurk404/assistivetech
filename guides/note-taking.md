@@ -98,6 +98,9 @@ You can upload up to 300 minutes of audio a month.
 
 {% include availability.html tags="Lanmgara paid" %}
 
+{: .langara}
+Langara has a limited number of Dragon licenses. Contact Accessibility Services for information.
+
 Dragon for Windows can transcribe .wav, .mp3, and .m4a recordings to text.
 
 1. Open the **Tools** menu and select **Transcribe Recording**.

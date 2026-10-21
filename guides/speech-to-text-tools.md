@@ -20,6 +20,9 @@ Speech to text, also called dictation, turns what you say into typed text. This 
 
 {% include availability.html tags="Langara paid" %}
 
+{: .langara}
+Langara students can access the full Microsoft 365 suite of tools using their Langara email and password.
+
 Microsoft Word has a built-in dictation tool available on all platforms.
 
 <details id="word-dictate" markdown="block">
@@ -162,6 +165,9 @@ Speak clearly and say commands in plain language, such as “new line” or “e
 ## Dragon
 
 {% include availability.html tags="Langara paid" %}
+
+{: .langara}
+Langara has a limited number of Dragon licenses. Contact Accessibility Services for information.
 
 Dragon Naturally Speaking is powerful speetch to text software.
 

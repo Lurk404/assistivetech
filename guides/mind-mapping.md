@@ -220,6 +220,9 @@ You can also turn a Word outline into PowerPoint slides: see [Create a PowerPoin
 
 {% include availability.html tags="Langara paid" %}
 
+{: .langara}
+Inspiration 10 is available on computers in L121.
+
 Inspiration is software for creating diagrams, outlines, and maps, with templates and a built-in tutorial.
 
 <img src="../assets/images/logos/inspiration.jpg" alt="" width="20%"> <!-- review-alt -->
@@ -259,6 +262,9 @@ For more information:
 
 {% include availability.html tags="Langara paid" %}
 
+{: .langara}
+Kurzweil is available on computers in L121.
+
 <img src="../assets/images/logos/kurzweil-3000.png" alt="" width="10%"> <!-- review-alt -->
 
 Kurzweil 3000 is a literacy suite with many tools (see also [Reading Alternate Format Material](reading-alternate-format-material.md#kurzweil)). Its **Brainstorm** tool makes a mind map that can be turned into an outline and then a draft document.
@@ -266,7 +272,7 @@ Kurzweil 3000 is a literacy suite with many tools (see also [Reading Alternate F
 <details id="kurzweil" markdown="block">
 <summary>Kurzweil</summary>
 
-Students may be able to get Kurzweil through [ATBC grant funding](https://www.at-bc.ca/programs/grant-equipment-for-students-csg/), or [buy a Kurzweil licence from Bridges Canada](https://www.bridges-canada.com/products/kurzweil-3000-english-standalone). Visit the [Kurzweil download centre](https://www.kurzweiledu.com/products/download-center.html) for trials and updates.
+Students in British Columbia may be able to get Kurzweil through [ATBC grant funding](https://www.at-bc.ca/programs/grant-equipment-for-students-csg/), or [buy a Kurzweil licence from Bridges Canada](https://www.bridges-canada.com/products/kurzweil-3000-english-standalone). Visit the [Kurzweil download centre](https://www.kurzweiledu.com/products/download-center.html) for trials and updates.
 
 By default, Kurzweil reads aloud as you type. To change this, go to **Tools > Options** and check or uncheck the options under **Speak as Typing**.
 

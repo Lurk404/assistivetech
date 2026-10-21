@@ -19,6 +19,9 @@ Voice control lets you operate a computer or phone with your voice: open apps, c
 
 {% include availability.html tags="Lanagra paid" %}
 
+{: .langara}
+Langara has a limited number of Dragon licenses. Contact Accessibility Services for information.
+
 Dragon is Windows software for dictating text and operating a computer with voice commands.
 
 <details markdown="block">

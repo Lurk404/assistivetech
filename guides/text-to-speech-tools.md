@@ -183,6 +183,9 @@ Once the extension is installed, you can open it straight from the browser witho
 
 {% include availability.html tags="langara paid" %}
 
+{: .langara}
+Langara students can access the full Microsoft 365 suite of tools using their Langara email and password.
+
 Microsoft Word has two text to speech tools: **Read Aloud** and **Immersive Reader**.
 
 <details markdown="block">
