@@ -664,3 +664,15 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   font-size: 0.875rem;
   text-transform: none;
 }
+
+// Level 4 headings. Just the Docs makes h4 smaller than body text (12px),
+// in uppercase, which breaks the heading hierarchy and is harder to read.
+// Use body text size in semibold instead, so h4 sits below h3 but stands out
+// from paragraphs. fs-4 is the theme's body text size, and it uses !important,
+// which is needed to override the theme's size.
+.main-content h4 {
+  @include fs-4;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+}
