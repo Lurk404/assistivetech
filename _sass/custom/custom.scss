@@ -485,12 +485,6 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   .site-prefs .fl-prefsEditor {
     background-color: $grey-dk-250;
   }
-
-    // Availability definitions
-  .main-content .availability-defs {
-    background-color: $grey-dk-250;
-    border-color: $grey-dk-100;
-  }
 }
 
 // Availability labels, made by _includes/availability.html: a collapsed
@@ -527,27 +521,24 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   margin: 0;
   font-size: 0.875rem;
   text-transform: none;     // Just the Docs labels are all caps by default, which is harder to read
-  text-decoration: underline dotted;   // the only sign the labels can be selected
-  text-underline-offset: 0.2em;
 }
 
 .main-content details.availability .label + .label {
   margin-left: 0.25rem;
 }
 
-.main-content details.availability > summary:hover .label {
-  text-decoration-style: solid;
-}
-
-// The definitions: same rounded corners as the labels (Just the Docs uses 12px)
+// The definitions: same rounded corners as the labels (Just the Docs uses 12px).
+// Theme colours, so it works in light and dark mode without a separate rule
+// (the same background as code blocks).
 .main-content .availability-defs {
   width: fit-content;
   max-width: 100%;
   margin: 0.25rem 0 0;
   padding: 0.5rem 0.75rem;
   font-size: 0.875rem;
-  background-color: $grey-lt-100;
-  border: 1px solid $grey-lt-300;
+  color: $body-text-color;
+  background-color: $code-background-color;
+  border: 1px solid $border-color;
   border-radius: 12px;
 }
 
