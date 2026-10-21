@@ -510,7 +510,8 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.main-content .availability button.label:hover {
+.main-content .availability button.label:hover,
+.main-content .availability button.label:has(+ :popover-open) {
   transform: translateY(-2px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -550,7 +551,8 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
 // in the dark mode section further up, because these rules come later in the
 // file and would win.
 @if $color-scheme == dark {
-  .main-content .availability button.label:hover {
+  .main-content .availability button.label:hover,
+  .main-content .availability button.label:has(+ :popover-open) {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
   }
 
@@ -566,7 +568,8 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
     transition: none;
   }
 
-  .main-content .availability button.label:hover {
+  .main-content .availability button.label:hover,
+  .main-content .availability button.label:has(+ :popover-open) {
     transform: none;
   }
 }
