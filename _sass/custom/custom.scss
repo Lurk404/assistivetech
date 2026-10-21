@@ -527,6 +527,36 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   margin-left: 0.25rem;
 }
 
+// Hover: the labels lift slightly with a shadow underneath
+.main-content details.availability .label {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.main-content details.availability > summary:hover .label {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Shadows barely show on a dark page, so use a stronger one there. This sits
+// here rather than in the dark mode section further up, because the rule above
+// comes later in the file and would win.
+@if $color-scheme == dark {
+  .main-content details.availability > summary:hover .label {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  }
+}
+
+// For readers who turn off animation: no movement, just the shadow
+@media (prefers-reduced-motion: reduce) {
+  .main-content details.availability .label {
+    transition: none;
+  }
+
+  .main-content details.availability > summary:hover .label {
+    transform: none;
+  }
+}
+
 // The definitions: same rounded corners as the labels (Just the Docs uses 12px).
 // Theme colours, so it works in light and dark mode without a separate rule
 // (the same background as code blocks).
