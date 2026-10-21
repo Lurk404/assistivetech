@@ -175,12 +175,13 @@
   }
 }
 
-// Light/dark toggle in the header (markup and script in _includes/theme_toggle.html).
-// The button itself uses .page-nav-button above, so it matches "Back to top".
+// Light/dark toggle (markup and script in _includes/theme_toggle.html). It sits
+// in the display preferences panel (see "Light/dark and Reset" below), or in
+// the header if the panel can't load. The button itself uses .page-nav-button
+// above, so it matches "Back to top".
 .theme-toggle {
   display: flex;
   align-items: center;
-  padding: 0.5rem 1rem;
 }
 
 @media print {
@@ -196,13 +197,13 @@
 // into the site and fix a few things when a reader picks a contrast theme.
 // ==========================================================================
 
-// "Show preferences" and "Reset", in the header just before the light/dark
-// toggle. They use .page-nav-button above, so they match "Dark" and "Back to top".
+// "Show preferences", in the header. It uses .page-nav-button above, so it
+// matches "Back to top".
 .site-prefs-buttons {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem 0 0.5rem 1rem;   // the light/dark toggle supplies the gap on the right
+  padding: 0.5rem 1rem;
 
   &[hidden] {
     display: none;                  // hidden until the script starts it
@@ -225,6 +226,27 @@
 // The open panel sits just below the header
 .site-prefs .flc-slidingPanel-panel {
   border-bottom: $border $border-color;
+}
+
+// Light/dark and Reset, in a row at the top of the open panel, above the
+// preference cards. Before the script moves it there (or if Infusion doesn't
+// load) it sits in the header, where it needs the same padding as the header
+// buttons.
+.site-prefs-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+
+  &[hidden] {
+    display: none;                  // hidden until the script places it
+  }
+}
+
+.site-prefs .flc-slidingPanel-panel .site-prefs-toolbar {
+  padding: 1rem 1rem 0;             // the cards below have 1rem padding on every side
 }
 
 // Tab order: on wider screens the script moves the header above the sidebar
@@ -259,6 +281,7 @@
 
 @media print {
   .site-prefs-buttons,
+  .site-prefs-toolbar,
   .site-prefs .flc-slidingPanel-panel {
     display: none !important;
   }
@@ -267,6 +290,9 @@
 // The open panel. Infusion lays the panels out in one long row that scrolls
 // sideways; on wider screens they wrap into a grid instead, so all seven are
 // visible at once. On phones Infusion's own one-panel-at-a-time layout stays.
+// The background goes on the whole panel, so the light/dark and Reset row
+// shares it.
+.site-prefs .flc-slidingPanel-panel,
 .site-prefs .fl-prefsEditor {
   background-color: $grey-lt-200;   // Infusion's default is a taupe
 }
@@ -482,6 +508,7 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
 
   // Display preferences: the bar matches the dark sidebar. The panels stay
   // white with dark text (Infusion's own colours), on a dark background.
+  .site-prefs .flc-slidingPanel-panel,
   .site-prefs .fl-prefsEditor {
     background-color: $grey-dk-250;
   }
