@@ -61,7 +61,7 @@ One way to take notes is to record the audio and transcribe the recording later.
 {: .note }
 Ask your instructor before recording a class, and keep recordings private.
 
-To record audio:
+<details markdown="block"><summary>To record audio:</summary>
 
 1. On a digital recorder, press the record button to start recording.
    1. Get to know its other features, such as sound modes and recording levels, before class.
@@ -71,6 +71,8 @@ To record audio:
    - **Apple**: Voice Memos, on [iPhone](https://support.apple.com/en-ca/guide/iphone/iph4d2a39a3b/ios), [iPad](https://support.apple.com/en-ca/guide/ipad/ipadf455678c/ipados), and [Mac](https://support.apple.com/en-ca/guide/voice-memos/vmaa4b813415/mac).
    - **Windows**: [Sound Recorder](https://support.microsoft.com/en-us/windows/how-to-use-voice-recorder-6fbb53d5-0539-abda-a9a4-0bcb84a778e7).
 3. When you’re done, press **Stop**. Then move the recording to a computer: for a digital recorder, use its cable; from a phone, use cloud storage (such as OneDrive, iCloud, or Google Drive) or email the file to yourself.
+
+</details>
 
 To transcribe audio to text, use any of the following tools:
 
