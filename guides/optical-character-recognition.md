@@ -190,8 +190,7 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 
 ## Optical Character Recognition Tools
 
-<details markdown="block">
-<summary>TextAid</summary>
+### TextAid
 
 {% include availability.html tags="langara paid" %}
 
@@ -199,6 +198,9 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 [Access TextAid](https://ws.readspeaker.com/a/wasp/app/8) using your Langara email and password.
 
 <img src="../assets/images/logos/textaid.png" alt="" width="10%"> <!-- review-alt -->
+
+<details markdown="block">
+<summary>Using TextAid</summary>
 
 Upload a picture or scan of text and TextAid converts it to text it can read aloud, and saves it to your Library.
 
@@ -218,8 +220,7 @@ Upload a picture or scan of text and TextAid converts it to text it can read alo
 
 </details>
 
-<details markdown="block">
-<summary>Kurzweil</summary>
+### Kurzweil
 
 {% include availability.html tags="langara paid" %}
 
@@ -227,6 +228,9 @@ Upload a picture or scan of text and TextAid converts it to text it can read alo
 Kurzweil is available on computers in L121.
 
 Kurzweil can scan printed pages and turn them into documents it can read aloud.
+
+<details markdown="block">
+<summary>Using Kurzweil</summary>
 
 1. Select the **Scan** tab.
 2. Select **Scanner Setup** to choose your scanner and page size.
@@ -249,12 +253,15 @@ See the [Kurzweil 3000 for Windows Getting Started Guide (PDF)](https://www.kurz
 
 </details>
 
-<details markdown="block">
-<summary>Google Drive</summary>
+### Google Drive
 
 {% include availability.html tags="free" %}
 
 <img src="../assets/images/logos/google-drive.png" alt="" width="10%"> <!-- review-alt -->
+
+
+<details markdown="block">
+<summary>Using Google Drive</summary>
 
 Google Drive can convert scanned PDFs and images into editable text:
 
@@ -265,8 +272,7 @@ Google Drive can convert scanned PDFs and images into editable text:
 
 </details>
 
-<details markdown="block">
-<summary>Acrobat</summary>
+### Acrobat
 
 {% include availability.html tags="langara paid" %}
 
@@ -276,6 +282,9 @@ Acrobat licences can be requested through Langara IT.
 <img src="../assets/images/logos/adobe-acrobat.png" alt="" width="10%"> <!-- review-alt -->
 
 The free Adobe Acrobat Reader can’t do OCR. You need a paid version of Acrobat.
+
+<details markdown="block">
+<summary>Using Acrobat</summary>
 
 1. Open a PDF file containing a scanned image in Acrobat for Mac or PC.
 2. Open the **Scan & OCR** tool.
