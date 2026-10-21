@@ -13,7 +13,15 @@ Note-taking is a skill, and technology helps most when paired with a method that
 - [Note-taking Strategies](#note-taking-strategies)
 - [Note-taking Software](#note-taking-software)
   - [Record and Transcribe](#record-and-transcribe)
+      - [Microsoft Word](#microsoft-word)
+      - [Dragon](#dragon)
+      - [macOS and iOS](#macos-and-ios)
+      - [Audapolis](#audapolis)
   - [Live Note-taking and Transcription](#live-note-taking-and-transcription)
+      - [OneNote](#onenote)
+      - [Genio](#genio)
+      - [Notta](#notta)
+      - [Otter.ai](#otterai)
 
 ## Note-taking Strategies
 
