@@ -6,7 +6,7 @@ nav_order: 2
 
 # Equatio Quick Start Guide
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 ![The Equatio toolbar, with Edit Math and Insert Math buttons on the right.](../assets/images/equatio-quick-start-guide/equatio-toolbar.png) <!-- review-alt -->
 

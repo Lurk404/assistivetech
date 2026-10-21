@@ -18,7 +18,7 @@ Speech to text, also called dictation, turns what you say into typed text. This 
 
 ## Word Dicate
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 {: .langara}
 Langara students can access the full Microsoft 365 suite of tools using their Langara email and password.
@@ -58,7 +58,7 @@ The gear icon on the toolbar opens **Dictation Settings**:
 
 ## Windows
 
-{% include availability.html tags="Langara built-in" %}
+{% include availability.html tags="langara built-in" %}
 
 Microsoft Windows 11 has built-in dictation called **Voice Typing**.
 
@@ -164,7 +164,7 @@ Speak clearly and say commands in plain language, such as “new line” or “e
 
 ## Dragon
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 {: .langara}
 Langara has a limited number of Dragon licenses. Contact Accessibility Services for information.

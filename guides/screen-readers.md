@@ -18,7 +18,7 @@ A screen reader reads aloud everything on the screen, including menus, buttons, 
 
 ## JAWS
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 {: .langara}
 JAWS is available on computers in L121 as well as Accessibility Services exam computer labs.

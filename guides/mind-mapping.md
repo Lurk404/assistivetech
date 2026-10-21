@@ -185,7 +185,7 @@ To export an outline:
 
 ## Microsoft Word
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 <img src="../assets/images/logos/word.png" alt="" width="10%"> <!-- review-alt -->
 
@@ -218,7 +218,7 @@ You can also turn a Word outline into PowerPoint slides: see [Create a PowerPoin
 
 ## Inspiration
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 {: .langara}
 Inspiration 10 is available on computers in L121.
@@ -260,7 +260,7 @@ For more information:
 
 ## Kurzweil
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 {: .langara}
 Kurzweil is available on computers in L121.

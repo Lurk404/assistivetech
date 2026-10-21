@@ -69,7 +69,7 @@ To transcribe audio to text, use any of the following tools:
 <details markdown="block">
 <summary>Microsoft Word</summary>
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 Microsoft Word for Windows and Word for the web have an excellent transcription tool. The audio file must be a .wav, .mp4, .m4a, or .mp3 file.
 
@@ -96,7 +96,7 @@ You can upload up to 300 minutes of audio a month.
 <details markdown="block">
 <summary>Dragon</summary>
 
-{% include availability.html tags="Lanmgara paid" %}
+{% include availability.html tags="langara paid" %}
 
 {: .langara}
 Langara has a limited number of Dragon licenses. Contact Accessibility Services for information.
@@ -156,7 +156,7 @@ Most of these apps upload your recordings to the company’s servers. Check thei
 <details markdown="block">
 <summary>OneNote</summary>
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 Microsoft OneNote can record audio while you type notes, and links each note to the moment in the recording when you typed it.
 

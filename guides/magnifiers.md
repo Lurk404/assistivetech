@@ -19,7 +19,7 @@ Magnifiers enlarge part or all of the screen. Most computers and phones have one
 
 ## ZoomText
 
-{% include availability.html tags="Langara paid" %}
+{% include availability.html tags="langara paid" %}
 
 {: .langara}
 ZoomText is available on computers in L121 as well as Accessibility Services exam computer labs.
