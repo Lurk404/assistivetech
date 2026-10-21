@@ -1,25 +1,19 @@
 {%- comment -%}
   Availability labels, shown under a tool's heading.
   Usage: {% include availability.html tags="paid langara" %}
+  Each label is a button that opens a popover with its definition, placed
+  under the label. Esc or a click elsewhere closes it. No JavaScript needed.
   Label text, colours and definitions are in _data/availability.yml.
-  Without JavaScript the labels and definitions show as plain text. The script
-  in head_custom.html turns each label into a button that shows or hides its
-  own definition.
+  The counter gives every popover on a page its own id.
 {%- endcomment -%}
 {%- assign keys = include.tags | split: " " -%}
 <div class="availability" role="group" aria-label="Availability">
-<div class="availability-labels">
 {%- for key in keys -%}
   {%- assign tag = site.data.availability[key] -%}
-  {%- if tag %}
-  <span class="label {{ tag.class }}" data-def="{{ key }}">{{ tag.label }}</span>
-  {%- endif -%}
-{%- endfor %}
-</div>
-{%- for key in keys -%}
-  {%- assign tag = site.data.availability[key] -%}
-  {%- if tag %}
-<p class="availability-def" data-def="{{ key }}"><strong>{{ tag.label }}</strong>: {{ tag.description }}</p>
+  {%- if tag -%}
+  {%- capture n -%}{% increment availability_popover %}{%- endcapture %}
+  <button type="button" class="label {{ tag.class }}" popovertarget="availability-{{ n }}" style="anchor-name: --availability-{{ n }}">{{ tag.label }}</button>
+  <div class="availability-popover" id="availability-{{ n }}" popover style="position-anchor: --availability-{{ n }}"><strong>{{ tag.label }}</strong>: {{ tag.description }}</div>
   {%- endif -%}
 {%- endfor %}
 </div>
