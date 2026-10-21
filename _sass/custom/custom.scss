@@ -249,6 +249,31 @@
   padding: 1rem 1rem 0;             // the cards below have 1rem padding on every side
 }
 
+// Light/dark and Reset sit inside the preferences panel, which Infusion keeps
+// out of the contrast themes by switching off the theme's colour variables
+// there. Infusion's rule for every button on the page still reaches these two,
+// though, so they'd lose their background and take the theme's text colour
+// (yellow on the light grey panel, for example). Keep the site's own button
+// colours, to match the panel. More specific than Infusion's rule, which also
+// uses !important.
+.site-prefs .site-prefs-toolbar .page-nav-button {
+  color: $link-color !important;
+  background-color: $body-background-color !important;
+
+  &:hover {
+    background-color: $grey-lt-000 !important;
+  }
+}
+
+// Dark mode hover, as for the other buttons. It sits here rather than in the
+// dark mode section further up, because the rule above comes later in the file
+// and would win.
+@if $color-scheme == dark {
+  .site-prefs .site-prefs-toolbar .page-nav-button:hover {
+    background-color: $grey-dk-250 !important;
+  }
+}
+
 // Tab order: on wider screens the script moves the header above the sidebar
 // in the page (class .site-prefs-top), so keyboard users reach search and the
 // buttons before the menu. These rules keep it in the same place on screen,
