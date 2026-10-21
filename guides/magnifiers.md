@@ -24,7 +24,7 @@ Magnifiers enlarge part or all of the screen. Most computers and phones have one
 {: .langara}
 ZoomText is available on computers in L121 as well as Accessibility Services exam computer labs.
 
-<img src="../assets/images/logos/zoomtext.png" alt="" width="20%"> <!-- review-alt -->
+<img src="../assets/images/logos/zoomtext.png" alt="" width="20%"> 
 
 ZoomText Magnifier/Reader is a Windows magnification and reading program for people with low vision. It enlarges and enhances what’s on screen, echoes your typing and important program activity, and reads content aloud. You can control ZoomText with the mouse, keyboard, or voice commands.
 
@@ -38,7 +38,7 @@ This guide uses <kbd>Caps Lock</kbd> for the ZoomText modifier key.
 Open ZoomText before other programs, such as web browsers or document software.
 
 When ZoomText opens, the ZoomText toolbar appears.
-![The ZoomText toolbar on the Magnifier tab, with Zoom Level, Window, Color, Pointer, Cursor, Focus and Navigation buttons.](../assets/images/magnifiers/zoomtext-toolbar.png) <!-- review-alt -->
+![The ZoomText toolbar on the Magnifier tab, with Zoom Level, Window, Color, Pointer, Cursor, Focus and Navigation buttons.](../assets/images/magnifiers/zoomtext-toolbar.png) 
 
 Navigate menus using the mouse or keyboard:
 
@@ -75,7 +75,7 @@ To set zoom level 1 as default on startup:
 <details markdown="block">
 <summary>Magnifier Tab</summary>
 
-![The ZoomText Magnifier tab with an arrow pointing to the Zoom Level setting.](../assets/images/magnifiers/zoomtext-magnifier-tab.png) <!-- review-alt -->
+![The ZoomText Magnifier tab with an arrow pointing to the Zoom Level setting.](../assets/images/magnifiers/zoomtext-magnifier-tab.png) 
 
 The Magnifier tab has these tools and options:
 
@@ -154,14 +154,14 @@ ZoomText Magnifier/Reader also includes a screen reader. It isn’t as full-feat
 Press <kbd>Alt</kbd> + <kbd>R</kbd> to go to the Reader tab of the ZoomText toolbar. It has settings for keyboard and mouse echo (speaking what you type or point at) and different reading modes.
 
 Turn off, change, and add voices in the **Voice** menu.
-![The Reader tab with the Voice menu open, offering Disable, Add/Remove Voices and Settings. The Rate is set to 100.](../assets/images/magnifiers/zoomtext-voice-menu.png) <!-- review-alt -->
+![The Reader tab with the Voice menu open, offering Disable, Add/Remove Voices and Settings. The Rate is set to 100.](../assets/images/magnifiers/zoomtext-voice-menu.png) 
 
 Change the speaking speed with the number above **Rate**.
 
 ### AppReader
 
 <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> launches AppReader in the mode selected on the toolbar.
-![The Reader tab with an arrow pointing to it and the AppReader menu open, with Use App View checked. Other options are Use Text View, Use SpeakIt Tool and settings for each view.](../assets/images/magnifiers/zoomtext-appreader-menu.png) <!-- review-alt -->
+![The Reader tab with an arrow pointing to it and the AppReader menu open, with Use App View checked. Other options are Use Text View, Use SpeakIt Tool and settings for each view.](../assets/images/magnifiers/zoomtext-appreader-menu.png) 
 
 <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> starts App View, which reads the open document or web page and outlines what is being read.
 
@@ -177,7 +177,7 @@ While AppReader is reading:
 Text View shows the text being read in a separate window, in the colours and font you choose. Press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to start it.
 
 With SpeakIt, click a word, image, icon, or other item and ZoomText reads it. On the Reader tab, click **AppReader** and select **Use SpeakIt Tool**, or press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>.
-![The AppReader menu with the pointer on Use SpeakIt Tool.](../assets/images/magnifiers/zoomtext-speakit.png) <!-- review-alt -->
+![The AppReader menu with the pointer on Use SpeakIt Tool.](../assets/images/magnifiers/zoomtext-speakit.png) 
 
 You can also click and drag over text while SpeakIt is on to hear it. Press <kbd>Escape</kbd> before selecting the next text. 
 
@@ -192,7 +192,7 @@ To listen to text while you do other things, use **Background Reader** (see [Too
 <summary>Tools</summary>
 
 Go to the **Tools** tab or press <kbd>Alt</kbd> + <kbd>T</kbd>.
-![The ZoomText Tools tab with Finder, Camera, Background Reader, Recorder and Voice Assistant.](../assets/images/magnifiers/zoomtext-tools-tab.png) <!-- review-alt -->
+![The ZoomText Tools tab with Finder, Camera, Background Reader, Recorder and Voice Assistant.](../assets/images/magnifiers/zoomtext-tools-tab.png)
 
 **Finder** searches the page or document and lists what it finds. Press <kbd>Caps Lock</kbd> + <kbd>Ctrl</kbd> + <kbd>F</kbd>.
 
@@ -208,7 +208,7 @@ Go to the **Tools** tab or press <kbd>Alt</kbd> + <kbd>T</kbd>.
 **Voice Assistant** lets you give ZoomText commands with your voice. Press <kbd>Caps Lock</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> or click the microphone icon at the top right of the ZoomText toolbar. To set it up, on the **Tools** tab select **Voice Assistant > Getting Started**.
 
 By default, ZoomText reads back what you type. To turn this off, select **Reader > Keyboard > No Echo**.
-![The Reader tab with the Keyboard echo menu open and the pointer on No Echo. Words is currently checked.](../assets/images/magnifiers/zoomtext-keyboard-echo.png) <!-- review-alt -->
+![The Reader tab with the Keyboard echo menu open and the pointer on No Echo. Words is currently checked.](../assets/images/magnifiers/zoomtext-keyboard-echo.png) 
 
 </details>
 
@@ -225,7 +225,7 @@ By default, ZoomText reads back what you type. To turn this off, select **Reader
 
 {% include availability.html tags="built-in" %}
 
-<img src="../assets/images/logos/android.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/android.png" alt="" width="10%"> 
 
 ### Visibility Enhancements (Samsung)
 
@@ -250,7 +250,7 @@ These steps are for Samsung phones. On other Android phones, look under **Settin
 
 {% include availability.html tags="built-in" %}
 
-<img src="../assets/images/logos/windows-11.png" alt="" width="20%"> <!-- review-alt -->
+<img src="../assets/images/logos/windows-11.png" alt="" width="20%"> 
 
 <details markdown="block">
 <summary>Magnifier</summary>
@@ -350,7 +350,7 @@ To make everything on the screen bigger:
 
 {% include availability.html tags="built-in" %}
 
-<img src="../assets/images/logos/ios.png" alt="" width="20%"> <!-- review-alt -->
+<img src="../assets/images/logos/ios.png" alt="" width="20%"> 
 
 <details markdown="block">
 <summary>Zoom</summary>
@@ -384,7 +384,7 @@ To make everything on the screen bigger:
 <summary>Magnifier</summary>
 
 1. Open the Magnifier app.
-   ![The Magnifier app icon, a magnifying glass with a plus sign.](../assets/images/magnifiers/ios-magnifier-app-icon.png) <!-- review-alt -->
+   ![The Magnifier app icon, a magnifying glass with a plus sign.](../assets/images/magnifiers/ios-magnifier-app-icon.png) 
    1. Or swipe down on the Home Screen and type “Magnifier.”
 2. Zoom in and out with the slider, or by swiping up and down in the viewfinder.
 3. Tap the screen to focus.
