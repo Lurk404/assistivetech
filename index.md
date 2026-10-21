@@ -21,11 +21,9 @@ These guides were written for Langara College students and staff, and anyone is 
 
 Each tool has labels that show how to get it:
 
-<ul class="availability-key">
-{%- for item in site.data.availability %}
-  <li><span class="label {{ item[1].class }}">{{ item[1].label }}</span><span class="separator">: </span>{{ item[1].description }}</li>
-{%- endfor %}
-</ul>
+{% include availability.html tags="built-in free free-plan paid institution langara" %}.
+
+Select a label to reveal more information about availability.
 
 Boxes titled **At Langara**, and collapsed sections that start with "At Langara:", apply only to Langara.
 
