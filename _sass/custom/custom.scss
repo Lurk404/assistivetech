@@ -487,15 +487,44 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   }
 }
 
-// Availability labels, made by _includes/availability.html
-.main-content .availability {
+// Availability labels, made by _includes/availability.html: a collapsed
+// section whose summary is the row of labels. Opening it shows what each
+// label on that tool means. These rules undo the boxed style that other
+// collapsed sections get (top of this file, and the dark mode section).
+.main-content details.availability {
   margin: 0.25rem 0 1rem;
+  padding: 0;
+  border: 0;
 }
 
-.main-content .availability .label {
+.main-content details.availability > summary,
+.main-content details.availability[open] > summary {
+  margin: 0;
+  padding: 0.25rem 0;
+  font-weight: normal;
+  border-bottom: 0;
+  cursor: pointer;
+}
+
+.main-content details.availability > summary:hover {
+  background-color: transparent;
+}
+
+.main-content details.availability .label {
   margin: 0 0 0 0.25rem;
   font-size: 0.875rem;
   text-transform: none; // Just the Docs labels are all caps by default, which is harder to read
+}
+
+// The definitions, shown when the section is open
+.main-content .availability-defs {
+  margin: 0.25rem 0 0;
+  padding: 0.25rem 0 0.25rem 0.75rem;
+  border-left: 3px solid $grey-lt-300;
+}
+
+.main-content .availability-defs > li::before {
+  content: none; // no bullets
 }
 
 // The comma between labels is for screen readers only, so the labels are read

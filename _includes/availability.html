@@ -1,13 +1,24 @@
 {%- comment -%}
   Availability labels, shown under a tool's heading.
   Usage: {% include availability.html tags="paid langara" %}
-  Tag names, label text and colours are in _data/availability.yml.
-  "Availability" links to the explanation on the home page.
+  The labels are the summary of a collapsed section. Opening it shows what
+  each label on this tool means. Label text, colours and definitions are in
+  _data/availability.yml. The home page has the full list (#availability-labels).
 {%- endcomment -%}
 {%- assign keys = include.tags | split: " " -%}
-<p class="availability"><a href="{{ '/' | relative_url }}#availability-labels">Availability</a>:
+<details class="availability">
+<summary>Availability:
 {%- for key in keys -%}
   {%- assign tag = site.data.availability[key] -%}
   {%- if tag %} <span class="label {{ tag.class }}">{{ tag.label }}{% unless forloop.last %}<span class="separator">,</span>{% endunless %}</span>{%- endif -%}
 {%- endfor -%}
-</p>
+</summary>
+<ul class="availability-defs">
+{%- for key in keys -%}
+  {%- assign tag = site.data.availability[key] -%}
+  {%- if tag %}
+  <li><strong>{{ tag.label }}</strong>: {{ tag.description }}</li>
+  {%- endif -%}
+{%- endfor %}
+</ul>
+</details>
