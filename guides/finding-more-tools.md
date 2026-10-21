@@ -82,7 +82,7 @@ It is generally up to date, covers older operating systems too, and is the most 
 
 ## Learn and Try
 
-[Learn and Try](https://learnandtry.org) is a free directory of tools that make computers, tablets and phones easier to use, from Raising the Floor (the makers of [Morphic](morphic.html)). It covers built-in accessibility features, free tools and commercial assistive technology for Windows, Mac, Chromebook, iPhone, iPad and Android. Each tool has a short description, a demonstration video, and a link to the manufacturer's page.
+[Learn and Try](https://learnandtry.org) is a free directory of tools that make computers, tablets and phones easier to use, from Raising the Floor (the makers of [Morphic](guides\morphic.md)). It covers built-in accessibility features, free tools and commercial assistive technology for Windows, Mac, Chromebook, iPhone, iPad and Android. Each tool has a short description, a demonstration video, and a link to the manufacturer's page.
 
 You don't need an account, and the site doesn't store your answers or searches.
 

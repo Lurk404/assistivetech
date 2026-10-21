@@ -378,7 +378,7 @@ To use **Immersive Reader**, press <kbd>F9</kbd> or click the Immersive Reader i
 <img src="../assets/images/text-to-speech-tools/edge-immersive-reader-button.png" alt="">
 
 Immersive Reader offers a simplified version of webpages with full Read Aloud functions. Additional visual customizations and reading preferences are available.
-<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-text-preferences.png" alt="">
+<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-text-preferences.png" alt="Immersive Reader text preferences: text size, text spacing, font, text column style and page themes.">
 
 - [Read aloud – Microsoft Edge](https://www.microsoft.com/en-us/edge/features/read-aloud)
 - [Use Immersive Reader in Microsoft Edge – Microsoft Support](https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1)
@@ -392,8 +392,7 @@ Press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (Windows)
 <img src="../assets/images/text-to-speech-tools/firefox-reader-view-button.png" alt="">
 
 Reader View includes built-in text to speech and display customization.
-<img src="../assets/images/text-to-speech-tools/firefox-reader-view-toolbar.png" alt="">
-
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-toolbar.png" alt="The Reader View toolbar with buttons for close, text and layout, theme, and read aloud">
 The look of webpages can be customized, including the font as well as line, character, and word spacing.
 ![Reader View text and layout settings: text size, font, font weight, content width, line spacing, and advanced options for character spacing, word spacing and text alignment.](../assets/images/text-to-speech-tools/firefox-reader-view-text-layout.png)
 
