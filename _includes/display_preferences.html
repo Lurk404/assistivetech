@@ -57,6 +57,10 @@
       prefs.className = 'site-prefs flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel';
       var panel = document.createElement('div');
       panel.className = 'flc-slidingPanel-panel';
+            /* Start closed. Infusion closes the panel when it starts, but with a
+         sliding animation, a moment after the page appears, so without this
+         the open panel would flash on screen and then slide shut. */
+      panel.style.display = 'none';
 
       header.parentNode.insertBefore(prefs, header);
       prefs.appendChild(header);
