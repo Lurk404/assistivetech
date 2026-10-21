@@ -78,7 +78,7 @@ To view and save the full transcript:
 1. Select the arrow (**^**) on the **Show Captions** button and select **View Full Transcript**.
 2. Select **Save Transcript**.
 
-Transcripts are not saved automatically with local recordings, so save the transcript yourself. Contact [Langara’s Assistive Technologist](mailto:assistivetech@langara.ca) for help using a transcript to create a captioned version of a recording.
+Transcripts are not saved automatically with local recordings, so save the transcript yourself.
 
 If **Show Captions** is missing, the meeting host needs to turn on automated captions in the [Zoom web portal](https://zoom.us/signin):
 

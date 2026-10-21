@@ -220,7 +220,10 @@ To see the highlighting without hearing the voice, turn off **Audible Reading**.
 - Press <kbd>F2</kbd> to go to the previous Reading Unit (word, line, sentence, and so on)
 - Press <kbd>F4</kbd> to go to the next Reading Unit
 
-Kurzweil also has tools for writing and [mind mapping](mind-mapping.md#kurzweil). Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for information and resources on Kurzweil, or see the [Kurzweil Academy](https://www.kurzweiledu.com/kurzweil-academy/kurzweil-academy.html) for how-to videos and guides.
+Kurzweil also has tools for writing and [mind mapping](mind-mapping.md#kurzweil) or visit the [Kurzweil Academy](https://www.kurzweiledu.com/kurzweil-academy/kurzweil-academy.html) for how-to videos and guides.
+
+{: .langara }
+ Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for information and resources on Kurzweil
 
 </details>
 

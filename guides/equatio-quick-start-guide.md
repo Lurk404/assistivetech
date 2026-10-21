@@ -55,4 +55,7 @@ To use Equatio’s Screenshot Reader:
 3. Draw a box around the math. Equatio reads it aloud. You can also copy it as MathML or LaTeX, or open it in the Equation Editor to change it.
    ![A math expression captured with Screenshot Reader, with play, menu and close buttons and a menu offering Copy LaTeX, Copy MathML and Edit with Equatio.](../assets/images/equatio-quick-start-guide/screenshot-reader-result.png) <!-- review-alt -->
 
-For videos and guides, see [Equatio on Texthelp Academy](https://academy.texthelp.com/equatio/). Also review [detailed Equatio guides](https://pressbooks.bccampus.ca/accessibilityhandbook/chapter/equatio/) in the [Accessibility Handbook for Teaching and Learning](https://pressbooks.bccampus.ca/accessibilityhandbook/). For help at Langara, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
+For videos and guides, see [Equatio on Texthelp Academy](https://academy.texthelp.com/equatio/). Also review [detailed Equatio guides](https://pressbooks.bccampus.ca/accessibilityhandbook/chapter/equatio/) in the [Accessibility Handbook for Teaching and Learning](https://pressbooks.bccampus.ca/accessibilityhandbook/). 
+
+{: .langara }
+For help at Langara, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).
