@@ -418,7 +418,7 @@ Safari uses the Mac’s built-in speech. Turn on **Speak selection** first (see 
 2. **Right-click**.
 3. Select **Speech**.
 4. Select **Start Speaking**.
-   (../assets/images/text-to-speech-tools/safari-start-speaking.png) 
+<img src="../assets/images/text-to-speech-tools/safari-start-speaking.png" alt=""> 
 
 Or highlight text, select **Edit** from the menu bar, choose **Speech**, and click **Start Speaking**.
 
