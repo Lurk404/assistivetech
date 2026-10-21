@@ -150,7 +150,10 @@ To use Image to Text:
 
 {% include availability.html tags="langara free" %}
 
-Calibre is a free e-book reader and library. It is installed on Langara computers, and you can [download Calibre for Windows, macOS, and Linux](https://calibre-ebook.com/download).
+{: .langara }
+Calibre is available on Langara devices through the Software Center application
+
+Calibre is a free e-book reader and library. [Download Calibre for Windows, macOS, and Linux](https://calibre-ebook.com/download).
 
 <details markdown="block">
 <summary>Set up Calibre</summary>
@@ -190,6 +193,7 @@ While Calibre reads aloud, a toolbar appears with options to pause, change the s
 
 {% include availability.html tags="langara paid" %}
 
+{: .langara }
 Kurzweil 3000 is available for use in L121. Students may be able to get funding for their own copy, or borrow equipment, through Assistive Technology British Columbia (ATBC). Accessibility Services can help you [apply to ATBC for funding or an equipment loan](https://www.at-bc.ca/for-students/).
 
 Kurzweil opens many document types, including Word, PDF, EPUB, and Kurzweil’s own KES files.

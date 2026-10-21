@@ -30,7 +30,10 @@ Text to speech tools read digital text aloud, which can help with focus, underst
 
 {% include availability.html tags="langara paid" %}
 
-ReadSpeaker makes three tools available to Langara students: **webReader** and **docReader**, which are built into Brightspace, and **TextAid**, a web app and browser extension for reading content anywhere on the web.
+ReadSpeaker is text to speech software. If your school has it, you may see **webReader** and **docReader** in your learning management system (such as Brightspace), and have access to TextAid, a web app and browser extension for reading content anywhere on the web.
+
+{: .langara }
+Langara provides access to webReader and docReader in Brightspace. TextAid can be accessed using Langara Microsoft email and password.
 
 <details id="webreader" markdown="block">
 <summary>webReader</summary>

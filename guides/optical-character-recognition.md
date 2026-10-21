@@ -129,6 +129,9 @@ ShareX is a free screenshot app for Windows that includes OCR. Capture all or pa
 
 {% include availability.html tags="langara paid" %}
 
+{: .langara }
+Contact edtech@langara.ca for Snagit licensing information
+
 <img src="../assets/images/logos/snagit.png" alt="" width="10%"> <!-- review-alt -->
 
 Snagit is paid screen capture and recording software for Windows and macOS. Langara has some licences. To copy all the text from an image:
@@ -279,4 +282,5 @@ The free Adobe Acrobat Reader can’t do OCR. You need a paid version of Acrobat
 
 </details>
 
+{: .langara }
 Langara has an OCR scanner and Kurzweil software available. Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for more information.
