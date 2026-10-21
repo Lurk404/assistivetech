@@ -6,7 +6,7 @@ nav_order: 1
 
 # Text to Speech Tools
 
-Text to speech tools read digital text aloud, which can help with focus, understanding, and proofreading your own writing. This page covers the tools built into Brightspace, Word, your devices, and your browser.
+Text to speech tools read digital text aloud, which can help with focus, understanding, and proofreading your own writing. This page covers the tools available in Brightspace, Word, your devices, and your browser.
 
 **On this page:**
 
@@ -38,7 +38,7 @@ Langara provides access to webReader and docReader in Brightspace. TextAid can b
 <details id="webreader" markdown="block">
 <summary>webReader</summary>
 
-Brightspace has a built-in text to speech tool. Use the **Listen** button that appears on topic, discussion, and quiz pages:
+If your school has ReadSpeaker, a Listen button appears on Brightspace Topic, Discussion, and Quiz pages.:
 ![The ReadSpeaker Listen button, with a menu button on its left and a play button on its right.](../assets/images/text-to-speech-tools/webreader-listen-button.png) 
 
 Activating the **Listen** button will reveal the Player:
@@ -116,7 +116,8 @@ Math written with an equation editor, such as the Brightspace equation editor or
 <details id="docreader" markdown="block">
 <summary>docReader</summary>
 
-docReader reads PDFs and Word documents in Brightspace aloud. Select **Open with docReader** below the document preview.
+If your school has ReadSpeaker, a Listen button appears on Brightspace, an **Open with docReader** below the document previews of uploaded PDFs, documents, and presentation files.
+
 (../assets/images/text-to-speech-tools/docreader-open-button.png)
 
 Select **Listen**, or highlight text and choose **Listen**, to start reading.

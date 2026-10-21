@@ -22,6 +22,8 @@ This page covers ways to turn on captions in video players, meeting apps, browse
 <details id="kaltura" markdown="block">
 <summary>Kaltura</summary>
 
+Kaltura is a video platform many schools use for course videos.
+
 To display closed captions in Kaltura:
 
 1. Select the **Closed Captions** button.
