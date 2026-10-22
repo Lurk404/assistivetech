@@ -1,29 +1,9 @@
 {% include page_nav_buttons.html %}
 
-<style>
-  /* External link icon: small, superscript, matches link colour */
-  .ext-link-icon {
-    display: inline-block;
-    width: 0.7em;
-    height: 0.7em;
-    margin-left: 0.15em;
-    vertical-align: super;
-  }
-  /* Screen-reader-only text */
-  .ext-link-sr {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-  }
-</style>
-
 <script>
+  /* External links open in a new tab, with an icon and screen reader text that
+     say so. The icon's styles are in custom.scss (search for "External links");
+     .sr-only is Just the Docs' screen-reader-only class. Image links are skipped. */
   (function () {
     var icon =
       '<svg class="ext-link-icon" viewBox="0 0 12 12" aria-hidden="true" focusable="false" ' +
@@ -31,16 +11,27 @@
         '<path d="M5 2H2.5a1 1 0 0 0-1 1v6.5a1 1 0 0 0 1 1H9a1 1 0 0 0 1-1V7"/>' +
         '<path d="M6 6l4.5-4.5"/>' +
         '<path d="M7 1.5h3.5V5"/>' +
-      '</svg>';
+      '</svg><span class="sr-only"> (opens in new tab)</span>';
 
     document.querySelectorAll('.main-content a[href^="http"]').forEach(function (a) {
-      if (a.hostname === location.hostname) return; /* internal link: leave alone */
-      if (a.querySelector('img')) return;           /* skip image links */
+      if (a.hostname === location.hostname || a.querySelector('img')) return;
+      a.target = '_blank';   /* browsers add rel="noopener" for new tabs themselves */
 
-      a.target = '_blank';
-      a.rel = 'noopener';
-      a.insertAdjacentHTML('beforeend',
-        icon + '<span class="ext-link-sr"> (opens in new tab)</span>');
+      /* The icon goes in a no-wrap span with the link's last word, so it can't
+         end up alone on the next line. The word joiner (U+2060) after it keeps
+         a full stop or comma after the link on the same line too. */
+      var end = document.createElement('span');
+      end.className = 'ext-link-end';
+      var text = a.lastChild;
+      if (text && text.nodeType === Node.TEXT_NODE) {
+        var i = text.data.search(/\S+\s*$/);
+        if (i >= 0) {
+          end.textContent = text.data.slice(i);
+          text.data = text.data.slice(0, i);
+        }
+      }
+      end.insertAdjacentHTML('beforeend', icon);
+      a.append(end, '⁠');
     });
   })();
 </script>

@@ -1,9 +1,8 @@
 <!--
   Light/dark toggle, at the top of the display preferences panel, next to "Reset".
   Included from display_preferences.html, whose script moves it into the panel
-  (it stays in the header if the panel can't load). Styles are in
-  _sass/custom/custom.scss (search for "Light/dark toggle"); the button shares
-  the look of "Back to top".
+  (it stays in the header if the panel can't load). It uses the .page-nav-button
+  style, like the other buttons.
 
   - Light is the default. Dark is the reader's choice, remembered in their
     browser (localStorage) so it carries over from page to page.
@@ -13,14 +12,12 @@
     contains the visible word, so voice control ("click Dark") works too.
   - The button stays hidden if JavaScript is off, since it can't work without it.
 -->
-<div class="theme-toggle">
-  <button type="button" class="page-nav-button js-toggle-dark-mode" hidden>Dark</button>
-</div>
+<button type="button" class="page-nav-button" id="theme-toggle" hidden>Dark</button>
 
 <script>
   (function () {
-    var button = document.querySelector('.js-toggle-dark-mode');
-    if (!button || !window.jtd) return;
+    var button = document.getElementById('theme-toggle');
+    if (!window.jtd) return;
 
     function updateLabel() {
       var next = jtd.getTheme() === 'dark' ? 'Light' : 'Dark';
@@ -29,13 +26,12 @@
     }
 
     button.addEventListener('click', function () {
-      if (jtd.getTheme() === 'dark') {
-        jtd.setTheme('default');               /* back to the site default (light) */
-        try { localStorage.removeItem('theme'); } catch (e) {}
-      } else {
-        jtd.setTheme('dark');
-        try { localStorage.setItem('theme', 'dark'); } catch (e) {}
-      }
+      var dark = jtd.getTheme() !== 'dark';
+      jtd.setTheme(dark ? 'dark' : 'default');   /* "default" is the site's light theme */
+      try {
+        if (dark) localStorage.setItem('theme', 'dark');
+        else localStorage.removeItem('theme');
+      } catch (e) {}
       updateLabel();
     });
 

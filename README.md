@@ -10,11 +10,13 @@ Guides to assistive technology tools and strategies: text to speech, speech to t
 | --- | --- |
 | `index.md` | Home page of the website |
 | `guides/` | One Markdown file per guide, plus the four group pages (`reading.md`, `writing-and-notes.md`, `seeing-and-hearing.md`, `more-tools.md`) |
-| `using-this-resource.md`, `accessibility-statement.md` | About pages |
+| `about/` | About pages: Using This Resource and the Accessibility Statement |
 | `assets/images/<guide>/` | Screenshots for each guide, in a folder named after the guide |
 | `assets/images/logos/` | Product and operating system logos used on one or more pages |
 | `_config.yml` | Website settings (title, theme, search, callouts) |
-| `_sass/custom/custom.scss` | Extra styles for collapsible sections, keyboard keys and images |
+| `_data/availability.yml` | Wording and colour of the availability labels |
+| `_includes/` | Additions to the theme: availability labels, display preferences, the light/dark button, the floating "On this page" and "Back to top" buttons, and the external link icons |
+| `_sass/custom/custom.scss` | Extra styles. The comment at the top lists its sections |
 
 ## Editing a guide
 
@@ -43,7 +45,7 @@ Markdown content here.
 </details>
 ```
 
-### Keybaord keys 
+### Keyboard keys
 
 Keyboard keys use `<kbd>`, for example `<kbd>Ctrl</kbd> + <kbd>C</kbd>`.
 

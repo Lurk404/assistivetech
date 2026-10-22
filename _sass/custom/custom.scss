@@ -64,6 +64,20 @@
   vertical-align: middle;
 }
 
+// External links: the script in _includes/footer_custom.html adds this icon
+// and a no-wrap span so the icon stays with the link's last word.
+.main-content .ext-link-icon {
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  margin-left: 0.15em;
+  vertical-align: super;
+}
+
+.main-content .ext-link-end {
+  white-space: nowrap;
+}
+
 // Bump base text on small screens (Just the Docs sets html to 14px there)
 @media (max-width: 49.99rem) {
   html {
@@ -266,12 +280,14 @@ $page-nav-gap: 1rem;
 // preference cards. Before the script moves it there (or if Infusion doesn't
 // load) it sits in the header, where it needs the same padding as the header
 // buttons.
+// In the panel, Previous / Next sit on the left (see "Settings cards in one
+// row" below); on narrow screens light/dark and Reset drop onto a second line.
 .site-prefs-toolbar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
-  gap: 0.5rem;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
   padding: 0.5rem 1rem;
 
   &[hidden] {
@@ -281,6 +297,50 @@ $page-nav-gap: 1rem;
 
 .site-prefs .flc-slidingPanel-panel .site-prefs-toolbar {
   padding: 1rem 1rem 0;             // the cards below have 1rem padding on every side
+}
+
+.site-prefs-pager,
+.site-prefs-toolbar__end {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+
+  &[hidden] {
+    display: none;                  // hidden until the cards are drawn
+  }
+}
+
+.site-prefs-toolbar__end {
+  margin-left: auto;                // stays on the right, even on its own line
+
+  .theme-toggle {
+    padding: 0;                     // the row has its own padding
+  }
+}
+
+// "1–3 of 8" between Previous and Next. Its colour is set here because it
+// would otherwise take a contrast theme's text colour (yellow, say) while the
+// panel behind it keeps the site's own background.
+.site-prefs-pager__status {
+  min-width: 4.5em;
+  font-size: 0.875rem;
+  color: $body-text-color;
+  text-align: center;
+  white-space: nowrap;
+}
+
+// Words only screen readers hear ("Previous settings")
+.site-prefs-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 // Light/dark and Reset sit inside the preferences panel, which Infusion keeps
@@ -305,6 +365,18 @@ $page-nav-gap: 1rem;
 @if $color-scheme == dark {
   .site-prefs .site-prefs-toolbar .page-nav-button:hover {
     background-color: $grey-dk-250 !important;
+  }
+}
+
+// At either end, Previous or Next is faded and does nothing, but stays
+// reachable with Tab (aria-disabled rather than disabled)
+.site-prefs .site-prefs-toolbar .page-nav-button[aria-disabled="true"] {
+  cursor: default;
+  opacity: 0.45;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $body-background-color !important;
   }
 }
 
@@ -346,42 +418,80 @@ $page-nav-gap: 1rem;
   }
 }
 
-// The open panel. Infusion lays the panels out in one long row that scrolls
-// sideways; on wider screens they wrap into a grid instead, so all seven are
-// visible at once. On phones Infusion's own one-panel-at-a-time layout stays.
-// The background goes on the whole panel, so the light/dark and Reset row
-// shares it.
+// The open panel. The background goes on the whole panel, so the row of
+// buttons at the top shares it.
 .site-prefs .flc-slidingPanel-panel,
 .site-prefs .fl-prefsEditor {
   background-color: $grey-lt-200;   // Infusion's default is a taupe
 }
 
 // Panel headings: Just the Docs colours every h2, which in dark mode would be
-// light text on the white panels. Take the panel's own colour instead.
-.site-prefs .fl-prefsEditor-panel h2 {
+// light text on the white panels. Take the panel's own colour instead. The
+// "text style" heading is a <label>, which gets the same treatment.
+.site-prefs .fl-prefsEditor-panel h2,
+.site-prefs .fl-prefsEditor-panel h2 label {
   color: inherit;
 }
 
+// Settings cards in one row, at every screen size: as many as fit (up to 3,
+// fewer on narrower screens or with bigger text), and the rest a scroll away.
+// The script in display_preferences.html works out how many fit (--per-view)
+// and runs Previous / Next. Swiping and trackpad scrolling also work, and the
+// cards snap into place. The scrollbar is hidden; Previous / Next replace it.
+.site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor {
+  position: relative;               // so the script can measure where each card starts
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1rem;      // matches the padding below
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels {
+  --per-view: 1;                    // the script replaces this with what fits
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem;
+  white-space: normal;
+
+  @media (min-width: 40em) { --per-view: 2; }
+  @media (min-width: 64em) { --per-view: 3; }
+}
+
+.site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel {
+  display: block;
+  flex: 0 0 calc((100% - (var(--per-view) - 1) * 1rem) / var(--per-view));
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+// Infusion's ‹ › on phones work by clicking the card heading, which a
+// keyboard can't do; Previous / Next replace them. The heading stays centred.
+.site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 {
+  justify-content: center;
+
+  &::before,
+  &::after {
+    content: none;
+  }
+}
+
+// Wider screens: smaller card headings, on the left. (Phones keep Infusion's
+// centred headings and shorter cards.)
 @media screen and (min-width: 40em) {
-  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor {
-    overflow-x: visible;
-  }
-
-  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
-    gap: 1rem;
-    margin: 0;
-    padding: 1rem;
-  }
-
   .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel {
-    display: block;
-    min-width: 0;
     padding: 1rem;
   }
 
   .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 {
+    justify-content: flex-start;
     height: auto;
     min-height: 0;
     margin-bottom: 1rem;
@@ -389,7 +499,26 @@ $page-nav-gap: 1rem;
   }
 
   .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 .fl-heading-text {
+    font-size: 1em;                 // Infusion's 1.3em wraps "letter spacing" in a third-width card
     text-align: left;
+  }
+
+  // The page column is narrow (Just the Docs' 50rem), so three cards are only
+  // about 15rem each. Tighten the "A − 1 + A" rows so they fit inside the card.
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel .fl-textfieldStepper {
+    .fl-textfieldStepper-textField {
+      width: 5ch;
+      margin: 0 0.25em;
+    }
+
+    .fl-textfieldStepper-focusContainer {
+      margin: 0 0.25em;
+    }
+
+    [class*="fl-icon-"] {
+      margin: 0 0.15em;
+      font-size: 1.2em;
+    }
   }
 
   // Contrast swatches wrap onto a second row instead of spilling out of the card
@@ -397,6 +526,21 @@ $page-nav-gap: 1rem;
   .site-prefs .fl-prefsEditor .fl-choices {
     flex-wrap: wrap;
     row-gap: 1.75rem;
+  }
+}
+
+// Phones: the ten contrast swatches in two rows of five, so none run off the
+// edge of the card. (The row gap leaves room for the arrow above the chosen one.)
+@media screen and (max-width: 39.99em) {
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor .fl-choices {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    gap: 1.75rem 5px;
+  }
+
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor .fl-choices .fl-choice label {
+    margin-right: 0;                // the grid gap spaces them instead
   }
 }
 
