@@ -168,6 +168,26 @@
   font-weight: 700;
 }
 
+// On wider screens, line the buttons and the popover up with the right edge
+// of the content column instead of the window. Uses Just the Docs' own widths
+// (the same sums as .side-bar + .main in the theme). Phones are unchanged.
+$page-nav-gap: 1rem;
+
+@include mq(md) {
+  .page-nav-floating .page-nav,
+  .page-toc {
+    // stylelint-disable-next-line function-name-case
+    right: Max(#{$page-nav-gap}, calc(100% - #{$nav-width-md + $content-width} + #{$page-nav-gap}));
+  }
+}
+
+@include mq(lg) {
+  .page-nav-floating .page-nav,
+  .page-toc {
+    right: calc((100% - #{$nav-width + $content-width}) / 2 + #{$page-nav-gap});
+  }
+}
+
 @media print {
   .page-nav,
   .page-toc {
