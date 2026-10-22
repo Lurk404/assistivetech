@@ -168,6 +168,40 @@
   font-weight: 700;
 }
 
+// On wide screens, keep the buttons beside the content column instead of
+// letting them drift to the far right of the window. They sit $page-nav-gap
+// past the column's right edge, or in the window's bottom-right corner if
+// there isn't room beside the column (so narrower screens are unchanged).
+// Uses Just the Docs' own widths, the same sums as .side-bar + .main in the theme.
+$page-nav-gap: 1rem;
+
+@media (min-width: #{$nav-width + $content-width}) and (min-height: 30rem) {
+  .page-nav-floating .page-nav {
+    // stylelint-disable-next-line function-name-case
+    left: Min(calc((100% + #{$nav-width + $content-width}) / 2 + #{$page-nav-gap}), calc(100% - 1rem));
+    flex-wrap: nowrap;
+    justify-content: flex-end;  // if there isn't room, line up with the window edge
+    pointer-events: none;       // the empty part of the bar doesn't block clicks
+  }
+
+  .page-nav-floating .page-nav > * {
+    flex-shrink: 0;             // overflow to the left instead of squashing
+    pointer-events: auto;
+  }
+
+  .page-nav-floating .page-nav > :last-child {
+    margin-right: auto;         // if there is room, line up with the column instead
+  }
+
+  // The popover follows the buttons: beside the column if it fits,
+  // otherwise in the bottom-right corner as now
+  .page-toc {
+    right: auto;
+    // stylelint-disable-next-line function-name-case
+    left: Min(calc((100% + #{$nav-width + $content-width}) / 2 + #{$page-nav-gap}), calc(100% - 23rem));
+  }
+}
+
 @media print {
   .page-nav,
   .page-toc {
