@@ -1,84 +1,12 @@
 // Extra styles for the AT User Guides site.
-// Just the Docs loads this file after its own styles, twice: once for the light
-// stylesheet and once for the dark one ($color-scheme says which). Dark mode
-// changes are all in one block near the end, so they always come last.
-//
-// Sections, in order (search for the name):
-//   Shared values, Page content, Availability labels, Page navigation buttons,
-//   Display preferences, Contrast themes, Dark mode, Reduced motion, Print
-
-// ==========================================================================
-// Shared values
-// ==========================================================================
-
-// Same shadow as Just the Docs' callouts. Shadows barely show on a dark page,
-// so dark mode uses a stronger one, with a lighter border.
-$shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
-$shadow-dark: 0 2px 8px rgba(0, 0, 0, 0.5);
-
-// Callouts from _config.yml, and the colour of each one in dark mode, with its
-// contrast against the dark page. If you add a callout there, add it here too.
-$callouts: (
-  "tip": $green-000,       // 8.1:1
-  "note": $link-color,     // 5.7:1
-  "warning": $red-000,     // 5.9:1
-  "langara": #a594f9       // 5.9:1 (Just the Docs' own purples are too dark)
-);
-
-// Min() and Max() below are capitalized on purpose: GitHub Pages' Sass would
-// otherwise try to work them out itself and fail on mixed units (% and rem).
-// CSS doesn't mind the capitals.
-
-// Keyboard focus outline for buttons and summaries
-@mixin focus-ring {
-  outline: 3px solid $link-color;
-  outline-offset: 2px;
-}
-
-// Buttons and popovers: page background, a thin border and a soft shadow
-@mixin surface {
-  background-color: $body-background-color;
-  border: 1px solid $border-color;
-  box-shadow: $shadow;
-}
-
-// Many logos are black on a see-through background and would vanish on a dark
-// page, so in dark mode and the contrast themes every image sits on a white
-// card. Screenshots look the same as in light mode, with a thin white frame.
-// !important beats the contrast themes, which recolour every element.
-@mixin image-card {
-  .main-content img {
-    padding: 0.25rem;
-    background-color: $white !important;
-    border-radius: $border-radius;
-  }
-
-  .main-content img.inline {
-    padding: 0.1rem;
-  }
-}
-
-// ==========================================================================
-// Page content
-// ==========================================================================
-
-// Base text size: the reader's browser default (usually 16px). Just the Docs
-// already uses it on wider screens, but drops to 14px on phones.
-html {
-  font-size: 100% !important;
-}
+// Just the Docs loads this file automatically after its own styles.
 
 // Collapsible sections: <details markdown="block"><summary>Title</summary> ... </details>
 .main-content details {
   margin: 0.75rem 0;
-  padding: 0 1rem;
   border: 1px solid $grey-lt-300;
   border-radius: $border-radius;
-
-  // Collapsible sections inside collapsible sections
-  details {
-    border-style: dashed;
-  }
+  padding: 0 1rem;
 }
 
 .main-content details > summary {
@@ -86,14 +14,6 @@ html {
   padding: 0.75rem 1rem;
   font-weight: 600;
   color: $grey-dk-200;
-
-  &:hover {
-    background-color: $grey-lt-000;
-  }
-
-  &:focus-visible {
-    @include focus-ring;
-  }
 }
 
 .main-content details[open] > summary {
@@ -101,15 +21,18 @@ html {
   border-bottom: 1px solid $grey-lt-300;
 }
 
-// Level 4 headings. Just the Docs makes h4 smaller than body text, in capitals,
-// which breaks the heading hierarchy and is harder to read. Use body text size
-// in semibold instead. fs-4 is the theme's body text size; it uses !important,
-// which is needed to override the theme's size.
-.main-content h4 {
-  @include fs-4;
-  font-weight: 600;
-  text-transform: none;
-  letter-spacing: normal;
+.main-content details > summary:hover {
+  background-color: $grey-lt-000;
+}
+
+.main-content details > summary:focus-visible {
+  outline: 3px solid $link-color;
+  outline-offset: 2px;
+}
+
+// Collapsible sections inside collapsible sections
+.main-content details details {
+  border-style: dashed;
 }
 
 // Keyboard keys: <kbd>Ctrl</kbd> + <kbd>C</kbd>
@@ -141,85 +64,15 @@ html {
   vertical-align: middle;
 }
 
-// External links: the icon the script in _includes/footer_custom.html adds,
-// kept on the same line as the link's last word
-.ext-link-end {
-  white-space: nowrap;
-}
-
-.ext-link-icon {
-  display: inline-block;
-  width: 0.7em;
-  height: 0.7em;
-  margin-left: 0.15em;
-  vertical-align: super;
-}
-
-// ==========================================================================
-// Availability labels
-// Markup in _includes/availability.html; wording in _data/availability.yml.
-// Each label is a button that opens a popover with its definition.
-// ==========================================================================
-
-.main-content .availability {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0.25rem 0 1rem;
-}
-
-.main-content .availability button.label {
-  margin: 0;
-  font-family: inherit;
-  font-size: 0.875rem;
-  line-height: inherit;
-  text-transform: none;     // Just the Docs labels are all caps, which is harder to read
-  cursor: pointer;
-  border: 0;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-
-  &:hover,
-  &:has(+ :popover-open) {
-    transform: translateY(-2px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  &:focus-visible {
-    @include focus-ring;
+// Bump base text on small screens (Just the Docs sets html to 14px there)
+@media (max-width: 49.99rem) {
+  html {
+    font-size: 100% !important;   // the reader's browser default, usually 16px
   }
 }
 
-// The popover: same look as the "On this page" popover, with the labels'
-// rounded corners
-.main-content .availability-popover {
-  max-width: Min(22rem, calc(100vw - 2rem));
-  padding: 0.5rem 0.75rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  color: $body-text-color;
-  border-radius: 12px;
-  @include surface;
-}
-
-// Place it under its label, flipping above or to the left if there's no room.
-// Browsers without anchor positioning skip this and show it centred on screen.
-@supports (position-area: bottom) {
-  .main-content .availability-popover {
-    position-area: bottom span-right;
-    position-try-fallbacks: flip-block, flip-inline;
-    inset: auto;
-    margin: 0.25rem 0 0;
-  }
-}
-
-// ==========================================================================
-// Page navigation buttons: "On this page" and "Back to top"
-// Markup and script in _includes/page_nav_buttons.html
-// ==========================================================================
-
-$page-nav-gap: 1rem;         // space between the buttons and the content column
-$page-toc-width: 22rem;      // the "On this page" popover
-
+// Page navigation buttons: "Back to top" and "On this page"
+// (markup and script in _includes/page_nav_buttons.html)
 .page-nav {
   display: flex;
   flex-wrap: wrap;
@@ -227,28 +80,64 @@ $page-toc-width: 22rem;      // the "On this page" popover
   margin: 1rem 0;
 }
 
-// Also used for "Show preferences", Light/Dark and Reset, so they all match
 .page-nav-button {
   display: inline-flex;
   align-items: center;
-  min-height: 44px;          // big enough to tap
+  min-height: 44px;              // big enough to tap
   padding: 0 1rem;
   font: inherit;
   font-size: 0.875rem;
   font-weight: 600;
   color: $link-color;
   text-decoration: none;
-  white-space: nowrap;
   cursor: pointer;
-  border-radius: $border-radius;
-  @include surface;
+  background-color: $body-background-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;     // was 999px; matches the collapsible sections
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
 
   &:hover {
-    background-color: $grey-lt-000;   // same as a collapsible section's summary
+    background-color: $grey-lt-000;  // same as a collapsible section's summary
   }
 
   &:focus-visible {
-    @include focus-ring;
+    outline: 3px solid $link-color;
+    outline-offset: 2px;
+  }
+}
+
+// Float in the bottom-right corner, but only when the screen is tall enough.
+// On short screens or at high zoom the buttons stay at the end of the page.
+// (The 30rem must match the script in page_nav_buttons.html.)
+@media (min-height: 30rem) {
+  .page-nav-floating .page-nav {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 10;
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(0.5rem);
+    transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+  }
+
+  .page-nav-floating .page-nav.is-visible {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+
+  // Room at the bottom so the buttons never cover the end of the page
+  .page-nav-floating .main-content-wrap {
+    padding-bottom: 5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-nav {
+    transition: none !important;
+    transform: none !important;
   }
 }
 
@@ -256,15 +145,17 @@ $page-toc-width: 22rem;      // the "On this page" popover
 .page-toc {
   position: fixed;
   inset: auto 1rem 4.5rem auto;
-  width: $page-toc-width;
+  width: 22rem;
   max-width: calc(100vw - 2rem);
   max-height: 70vh;
   margin: 0;
   padding: 0.75rem 1rem;
   overflow: auto;
   color: $body-text-color;
+  background-color: $body-background-color;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
-  @include surface;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
 
   ul {
     margin-top: 0;
@@ -277,64 +168,59 @@ $page-toc-width: 22rem;      // the "On this page" popover
   font-weight: 700;
 }
 
-// The buttons float at the bottom of the screen only when it's tall enough.
-// On short screens or at high zoom they stay at the end of the page. The
-// script checks for position: fixed, so 30rem only needs changing here.
-@media (min-height: 30rem) {
+// On wide screens, keep the buttons beside the content column instead of
+// letting them drift to the far right of the window. They sit $page-nav-gap
+// past the column's right edge, or in the window's bottom-right corner if
+// there isn't room beside the column (so narrower screens are unchanged).
+// Uses Just the Docs' own widths, the same sums as .side-bar + .main in the theme.
+$page-nav-gap: 1rem;
+
+@media (min-width: #{$nav-width + $content-width}) and (min-height: 30rem) {
   .page-nav-floating .page-nav {
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
-    z-index: 10;
-    margin: 0;
-    visibility: hidden;
-    opacity: 0;
-    transform: translateY(0.5rem);
-    transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
-
-    &.is-visible {
-      visibility: visible;
-      opacity: 1;
-      transform: none;
-    }
+    // stylelint-disable-next-line function-name-case
+    left: Min(calc((100% + #{$nav-width + $content-width}) / 2 + #{$page-nav-gap}), calc(100% - 1rem));
+    flex-wrap: nowrap;
+    justify-content: flex-end;  // if there isn't room, line up with the window edge
+    pointer-events: none;       // the empty part of the bar doesn't block clicks
   }
 
-  // Room at the bottom so the buttons never cover the end of the page
-  .page-nav-floating .main-content-wrap {
-    padding-bottom: 5rem;
+  .page-nav-floating .page-nav > * {
+    flex-shrink: 0;             // overflow to the left instead of squashing
+    pointer-events: auto;
   }
 
-  // On wide screens, keep the buttons beside the content column instead of
-  // letting them drift to the far right of the window. The bar runs from
-  // $page-nav-gap past the column's right edge to 1rem from the window's edge.
-  // If the buttons fit, they line up with the column; if not, with the window
-  // edge, overlapping the column a little. The sum is the same one Just the
-  // Docs uses to centre the column beside the sidebar.
-  @include mq(lg) {
-    $beside-column: calc((100% + #{$nav-width + $content-width}) / 2 + #{$page-nav-gap});
+  .page-nav-floating .page-nav > :last-child {
+    margin-right: auto;         // if there is room, line up with the column instead
+  }
 
-    .page-nav-floating .page-nav {
-      left: Min(#{$beside-column}, calc(100% - 1rem));
-      flex-wrap: nowrap;
-      justify-content: flex-end;   // no room: line up with the window edge
-      pointer-events: none;        // the empty part of the bar doesn't block clicks
+  // The popover follows the buttons: beside the column if it fits,
+  // otherwise in the bottom-right corner as now
+  .page-toc {
+    right: auto;
+    // stylelint-disable-next-line function-name-case
+    left: Min(calc((100% + #{$nav-width + $content-width}) / 2 + #{$page-nav-gap}), calc(100% - 23rem));
+  }
+}
 
-      > * {
-        flex-shrink: 0;            // overflow to the left instead of squashing
-        pointer-events: auto;
-      }
+@media print {
+  .page-nav,
+  .page-toc {
+    display: none !important;
+  }
+}
 
-      > :last-child {
-        margin-right: auto;        // room: line up with the column instead
-      }
-    }
+// Light/dark toggle (markup and script in _includes/theme_toggle.html). It sits
+// in the display preferences panel (see "Light/dark and Reset" below), or in
+// the header if the panel can't load. The button itself uses .page-nav-button
+// above, so it matches "Back to top".
+.theme-toggle {
+  display: flex;
+  align-items: center;
+}
 
-    // The popover follows the buttons: beside the column if it fits,
-    // otherwise in the bottom-right corner
-    .page-toc {
-      right: auto;
-      left: Min(#{$beside-column}, calc(100% - #{$page-toc-width + 1rem}));
-    }
+@media print {
+  .theme-toggle {
+    display: none !important;
   }
 }
 
@@ -345,25 +231,21 @@ $page-toc-width: 22rem;      // the "On this page" popover
 // into the site and fix a few things when a reader picks a contrast theme.
 // ==========================================================================
 
-// "Show preferences" in the header, and the row with Light/Dark and Reset.
-// The script moves that row to the top of the open panel; if Infusion doesn't
-// load, it stays in the header, with Light/Dark only. Both stay hidden until
-// the script shows them.
-.site-prefs-buttons,
-.site-prefs-toolbar {
+// "Show preferences", in the header. It uses .page-nav-button above, so it
+// matches "Back to top".
+.site-prefs-buttons {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 1rem;
 
   &[hidden] {
-    display: none;
+    display: none;                  // hidden until the script starts it
   }
-}
 
-.site-prefs-toolbar {
-  justify-content: flex-end;
+  .page-nav-button {
+    white-space: nowrap;            // keep "+ Show preferences" on one line
+  }
 }
 
 // The container Infusion needs around the buttons and the panel. It wraps the
@@ -375,27 +257,85 @@ $page-toc-width: 22rem;      // the "On this page" popover
   border-bottom: 0;
 }
 
-// The open panel, just below the header. The background covers the whole
-// panel, so the Light/Dark and Reset row shares it (Infusion's is taupe).
+// The open panel sits just below the header
 .site-prefs .flc-slidingPanel-panel {
   border-bottom: $border $border-color;
+}
 
-  .site-prefs-toolbar {
-    padding: 1rem 1rem 0;         // the cards below have 1rem padding on every side
+// Light/dark and Reset, in a row at the top of the open panel, above the
+// preference cards. Before the script moves it there (or if Infusion doesn't
+// load) it sits in the header, where it needs the same padding as the header
+// buttons.
+// In the panel, Previous / Next sit on the left (see "Settings cards in one
+// row" below); on narrow screens light/dark and Reset drop onto a second line.
+.site-prefs-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+
+  &[hidden] {
+    display: none;                  // hidden until the script places it
   }
 }
 
-.site-prefs .flc-slidingPanel-panel,
-.site-prefs .fl-prefsEditor {
-  background-color: $grey-lt-200;
+.site-prefs .flc-slidingPanel-panel .site-prefs-toolbar {
+  padding: 1rem 1rem 0;             // the cards below have 1rem padding on every side
 }
 
-// Light/Dark and Reset sit inside the panel, which Infusion keeps out of the
-// contrast themes by switching off the theme's colour variables there. Its rule
-// for every button on the page still reaches these two, though, so they'd lose
-// their background and take the theme's text colour (yellow on the light grey
-// panel, for example). Keep the site's own button colours. More specific than
-// Infusion's rule, which also uses !important.
+.site-prefs-pager,
+.site-prefs-toolbar__end {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+
+  &[hidden] {
+    display: none;                  // hidden until the cards are drawn
+  }
+}
+
+.site-prefs-toolbar__end {
+  margin-left: auto;                // stays on the right, even on its own line
+
+  .theme-toggle {
+    padding: 0;                     // the row has its own padding
+  }
+}
+
+// "1–3 of 8" between Previous and Next. Its colour is set here because it
+// would otherwise take a contrast theme's text colour (yellow, say) while the
+// panel behind it keeps the site's own background.
+.site-prefs-pager__status {
+  min-width: 4.5em;
+  font-size: 0.875rem;
+  color: $body-text-color;
+  text-align: center;
+  white-space: nowrap;
+}
+
+// Words only screen readers hear ("Previous settings")
+.site-prefs-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// Light/dark and Reset sit inside the preferences panel, which Infusion keeps
+// out of the contrast themes by switching off the theme's colour variables
+// there. Infusion's rule for every button on the page still reaches these two,
+// though, so they'd lose their background and take the theme's text colour
+// (yellow on the light grey panel, for example). Keep the site's own button
+// colours, to match the panel. More specific than Infusion's rule, which also
+// uses !important.
 .site-prefs .site-prefs-toolbar .page-nav-button {
   color: $link-color !important;
   background-color: $body-background-color !important;
@@ -405,52 +345,24 @@ $page-toc-width: 22rem;      // the "On this page" popover
   }
 }
 
-// Panel headings: Just the Docs colours every h2, which in dark mode would be
-// light text on the white panels. Take the panel's own colour instead.
-.site-prefs .fl-prefsEditor-panel h2 {
-  color: inherit;
+// Dark mode hover, as for the other buttons. It sits here rather than in the
+// dark mode section further up, because the rule above comes later in the file
+// and would win.
+@if $color-scheme == dark {
+  .site-prefs .site-prefs-toolbar .page-nav-button:hover {
+    background-color: $grey-dk-250 !important;
+  }
 }
 
-// Infusion lays the panels out in one long row that scrolls sideways. From its
-// own 40em breakpoint up, they wrap into a grid instead, so all of them are
-// visible at once. On phones Infusion's one-panel-at-a-time layout stays.
-@media screen and (min-width: 40em) {
-  .site-prefs.fl-prefsEditor-separatedPanel {
-    .fl-prefsEditor {
-      overflow-x: visible;
-    }
+// At either end, Previous or Next is faded and does nothing, but stays
+// reachable with Tab (aria-disabled rather than disabled)
+.site-prefs .site-prefs-toolbar .page-nav-button[aria-disabled="true"] {
+  cursor: default;
+  opacity: 0.45;
 
-    .fl-prefsEditor-panels {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
-      gap: 1rem;
-      margin: 0;
-      padding: 1rem;
-    }
-
-    .fl-prefsEditor-panels .fl-prefsEditor-panel {
-      display: block;
-      min-width: 0;
-      padding: 1rem;
-
-      h2 {
-        height: auto;
-        min-height: 0;
-        margin-bottom: 1rem;
-        padding-bottom: 0.5rem;
-      }
-
-      h2 .fl-heading-text {
-        text-align: left;
-      }
-    }
-  }
-
-  // Contrast swatches wrap onto a second row instead of spilling out of the card
-  // (the gap leaves room for the arrow that marks the chosen one)
-  .site-prefs .fl-prefsEditor .fl-choices {
-    flex-wrap: wrap;
-    row-gap: 1.75rem;
+  &:hover {
+    text-decoration: none;
+    background-color: $body-background-color !important;
   }
 }
 
@@ -479,19 +391,157 @@ $page-toc-width: 22rem;      // the "On this page" popover
 
 @include mq(lg) {
   .site-prefs-top {
+    // stylelint-disable-next-line function-name-case
     margin-left: Max(#{$nav-width}, calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}));
+  }
+}
+
+@media print {
+  .site-prefs-buttons,
+  .site-prefs-toolbar,
+  .site-prefs .flc-slidingPanel-panel {
+    display: none !important;
+  }
+}
+
+// The open panel. The background goes on the whole panel, so the row of
+// buttons at the top shares it.
+.site-prefs .flc-slidingPanel-panel,
+.site-prefs .fl-prefsEditor {
+  background-color: $grey-lt-200;   // Infusion's default is a taupe
+}
+
+// Panel headings: Just the Docs colours every h2, which in dark mode would be
+// light text on the white panels. Take the panel's own colour instead. The
+// "text style" heading is a <label>, which gets the same treatment.
+.site-prefs .fl-prefsEditor-panel h2,
+.site-prefs .fl-prefsEditor-panel h2 label {
+  color: inherit;
+}
+
+// Settings cards in one row, at every screen size: as many as fit (up to 3,
+// fewer on narrower screens or with bigger text), and the rest a scroll away.
+// The script in display_preferences.html works out how many fit (--per-view)
+// and runs Previous / Next. Swiping and trackpad scrolling also work, and the
+// cards snap into place. The scrollbar is hidden; Previous / Next replace it.
+.site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor {
+  position: relative;               // so the script can measure where each card starts
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1rem;      // matches the padding below
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels {
+  --per-view: 1;                    // the script replaces this with what fits
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem;
+  white-space: normal;
+
+  @media (min-width: 40em) { --per-view: 2; }
+  @media (min-width: 64em) { --per-view: 3; }
+}
+
+.site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel {
+  display: block;
+  flex: 0 0 calc((100% - (var(--per-view) - 1) * 1rem) / var(--per-view));
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+// Infusion's ‹ › on phones work by clicking the card heading, which a
+// keyboard can't do; Previous / Next replace them. The heading stays centred.
+.site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 {
+  justify-content: center;
+
+  &::before,
+  &::after {
+    content: none;
+  }
+}
+
+// Wider screens: smaller card headings, on the left. (Phones keep Infusion's
+// centred headings and shorter cards.)
+@media screen and (min-width: 40em) {
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel {
+    padding: 1rem;
+  }
+
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 {
+    justify-content: flex-start;
+    height: auto;
+    min-height: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 .fl-heading-text {
+    font-size: 1em;                 // Infusion's 1.3em wraps "letter spacing" in a third-width card
+    text-align: left;
+  }
+
+  // The page column is narrow (Just the Docs' 50rem), so three cards are only
+  // about 15rem each. Tighten the "A − 1 + A" rows so they fit inside the card.
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel .fl-textfieldStepper {
+    .fl-textfieldStepper-textField {
+      width: 5ch;
+      margin: 0 0.25em;
+    }
+
+    .fl-textfieldStepper-focusContainer {
+      margin: 0 0.25em;
+    }
+
+    [class*="fl-icon-"] {
+      margin: 0 0.15em;
+      font-size: 1.2em;
+    }
+  }
+
+  // Contrast swatches wrap onto a second row instead of spilling out of the card
+  // (the gap leaves room for the arrow that marks the chosen one)
+  .site-prefs .fl-prefsEditor .fl-choices {
+    flex-wrap: wrap;
+    row-gap: 1.75rem;
+  }
+}
+
+// Phones: the ten contrast swatches in two rows of five, so none run off the
+// edge of the card. (The row gap leaves room for the arrow above the chosen one.)
+@media screen and (max-width: 39.99em) {
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor .fl-choices {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    gap: 1.75rem 5px;
+  }
+
+  .site-prefs.fl-prefsEditor-separatedPanel .fl-prefsEditor .fl-choices .fl-choice label {
+    margin-right: 0;                // the grid gap spaces them instead
   }
 }
 
 // Line spacing. Infusion sets the reader's line spacing on <body> and expects
 // the page to inherit it, but Just the Docs gives page content (1.6) and
-// headings (1.25) their own line heights. Scale those by the reader's choice
-// instead (--fl-lineSpace-factor, for example 1.5). The menu keeps its own
-// spacing, since its row heights are fixed.
-body.fl-lineSpace-enabled .main-content {
-  line-height: calc(#{$content-line-height} * var(--fl-lineSpace-factor, 1)) !important;
+// headings (1.25) their own line heights, so only the sidebar footer changed.
+// Scale those by the reader's choice instead (--fl-lineSpace-factor, e.g. 1.5).
+// The menu keeps its own spacing, since its row heights are fixed.
+body.fl-lineSpace-enabled {
+  .main-content {
+    line-height: calc(#{$content-line-height} * var(--fl-lineSpace-factor, 1)) !important;
+  }
 
-  h1, h2, h3, h4, h5, h6 {
+  .main-content h1, .main-content h2, .main-content h3,
+  .main-content h4, .main-content h5, .main-content h6 {
     line-height: calc(#{$body-heading-line-height} * var(--fl-lineSpace-factor, 1)) !important;
   }
 }
@@ -502,16 +552,10 @@ body.fl-lineSpace-enabled .main-content {
   margin-bottom: 1rem;
 }
 
-// ==========================================================================
-// Contrast themes
-// Infusion puts a class like "fl-theme-yb" (yellow on black) on <body> and
-// recolours every element.
-// ==========================================================================
-
-// Extra theme: dark brown on sand. Added to the list in
+// Extra contrast theme: dark brown on sand. Added to the list in
 // _includes/display_preferences.html; Infusion's contrast styles do the rest.
-// Contrast against the sand background (#f9f5e9): text 14.5:1, links 8.1:1,
-// greyed-out text 6.6:1.
+// Contrast ratios against the sand background (#f9f5e9):
+// text 14.5:1, links 8.1:1, greyed-out text 6.6:1.
 .fl-theme-sand {
   --_fl-fgColor: #2b2118;
   --_fl-bgColor: #f9f5e9;
@@ -525,39 +569,52 @@ body.fl-lineSpace-enabled .main-content {
   --_fl-buttonBgColor: #efe7d3;   // a slightly darker sand, so buttons stand out (12.8:1)
 }
 
+// Contrast themes. Infusion puts a class like "fl-theme-yb" (yellow on black)
+// on <body> and recolours every element. Three things on this site need help.
 body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
-  @include image-card;
 
-  // List numbers and bullets, and callout titles, keep their own colours
-  // otherwise, which can be hard to read on the theme's background (for
-  // example light grey numbers on yellow).
+  // Images: many logos are black on a see-through background and would vanish
+  // on a black page, so every image sits on a white card (as in dark mode).
+  .main-content img {
+    padding: 0.25rem;
+    background-color: #fff !important;
+    border-radius: $border-radius;
+  }
+
+  .main-content img.inline {
+    padding: 0.1rem;
+  }
+
+  // Callout titles ("Tip", "Note", "Warning", "At Langara") and the numbers in numbered steps  
+  // keep their own colours otherwise, which can be hard to read on the theme's
+  // background (for example light grey numbers on yellow).
   .main-content ol > li::before,
-  .main-content ul > li::before {
+  .main-content ul > li::before,
+  p.tip::before, blockquote.tip::before,
+  p.note::before, blockquote.note::before,
+  p.warning::before, blockquote.warning::before,
+  p.langara::before, blockquote.langara::before,
+  .tip-title > p:first-child,
+  .note-title > p:first-child,
+  .warning-title > p:first-child,
+  .langara-title > p:first-child {
     color: var(--fl-fgColor) !important;
   }
-
-  @each $name, $color in $callouts {
-    p.#{$name}::before,
-    blockquote.#{$name}::before,
-    .#{$name}-title > p:first-child {
-      color: var(--fl-fgColor) !important;
-    }
-  }
-
-  // Availability labels: the themes give buttons the page's background colour,
-  // so the labels would look like plain text. A border marks them; Infusion
-  // colours it to match the theme.
+  // Availability labels: contrast themes give buttons the page's background
+  // colour, so the labels would look like plain text. A border marks them;
+  // Infusion colours it to match the theme.
   .main-content .availability button.label {
     border: 2px solid;
   }
 }
 
+
 // ==========================================================================
 // Dark mode
-// Only goes into the dark stylesheet. Contrast ratios are against the dark
-// page background (#27262b).
+// Everything below only goes into the dark stylesheet. Just the Docs builds
+// this file once per colour scheme, and $color-scheme says which one it is.
+// Contrast ratios are against the dark page background (#27262b).
 // ==========================================================================
-
 @if $color-scheme == dark {
 
   // Tell the browser the page is dark, so its own parts (scrollbars,
@@ -567,8 +624,16 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   }
 
   // Callouts. Just the Docs uses its darkest shade of each colour in dark mode,
-  // which nearly disappears (blue is 1.3:1). Use the light shades in $callouts.
-  @each $name, $color in $callouts {
+  // which nearly disappears (blue is 1.3:1). These use light shades instead.
+  // If you add a callout in _config.yml, add it here too.
+  $dark-callout-colors: (
+    "tip": $green-000,       // 8.1:1
+    "note": $link-color,     // 5.7:1
+    "warning": $red-000,      // 5.9:1
+    "langara": #a594f9       // 5.9:1 (Just the Docs' own purples are too dark)
+  );
+
+  @each $name, $color in $dark-callout-colors {
     p.#{$name},
     blockquote.#{$name},
     p.#{$name}-title,
@@ -596,14 +661,14 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
 
   .main-content details > summary {
     color: $body-heading-color;       // was dark grey on dark (1.5:1)
-
-    &:hover {
-      background-color: $grey-dk-250;
-    }
   }
 
   .main-content details[open] > summary {
     border-bottom-color: $grey-dk-100;
+  }
+
+  .main-content details > summary:hover {
+    background-color: $grey-dk-250;
   }
 
   // Keyboard keys: dark keys instead of bright white ones
@@ -613,59 +678,165 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
     border-color: $grey-dk-000;
   }
 
-  @include image-card;
-
-  // Buttons and popovers
-  .page-nav-button,
-  .page-toc,
-  .main-content .availability-popover {
-    border-color: $grey-dk-000;
-    box-shadow: $shadow-dark;
+  // Images: many logos and icons are black on a see-through background and
+  // would vanish on a dark page, so every image sits on a white card.
+  // Screenshots look the same as in light mode, with a thin white frame.
+  .main-content img {
+    padding: 0.25rem;
+    background-color: $white;
+    border-radius: $border-radius;
   }
 
-  .main-content .availability button.label:hover,
-  .main-content .availability button.label:has(+ :popover-open) {
-    box-shadow: $shadow-dark;
+  .main-content img.inline {
+    padding: 0.1rem;
+  }
+
+  // Floating "Back to top" / "On this page" buttons, the light/dark toggle,
+  // and the "On this page" popover. Shadows don't show on a dark page,
+  // so a lighter border marks their edges instead.
+  .page-nav-button,
+  .page-toc {
+    border-color: $grey-dk-000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   }
 
   .page-nav-button:hover {
     background-color: $grey-dk-250;   // link colour on this is 5.1:1
   }
 
-  .site-prefs .site-prefs-toolbar .page-nav-button:hover {
-    background-color: $grey-dk-250 !important;
-  }
-
-  // Display preferences: the panel matches the dark sidebar. The cards stay
-  // white with dark text (Infusion's own colours).
+  // Display preferences: the bar matches the dark sidebar. The panels stay
+  // white with dark text (Infusion's own colours), on a dark background.
   .site-prefs .flc-slidingPanel-panel,
   .site-prefs .fl-prefsEditor {
     background-color: $grey-dk-250;
   }
 }
 
-// ==========================================================================
-// Reduced motion: no sliding or lifting, for readers who turn animation off
-// ==========================================================================
+// Availability labels, made by _includes/availability.html. Each label is a
+// button that opens a popover with its definition, placed under the label.
+.main-content .availability {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.25rem 0 1rem;
+}
 
-@media (prefers-reduced-motion: reduce) {
-  .page-nav,
-  .main-content .availability button.label {
-    transition: none !important;
-    transform: none !important;
+.main-content .availability .label {
+  margin: 0;
+  font-size: 0.875rem;
+  text-transform: none;     // Just the Docs labels are all caps by default, which is harder to read
+}
+
+.main-content .availability button.label {
+  font-family: inherit;
+  line-height: inherit;
+  border: 0;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.main-content .availability button.label:hover,
+.main-content .availability button.label:has(+ :popover-open) {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .availability button.label:focus-visible {
+  outline: 3px solid $link-color;
+  outline-offset: 2px;
+}
+
+// The popover: same rounded corners as the labels, and the same look as the
+// "On this page" popover. Theme colours, so it works in light and dark mode.
+.main-content .availability-popover {
+  max-width: min(22rem, calc(100vw - 2rem));
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: $body-text-color;
+  background-color: $body-background-color;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+// Place it under its label, flipping above or to the left if there's no room.
+// Browsers without anchor positioning skip this and show it centred on screen.
+@supports (position-area: bottom) {
+  .main-content .availability-popover {
+    position-area: bottom span-right;
+    position-try-fallbacks: flip-block, flip-inline;
+    inset: auto;
+    margin: 0.25rem 0 0;
   }
 }
 
-// ==========================================================================
-// Print: no buttons, popovers or preferences panel
-// ==========================================================================
-
-@media print {
-  .page-nav,
-  .page-toc,
-  .site-prefs-buttons,
-  .site-prefs-toolbar,
-  .site-prefs .flc-slidingPanel-panel {
-    display: none !important;
+// Shadows barely show on a dark page, so use a stronger one and a lighter
+// border there (as for the "On this page" popover). This sits here rather than
+// in the dark mode section further up, because these rules come later in the
+// file and would win.
+@if $color-scheme == dark {
+  .main-content .availability button.label:hover,
+  .main-content .availability button.label:has(+ :popover-open) {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
   }
+
+  .main-content .availability-popover {
+    border-color: $grey-dk-000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+
+// For readers who turn off animation: no movement, just the shadow
+@media (prefers-reduced-motion: reduce) {
+  .main-content .availability button.label {
+    transition: none;
+  }
+
+  .main-content .availability button.label:hover,
+  .main-content .availability button.label:has(+ :popover-open) {
+    transform: none;
+  }
+}
+
+// The comma between labels is for screen readers only, so the labels are read
+// as a list ("Paid, Available at Langara") instead of running together.
+.main-content .availability-key .separator {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+// Label key on the home page (#availability-labels)
+.main-content .availability-key {
+  padding-left: 0;
+}
+
+.main-content .availability-key > li {
+  margin: 0.5rem 0;
+}
+
+.main-content .availability-key > li::before {
+  content: none; // no bullet: the label marks each item
+}
+
+.main-content .availability-key .label {
+  margin: 0 0.5rem 0 0;
+  font-size: 0.875rem;
+  text-transform: none;
+}
+
+// Level 4 headings. Just the Docs makes h4 smaller than body text (12px),
+// in uppercase, which breaks the heading hierarchy and is harder to read.
+// Use body text size in semibold instead, so h4 sits below h3 but stands out
+// from paragraphs. fs-4 is the theme's body text size, and it uses !important,
+// which is needed to override the theme's size.
+.main-content h4 {
+  @include fs-4;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
 }
