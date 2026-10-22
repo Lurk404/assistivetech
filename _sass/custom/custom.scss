@@ -168,13 +168,6 @@
   font-weight: 700;
 }
 
-@include mq(lg) {
-  .page-nav-floating .page-nav,
-  .page-toc {
-    right: calc((100% - #{$nav-width + $content-width}) / 2 + #{$page-nav-gap});
-  }
-}
-
 @media print {
   .page-nav,
   .page-toc {
