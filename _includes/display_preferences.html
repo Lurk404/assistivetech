@@ -42,12 +42,11 @@
       var buttons = document.getElementById('site-prefs-buttons');
       var toolbar = document.getElementById('site-prefs-toolbar');
       var header = document.getElementById('main-header');
-      if (!buttons || !toolbar || !header || !window.fluid || !fluid.uiOptions) {
+      if (!header || !window.fluid || !fluid.uiOptions) {
         /* Infusion didn't load: leave the light/dark toggle in the header,
            and remove "Reset", which can't work without Infusion */
-        var reset = toolbar && toolbar.querySelector('.flc-prefsEditor-reset');
-        if (reset) reset.remove();
-        if (toolbar) toolbar.hidden = false;
+        toolbar.querySelector('.flc-prefsEditor-reset').remove();
+        toolbar.hidden = false;
         return;
       }
 
@@ -57,7 +56,7 @@
       prefs.className = 'site-prefs flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel';
       var panel = document.createElement('div');
       panel.className = 'flc-slidingPanel-panel';
-            /* Start closed. Infusion closes the panel when it starts, but with a
+      /* Start closed. Infusion closes the panel when it starts, but with a
          sliding animation, a moment after the page appears, so without this
          the open panel would flash on screen and then slide shut. */
       panel.style.display = 'none';
@@ -90,7 +89,7 @@
         }
       }
       place();
-      if (wide.addEventListener) wide.addEventListener('change', place);
+      wide.addEventListener('change', place);
 
       /* Text-to-speech: read the page's <main>, and put the play button
          at the top of the page content */

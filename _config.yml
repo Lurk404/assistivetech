@@ -20,16 +20,16 @@ search:
 # Page features
 heading_anchors: true
 back_to_top: false   # replaced by the floating buttons in _includes/page_nav_buttons.html
-back_to_top_text: "Back to top"
 
 # Link in the top right corner of every page
 aux_links:
   "View on GitHub":
     - "https://github.com/Lurk404/assistivetech"
 
-# Callout boxes for the website. In a page, put {: .tip } (or .note / .warning)
-# on the line directly above a paragraph. Note: in the GitHub repo view and the
-# wiki, the {: .tip } line shows up as plain text.
+# Callout boxes for the website. In a page, put {: .tip } (or .note, .warning,
+# .langara) on the line directly above a paragraph. In the GitHub repo view, the
+# {: .tip } line shows up as plain text. If you add a callout, also add it to
+# $callouts in _sass/custom/custom.scss, which sets its dark mode colour.
 callouts:
   tip:
     title: Tip
@@ -44,5 +44,5 @@ callouts:
     title: At Langara
     color: purple
 
-    # Color scheme supports "light" (default) and "dark"
+# Colour scheme: "light" (the default). The Light/Dark button switches to "dark".
 color_scheme: light

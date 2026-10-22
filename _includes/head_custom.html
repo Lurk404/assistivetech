@@ -5,27 +5,22 @@
   try {
     if (localStorage.getItem('theme') === 'dark') jtd.setTheme('dark');
   } catch (e) {}
-</script>
 
-<script>
-  /* Open collapsed sections (<details>) when a link points to one.
-     Works for links to the section's id, or to anything inside it,
-     from the same page or another page. Also opens any sections it is nested in. */
+  /* Open collapsed sections (<details>) when a link points to one, or to anything
+     inside one, from the same page or another page. Also opens any sections it
+     is nested in. */
   (function () {
     function openTarget() {
-      var id = decodeURIComponent(location.hash.slice(1));
-      if (!id) return;
-      var target = document.getElementById(id);
+      var target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
       if (!target) return;
 
       var opened = false;
-      var section = target.tagName === 'DETAILS' ? target : target.closest('details');
-      while (section) {
+      /* closest() starts with the target itself, so this also opens a target that is a <details> */
+      for (var section = target.closest('details'); section; section = section.parentElement.closest('details')) {
         if (!section.open) {
           section.open = true;
           opened = true;
         }
-        section = section.parentElement ? section.parentElement.closest('details') : null;
       }
       if (opened) target.scrollIntoView();
     }
@@ -34,10 +29,10 @@
     window.addEventListener('hashchange', openTarget);
 
     /* Clicking a link to the section you're already on (for example after
-       closing it) doesn't change the address, so check again after any click. */
+       closing it) doesn't change the address, so there's no hashchange. */
     document.addEventListener('click', function (e) {
       var link = e.target.closest('a[href*="#"]');
-      if (link && link.pathname === location.pathname) setTimeout(openTarget, 0);
+      if (link && link.pathname === location.pathname && link.hash === location.hash) setTimeout(openTarget);
     });
   })();
 </script>
@@ -55,34 +50,3 @@
 <link rel="stylesheet" href="{{ infusion }}/src/framework/preferences/css/SeparatedPanelPrefsEditor.css">
 <link rel="stylesheet" href="{{ infusion }}/src/components/orator/css/Orator.css">
 <script src="{{ infusion }}/infusion-uio.js" defer></script>
-
-<script>
-  /* Availability labels (_includes/availability.html): turn each label into a
-     button that shows or hides its own definition, below the row of labels. */
-  document.addEventListener('DOMContentLoaded', function () {
-    var count = 0;
-    document.querySelectorAll('.availability').forEach(function (group) {
-      group.querySelectorAll('.availability-labels .label').forEach(function (span) {
-        var def = group.querySelector('.availability-def[data-def="' + span.dataset.def + '"]');
-        if (!def) return;
-        count++;
-        def.id = 'availability-def-' + count;
-        def.hidden = true;
-
-        var button = document.createElement('button');
-        button.type = 'button';
-        button.className = span.className;
-        button.textContent = span.textContent;
-        button.setAttribute('aria-expanded', 'false');
-        button.setAttribute('aria-controls', def.id);
-        button.addEventListener('click', function () {
-          var open = button.getAttribute('aria-expanded') === 'true';
-          button.setAttribute('aria-expanded', String(!open));
-          def.hidden = open;
-        });
-
-        span.replaceWith(button);
-      });
-    });
-  });
-</script>
