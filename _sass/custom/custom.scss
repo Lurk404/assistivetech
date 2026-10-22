@@ -168,16 +168,52 @@
   font-weight: 700;
 }
 
-// On wider screens, line the buttons and the popover up with the right edge
-// of the content column instead of the window. Uses Just the Docs' own widths
-// (the same sums as .side-bar + .main in the theme). Phones are unchanged.
-$page-nav-gap: 1rem;
+// Where the buttons float on wider screens. Phones are unchanged (bottom-right
+// corner of the window). Uses Just the Docs' own widths for the content column
+// (the same sums as .side-bar + .main in the theme).
+$page-nav-gap: 1rem;    // space between the buttons and the content column
+$page-nav-width: 9rem;  // room the stacked buttons need beside the column
 
+// Only on windows wide enough to fit the buttons beside the content column
+$page-nav-outside: $nav-width + $content-width + 2 * ($page-nav-gap + $page-nav-width + 1rem);
+
+// Narrower windows: inside the column, against its right edge
 @include mq(md) {
   .page-nav-floating .page-nav,
   .page-toc {
     // stylelint-disable-next-line function-name-case
     right: Max(#{$page-nav-gap}, calc(100% - #{$nav-width-md + $content-width} + #{$page-nav-gap}));
+  }
+}
+
+@include mq(lg) {
+  .page-nav-floating .page-nav,
+  .page-toc {
+    right: calc((100% - #{$nav-width + $content-width}) / 2 + #{$page-nav-gap});
+  }
+}
+
+// Wide windows: just outside the column's right edge, stacked, with
+// "On this page" on top
+@media (min-width: $page-nav-outside) and (min-height: 30rem) {
+  .page-nav-floating .page-nav {
+    right: auto;
+    left: calc((100% + #{$nav-width + $content-width}) / 2 + #{$page-nav-gap});
+    flex-direction: column;
+    align-items: stretch;  // both buttons the same width
+  }
+
+  .page-nav-floating .page-nav .page-nav-button {
+    justify-content: center;
+  }
+
+  // The popover opens above the stacked buttons, lined up with their left
+  // edge, or against the window's right edge if it's too wide to fit there
+  .page-toc {
+    right: auto;
+    // stylelint-disable-next-line function-name-case
+    left: Min(calc((100% + #{$nav-width + $content-width}) / 2 + #{$page-nav-gap}), calc(100% - 23rem));
+    bottom: calc(2.25rem + 88px);  // two 44px buttons, their gap, and a little space
   }
 }
 
