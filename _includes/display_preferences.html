@@ -1,7 +1,8 @@
 <!--
   Display preferences (Fluid Infusion UI Options): a "Show preferences" button in
   the header, and a panel that opens just below the header. The top of the panel
-  has the light/dark toggle (_includes/theme_toggle.html) and "Reset".
+  has Previous / Next on the left, for the settings cards, which sit in one row,
+  and the light/dark toggle (_includes/theme_toggle.html) and "Reset" on the right.
   Included from header_custom.html. Styles and the Infusion script are loaded in
   head_custom.html; the layout is in _sass/custom/custom.scss (search for
   "Display preferences"). The Infusion files are in assets/infusion/.
@@ -30,10 +31,25 @@
   <button type="button" class="page-nav-button flc-slidingPanel-toggleButton">+ Show preferences</button>
 </div>
 
-<!-- Hidden until the script below moves it into the top of the panel -->
+<!--
+  Hidden until the script below moves it into the top of the panel: Previous /
+  Next on the left, to move through the settings cards (they sit in one row),
+  and light/dark and Reset on the right.
+  Previous / Next: screen readers hear "Previous settings" / "Next settings",
+  which start with the visible word ("click Next"); the ‹ › are hidden from
+  them. After a press they also hear which settings are now showing.
+-->
 <div class="site-prefs-toolbar" id="site-prefs-toolbar" hidden>
-  {% include theme_toggle.html %}
-  <button type="button" class="page-nav-button flc-prefsEditor-reset" aria-label="Reset preferences">Reset</button>
+  <div class="site-prefs-pager" id="site-prefs-pager" hidden>
+    <button type="button" class="page-nav-button site-prefs-pager__prev" aria-disabled="true"><span aria-hidden="true">‹</span>&nbsp;Previous<span class="site-prefs-sr"> settings</span></button>
+    <span class="site-prefs-pager__status"></span>
+    <button type="button" class="page-nav-button site-prefs-pager__next">Next<span class="site-prefs-sr"> settings</span>&nbsp;<span aria-hidden="true">›</span></button>
+    <span class="site-prefs-sr site-prefs-pager__live" role="status"></span>
+  </div>
+  <div class="site-prefs-toolbar__end">
+    {% include theme_toggle.html %}
+    <button type="button" class="page-nav-button flc-prefsEditor-reset" aria-label="Reset preferences">Reset</button>
+  </div>
 </div>
 
 <script>
@@ -42,11 +58,13 @@
       var buttons = document.getElementById('site-prefs-buttons');
       var toolbar = document.getElementById('site-prefs-toolbar');
       var header = document.getElementById('main-header');
-      if (!header || !window.fluid || !fluid.uiOptions) {
+      if (!buttons || !toolbar || !header || !window.fluid || !fluid.uiOptions) {
         /* Infusion didn't load: leave the light/dark toggle in the header,
-           and remove "Reset", which can't work without Infusion */
-        toolbar.querySelector('.flc-prefsEditor-reset').remove();
-        toolbar.hidden = false;
+           and remove Previous / Next and "Reset", which can't work without it */
+        if (toolbar) {
+          toolbar.querySelectorAll('#site-prefs-pager, .flc-prefsEditor-reset').forEach(function (el) { el.remove(); });
+          toolbar.hidden = false;
+        }
         return;
       }
 
@@ -56,7 +74,7 @@
       prefs.className = 'site-prefs flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel';
       var panel = document.createElement('div');
       panel.className = 'flc-slidingPanel-panel';
-      /* Start closed. Infusion closes the panel when it starts, but with a
+            /* Start closed. Infusion closes the panel when it starts, but with a
          sliding animation, a moment after the page appears, so without this
          the open panel would flash on screen and then slide shut. */
       panel.style.display = 'none';
@@ -89,7 +107,7 @@
         }
       }
       place();
-      wide.addEventListener('change', place);
+      if (wide.addEventListener) wide.addEventListener('change', place);
 
       /* Text-to-speech: read the page's <main>, and put the play button
          at the top of the page content */
@@ -116,7 +134,20 @@
         }
       });
 
+      /* Infusion scrolls back to the first card on Reset, but measures from the
+         edge of the page rather than the row of cards, so with the row beside
+         the sidebar it lands in the wrong place. Measure from the first card. */
+      fluid.prefs.arrowScrolling.scrollToPanel = function (that, index) {
+        var cards = that.locate('panels');
+        var scroller = that.locate('scrollContainer')[0];
+        var card = cards[index || 0];
+        if (scroller && card && card.offsetWidth) scroller.scrollLeft = card.offsetLeft - cards[0].offsetLeft;
+      };
+
       fluid.uiOptions(prefs, {
+        listeners: {
+          onPrefsEditorReady: function () { settingsPager(prefs); }   /* the cards are drawn (first time the panel opens) */
+        },
         /* The panels, in order. Infusion also offers "fluid.prefs.tableOfContents",
            left out because every guide already has its own "On this page" list. */
         preferences: [
@@ -169,6 +200,119 @@
           }
         }
       });
+    }
+
+    /* Previous / Next for the settings cards (layout in custom.scss, "Settings
+       cards in one row").
+       - Shows as many cards as fit at least 15rem wide, up to 3. Bigger text
+         (the Text size setting) means fewer cards per view.
+       - Previous / Next move a whole view at a time. At either end the button
+         stays focusable but does nothing (aria-disabled), so keyboard focus
+         isn't lost.
+       - Tabbing into a card that's out of view brings the whole card into
+         view, so every setting is reachable with Tab alone.
+       - Swiping or trackpad scrolling works too; the cards snap into place.
+       - After a press, screen readers hear which settings are showing. */
+    function settingsPager(prefs) {
+      var pager = document.getElementById('site-prefs-pager');
+      var scroller = prefs.querySelector('.flc-prefsEditor-scrollContainer');
+      var list = scroller && scroller.querySelector('.fl-prefsEditor-panels');
+      var cards = list ? list.querySelectorAll('.fl-prefsEditor-panel') : [];
+      if (!pager || !cards.length) return;
+
+      var prev = pager.querySelector('.site-prefs-pager__prev');
+      var next = pager.querySelector('.site-prefs-pager__next');
+      var status = pager.querySelector('.site-prefs-pager__status');
+      var live = pager.querySelector('.site-prefs-pager__live');
+      var total = cards.length;
+      var perView = 1;
+
+      if (scroller.id) {
+        prev.setAttribute('aria-controls', scroller.id);
+        next.setAttribute('aria-controls', scroller.id);
+      }
+
+      function px(el, prop) { return parseFloat(getComputedStyle(el)[prop]) || 0; }
+
+      /* How many cards fit, at the current text size */
+      function fit() {
+        var gap = px(list, 'columnGap');
+        var room = list.clientWidth - px(list, 'paddingLeft') - px(list, 'paddingRight');
+        var min = 15 * px(document.documentElement, 'fontSize');
+        perView = Math.max(1, Math.min(3, Math.floor((room + gap) / (min + gap))));
+        list.style.setProperty('--per-view', perView);
+      }
+
+      /* Where each card starts, measured from the first card */
+      function start(i) { return cards[i].offsetLeft - cards[0].offsetLeft; }
+
+      /* The first card in view: the one whose start is closest */
+      function first() {
+        var best = 0;
+        for (var i = 1; i < total; i++) {
+          if (Math.abs(start(i) - scroller.scrollLeft) < Math.abs(start(best) - scroller.scrollLeft)) best = i;
+        }
+        return best;
+      }
+
+      function describe(f) {
+        var last = Math.min(f + perView, total);
+        return (perView === 1 || f + 1 === last ? (f + 1) : (f + 1) + '–' + last) + ' of ' + total;
+      }
+
+      function update() {
+        var f = first();
+        status.textContent = describe(f);
+        prev.setAttribute('aria-disabled', String(f <= 0));
+        next.setAttribute('aria-disabled', String(f + perView >= total));
+      }
+
+      function go(direction) {
+        var button = direction < 0 ? prev : next;
+        if (button.getAttribute('aria-disabled') === 'true') return;
+        var target = Math.max(0, Math.min(total - perView, first() + direction * perView));
+        var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        scroller.scrollTo({ left: start(target), behavior: smooth ? 'smooth' : 'auto' });
+        live.textContent = 'Showing settings ' + describe(target).replace('–', ' to ');
+      }
+
+      prev.addEventListener('click', function () { go(-1); });
+      next.addEventListener('click', function () { go(1); });
+
+      /* Tabbing into a card that's partly or wholly out of view: the browser
+         only scrolls far enough to show the focused control, so line up the
+         whole card instead (and keep "1–3 of 8" right) */
+      scroller.addEventListener('focusin', function (e) {
+        var card = e.target.closest('.fl-prefsEditor-panel');
+        if (!card) return;
+        var i = Array.prototype.indexOf.call(cards, card);
+        var box = card.getBoundingClientRect();
+        var view = scroller.getBoundingClientRect();
+        var pad = px(list, 'paddingLeft');
+        var target = null;
+        if (box.left < view.left + pad - 1) target = i;
+        else if (box.right > view.right - pad + 1) target = i - perView + 1;
+        if (target !== null) {
+          scroller.scrollLeft = start(Math.max(0, Math.min(total - perView, target)));
+        }
+        update();
+      });
+
+      var queued = false;
+      scroller.addEventListener('scroll', function () {
+        if (queued) return;
+        queued = true;
+        requestAnimationFrame(function () { queued = false; update(); });
+      }, { passive: true });
+
+      /* Work it out again when the row changes width (the panel opening, the
+         window resizing) or the Text size setting changes (it's set on <html>) */
+      function refit() { fit(); update(); }
+      new ResizeObserver(refit).observe(scroller);
+      new MutationObserver(refit).observe(document.documentElement, { attributes: true, attributeFilter: ['style', 'class'] });
+
+      pager.hidden = false;
+      refit();
     }
 
     /* infusion-uio.js loads with "defer", so wait until the page is parsed */
