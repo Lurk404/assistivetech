@@ -64,6 +64,20 @@
   vertical-align: middle;
 }
 
+// External links: the script in _includes/footer_custom.html adds this icon
+// and a no-wrap span so the icon stays with the link's last word.
+.main-content .ext-link-icon {
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  margin-left: 0.15em;
+  vertical-align: super;
+}
+
+.main-content .ext-link-end {
+  white-space: nowrap;
+}
+
 // Bump base text on small screens (Just the Docs sets html to 14px there)
 @media (max-width: 49.99rem) {
   html {
