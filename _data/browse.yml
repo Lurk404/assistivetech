@@ -1,0 +1,61 @@
+# The devices and software that have a "Browse by" page.
+#
+# Each key must match:
+#   - a page in browse/devices/ (for platforms) or browse/software/ (for products)
+#   - the keys used in the "platforms" and "products" lists in _data/tools.yml
+# scripts/check_tools.py checks all of this.
+#
+# To add one: add it here, copy an existing page in browse/devices/ or
+# browse/software/ and change the title and key, then use the key in tools.yml.
+
+platforms:
+  - key: android
+    title: Android
+    description: built-in features of Android phones and tablets, and tools that run on them.
+  - key: chromeos
+    title: ChromeOS
+    description: built-in features of Chromebooks.
+  - key: ios
+    title: iOS and iPadOS
+    description: built-in features of iPhone and iPad, and tools that run on them.
+  - key: macos
+    title: macOS
+    description: built-in features of Mac, and tools that run on it.
+  - key: windows
+    title: Windows
+    description: built-in features of Windows, and tools that run on it.
+  - key: web
+    title: Web
+    description: tools that run in a web browser, on any device.
+
+products:
+  - key: word
+    title: Word
+    description: reading aloud, dictating, transcribing, and outlining in Microsoft Word.
+  - key: dragon
+    title: Dragon
+    description: dictating, voice commands, and transcribing recordings.
+  - key: kurzweil
+    title: Kurzweil 3000
+    description: reading, scanning, and mind mapping.
+  - key: textaid
+    title: TextAid
+    description: reading, library, and image to text.
+  - key: readspeaker
+    title: ReadSpeaker
+    description: webReader, docReader, and TextAid.
+  - key: onenote
+    title: OneNote
+    description: copying text from pictures, and recording audio with notes.
+  - key: chrome
+    title: Chrome
+    description: accessibility settings and tools in Google Chrome.
+  - key: edge
+    title: Edge
+    description: accessibility settings and tools in Microsoft Edge.
+  - key: firefox
+    title: Firefox
+    description: accessibility settings and tools in Mozilla Firefox.
+  - key: safari
+    title: Safari
+    description: accessibility settings and tools in Safari.

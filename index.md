@@ -76,6 +76,13 @@ Browser settings, math tools, a free accessibility toolbar, and websites for fin
 - [Morphic](guides/morphic.md): a free toolbar for your computer’s accessibility features.
 - [Finding More Tools](guides/finding-more-tools.md): websites for finding other assistive technology.
 
+## Browse by Device or Software
+
+Looking for what works on your Android phone, your Mac, or in Word? These pages gather tools from all the guides.
+
+- [By Device or System](browse/devices.md): Android, ChromeOS, iOS and iPadOS, macOS, Windows, and the web.
+- [By Software](browse/software.md): Word, Dragon, Kurzweil 3000, TextAid, and more.
+
 
 {: .warning .mt-6 }
 > Software changes often. If something in a guide is out of date, or you have questions or comments about these guides, contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca).

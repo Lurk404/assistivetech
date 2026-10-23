@@ -11,6 +11,7 @@ plugins:
 exclude:
   - README.md
   - LICENSE
+  - scripts
 
 # Search box at the top of every page (Ctrl+K / Command+K jumps to it)
 search_enabled: true
