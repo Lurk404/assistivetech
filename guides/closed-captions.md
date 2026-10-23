@@ -27,21 +27,21 @@ Kaltura is a video platform many schools use for course videos.
 To display closed captions in Kaltura:
 
 1. Select the **Closed Captions** button.
-   <img src="../assets/images/closed-captions/kaltura-cc-button.png" alt="The Kaltura player toolbar with the Closed Captions (CC) button circled." width="500"> <!-- review-alt -->
+   <img src="../assets/images/closed-captions/kaltura-cc-button.png" alt="The Kaltura player toolbar with the Closed Captions (CC) button circled." width="500">
 2. Choose a language.
-   <img src="../assets/images/closed-captions/kaltura-cc-language.png" alt="The Closed Captions menu open with Off and English [auto]." width="500"> <!-- review-alt -->
+   <img src="../assets/images/closed-captions/kaltura-cc-language.png" alt="The Closed Captions menu open with Off and English [auto] options." width="500">
    1. \[auto\] means the captions are machine-generated and may contain errors, especially in names and specialized terms.
 
 To customize the appearance of captions in Kaltura:
 
 1. Open the **Closed Captions** menu (1).
-   ![The Closed Captions button (1) and the Options item (2) at the top of its menu.](../assets/images/closed-captions/kaltura-cc-options.png) <!-- review-alt -->
+   ![](../assets/images/closed-captions/kaltura-cc-options.png) 
 2. Select **Custom** and choose **Edit custom captions**.
-   ![Advanced options with caption styles Default, Sample, Sample and Custom. Custom (1) and Edit custom captions (2) are marked.](../assets/images/closed-captions/kaltura-advanced-options.png) <!-- review-alt -->
+   ![](../assets/images/closed-captions/kaltura-advanced-options.png) 
 3. Choose the format you want to change (Size, Color, Font, Background).
-   ![Custom captions settings with Size, Color, Font and Background buttons and a captions preview.](../assets/images/closed-captions/kaltura-custom-captions.png) <!-- review-alt -->
+   ![](../assets/images/closed-captions/kaltura-custom-captions.png)
 4. In this example, choosing **Size** and then selecting **Extra Large** shows a preview of the new appearance.
-   ![Size settings with Small, Medium, Large and Extra Large. Extra Large is selected and the captions preview is outlined in red.](../assets/images/closed-captions/kaltura-caption-size.png) <!-- review-alt -->
+   ![](../assets/images/closed-captions/kaltura-caption-size.png)
 
 </details>
 
@@ -52,11 +52,11 @@ To view captions on YouTube videos:
 
 1. Click **Settings**.
 2. Select **Subtitles/closed captions**.
-   <img src="../assets/images/closed-captions/youtube-settings-subtitles.png" alt="The YouTube Settings menu with Subtitles/CC selected." width="500"> <!-- review-alt -->
+   <img src="../assets/images/closed-captions/youtube-settings-subtitles.png" alt="The YouTube Settings menu with Subtitles/CC selected." width="500">
    1. Choose a language.
-      <img src="../assets/images/closed-captions/youtube-subtitles-language.png" alt="The Subtitles/CC menu with Off, English (checked), English (auto-generated) and Auto-translate." width="500"> <!-- review-alt -->
+      <img src="../assets/images/closed-captions/youtube-subtitles-language.png" alt="The Subtitles/CC menu with Off, English (checked), English (auto-generated) and Auto-translate." width="500">
 3. Click **Subtitles/closed captions** on the player toolbar to toggle captions on and off.
-   <img src="../assets/images/closed-captions/youtube-cc-button.png" alt="The YouTube player toolbar with the tooltip Subtitles/closed captions (c) above the CC button." width="500"> <!-- review-alt -->
+   <img src="../assets/images/closed-captions/youtube-cc-button.png" alt="The YouTube player toolbar with the tooltip Subtitles/closed captions (c) above the CC button." width="500"> 
 
 [Manage caption settings – YouTube Help](https://support.google.com/youtube/answer/100078?co=GENIE.Platform%3DDesktop&hl=en)
 
