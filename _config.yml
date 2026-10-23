@@ -25,7 +25,8 @@ back_to_top: false   # replaced by the floating buttons in _includes/page_nav_bu
 aux_links:
   "View on GitHub":
     - "https://github.com/Lurk404/assistivetech"
-  aux_links_new_tab: true
+
+aux_links_new_tab: true
 
 # Callout boxes for the website. In a page, put {: .tip } (or .note, .warning,
 # .langara) on the line directly above a paragraph. In the GitHub repo view, the
