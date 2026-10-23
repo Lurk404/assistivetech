@@ -35,15 +35,17 @@
   Hidden until the script below moves it into the top of the panel: Previous /
   Next on the left, to move through the settings cards (they sit in one row),
   and light/dark and Reset on the right.
-  Previous / Next: screen readers hear "Previous settings" / "Next settings",
-  which start with the visible word ("click Next"); the ‹ › are hidden from
-  them. After a press they also hear which settings are now showing.
+  Previous / Next show a large ‹ / › only, so the row stays on one line on
+  phones. Screen readers hear "Previous" / "Next" (hidden text, not the
+  arrows), voice control works with "click Previous" / "click Next", and
+  hovering shows the same words. After a press, screen readers also hear
+  which settings are now showing.
 -->
 <div class="site-prefs-toolbar" id="site-prefs-toolbar" hidden>
   <div class="site-prefs-pager" id="site-prefs-pager" hidden>
-    <button type="button" class="page-nav-button site-prefs-pager__prev" aria-disabled="true"><span aria-hidden="true">‹</span>&nbsp;Previous<span class="site-prefs-sr"> settings</span></button>
+    <button type="button" class="page-nav-button site-prefs-pager__prev" title="Previous" aria-disabled="true"><svg class="site-prefs-pager__icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="site-prefs-sr">Previous</span></button>
     <span class="site-prefs-pager__status"></span>
-    <button type="button" class="page-nav-button site-prefs-pager__next">Next<span class="site-prefs-sr"> settings</span>&nbsp;<span aria-hidden="true">›</span></button>
+    <button type="button" class="page-nav-button site-prefs-pager__next" title="Next"><svg class="site-prefs-pager__icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="m6 3 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="site-prefs-sr">Next</span></button>
     <span class="site-prefs-sr site-prefs-pager__live" role="status"></span>
   </div>
   <div class="site-prefs-toolbar__end">
