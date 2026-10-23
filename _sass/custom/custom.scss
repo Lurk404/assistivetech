@@ -281,7 +281,9 @@ $page-nav-gap: 1rem;
 // load) it sits in the header, where it needs the same padding as the header
 // buttons.
 // In the panel, Previous / Next sit on the left (see "Settings cards in one
-// row" below); on narrow screens light/dark and Reset drop onto a second line.
+// row" below), all on one line down to about 360px wide. Narrower than that
+// (or zoomed in), light/dark and Reset drop onto a second line, lined up on
+// the left like the first.
 .site-prefs-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -311,23 +313,29 @@ $page-nav-gap: 1rem;
   }
 }
 
-.site-prefs-toolbar__end {
-  margin-left: auto;                // stays on the right, even on its own line
-
-  .theme-toggle {
-    padding: 0;                     // the row has its own padding
-  }
-}
-
 // "1–3 of 8" between Previous and Next. Its colour is set here because it
 // would otherwise take a contrast theme's text colour (yellow, say) while the
 // panel behind it keeps the site's own background.
 .site-prefs-pager__status {
-  min-width: 4.5em;
+  min-width: 4em;
   font-size: 0.875rem;
   color: $body-text-color;
   text-align: center;
   white-space: nowrap;
+}
+
+// Previous / Next: square buttons with a large ‹ / › (an SVG, so it's the same
+// in every font). Their names, "Previous" and "Next", are hidden text.
+.site-prefs-pager__prev,
+.site-prefs-pager__next {
+  justify-content: center;
+  min-width: 44px;                  // square, and big enough to tap
+  padding: 0;                       // the same height as Dark and Reset
+}
+
+.site-prefs-pager__icon {
+  width: 1.5em;
+  height: 1.5em;
 }
 
 // Words only screen readers hear ("Previous settings")
