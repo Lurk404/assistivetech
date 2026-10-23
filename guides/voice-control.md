@@ -33,9 +33,9 @@ Use an external microphone (such as a headset) to cut down background noise and 
 
 1. Open the **Profile** menu.
 2. Choose **Manage Dictation Sources…**
-   ![The DragonBar Profile menu with Manage Dictation Sources highlighted.](../assets/images/voice-control/dragon-manage-dictation-sources.png) <!-- review-alt -->
+   ![](../assets/images/voice-control/dragon-manage-dictation-sources.png)
 3. Choose the correct source.
-   ![The Choose a Microphone dialog listing five audio sources, with the active microphone selected.](../assets/images/voice-control/dragon-choose-microphone.png) <!-- review-alt -->
+   ![The Choose a Microphone dialog listing five audio sources, with the active microphone selected.](../assets/images/voice-control/dragon-choose-microphone.png)
 4. Click **Finish**.
 
 To use Dragon on the web (Brightspace, Microsoft 365, Google Docs, and so on), install the [Dragon Web Extension for Chrome](https://chromewebstore.google.com/detail/dragon-web-extension/ddaloccgjfibfpkalenodgehlhkgoahe).
@@ -50,12 +50,12 @@ The first time you use Dragon, it walks you through creating a user profile, adj
 To turn Dragon on or off:
 
 1. When the microphone icon is red, Dragon is not listening. Click the icon to start Dragon.
-   ![The DragonBar with a red microphone button and the tooltip Currently off – click to turn on.](../assets/images/speech-to-text-tools/dragonbar-off.png) <!-- review-alt -->
+   ![The DragonBar with a red microphone button and the tooltip Currently off – click to turn on.](../assets/images/speech-to-text-tools/dragonbar-off.png) 
 2. When the microphone icon is green, Dragon is listening and will type what you say.
-   ![The DragonBar with a green microphone button and the tooltip Currently on – click to turn off.](../assets/images/speech-to-text-tools/dragonbar-on.png) <!-- review-alt -->
+   ![The DragonBar with a green microphone button and the tooltip Currently on – click to turn off.](../assets/images/speech-to-text-tools/dragonbar-on.png) 
 3. Click the green icon to stop Dragon.
 4. Say “go to sleep” and the icon turns blue. Dragon is in sleep mode and won’t type what you say. Say “wake up” or click the icon to continue.
-   ![The DragonBar with a blue sleeping microphone button and the tooltip Currently sleeping – click to wake up.](../assets/images/speech-to-text-tools/dragonbar-sleeping.png) <!-- review-alt -->
+   ![The DragonBar with a blue sleeping microphone button and the tooltip Currently sleeping – click to wake up.](../assets/images/speech-to-text-tools/dragonbar-sleeping.png) 
 5. On a desktop computer, press the <kbd>+</kbd> key on the number pad to toggle the microphone on and off.
 
 For help, use the **Help** menu, or say “Dragon learning center” or “What can I say?”
@@ -67,7 +67,7 @@ For help, use the **Help** menu, or say “Dragon learning center” or “What 
 
 To dictate text using Dragon, open a word processor, **DragonPad**, or **Dictation Box**.
 
-![The DragonBar Tools menu with arrows pointing to DragonPad and Dictation Box.](../assets/images/voice-control/dragon-tools-menu.png) <!-- review-alt -->
+![The DragonBar Tools menu open with arrows pointing to DragonPad and Dictation Box.](../assets/images/voice-control/dragon-tools-menu.png)
 
 1. Put the blinking text cursor where you want the text to go.
 2. Turn on Dragon’s microphone.
@@ -99,7 +99,7 @@ If Dragon makes a spelling error, say “correct that.” If the correct word ap
 
 Open **DragonPad** by saying “Open DragonPad” or by selecting **Tools > DragonPad…**
 
-![An empty DragonPad document window with File, Edit, View, Format and Help menus and a formatting toolbar.](../assets/images/voice-control/dragonpad.png) <!-- review-alt -->
+![An empty DragonPad document window with File, Edit, View, Format and Help menus and a formatting toolbar.](../assets/images/voice-control/dragonpad.png)
 
 DragonPad is a basic word processor. You can save your text in common formats, or copy and paste it into other programs.
 
@@ -110,7 +110,7 @@ DragonPad is a basic word processor. You can save your text in common formats, o
 
 Open **Dictation Box** by saying “Open Dictation Box”, by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>, or by selecting **Tools > Dictation Box…**
 
-![An empty Dictation Box window with Cancel and Transfer buttons.](../assets/images/voice-control/dictation-box.png) <!-- review-alt -->
+![An empty Dictation Box window with Cancel and Transfer buttons.](../assets/images/voice-control/dictation-box.png)
 
 Before opening **Dictation Box**, put the text cursor in the field where the text should go. Dictate into the box, then select **Transfer** to send the text to that field.
 
@@ -289,7 +289,7 @@ Voice Control lets you navigate and use your Mac with only your voice.
 2. Select **Accessibility**.
 3. Choose **Voice Control**.
 4. Turn on **Voice Control**.
-   <img src="../assets/images/voice-control/macos-voice-control-setting.png" alt="macOS Voice Control settings with the Voice Control switch circled. Other settings include language, microphone, hints and overlay, plus Open Guide, Commands and Vocabulary buttons." width="500"> <!-- review-alt -->
+   <img src="../assets/images/voice-control/macos-voice-control-setting.png" alt="" width="500">
 
 Select **Commands…** to see the available commands, and **Vocabulary…** to add words so your Mac understands you better.
 
