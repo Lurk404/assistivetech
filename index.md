@@ -80,8 +80,19 @@ Browser settings, math tools, a free accessibility toolbar, and websites for fin
 
 Looking for what works on your Android phone, your Mac, or in Word? These pages gather tools from all the guides.
 
-- [By Device or System](browse/devices.md): Android, ChromeOS, iOS and iPadOS, macOS, Windows, and the web.
-- [By Software](browse/software.md): Word, Dragon, Kurzweil 3000, TextAid, and more.
+<details id="browse-devices" markdown="block">
+<summary>By Device or System</summary>
+
+{% include browse-section.html type="platforms" %}
+
+</details>
+
+<details id="browse-software" markdown="block">
+<summary>By Software</summary>
+
+{% include browse-section.html type="products" %}
+
+</details>
 
 
 {: .warning .mt-6 }
