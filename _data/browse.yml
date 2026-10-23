@@ -38,9 +38,6 @@ products:
   - key: kurzweil
     title: Kurzweil 3000
     description: reading, scanning, and mind mapping.
-  - key: textaid
-    title: TextAid
-    description: reading, library, and image to text.
   - key: readspeaker
     title: ReadSpeaker
     description: webReader, docReader, and TextAid.
