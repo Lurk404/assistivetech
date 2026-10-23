@@ -43,7 +43,7 @@
   anchor: textaid
   tags: langara paid
   platforms: [web]
-  products: [textaid, readspeaker]
+  products: [readspeaker]
   summary: "Works like webReader, but anywhere on the web. A web app with extensions for Chrome and Firefox."
 
 - name: Read Aloud
@@ -128,7 +128,7 @@
   anchor: textaid
   tags: langara paid
   platforms: [web]
-  products: [textaid, readspeaker]
+  products: [readspeaker]
   summary: "Add or paste text, keep a library, annotate and highlight, and convert images to text."
 
 - name: Calibre
@@ -230,7 +230,7 @@
   anchor: textaid
   tags: langara paid
   platforms: [web]
-  products: [textaid, readspeaker]
+  products: [readspeaker]
   summary: "Upload a picture or scan and TextAid converts it to text it can read aloud, and saves it to your Library."
 
 - name: Kurzweil
