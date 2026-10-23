@@ -31,12 +31,12 @@ Microsoft Word has a built-in dictation tool available on all platforms.
 Dictate is built into Microsoft 365 versions of Word for Windows, macOS, the web, and mobile:
 
 1. On the **Home** ribbon, click the microphone icon labelled **Dictate**.
-   ![The Word Home ribbon with the Dictate button circled.](../assets/images/speech-to-text-tools/word-dictate-button.png) <!-- review-alt -->
+   ![](../assets/images/speech-to-text-tools/word-dictate-button.png)
 2. Wait for the Dictate toolbar and **Listening** message to appear.
-   <img src="../assets/images/speech-to-text-tools/word-dictate-toolbar.png" alt="The Dictate toolbar with microphone, settings, help and close buttons." width="390"> <!-- review-alt -->
+   <img src="../assets/images/speech-to-text-tools/word-dictate-toolbar.png" alt="The Dictate toolbar with microphone, settings, help and close buttons." width="390">
    1. Check that the right microphone is selected in the Settings menu.
-      ![The Dictate toolbar with the settings button outlined.](../assets/images/speech-to-text-tools/word-dictate-settings-button.png) <!-- review-alt -->
-      ![Dictation Settings with the Microphone menu open, listing three microphones.](../assets/images/speech-to-text-tools/word-dictation-settings-microphone.png) <!-- review-alt -->
+      ![The Dictate toolbar with the settings button outlined.](../assets/images/speech-to-text-tools/word-dictate-settings-button.png)
+      ![Dictation Settings with the Microphone menu open, listing three microphones.](../assets/images/speech-to-text-tools/word-dictation-settings-microphone.png)
 3. Speak clearly at a steady pace.
 4. Say punctuation such as “period,” “comma,” and “question mark.”
 5. Say “pause dictation” or “stop dictation” to stop. Click the microphone to start again.
@@ -45,7 +45,7 @@ Dictate is built into Microsoft 365 versions of Word for Windows, macOS, the web
 
 ### Settings
 
-![The Dictate toolbar with the settings (gear) button circled.](../assets/images/speech-to-text-tools/word-dictate-gear.png) <!-- review-alt -->
+![The Dictate toolbar with the settings (gear) button circled.](../assets/images/speech-to-text-tools/word-dictate-gear.png)
 
 The gear icon on the toolbar opens **Dictation Settings**:
 
@@ -69,13 +69,13 @@ Windows Voice Typing lets you type with your voice anywhere you can type text, i
 
 1. Open **Settings** and navigate to **Privacy & security**. Select **Speech** and toggle **Online speech recognition** on.
 2. Place your cursor in any text box and press <kbd>Windows</kbd> + <kbd>H</kbd> to dictate text.
-   ![The Voice Typing window with settings, microphone and help buttons.](../assets/images/speech-to-text-tools/windows-voice-typing.png) <!-- review-alt -->
+   ![The Voice Typing window with settings, microphone and help buttons.](../assets/images/speech-to-text-tools/windows-voice-typing.png)
 3. Select the cog icon to access **Settings**.
-   ![Voice Typing settings with Voice typing launcher and Automatic punctuation switches, Select default microphone, Give feedback and Microsoft Speech Services.](../assets/images/speech-to-text-tools/windows-voice-typing-settings.png) <!-- review-alt -->
+   ![Voice Typing settings with Voice typing launcher and Automatic punctuation switches, Select default microphone, Give feedback and Microsoft Speech Services.](../assets/images/speech-to-text-tools/windows-voice-typing-settings.png)
    1. Toggle **Voice typing launcher** on to quickly access voice typing whenever you place the cursor in a text box.
-      ![The small Voice typing launcher with a microphone button.](../assets/images/speech-to-text-tools/windows-voice-typing-launcher.png) <!-- review-alt -->
+      ![The small Voice typing launcher with a microphone button.](../assets/images/speech-to-text-tools/windows-voice-typing-launcher.png)
 4. Voice Typing may display tips and suggestions.
-   ![A Voice Typing tip: To move keyboard focus to the voice typing tool, press Windows key + Alt + H.](../assets/images/speech-to-text-tools/windows-voice-typing-tip.png) <!-- review-alt -->
+   ![A Voice Typing tip: To move keyboard focus to the voice typing tool, press Windows key + Alt + H.](../assets/images/speech-to-text-tools/windows-voice-typing-tip.png) 
 
 [Use voice typing to talk instead of type on your PC – Microsoft Support](https://support.microsoft.com/en-us/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f) lists the voice typing and punctuation commands.
 
@@ -96,7 +96,7 @@ Android and ChromeOS devices offer Google Voice Typing allowing users to dictate
 
 You can dictate text on Android and ChromeOS. Many apps (Chrome, Play Store, Docs) have a microphone icon in the search box for searching with your voice.
 
-<img src="../assets/images/speech-to-text-tools/android-keyboard-microphone.jpg" alt="An Android keyboard with the microphone button circled in the toolbar above the keys." width="300"> <!-- review-alt -->
+<img src="../assets/images/speech-to-text-tools/android-keyboard-microphone.jpg" alt="An Android keyboard with the microphone button circled in the toolbar above the keys." width="300">
 
 To type with your voice, tap the microphone on the keyboard.
 
@@ -104,9 +104,9 @@ Voice typing is usually on by default. If you don’t see the microphone icon on
 
 1. Go to **Settings > General Management**.
 2. Select **Keyboard list and default**.
-   <img src="../assets/images/speech-to-text-tools/android-keyboard-list.jpg" alt="Android General management settings with Keyboard list and default circled." width="300"> <!-- review-alt -->
+   <img src="../assets/images/speech-to-text-tools/android-keyboard-list.jpg" alt="" width="300">
 3. Toggle on **Google Voice Typing**.
-   <img src="../assets/images/speech-to-text-tools/android-google-voice-typing.jpg" alt="Keyboard list and default settings with Google Voice Typing switched on and circled." width="300"> <!-- review-alt -->
+   <img src="../assets/images/speech-to-text-tools/android-google-voice-typing.jpg" alt="" width="300">
 
 Use **Live Transcribe** to turn speech around you into text on screen (see also [Closed Captions](closed-captions.md#android)). To turn on **Live Transcribe**:
 
@@ -135,9 +135,9 @@ iOS and macOS offer **Dictation** tools built-in.
 
 1. Go to **Settings > General > Keyboard**.
 2. Turn on **Enable Dictation**.
-   <img src="../assets/images/speech-to-text-tools/ios-enable-dictation.png" alt="iOS Keyboards settings with Enable Dictation switched on and circled." width="300"> <!-- review-alt -->
+   <img src="../assets/images/speech-to-text-tools/ios-enable-dictation.png" alt="" width="300">
 3. When the onscreen keyboard appears, tap the microphone icon in the bottom right.
-   <img src="../assets/images/speech-to-text-tools/ios-keyboard-microphone.png" alt="The iOS keyboard with the microphone button circled in the bottom right." width="300"> <!-- review-alt -->
+   <img src="../assets/images/speech-to-text-tools/ios-keyboard-microphone.png" alt="" width="300">
 
 [Dictate text on iPhone – Apple Support (CA)](https://support.apple.com/en-ca/guide/iphone/iph2c0651d2/ios)
 
@@ -149,7 +149,7 @@ macOS has built-in dictation. To turn it on:
 2. Select **Keyboard**.
 3. Scroll down to **Dictation**.
 4. Turn on **Dictation**.
-   ![macOS System Settings with an arrow pointing to Keyboard in the sidebar and the Dictation switch circled. The Shortcut setting is underlined.](../assets/images/speech-to-text-tools/macos-dictation-setting.png) <!-- review-alt -->
+   ![](../assets/images/speech-to-text-tools/macos-dictation-setting.png)
 
 In the same settings, check the **Language** (for correct spelling), the **Microphone source**, and the **Shortcut**.
 
@@ -183,12 +183,12 @@ Dragon can dictate into almost any text field. To do so:
 To turn Dragon on or off:
 
 1. When the microphone icon is red, Dragon is not listening. Click the icon to start Dragon.
-   ![The DragonBar with a red microphone button and the tooltip Currently off – click to turn on.](../assets/images/speech-to-text-tools/dragonbar-off.png) <!-- review-alt -->
+   ![The DragonBar with a red microphone button and the tooltip Currently off – click to turn on.](../assets/images/speech-to-text-tools/dragonbar-off.png) 
 2. When the microphone icon is green, Dragon is listening and will transcribe what you say.
-   ![The DragonBar with a green microphone button and the tooltip Currently on – click to turn off.](../assets/images/speech-to-text-tools/dragonbar-on.png) <!-- review-alt -->
+   ![The DragonBar with a green microphone button and the tooltip Currently on – click to turn off.](../assets/images/speech-to-text-tools/dragonbar-on.png) 
    1. Click the green icon to stop Dragon.
 3. Say “go to sleep” and the icon turns blue. Dragon is in sleep mode and won’t type what you say. Say “wake up” or click the icon to continue.
-   ![The DragonBar with a blue sleeping microphone button and the tooltip Currently sleeping – click to wake up.](../assets/images/speech-to-text-tools/dragonbar-sleeping.png) <!-- review-alt -->
+   ![The DragonBar with a blue sleeping microphone button and the tooltip Currently sleeping – click to wake up.](../assets/images/speech-to-text-tools/dragonbar-sleeping.png)
 
 If Dragon makes a spelling error, say “correct that.” If the correct word appears in the menu, select it to automatically replace the incorrect word with the correct one. If the correct word does not appear in the menu, say “spell that” and spell the word letter by letter.
 
