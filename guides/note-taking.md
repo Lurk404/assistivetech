@@ -88,13 +88,13 @@ Microsoft Word for Windows and Word for the web have an excellent transcription 
 1. On Windows, open a new Word document.
    1. On macOS, open a new document in [Word for the web](https://www.office.com/launch/word?auth=2) instead. Transcribe is not in Word for Mac.
 2. On the **Home** ribbon, select the arrow below or beside **Dictate** and choose **Transcribe**.
-   ![The Dictate menu in Word open, with the pointer on Transcribe.](../assets/images/note-taking/word-transcribe-menu.png) <!-- review-alt -->
+   ![](../assets/images/note-taking/word-transcribe-menu.png)
 3. Select the **Upload audio** button.
-   ![The Transcribe pane with a language menu and Upload audio and Start recording buttons.](../assets/images/note-taking/word-transcribe-upload.png) <!-- review-alt -->
+   ![](../assets/images/note-taking/word-transcribe-upload.png) 
 4. Choose your file and select **Open**.
 5. When it’s done, you can edit the transcript and add it to your document, with or without speaker names and timestamps.
-   ![A message saying the transcript is saved, with Add to document and New transcription buttons.](../assets/images/note-taking/word-transcript-saved.png) <!-- review-alt -->
-   ![The Add to document menu with Just text, With speakers, With timestamps, and With speakers and timestamps.](../assets/images/note-taking/word-add-to-document.png) <!-- review-alt -->
+   ![A message saying the transcript is saved, with Add to document and New transcription buttons.](../assets/images/note-taking/word-transcript-saved.png) 
+   ![The Add to document menu with opens for Just text, With speakers, With timestamps, and With speakers and timestamps.](../assets/images/note-taking/word-add-to-document.png)
 
 {: .tip }
 You can upload up to 300 minutes of audio a month.
@@ -118,13 +118,13 @@ Dragon for Windows can transcribe .wav, .mp3, and .m4a recordings to text.
 <summary>Transcribe with Dragon</summary>
 
 1. Open the **Tools** menu and select **Transcribe Recording**.
-   ![The DragonBar Tools menu with an arrow pointing to Transcribe Recording.](../assets/images/note-taking/dragon-transcribe-recording-menu.jpg) <!-- review-alt -->
+   ![](../assets/images/note-taking/dragon-transcribe-recording-menu.jpg)
 2. Choose a file and select **Transcribe**.
-   ![The Transcribe a spoken recording dialog with the speaker set to Someone else, and the input file Browse button and the Transcribe button circled.](../assets/images/note-taking/dragon-transcribe-dialog.png) <!-- review-alt -->
+   ![The Transcribe a spoken recording dialog with the speaker set to Someone else, and the input file Browse button and the Transcribe button circled.](../assets/images/note-taking/dragon-transcribe-dialog.png)
    1. If the recording is of someone else’s voice, select **Someone else** in the **Select the speaker** menu.
    2. By default, the text file is saved in the same folder as the audio file.
 3. Wait for the transcription to finish. Dragon creates an .RTF text file, which you can open in DragonPad or Word, or keep for later.
-   ![The Transcription is complete dialog with options to open the file in DragonPad or Microsoft Word, copy the text to the clipboard, or do nothing else.](../assets/images/note-taking/dragon-transcription-complete.png) <!-- review-alt -->
+   ![The Transcription is complete dialog with options to open the file in DragonPad or Microsoft Word, copy the text to the clipboard, or do nothing else.](../assets/images/note-taking/dragon-transcription-complete.png)
 
 Watch a [demonstration of Dragon’s transcription tool (video, 2:01)](https://www.youtube.com/watch?v=zC9i1KkdHd4).
 
@@ -144,9 +144,9 @@ Voice Memos can transcribe recordings in some languages, including English.
 
 On a Mac:
 
-1. Go to the Voice Memos app <img class="inline" src="../assets/images/note-taking/voice-memos-icon.png" alt="" width="30"> <!-- review-alt --> on your Mac.
+1. Go to the Voice Memos app <img class="inline" src="../assets/images/note-taking/voice-memos-icon.png" alt="" width="30"> on your Mac.
 2. Click the recording with the transcript you want to view.
-3. Click <img class="inline" src="../assets/images/note-taking/voice-memos-transcript-button.png" alt="the Transcript button" width="32"> <!-- review-alt --> to view the transcript.
+3. Click <img class="inline" src="../assets/images/note-taking/voice-memos-transcript-button.png" alt="the Transcript button" width="32"> to view the transcript.
 4. Select the text you want to copy, Control-click (or right-click) it, then choose **Copy**. Paste it into a document, email, or anywhere else.
 
 [View a Voice Memos transcription on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/voice-memos/vm4a03609f0d/mac)
@@ -178,14 +178,14 @@ Microsoft OneNote can record audio while you type notes, and links each note to 
 <summary>To record audio and type notes in OneNote:</summary>
 
 1. On the **Home** tab, open the **Transcribe** menu (1) and select **Record Audio** (2).
-   ![OneNote with the Transcribe menu (1) open on the Home tab and Record Audio (2) marked.](../assets/images/note-taking/onenote-record-audio.png) <!-- review-alt -->
+   ![](../assets/images/note-taking/onenote-record-audio.png) 
    1. If the **Transcribe** menu does not appear on the **Home** tab, check the **Insert** tab.
 2. OneNote will automatically begin recording.
 3. Type your notes below.
-   ![A OneNote page with an audio recording at the top and typed notes below it.](../assets/images/note-taking/onenote-typing-notes.png) <!-- review-alt -->
+   ![A OneNote page with an audio recording at the top and typed notes below it.](../assets/images/note-taking/onenote-typing-notes.png)
 4. When finished, click the **Stop** button on the **Playback** tab.
 5. Place the mouse cursor on a line of text and then click the play button that appears to the left.
-   ![A OneNote page with the small play button circled to the left of a typed note.](../assets/images/note-taking/onenote-play-from-note.png) <!-- review-alt -->
+   ![](../assets/images/note-taking/onenote-play-from-note.png)
 6. OneNote will play the audio from the time you typed the note.
 
 [Watch: Record Audio in OneNote (YouTube video)](https://www.youtube.com/watch?v=YJqT-dCQ1DI)
@@ -193,13 +193,13 @@ Microsoft OneNote can record audio while you type notes, and links each note to 
 To transcribe the entire audio file:
 
 1. Right-click on the audio file and select **Save As…**
-   ![The right-click menu for the audio file (1) with Save As (2) marked.](../assets/images/note-taking/onenote-save-audio.png) <!-- review-alt -->
+   ![](../assets/images/note-taking/onenote-save-audio.png)
 2. On the **Playback** tab, open the **Transcribe** menu and click **Transcribe**.
-   ![The Playback tab with the Transcribe menu (1) open and Transcribe (2) marked.](../assets/images/note-taking/onenote-transcribe-menu.png) <!-- review-alt -->
+   ![](../assets/images/note-taking/onenote-transcribe-menu.png)
 3. In the **Transcribe** panel that opens, click **Upload** and select the audio file saved in step 1.
-   ![The Transcribe panel on the right of OneNote with the Upload audio button marked.](../assets/images/note-taking/onenote-transcribe-upload.png) <!-- review-alt -->
+   ![](../assets/images/note-taking/onenote-transcribe-upload.png)
 4. When transcription is complete, open the **Add to page** menu and select your desired format.
-   ![The Add to page menu with Just text, With speakers, With timestamps, and With speakers and timestamps.](../assets/images/note-taking/onenote-add-to-page.png) <!-- review-alt -->
+   ![The Add to page menu with Just text, With speakers, With timestamps, and With speakers and timestamps.](../assets/images/note-taking/onenote-add-to-page.png)
 
 </details>
 
