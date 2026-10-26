@@ -118,6 +118,8 @@ Captions appear at the bottom of the meeting window. Select **Settings** beside 
 <details id="windows" markdown="block">
 <summary>Windows</summary>
 
+{% include availability.html tags="built-in" %}
+
 Windows 11 can caption any audio playing on your computer, and speech picked up by your microphone. Automatic captions don’t replace proper captions, but they help when a video has none. To turn them on:
 
 1. Open **Settings** and select **Accessibility**.
@@ -135,6 +137,8 @@ Windows 11 can caption any audio playing on your computer, and speech picked up 
 
 ### Live Transcribe
 
+{% include availability.html tags="built-in" %}
+
 **Live Transcribe** shows conversations around you as text on screen. If it isn’t on your phone, install [Live Transcribe & Sound Notifications](https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe) from Google Play.
 
 1. Go to **Settings > Accessibility**.
@@ -147,11 +151,15 @@ Windows 11 can caption any audio playing on your computer, and speech picked up 
 
 ### Live Caption
 
+{% include availability.html tags="built-in" %}
+
 **Live Caption** captions audio playing on your phone, such as videos and podcasts. Press a volume button, then tap the **Live Caption** icon under the volume controls.
 
 [Audio accessibility features for Android](https://www.android.com/accessibility/audio/)
 
 ### Caption style
+
+{% include availability.html tags="built-in" %}
 
 On Samsung phones:
 
@@ -167,6 +175,8 @@ On other phones, look for **Caption preferences** under **Settings > Accessibili
 
 <details id="chrome" markdown="block">
 <summary>Chrome</summary>
+
+{% include availability.html tags="built-in" %}
 
 Chrome can automatically caption audio and video playing in the browser. Automatic captions don’t replace proper captions, but they help when a video has none. To turn them on:
 
@@ -190,6 +200,8 @@ Chrome’s captions use your computer’s caption style settings:
 
 ### Subtitles and Closed Captions
 
+{% include availability.html tags="built-in" %}
+
 1. Go to **System Settings > Accessibility**.
 2. Choose **Captions**.
 3. Choose a caption style and options.
@@ -199,6 +211,8 @@ These settings change how existing captions look. To caption a video that has no
 [Use subtitles and closed captions on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/mac-help/mchlc1cb8d54/mac)
 
 ### Live Captions
+
+{% include availability.html tags="built-in" %}
 
 On a Mac with Apple silicon, Live Captions can caption audio from apps, calls, and videos, and conversations around you:
 
@@ -218,6 +232,8 @@ On a Mac with Apple silicon, Live Captions can caption audio from apps, calls, a
 
 ### Subtitles & Captioning
 
+{% include availability.html tags="built-in" %}
+
 To show captions automatically when a video has them:
 
 1. Go to **Settings > Accessibility**.
@@ -226,6 +242,8 @@ To show captions automatically when a video has them:
 4. Select **Style** to change how captions look.
 
 ### Live Captions
+
+{% include availability.html tags="built-in" %}
 
 Live Captions automatically captions audio playing on your iPhone, such as videos and calls, and conversations around you. To use it:
 

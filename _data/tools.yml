@@ -1,0 +1,592 @@
+# One entry for each tool or feature section in the guides. The "Browse by"
+# pages (browse/devices/ and browse/software/) are built from this file.
+#
+# Fields:
+#   name       What the tool or feature is called.
+#   guide      The guide's file name, without guides/ or .md.
+#   anchor     The id of the heading or collapsed section in that guide to link to.
+#              "" links to the top of the page.
+#   tags       The same labels the guide shows under the heading (see availability.yml).
+#              scripts/check_tools.py compares them with the guide.
+#   platforms  The system a tool is built into or made for, so it appears on that
+#              device's page. Keys are in browse.yml. List it for:
+#                - built-in features (TalkBack, Windows Voice Access, Live Text)
+#                - software that only runs on that system (JAWS, ZoomText, Dragon)
+#              Built-in features that exist on several Apple or Google systems list
+#              each one (VoiceOver is macos and ios).
+#              Leave it out for software that runs on several systems (Speechify,
+#              Chrome, Word Dictate, GitMind) and for web apps, so it isn't on any
+#              device page. It still appears in its guide, and on a software page
+#              if it has "products".
+#   products   Software this belongs to, if it has a page in browse/software/.
+#   summary    One plain sentence about what it does. Optional.
+#
+# Keep entries in the same order as the guides in the menu. Each guide's entries
+# are grouped together on the Browse by pages in the order they appear here.
+#
+# After changing a guide's headings, run: python3 scripts/check_tools.py
+
+# ---------------------------------------------------------------- Reading
+
+# Text to Speech Tools
+- name: webReader
+  guide: text-to-speech-tools
+  anchor: webreader
+  tags: langara paid
+  products: [readspeaker]
+  summary: "A Listen button on Brightspace pages that reads content aloud and highlights it, with text mode, page mask, and click and listen."
+
+- name: docReader
+  guide: text-to-speech-tools
+  anchor: docreader
+  tags: langara paid
+  products: [readspeaker]
+  summary: "Opens PDFs, documents, and presentations uploaded to Brightspace in a reader with Listen and a simplified text mode."
+
+- name: TextAid
+  guide: text-to-speech-tools
+  anchor: textaid
+  tags: langara paid
+  products: [readspeaker]
+  summary: "Works like webReader, but anywhere on the web. A web app with extensions for Chrome and Firefox."
+
+- name: Read Aloud
+  guide: text-to-speech-tools
+  anchor: word-read-aloud
+  tags: langara paid
+  products: [word]
+  summary: "Reads a document aloud from your cursor, or reads just the text you select."
+
+- name: Immersive Reader
+  guide: text-to-speech-tools
+  anchor: word-immersive-reader
+  tags: langara paid
+  products: [word]
+  summary: "A simplified reading view of the document, with Read Aloud tools at the bottom of the window."
+
+- name: Select to Speak and Reading mode
+  guide: text-to-speech-tools
+  anchor: android
+  tags: built-in
+  platforms: [android]
+  summary: "Select to Speak reads text you tap or drag over. The Reading mode app shows a simplified view and reads it aloud."
+
+- name: Select to Speak
+  guide: text-to-speech-tools
+  anchor: chromeos
+  tags: built-in
+  platforms: [chromeos]
+  summary: "Turn it on in Settings, then click and drag over content, or highlight text and press Search + S."
+
+- name: Read & Speak
+  guide: text-to-speech-tools
+  anchor: ios
+  tags: built-in
+  platforms: [ios]
+  summary: "Reads text aloud. Called Spoken Content in iOS 18 and earlier."
+
+- name: Speak selection
+  guide: text-to-speech-tools
+  anchor: macos
+  tags: built-in
+  platforms: [macos]
+  summary: "Turn it on in System Settings under Accessibility and Read & Speak to have selected text read aloud."
+
+- name: Reading mode
+  guide: text-to-speech-tools
+  anchor: chrome
+  tags: built-in
+  products: [chrome]
+  summary: "A simplified view of a page that can read it aloud."
+
+- name: Read Aloud and Immersive Reader
+  guide: text-to-speech-tools
+  anchor: edge
+  tags: built-in
+  products: [edge]
+  summary: "Edge can read a page aloud and has an Immersive Reader view."
+
+- name: Reader View
+  guide: text-to-speech-tools
+  anchor: firefox
+  tags: built-in
+  products: [firefox]
+  summary: "A simplified view with built-in text to speech and display customization. Press F9 to open it."
+
+- name: Speak selection in Safari
+  guide: text-to-speech-tools
+  anchor: safari
+  tags: built-in
+  platforms: [macos]
+  products: [safari]
+  summary: "Uses the Mac's built-in speech. Turn on Speak selection first, then have selected text read aloud."
+
+# Reading Alternate Format Material
+- name: TextAid
+  guide: reading-alternate-format-material
+  anchor: textaid
+  tags: langara paid
+  products: [readspeaker]
+  summary: "Add or paste text, keep a library, annotate and highlight, and convert images to text."
+
+- name: Calibre
+  guide: reading-alternate-format-material
+  anchor: calibre
+  tags: langara free
+  summary: "A free e-book reader and library, mainly for EPUB files. PDFs need one setting changed."
+
+- name: Kurzweil
+  guide: reading-alternate-format-material
+  anchor: kurzweil
+  tags: langara paid
+  products: [kurzweil]
+  summary: "Opens Word, PDF, EPUB, and Kurzweil's own KES files, with tools for reading, writing, and studying."
+
+- name: Speechify
+  guide: reading-alternate-format-material
+  anchor: speechify
+  tags: free-plan
+  summary: "A text to speech app with a free version."
+
+- name: NaturalReader
+  guide: reading-alternate-format-material
+  anchor: naturalreader
+  tags: free-plan
+  summary: "A text to speech tool with a free version. Use it online, or download the app, and build a library of files."
+
+# Optical Character Recognition
+- name: Windows Snipping Tool
+  guide: optical-character-recognition
+  anchor: snipping-tool
+  tags: built-in
+  platforms: [windows]
+  summary: "Its Text Extractor copies the text from anything on screen."
+
+- name: PowerToys
+  guide: optical-character-recognition
+  anchor: powertoys
+  tags: free
+  platforms: [windows]
+  summary: "Free extra tools for Windows. Its Text Extractor copies text from any part of the screen, including images and videos."
+
+- name: Live Text
+  guide: optical-character-recognition
+  anchor: live-text
+  tags: built-in
+  platforms: [ios, macos]
+  summary: "Select and copy text in photos, screenshots, and paused videos on iPhone, iPad, and Mac."
+
+- name: OneNote
+  guide: optical-character-recognition
+  anchor: onenote
+  tags: free
+  platforms: [windows]
+  products: [onenote]
+  summary: "In OneNote for Windows, copy the text from a picture or file printout."
+
+- name: Google Lens
+  guide: optical-character-recognition
+  anchor: google-lens
+  tags: free
+  products: [chrome]
+  summary: "Picks out the text in a photo on your phone, and is built into Chrome on computers."
+
+- name: ShareX
+  guide: optical-character-recognition
+  anchor: sharex
+  tags: free
+  platforms: [windows]
+  summary: "A free screenshot app for Windows that includes OCR."
+
+- name: Snagit
+  guide: optical-character-recognition
+  anchor: snagit
+  tags: langara paid
+  summary: "Paid screen capture and recording software that can copy all the text from an image."
+
+- name: Copy Text from Image
+  guide: optical-character-recognition
+  anchor: firefox-copy-text
+  tags: built-in
+  platforms: [macos]
+  products: [firefox]
+  summary: "In Firefox on a Mac, right-click an image to see the text in it."
+
+- name: Equatio
+  guide: optical-character-recognition
+  anchor: equatio
+  tags: langara paid
+  summary: "Its Screenshot Reader reads aloud math that is only a picture, and can copy it as MathML or LaTeX."
+
+- name: TextAid
+  guide: optical-character-recognition
+  anchor: textaid
+  tags: langara paid
+  products: [readspeaker]
+  summary: "Upload a picture or scan and TextAid converts it to text it can read aloud, and saves it to your Library."
+
+- name: Kurzweil
+  guide: optical-character-recognition
+  anchor: kurzweil
+  tags: langara paid
+  products: [kurzweil]
+  summary: "Scans printed pages and turns them into documents it can read aloud."
+
+- name: Google Drive
+  guide: optical-character-recognition
+  anchor: google-drive
+  tags: free
+  summary: "Converts scanned PDFs and images into editable text in a Google Doc."
+
+- name: Acrobat
+  guide: optical-character-recognition
+  anchor: acrobat
+  tags: langara paid
+  summary: "Paid versions can run OCR on a scanned PDF. The free Acrobat Reader can't."
+
+# ------------------------------------------- Dictation and Voice Control
+
+# Speech to Text Tools
+- name: Word Dictate
+  guide: speech-to-text-tools
+  anchor: word-dictate
+  tags: langara paid
+  products: [word]
+  summary: "Click the Dictate microphone on the Home ribbon and speak. Built into Microsoft 365 versions of Word."
+
+- name: Windows Voice Typing
+  guide: speech-to-text-tools
+  anchor: windows
+  tags: built-in
+  platforms: [windows]
+  summary: "Type with your voice anywhere you can type text in Windows 11."
+
+- name: Google Voice Typing and Live Transcribe
+  guide: speech-to-text-tools
+  anchor: android-and-chromeos
+  tags: built-in
+  platforms: [android, chromeos]
+  summary: "Dictate with the microphone on the keyboard. Live Transcribe turns speech around you into text on screen."
+
+- name: Dictation
+  guide: speech-to-text-tools
+  anchor: ios-and-macos
+  tags: built-in
+  platforms: [ios, macos]
+  summary: "Dictation tools built into iOS and macOS."
+
+- name: Dragon
+  guide: speech-to-text-tools
+  anchor: dragon
+  tags: langara paid
+  platforms: [windows]
+  products: [dragon]
+  summary: "Dictates into almost any text field, with common commands and transcription."
+
+# Voice Control
+- name: Dragon
+  guide: voice-control
+  anchor: dragon
+  tags: langara paid
+  platforms: [windows]
+  products: [dragon]
+  summary: "Windows software for dictating text and operating a computer with voice commands."
+
+- name: Windows Voice Access
+  guide: voice-control
+  anchor: windows-voice-access
+  tags: built-in
+  platforms: [windows]
+  summary: "Control your PC and dictate text with your voice in Windows 11. Works without an internet connection after setup."
+
+- name: Voice Control
+  guide: voice-control
+  anchor: macosios-voice-control
+  tags: built-in
+  platforms: [macos, ios]
+  summary: "Navigate and use your Mac, iPhone, or iPad with only your voice."
+
+- name: Voice Access
+  guide: voice-control
+  anchor: android
+  tags: built-in
+  platforms: [android]
+  summary: "Control your phone with your voice."
+
+# ------------------------------------------ Note-taking and Mind Mapping
+
+# Note-taking and Transcription
+- name: Word Transcribe
+  guide: note-taking
+  anchor: microsoft-word
+  tags: langara paid
+  platforms: [windows]
+  products: [word]
+  summary: "Transcribes .wav, .mp4, .m4a, and .mp3 recordings in Word for Windows and Word for the web."
+
+- name: Dragon
+  guide: note-taking
+  anchor: dragon
+  tags: langara paid
+  platforms: [windows]
+  products: [dragon]
+  summary: "Dragon for Windows can transcribe .wav, .mp3, and .m4a recordings to text."
+
+- name: Voice Memos
+  guide: note-taking
+  anchor: macos-and-ios
+  tags: built-in
+  platforms: [macos, ios]
+  summary: "Transcribes recordings in some languages, including English."
+
+- name: Audapolis
+  guide: note-taking
+  anchor: audapolis
+  tags: free
+  summary: "A free, open source editor that transcribes audio on your own computer, without uploading it, and lets you edit the transcript."
+
+- name: OneNote
+  guide: note-taking
+  anchor: onenote
+  tags: free
+  products: [onenote]
+  summary: "Records audio while you type notes, and links each note to the moment in the recording when you typed it."
+
+- name: Genio
+  guide: note-taking
+  anchor: genio
+  tags: paid
+  summary: "A note-taking app that can transcribe audio. Genio Notes is a web app and a mobile app."
+
+- name: Notta
+  guide: note-taking
+  anchor: notta
+  tags: free-plan
+  summary: "Transcription and note-taking, with a free plan that includes a limited number of minutes each month."
+
+- name: Otter.ai
+  guide: note-taking
+  anchor: otterai
+  tags: free-plan
+  summary: "A transcription app available on the web, as a Chrome extension, and as a mobile app."
+
+# Mind Mapping
+- name: GitMind
+  guide: mind-mapping
+  anchor: gitmind
+  tags: free-plan
+  summary: "Use it online or download it. A free account includes many features; some need a paid account."
+
+- name: MindMeister
+  guide: mind-mapping
+  anchor: mindmeister
+  tags: free-plan
+  summary: "An online mind mapping tool that runs in your web browser. The free plan is limited to a few mind maps."
+
+- name: MindMup
+  guide: mind-mapping
+  anchor: mindmup
+  tags: free-plan
+  summary: "An online mind mapping tool that is free to use, with a paid version that has more features. You need a Google account."
+
+- name: Mindomo
+  guide: mind-mapping
+  anchor: mindomo
+  tags: free-plan
+  summary: "An online mind mapping tool that runs in your web browser. Free to use, with a paid version that has more features."
+
+- name: Word Outline
+  guide: mind-mapping
+  anchor: microsoft-word
+  tags: langara paid
+  products: [word]
+  summary: "Outline view organizes ideas as an outline. It is only in the desktop versions of Word."
+
+- name: Inspiration
+  guide: mind-mapping
+  anchor: inspiration
+  tags: langara paid
+  summary: "Software for creating diagrams, outlines, and maps, with templates and a built-in tutorial."
+
+- name: Kurzweil
+  guide: mind-mapping
+  anchor: kurzweil
+  tags: langara paid
+  products: [kurzweil]
+  summary: "Its Brainstorm tool makes a mind map that can be turned into an outline and then a draft document."
+
+# ------------------------------------------------------- Closed Captions
+# This guide has no availability labels, so these entries have no tags.
+- name: Kaltura
+  guide: closed-captions
+  anchor: kaltura
+  summary: "Show closed captions in Kaltura, a video platform many schools use for course videos."
+
+- name: YouTube
+  guide: closed-captions
+  anchor: youtube
+  summary: "Turn on captions on YouTube videos."
+
+- name: Zoom
+  guide: closed-captions
+  anchor: zoom
+  summary: "Show captions in a meeting."
+
+- name: Teams
+  guide: closed-captions
+  anchor: teams
+  summary: "Turn on live captions in a meeting, or in every meeting."
+
+- name: Live captions
+  guide: closed-captions
+  anchor: windows
+  tags: built-in
+  platforms: [windows]
+  summary: "Windows 11 can caption any audio playing on your computer, and speech picked up by your microphone."
+
+- name: Live Transcribe and Live Caption
+  guide: closed-captions
+  anchor: android
+  tags: built-in
+  platforms: [android]
+  summary: "Live Transcribe shows conversations around you as text. Live Caption captions audio playing on your phone."
+
+- name: Live Caption
+  guide: closed-captions
+  anchor: chrome
+  tags: built-in
+  products: [chrome]
+  summary: "Chrome can automatically caption audio and video playing in the browser."
+
+- name: Subtitles, captions, and Live Captions
+  guide: closed-captions
+  anchor: ios
+  tags: built-in
+  platforms: [macos, ios]
+  summary: "Choose a caption style, show captions when a video has them, and turn on Live Captions."
+
+# ------------------------------------------ Vision and Screen Enhancement
+
+# Screen Readers
+- name: JAWS
+  guide: screen-readers
+  anchor: jaws
+  tags: langara paid
+  platforms: [windows]
+  summary: "One of the most widely used screen readers. It runs only on Windows."
+
+- name: NVDA
+  guide: screen-readers
+  anchor: nvda
+  tags: free
+  platforms: [windows]
+  summary: "A free, open source screen reader for Windows, nearly as widely used as JAWS."
+
+- name: VoiceOver
+  guide: screen-readers
+  anchor: voiceover
+  tags: built-in
+  platforms: [macos, ios]
+  summary: "A screen reader built into macOS and iOS."
+
+- name: TalkBack
+  guide: screen-readers
+  anchor: talkback
+  tags: built-in
+  platforms: [android]
+  summary: "The default screen reader for Android."
+
+- name: ChromeVox
+  guide: screen-readers
+  anchor: chromevox-chromeos
+  tags: built-in
+  platforms: [chromeos]
+  summary: "The built-in screen reader on Chromebooks."
+
+# Magnifiers
+- name: ZoomText
+  guide: magnifiers
+  anchor: zoomtext
+  tags: langara paid
+  platforms: [windows]
+  summary: "A Windows magnification and reading program for people with low vision."
+
+- name: Magnification and display settings
+  guide: magnifiers
+  anchor: android
+  tags: built-in
+  platforms: [android]
+  summary: "Magnification, and display size and text, under Settings and Accessibility. The steps shown are for Samsung phones."
+
+- name: Magnifier and display settings
+  guide: magnifiers
+  anchor: windows
+  tags: built-in
+  platforms: [windows]
+  summary: "The built-in Magnifier, and settings for text size, colours and contrast, and the pointer and cursor."
+
+- name: Zoom and display settings
+  guide: magnifiers
+  anchor: macos
+  tags: built-in
+  platforms: [macos]
+  summary: "The built-in magnifier, called Zoom, and a setting to make everything on screen bigger."
+
+- name: Zoom, Magnifier, and display settings
+  guide: magnifiers
+  anchor: ios
+  tags: built-in
+  platforms: [ios]
+  summary: "Zoom, Display & Text Size, and the Magnifier app."
+
+- name: Browser zoom
+  guide: magnifiers
+  anchor: browser-tools
+  tags: built-in
+  summary: "Every web browser can zoom in on web pages."
+
+# -------------------------------------------------------------- More Tools
+
+# Browsers
+- name: Chrome
+  guide: browsers
+  anchor: chrome
+  tags: free
+  products: [chrome]
+  summary: "UI Options Plus, page zoom, default fonts, Live Caption, Reading mode, image descriptions, and more."
+
+- name: Edge
+  guide: browsers
+  anchor: edge
+  tags: built-in
+  products: [edge]
+  summary: "UI Options Plus, page zoom, default fonts, Read Aloud, and keyboard navigation."
+
+- name: Firefox
+  guide: browsers
+  anchor: firefox
+  tags: free
+  products: [firefox]
+  summary: "Page zoom, default fonts and colours, Reader View, keyboard navigation, search, and more."
+
+- name: Safari
+  guide: browsers
+  anchor: safari
+  tags: built-in
+  platforms: [macos]
+  products: [safari]
+  summary: "Page zoom, minimum font size, settings for the current site, Reader View, and text to speech."
+
+# Equatio Quick Start Guide
+- name: Equatio
+  guide: equatio-quick-start-guide
+  anchor: ""
+  tags: langara paid
+  summary: "Software for writing, editing, and reading math and other STEM content on a computer."
+
+# Morphic
+- name: Morphic
+  guide: morphic
+  anchor: ""
+  tags: free
+  summary: "A free toolbar with one-click access to accessibility tools built into your computer."

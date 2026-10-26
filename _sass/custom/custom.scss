@@ -862,3 +862,33 @@ body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
   text-transform: none;
   letter-spacing: normal;
 }
+
+// "Browse by" pages: lists made by _includes/tool-index.html and
+// _includes/browse-list.html. Just the Docs draws a bullet on each list item
+// with ::before, so turn that off: the tool's name marks each item.
+.main-content .tool-index ul,
+.main-content .browse-list {
+  padding-left: 0;
+}
+
+.main-content .tool-index li,
+.main-content .browse-list li {
+  margin: 0 0 1.25rem;
+}
+
+.main-content .tool-index li::before,
+.main-content .browse-list li::before {
+  content: none;
+}
+
+.main-content .tool-index .tool-name {
+  font-weight: 600;
+}
+
+.main-content .tool-index .availability {
+  margin: 0.25rem 0;
+}
+
+.main-content .tool-index li > p {
+  margin: 0;
+}

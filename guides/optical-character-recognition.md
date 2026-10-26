@@ -23,7 +23,7 @@ None of these tools replace accessible documents. The people who create content 
 
 Screenshot readers capture part of your screen and pull out the text, for example from a scanned PDF, an image, or a badly built website.
 
-<details markdown="block">
+<details id="snipping-tool" markdown="block">
 <summary>Windows Snipping Tool</summary>
 
 {% include availability.html tags="built-in" %}
@@ -38,7 +38,7 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 
 </details>
 
-<details markdown="block">
+<details id="powertoys" markdown="block">
 <summary>PowerToys</summary>
 
 {% include availability.html tags="free" %}
@@ -54,7 +54,7 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 
 </details>
 
-<details markdown="block">
+<details id="live-text" markdown="block">
 <summary>iOS/iPadOS/macOS</summary>
 
 {% include availability.html tags="built-in" %}
@@ -72,7 +72,7 @@ On iPhone and iPad, open the image in Photos (or point the Camera at the text) a
 
 </details>
 
-<details markdown="block">
+<details id="onenote" markdown="block">
 <summary>OneNote</summary>
 
 {% include availability.html tags="free" %}
@@ -90,7 +90,7 @@ The **Microsoft Lens** scanning app was retired in early 2026 and removed from t
 
 </details>
 
-<details markdown="block">
+<details id="google-lens" markdown="block">
 <summary>Google Lens</summary>
 
 {% include availability.html tags="free" %}
@@ -109,7 +109,7 @@ Google Lens, like Apple’s Live Text, can pick out the text in a photo on your 
 
 </details>
 
-<details markdown="block">
+<details id="sharex" markdown="block">
 <summary>ShareX</summary>
 
 {% include availability.html tags="free" %}
@@ -128,7 +128,7 @@ ShareX is a free screenshot app for Windows that includes OCR. Capture all or pa
 
 </details>
 
-<details markdown="block">
+<details id="snagit" markdown="block">
 <summary>Snagit</summary>
 
 {% include availability.html tags="langara paid" %}
@@ -156,7 +156,7 @@ To select specific text:
 
 </details>
 
-<details markdown="block">
+<details id="firefox-copy-text" markdown="block">
 <summary>Firefox (macOS)</summary>
 
 {% include availability.html tags="built-in" %}
@@ -176,7 +176,7 @@ This feature is only available in Firefox for macOS.
 
 </details>
 
-<details markdown="block">
+<details id="equatio" markdown="block">
 <summary>Equatio</summary>
 
 {% include availability.html tags="langara paid" %}

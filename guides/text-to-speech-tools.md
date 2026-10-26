@@ -188,7 +188,7 @@ Langara students can access the full Microsoft 365 suite of tools using their La
 
 Microsoft Word has two text to speech tools: **Read Aloud** and **Immersive Reader**.
 
-<details markdown="block">
+<details id="word-read-aloud" markdown="block">
 <summary>Read Aloud</summary>
 
 Read Aloud is available in the desktop version of Word. Move to the **Review** tab and click **Read Aloud**, or press <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>Space</kbd>.
@@ -201,7 +201,7 @@ Users can have Read Aloud read from their cursor position or select text and hav
 
 </details>
 
-<details markdown="block">
+<details id="word-immersive-reader" markdown="block">
 <summary>Immersive Reader</summary>
 
 Immersive Reader is available in both desktop and browser versions of Word. Immersive Reader is also available in the browser version of PowerPoint.

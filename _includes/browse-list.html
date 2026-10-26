@@ -1,0 +1,21 @@
+{%- comment -%}
+  A list of the Browse by pages, with how many tools each one has.
+  Usage:
+    {% include browse-list.html type="platforms" folder="browse/devices" %}
+    {% include browse-list.html type="products" folder="browse/software" %}
+  The pages and their descriptions come from _data/browse.yml.
+{%- endcomment -%}
+<ul class="browse-list">
+{%- for item in site.data.browse[include.type] %}
+  {%- assign page_path = include.folder | append: "/" | append: item.key | append: ".md" -%}
+  {%- assign target = site.pages | where: "path", page_path | first -%}
+  {%- if include.type == "platforms" -%}
+    {%- assign count = site.data.tools | where_exp: "tool", "tool.platforms contains item.key" | size -%}
+  {%- else -%}
+    {%- assign count = site.data.tools | where_exp: "tool", "tool.products contains item.key" | size -%}
+  {%- endif %}
+  <li>
+    {%- if target %}<a href="{{ target.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %} ({{ count }} {% if count == 1 %}tool{% else %}tools{% endif %}): {{ item.description }}
+  </li>
+{%- endfor %}
+</ul>

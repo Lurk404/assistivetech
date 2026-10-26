@@ -1,0 +1,41 @@
+{%- comment -%}
+  A list of tools from _data/tools.yml, grouped by the guide each one is in.
+  Usage:
+    {% include tool-index.html platform="android" %}   tools that work on Android
+    {% include tool-index.html product="word" %}       tools that belong to Word
+  The keys are in _data/browse.yml. Each tool links to its section in the guide
+  and shows the same availability labels as the guide.
+  Everything is plain HTML so Markdown doesn't change it.
+{%- endcomment -%}
+{%- assign wanted = include.platform | default: include.product -%}
+{%- if include.platform -%}
+  {%- assign matches = site.data.tools | where_exp: "tool", "tool.platforms contains wanted" -%}
+{%- else -%}
+  {%- assign matches = site.data.tools | where_exp: "tool", "tool.products contains wanted" -%}
+{%- endif -%}
+{%- assign groups = matches | group_by: "guide" -%}
+<div class="tool-index">
+{%- if groups.size == 0 %}
+<p>Nothing is listed here yet.</p>
+{%- else %}
+<p>{{ matches.size }} {% if matches.size == 1 %}tool{% else %}tools{% endif %} in {{ groups.size }} {% if groups.size == 1 %}guide{% else %}guides{% endif %}.</p>
+{%- endif %}
+{%- for group in groups %}
+  {%- assign guide_path = "guides/" | append: group.name | append: ".md" -%}
+  {%- assign guide = site.pages | where: "path", guide_path | first %}
+<h2 id="{{ group.name }}"><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></h2>
+<ul>
+  {%- for tool in group.items %}
+  <li>
+    <a class="tool-name" href="{{ guide.url | relative_url }}{% if tool.anchor != '' %}#{{ tool.anchor }}{% endif %}">{{ tool.name | escape }}</a>
+    {%- if tool.tags %}
+    {% include availability.html tags=tool.tags %}
+    {%- endif %}
+    {%- if tool.summary %}
+    <p>{{ tool.summary | escape }}</p>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endfor %}
+</div>
