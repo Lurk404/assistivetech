@@ -440,24 +440,28 @@
 - name: Live captions
   guide: closed-captions
   anchor: windows
+  tags: built-in
   platforms: [windows]
   summary: "Windows 11 can caption any audio playing on your computer, and speech picked up by your microphone."
 
 - name: Live Transcribe and Live Caption
   guide: closed-captions
   anchor: android
+  tags: built-in
   platforms: [android]
   summary: "Live Transcribe shows conversations around you as text. Live Caption captions audio playing on your phone."
 
 - name: Live Caption
   guide: closed-captions
   anchor: chrome
+  tags: built-in
   products: [chrome]
   summary: "Chrome can automatically caption audio and video playing in the browser."
 
 - name: Subtitles, captions, and Live Captions
   guide: closed-captions
   anchor: ios
+  tags: built-in
   platforms: [macos, ios]
   summary: "Choose a caption style, show captions when a video has them, and turn on Live Captions."
 
