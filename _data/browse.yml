@@ -41,15 +41,3 @@ products:
   - key: onenote
     title: OneNote
     description: copying text from pictures, and recording audio with notes.
-  - key: chrome
-    title: Chrome
-    description: accessibility settings and tools in Google Chrome.
-  - key: edge
-    title: Edge
-    description: accessibility settings and tools in Microsoft Edge.
-  - key: firefox
-    title: Firefox
-    description: accessibility settings and tools in Mozilla Firefox.
-  - key: safari
-    title: Safari
-    description: accessibility settings and tools in Safari.
