@@ -13,8 +13,17 @@ The work is the same each time: edit the guide, add or update an entry, run the 
 | `_data/availability.yml` | The availability labels (Built in, Free, Paid, and so on) |
 | `browse/devices/` and `browse/software/` | One small page for each device or software, which filters `tools.yml` |
 | `_includes/tool-index.html` | Builds the list on each device or software page |
+| `_includes/browse-device-note.html` | The reminder about the Built in label, shown on the device pages |
 | `_includes/browse-section.html` | The introduction and list of pages. Used on the Browse by pages and in the home page accordions |
 | `scripts/check_tools.py` | Checks `tools.yml` against the guides |
+
+## What goes on a device page
+
+The **platforms** field decides which device pages a tool appears on. It is not a list of every system the tool runs on.
+
+- **List a platform** for built-in features (TalkBack, Windows Voice Access, Live Text) and for software that only runs on that system (JAWS, ZoomText, Dragon). A built-in feature that exists on several Apple or Google systems lists each one (VoiceOver is `macos` and `ios`).
+- **Leave `platforms` out** for software that runs on several systems (Speechify, Chrome, Word Dictate, GitMind) and for web apps. They stay in their guide, and on a software page if they have `products`.
+- **There is no Web page.** Don't use `web` as a platform.
 
 ## Before you start
 
@@ -33,13 +42,14 @@ An entry is needed for each tool section that has availability labels under its 
     guide: text-to-speech-tools
     anchor: word-read-aloud-settings
     tags: langara paid
-    platforms: [windows, macos]
     products: [word]
     summary: "Change the voice and reading speed."
   ```
 
+  Word runs on several systems, so this example has no `platforms` line. For a feature built into one system, add one, for example `platforms: [windows]`.
+
 - [ ] **Match the guide.** `tags` must be the same labels the guide shows for that section.
-- [ ] **List only platforms the guide names.** If it doesn't say, leave `platforms` out. The tool will appear on its software page but on no device page.
+- [ ] **Decide the platform using the rule above.** Built-in or single-system software gets a `platforms` line. Anything that runs on several systems doesn't. If it has no `platforms`, it appears on its software page (if it has `products`) and in its guide, but on no device page.
 - [ ] **Use `anchor: ""`** to link to the top of the page instead of a section.
 - [ ] **Run the checker** (see below) and fix any errors.
 - [ ] **Preview**, then merge.
@@ -54,8 +64,8 @@ An entry is needed for each tool section that has availability labels under its 
     description: tools that run on Linux.
   ```
 
-- [ ] **Create its page.** Copy `browse/devices/android.md` to `browse/devices/linux.md`. Change the `title`, the `nav_order`, and the include to `platform="linux"`. Web is currently 6, so give Linux 6 and change `browse/devices/web.md` to 7 if you want Web last.
-- [ ] **Add the platform to existing entries.** Calibre and Audapolis already say they work on Linux in the guides. Add `linux` to their `platforms` lists.
+- [ ] **Create its page.** Copy `browse/devices/android.md` to `browse/devices/linux.md`. Change the `title`, the `nav_order` (the last one is currently 5, so Linux is 6), and the include to `platform="linux"`. Keep the line that includes `browse-device-note.html`.
+- [ ] **Add it to existing entries only if they belong to Linux.** Calibre and Audapolis say they run on Linux, but they also run on Windows and macOS, so they stay off the device pages. Only built-in features and Linux-only software get `platforms: [linux]`.
 - [ ] **Add any new Linux tools** as above, with `platforms: [linux]`.
 - [ ] **Run the checker.** It errors if a platform in `browse.yml` has no page, or if an entry uses a platform that isn't registered.
 - [ ] The home page accordion and the By Device or System list update on their own. Nothing else needs editing.
@@ -98,7 +108,8 @@ On Mac or Linux, use `python3` instead of `py`. A clean run ends with `0 errors`
 **Notes** are worth knowing but don't fail the check:
 
 - ids that appear twice on one page, where links go to the first one
-- entries with no platforms or products, so they appear on no Browse by page
+
+The checker does not check which platforms you chose. That is a judgment call, so use the rule above.
 
 ## Before you merge
 
