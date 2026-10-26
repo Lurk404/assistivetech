@@ -11,22 +11,19 @@
 platforms:
   - key: android
     title: Android
-    description: built-in features of Android phones and tablets, and tools that run on them.
+    description: built-in features of Android phones and tablets, and software made for them.
   - key: chromeos
     title: ChromeOS
-    description: built-in features of Chromebooks.
+    description: built-in features of Chromebooks, and software made for them.
   - key: ios
     title: iOS and iPadOS
-    description: built-in features of iPhone and iPad, and tools that run on them.
+    description: built-in features of iPhone and iPad, and software made for them.
   - key: macos
     title: macOS
-    description: built-in features of Mac, and tools that run on it.
+    description: built-in features of Mac, and software made for it.
   - key: windows
     title: Windows
-    description: built-in features of Windows, and tools that run on it.
-  - key: web
-    title: Web
-    description: tools that run in a web browser, on any device.
+    description: built-in features of Windows, and software made for it.
 
 products:
   - key: word

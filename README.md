@@ -70,16 +70,15 @@ Use `<img src="../assets/images/closed-captions/kaltura-cc-button.png" alt="..."
 The pages under Browse by Device or System and Browse by Software gather tools from all the guides. They are built from `_data/tools.yml`, which has one entry for each tool or feature section in a guide:
 
 ```yaml
-- name: Read Aloud
-  guide: text-to-speech-tools
-  anchor: word-read-aloud
-  tags: langara paid
-  platforms: [windows, macos]
-  products: [word]
-  summary: "Reads a document aloud from your cursor, or reads just the text you select."
+- name: Windows Voice Access
+  guide: voice-control
+  anchor: windows-voice-access
+  tags: built-in
+  platforms: [windows]
+  summary: "Control your PC and dictate text with your voice in Windows 11."
 ```
 
-The comment at the top of `tools.yml` explains each field. To add a tool, add an entry in the same order as the guides appear in the menu. To add a device or software page, add it to `_data/browse.yml`, copy a page in `browse/devices/` or `browse/software/`, and change its title and key.
+The comment at the top of `tools.yml` explains each field. To add a tool, add an entry in the same order as the guides appear in the menu. Only list a `platforms` value for built-in features and software that only runs on that system; leave it out for software that runs on several systems. To add a device or software page, add it to `_data/browse.yml`, copy a page in `browse/devices/` or `browse/software/`, and change its title and key.
 
 After you change a guide's headings, sections, or availability labels, run `python3 scripts/check_tools.py` from the top folder (it needs Python 3 and PyYAML). It reports links that no longer work, labels that differ from the guide, and labelled sections that have no entry.
 

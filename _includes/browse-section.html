@@ -8,8 +8,9 @@
   The pages and descriptions in the list come from _data/browse.yml.
 {%- endcomment -%}
 {%- if include.type == "platforms" -%}
-<p>Find the tools in these guides that work on your device or operating system. These lists are kept in step with the guides. Select a tool to go to its section in the guide.</p>
-<p>Only tools whose guide says which systems they work on are listed.</p>
+<p>Find the built-in features of your device or operating system, and software made for it. These lists are kept in step with the guides.</p>
+<p>Software that runs on many systems, such as Speechify or Chrome, isn't listed here. Find it in the guides or in By Software.</p>
+{% include browse-device-note.html %}
 {% include browse-list.html type="platforms" folder="browse/devices" %}
 {%- else -%}
 <p>Some software appears in more than one guide. Choose it here to see everything these guides say about it in one place. These lists are kept in step with the guides. Select a tool to go to its section in the guide.</p>

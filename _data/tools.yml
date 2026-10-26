@@ -8,9 +8,16 @@
 #              "" links to the top of the page.
 #   tags       The same labels the guide shows under the heading (see availability.yml).
 #              scripts/check_tools.py compares them with the guide.
-#   platforms  Where it works. Only systems the guide names. Keys are in browse.yml.
-#              Leave it out if the guide doesn't say, and the tool won't be on any
-#              device page.
+#   platforms  The system a tool is built into or made for, so it appears on that
+#              device's page. Keys are in browse.yml. List it for:
+#                - built-in features (TalkBack, Windows Voice Access, Live Text)
+#                - software that only runs on that system (JAWS, ZoomText, Dragon)
+#              Built-in features that exist on several Apple or Google systems list
+#              each one (VoiceOver is macos and ios).
+#              Leave it out for software that runs on several systems (Speechify,
+#              Chrome, Word Dictate, GitMind) and for web apps, so it isn't on any
+#              device page. It still appears in its guide, and on a software page
+#              if it has "products".
 #   products   Software this belongs to, if it has a page in browse/software/.
 #   summary    One plain sentence about what it does. Optional.
 #
@@ -26,7 +33,6 @@
   guide: text-to-speech-tools
   anchor: webreader
   tags: langara paid
-  platforms: [web]
   products: [readspeaker]
   summary: "A Listen button on Brightspace pages that reads content aloud and highlights it, with text mode, page mask, and click and listen."
 
@@ -34,7 +40,6 @@
   guide: text-to-speech-tools
   anchor: docreader
   tags: langara paid
-  platforms: [web]
   products: [readspeaker]
   summary: "Opens PDFs, documents, and presentations uploaded to Brightspace in a reader with Listen and a simplified text mode."
 
@@ -42,7 +47,6 @@
   guide: text-to-speech-tools
   anchor: textaid
   tags: langara paid
-  platforms: [web]
   products: [readspeaker]
   summary: "Works like webReader, but anywhere on the web. A web app with extensions for Chrome and Firefox."
 
@@ -50,7 +54,6 @@
   guide: text-to-speech-tools
   anchor: word-read-aloud
   tags: langara paid
-  platforms: [windows, macos]   # the guide says "the desktop version of Word"
   products: [word]
   summary: "Reads a document aloud from your cursor, or reads just the text you select."
 
@@ -58,7 +61,6 @@
   guide: text-to-speech-tools
   anchor: word-immersive-reader
   tags: langara paid
-  platforms: [windows, macos, web]
   products: [word]
   summary: "A simplified reading view of the document, with Read Aloud tools at the bottom of the window."
 
@@ -94,7 +96,6 @@
   guide: text-to-speech-tools
   anchor: chrome
   tags: built-in
-  platforms: [windows, macos]   # browsers.md covers the desktop versions (Windows and macOS)
   products: [chrome]
   summary: "A simplified view of a page that can read it aloud."
 
@@ -102,7 +103,6 @@
   guide: text-to-speech-tools
   anchor: edge
   tags: built-in
-  platforms: [windows, macos]   # browsers.md covers the desktop versions (Windows and macOS)
   products: [edge]
   summary: "Edge can read a page aloud and has an Immersive Reader view."
 
@@ -110,7 +110,6 @@
   guide: text-to-speech-tools
   anchor: firefox
   tags: built-in
-  platforms: [windows, macos]
   products: [firefox]
   summary: "A simplified view with built-in text to speech and display customization. Press F9 to open it."
 
@@ -127,7 +126,6 @@
   guide: reading-alternate-format-material
   anchor: textaid
   tags: langara paid
-  platforms: [web]
   products: [readspeaker]
   summary: "Add or paste text, keep a library, annotate and highlight, and convert images to text."
 
@@ -135,7 +133,6 @@
   guide: reading-alternate-format-material
   anchor: calibre
   tags: langara free
-  platforms: [windows, macos]
   summary: "A free e-book reader and library, mainly for EPUB files. PDFs need one setting changed."
 
 - name: Kurzweil
@@ -149,14 +146,12 @@
   guide: reading-alternate-format-material
   anchor: speechify
   tags: free-plan
-  platforms: [ios, android, macos]
   summary: "A text to speech app with a free version."
 
 - name: NaturalReader
   guide: reading-alternate-format-material
   anchor: naturalreader
   tags: free-plan
-  platforms: [web, windows, macos, android, ios]
   summary: "A text to speech tool with a free version. Use it online, or download the app, and build a library of files."
 
 # Optical Character Recognition
@@ -193,7 +188,6 @@
   guide: optical-character-recognition
   anchor: google-lens
   tags: free
-  platforms: [android, windows, macos]   # a phone app on Android, and built into Chrome on computers
   products: [chrome]
   summary: "Picks out the text in a photo on your phone, and is built into Chrome on computers."
 
@@ -208,7 +202,6 @@
   guide: optical-character-recognition
   anchor: snagit
   tags: langara paid
-  platforms: [windows, macos]
   summary: "Paid screen capture and recording software that can copy all the text from an image."
 
 - name: Copy Text from Image
@@ -229,7 +222,6 @@
   guide: optical-character-recognition
   anchor: textaid
   tags: langara paid
-  platforms: [web]
   products: [readspeaker]
   summary: "Upload a picture or scan and TextAid converts it to text it can read aloud, and saves it to your Library."
 
@@ -244,14 +236,12 @@
   guide: optical-character-recognition
   anchor: google-drive
   tags: free
-  platforms: [web]
   summary: "Converts scanned PDFs and images into editable text in a Google Doc."
 
 - name: Acrobat
   guide: optical-character-recognition
   anchor: acrobat
   tags: langara paid
-  platforms: [windows, macos]
   summary: "Paid versions can run OCR on a scanned PDF. The free Acrobat Reader can't."
 
 # ------------------------------------------- Dictation and Voice Control
@@ -261,7 +251,6 @@
   guide: speech-to-text-tools
   anchor: word-dictate
   tags: langara paid
-  platforms: [windows, macos, web, ios, android]   # the guide says Windows, macOS, the web, and mobile
   products: [word]
   summary: "Click the Dictate microphone on the Home ribbon and speak. Built into Microsoft 365 versions of Word."
 
@@ -331,7 +320,7 @@
   guide: note-taking
   anchor: microsoft-word
   tags: langara paid
-  platforms: [windows, web]   # not in Word for Mac
+  platforms: [windows]
   products: [word]
   summary: "Transcribes .wav, .mp4, .m4a, and .mp3 recordings in Word for Windows and Word for the web."
 
@@ -354,7 +343,6 @@
   guide: note-taking
   anchor: audapolis
   tags: free
-  platforms: [windows, macos]
   summary: "A free, open source editor that transcribes audio on your own computer, without uploading it, and lets you edit the transcript."
 
 - name: OneNote
@@ -368,21 +356,18 @@
   guide: note-taking
   anchor: genio
   tags: paid
-  platforms: [web]
   summary: "A note-taking app that can transcribe audio. Genio Notes is a web app and a mobile app."
 
 - name: Notta
   guide: note-taking
   anchor: notta
   tags: free-plan
-  platforms: [web]
   summary: "Transcription and note-taking, with a free plan that includes a limited number of minutes each month."
 
 - name: Otter.ai
   guide: note-taking
   anchor: otterai
   tags: free-plan
-  platforms: [web]
   summary: "A transcription app available on the web, as a Chrome extension, and as a mobile app."
 
 # Mind Mapping
@@ -390,35 +375,30 @@
   guide: mind-mapping
   anchor: gitmind
   tags: free-plan
-  platforms: [web, windows, macos, ios, android]
   summary: "Use it online or download it. A free account includes many features; some need a paid account."
 
 - name: MindMeister
   guide: mind-mapping
   anchor: mindmeister
   tags: free-plan
-  platforms: [web]
   summary: "An online mind mapping tool that runs in your web browser. The free plan is limited to a few mind maps."
 
 - name: MindMup
   guide: mind-mapping
   anchor: mindmup
   tags: free-plan
-  platforms: [web]
   summary: "An online mind mapping tool that is free to use, with a paid version that has more features. You need a Google account."
 
 - name: Mindomo
   guide: mind-mapping
   anchor: mindomo
   tags: free-plan
-  platforms: [web]
   summary: "An online mind mapping tool that runs in your web browser. Free to use, with a paid version that has more features."
 
 - name: Word Outline
   guide: mind-mapping
   anchor: microsoft-word
   tags: langara paid
-  platforms: [windows, macos]
   products: [word]
   summary: "Outline view organizes ideas as an outline. It is only in the desktop versions of Word."
 
@@ -440,13 +420,11 @@
 - name: Kaltura
   guide: closed-captions
   anchor: kaltura
-  platforms: [web]
   summary: "Show closed captions in Kaltura, a video platform many schools use for course videos."
 
 - name: YouTube
   guide: closed-captions
   anchor: youtube
-  platforms: [web]
   summary: "Turn on captions on YouTube videos."
 
 - name: Zoom
@@ -474,7 +452,6 @@
 - name: Live Caption
   guide: closed-captions
   anchor: chrome
-  platforms: [windows, macos]
   products: [chrome]
   summary: "Chrome can automatically caption audio and video playing in the browser."
 
@@ -562,7 +539,6 @@
   guide: magnifiers
   anchor: browser-tools
   tags: built-in
-  platforms: [windows, macos]   # the shortcuts are for Ctrl and Command
   summary: "Every web browser can zoom in on web pages."
 
 # -------------------------------------------------------------- More Tools
@@ -572,7 +548,6 @@
   guide: browsers
   anchor: chrome
   tags: free
-  platforms: [windows, macos]
   products: [chrome]
   summary: "UI Options Plus, page zoom, default fonts, Live Caption, Reading mode, image descriptions, and more."
 
@@ -580,7 +555,6 @@
   guide: browsers
   anchor: edge
   tags: built-in
-  platforms: [windows, macos]
   products: [edge]
   summary: "UI Options Plus, page zoom, default fonts, Read Aloud, and keyboard navigation."
 
@@ -588,7 +562,6 @@
   guide: browsers
   anchor: firefox
   tags: free
-  platforms: [windows, macos]
   products: [firefox]
   summary: "Page zoom, default fonts and colours, Reader View, keyboard navigation, search, and more."
 
@@ -612,5 +585,4 @@
   guide: morphic
   anchor: ""
   tags: free
-  platforms: [windows, macos]
   summary: "A free toolbar with one-click access to accessibility tools built into your computer."

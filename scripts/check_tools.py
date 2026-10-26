@@ -17,7 +17,6 @@ ERRORS
 
 NOTES
   - ids that appear twice on one page (a link goes to the first one)
-  - entries that aren't on any Browse by page (no platforms or products)
 """
 import collections
 import glob
@@ -188,8 +187,6 @@ def main():
         if shown is not None and shown != tags:
             errors.append(f"{label}: tags are '{' '.join(sorted(tags))}' but guides/{guide}.md "
                           f"shows '{' '.join(sorted(shown))}' (near line {anchor_line or 1})")
-        if not tool.get("platforms") and not tool.get("products"):
-            notes.append(f"{label}: no platforms or products, so it isn't on any Browse by page")
 
     for name, lines in guides.items():
         for start, end, section_id, description in labelled_sections(lines, id_lists[name]):
