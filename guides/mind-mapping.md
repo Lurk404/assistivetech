@@ -24,7 +24,7 @@ The most useful mind mapping tools can turn a map into a text outline, which is 
 
 {% include availability.html tags="free-plan" %}
 
-<img src="../assets/images/logos/gitmind.jpg" alt="" width="20%"> <!-- review-alt -->
+<img src="../assets/images/logos/gitmind.jpg" alt="" width="20%"> 
 
 [GitMind](https://gitmind.com) is a mind mapping tool you can use online or download for Windows, macOS, iOS, and Android. A free account includes many features; some need a paid account.
 
@@ -32,17 +32,17 @@ The most useful mind mapping tools can turn a map into a text outline, which is 
 <summary>To use GitMind:</summary>
 
 1. Create a new map.
-   ![The GitMind home page with New map circled.](../assets/images/mind-mapping/gitmind-new-map.png) <!-- review-alt -->
+   ![The GitMind home page with New map button circled.](../assets/images/mind-mapping/gitmind-new-map.png)
 2. Use the toolbar to add nodes, subnodes, and customize the appearance of content.
-   ![The GitMind toolbar with buttons for undo, redo, adding nodes and subnodes, formatting, inserting content, and more.](../assets/images/mind-mapping/gitmind-toolbar.png) <!-- review-alt -->
+   ![The GitMind toolbar with buttons for undo, redo, adding nodes and subnodes, formatting, inserting content, and more.](../assets/images/mind-mapping/gitmind-toolbar.png) 
 3. Select a node and click **Insert** to add images, notes, links, and more.
-   ![The Insert button circled on the GitMind toolbar, with a menu offering Image, Note, Comment, Hyperlink, Equation and Sticker.](../assets/images/mind-mapping/gitmind-insert-menu.png) <!-- review-alt -->
+   ![The Insert button circled on the GitMind toolbar, with a menu offering Image, Note, Comment, Hyperlink, Equation and Sticker.](../assets/images/mind-mapping/gitmind-insert-menu.png)
 4. Select **Style** to change background, theme, and map style.
-   ![The Style button with its tooltip, Show or hide style and format options.](../assets/images/mind-mapping/gitmind-style-button.png) <!-- review-alt -->
+   ![The Style button with its tooltip, Show or hide style and format options.](../assets/images/mind-mapping/gitmind-style-button.png)
 5. Select **Outline View** to see a hierarchical text version of your map.
-   ![The view menu at the bottom of the map with Mind Map, Outline View and Outline+Mind Map.](../assets/images/mind-mapping/gitmind-outline-view.png) <!-- review-alt -->
+   ![The view menu at the bottom of the map with Mind Map, Outline View and Outline+Mind Map.](../assets/images/mind-mapping/gitmind-outline-view.png)
 6. **Export** as an image or document.
-   ![The Export button with its tooltip, Export to other formats.](../assets/images/mind-mapping/gitmind-export.png) <!-- review-alt -->
+   ![The Export button with its tooltip, Export to other formats.](../assets/images/mind-mapping/gitmind-export.png)
 
 {: .warning }
 When you export to a Word document, nodes and subnodes appear as different sizes of text but are not real heading levels.
@@ -50,7 +50,7 @@ When you export to a Word document, nodes and subnodes appear as different sizes
 One especially useful GitMind feature is **Split Screen**.
 
 1. Open the **More** menu and select **Split Screen**.
-   ![The More menu with Split screen circled. Other options include Focus, Find & Replace, Version history, Hotkeys and Setting.](../assets/images/mind-mapping/gitmind-split-screen.png) <!-- review-alt -->
+   ![](../assets/images/mind-mapping/gitmind-split-screen.png)
 2. Open a document, webpage, or whiteboard beside your map, for project planning, note-taking, and research.
 
 To review keyboard shortcuts, select **More** and click **Hotkeys**.
@@ -63,7 +63,7 @@ Learn more in [How to use GitMind](https://gitmind.com/faq/how-to-use-gitmind.ht
 
 {% include availability.html tags="free-plan" %}
 
-<img src="../assets/images/logos/mindmeister.png" alt="" width="20%"> <!-- review-alt -->
+<img src="../assets/images/logos/mindmeister.png" alt="" width="20%">
 
 [MindMeister](https://www.mindmeister.com) is an online mind mapping tool that runs in your web browser. You need to create an account. The free plan is limited to a few mind maps; paid plans have more features.
 
@@ -75,19 +75,19 @@ Learn more in [How to use GitMind](https://gitmind.com/faq/how-to-use-gitmind.ht
    1. Press <kbd>Tab</kbd> to add a subtopic.
    2. Press <kbd>Enter</kbd> to add a sibling (equivalent subtopic).
 3. Select **Actions** to add comments, notes, connections, and other tools.
-   ![The MindMeister Add panel with Connection, Comment, Note, Media, Attachment and Task.](../assets/images/mind-mapping/mindmeister-actions.png) <!-- review-alt -->
+   ![](../assets/images/mind-mapping/mindmeister-actions.png) 
 
 To switch to a text outline:
 
 1. Click **Mind Map** in the bottom left corner of the window.
-   ![The Mind Map menu open with Mind Map and Outline options.](../assets/images/mind-mapping/mindmeister-outline.png) <!-- review-alt -->
+   ![](../assets/images/mind-mapping/mindmeister-outline.png) 
 2. Select **Outline**.
 3. Changes you make in Outline view also appear in the mind map.
 
 To export an outline:
 
 1. Select **Export** in the top left.
-   ![The map title menu open with Export and Print.](../assets/images/mind-mapping/mindmeister-export.png) <!-- review-alt -->
+   ![](../assets/images/mind-mapping/mindmeister-export.png)
 2. Choose **Export…**
 3. Choose **Document Outline**.
    1. Check **Include topic styling**.
@@ -102,7 +102,7 @@ Learn more about [MindMeister features](https://www.mindmeister.com/pages/produc
 
 {% include availability.html tags="free-plan" %}
 
-<img src="../assets/images/logos/mindmup.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/mindmup.png" alt="" width="10%">
 
 MindMup is an online mind mapping tool. It is free to use, and a paid version has more features. You need a Google account to use MindMup.
 
@@ -145,7 +145,7 @@ The exported outline uses nested lists to show the structure of the map. To get 
 
 {% include availability.html tags="free-plan" %}
 
-<img src="../assets/images/logos/mindomo.png" alt="" width="20%"> <!-- review-alt -->
+<img src="../assets/images/logos/mindomo.png" alt="" width="20%">
 
 [Mindomo](https://www.mindomo.com) is an online mind mapping tool that runs in your web browser. It is free to use, and a paid version has more features.
 
@@ -168,7 +168,7 @@ Open the menu and select **Shortcuts** to see a list of keyboard shortcuts to ad
 To convert a mind map to an outline:
 
 1. Expand the menu and select **View as Outline** to see a bullet point version of the mind map.
-   <img src="../assets/images/mind-mapping/mindomo-view-as-outline.png" alt="The Mindomo menu open with View as Outline highlighted." width="400"> <!-- review-alt -->
+   <img src="../assets/images/mind-mapping/mindomo-view-as-outline.png" alt="The Mindomo menu open with View as Outline highlighted." width="400">
 2. Changes you make in the outline also appear in the mind map.
 
 To export an outline:
@@ -187,7 +187,7 @@ To export an outline:
 
 {% include availability.html tags="langara paid" %}
 
-<img src="../assets/images/logos/word.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/word.png" alt="" width="10%">
 
 Use Microsoft Word to create document outlines.
 
@@ -202,14 +202,14 @@ Word can’t draw a mind map, but its Outline view is a good way to organize ide
 To create an outline:
 
 1. Navigate to **View > Outline**.
-   ![The Word View tab with View and Outline circled and the Outline View tooltip showing.](../assets/images/mind-mapping/word-outline-button.png) <!-- review-alt -->
+   ![The Word View tab with View and Outline circled and the Outline View tooltip showing.](../assets/images/mind-mapping/word-outline-button.png)
 2. Enter your main topic as **Level 1**.
 3. Press <kbd>Tab</kbd> and enter subtopics. Repeat to create as many levels as needed.
    1. Or use the promote and demote buttons to set the level.
 4. Enter links, notes, and evidence as body text.
-   ![Outline view with the level menu set to Body Text circled, and an outline of a main topic, two subtopics, evidence headings, and notes in body text.](../assets/images/mind-mapping/word-outline-body-text.png) <!-- review-alt -->
+   ![Outline view with the level menu set to Body Text circled, and an outline of a main topic, two subtopics, evidence headings, and notes in body text.](../assets/images/mind-mapping/word-outline-body-text.png)
 5. Click **Close Outline View** to return to the document. The outline will appear as text with heading levels organizing topics, subtopics, and content.
-   ![The outline in the document as headings for the main topic, subtopics and evidence, with notes as body text.](../assets/images/mind-mapping/word-outline-result.png) <!-- review-alt -->
+   ![The outline in the document as headings for the main topic, subtopics and evidence, with notes as body text.](../assets/images/mind-mapping/word-outline-result.png)
 
 {: .tip }
 You can also turn a Word outline into PowerPoint slides: see [Create a PowerPoint presentation from an outline – Microsoft Support](https://support.microsoft.com/en-us/office/import-a-word-outline-into-powerpoint-a25f6e01-9a19-4c0d-a108-7f533e42dfe9).
@@ -225,7 +225,7 @@ Inspiration 10 is available on computers in L121.
 
 Inspiration is software for creating diagrams, outlines, and maps, with templates and a built-in tutorial.
 
-<img src="../assets/images/logos/inspiration.jpg" alt="" width="20%"> <!-- review-alt -->
+<img src="../assets/images/logos/inspiration.jpg" alt="" width="20%">
 
 <details id="inspiration" markdown="block">
 <summary>Inspiration</summary>
@@ -235,7 +235,7 @@ Inspiration is software for creating diagrams, outlines, and maps, with template
 To begin:
 
 1. Choose a document type: Diagram, Outline, or Map.
-   ![The Inspiration Starter window with Diagram, Outline, Map, Open, Templates and Learn to Use buttons.](../assets/images/mind-mapping/inspiration-starter.png) <!-- review-alt -->
+   ![The Inspiration Starter window with Diagram, Outline, Map, Open, Templates and Learn to Use buttons.](../assets/images/mind-mapping/inspiration-starter.png) 
    1. A diagram lets you arrange topics, subtopics, and notes freely.
    2. Maps follow a more structured process with a central main idea.
    3. An outline is a text list of your ideas, arranged in levels.
@@ -265,26 +265,25 @@ For more information:
 {: .langara}
 Kurzweil is available on computers in L121.
 
-<img src="../assets/images/logos/kurzweil-3000.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/kurzweil-3000.png" alt="" width="10%"> 
 
 Kurzweil 3000 is a literacy suite with many tools (see also [Reading Alternate Format Material](reading-alternate-format-material.md#kurzweil)). Its **Brainstorm** tool makes a mind map that can be turned into an outline and then a draft document.
 
+Students in British Columbia may be able to get Kurzweil through [ATBC grant funding](https://www.at-bc.ca/programs/grant-equipment-for-students-csg/), or [buy a Kurzweil licence from Bridges Canada](https://www.bridges-canada.com/products/kurzweil-3000-english-standalone). Visit the [Kurzweil download centre](https://www.kurzweiledu.com/products/download-center.html) for trials and updates.
+
 <details id="kurzweil" markdown="block">
 <summary>Kurzweil</summary>
-
-Students in British Columbia may be able to get Kurzweil through [ATBC grant funding](https://www.at-bc.ca/programs/grant-equipment-for-students-csg/), or [buy a Kurzweil licence from Bridges Canada](https://www.bridges-canada.com/products/kurzweil-3000-english-standalone). Visit the [Kurzweil download centre](https://www.kurzweiledu.com/products/download-center.html) for trials and updates.
 
 By default, Kurzweil reads aloud as you type. To change this, go to **Tools > Options** and check or uncheck the options under **Speak as Typing**.
 
 Select **File > New > Brainstorm > Blank** or **From Template**. There are templates for many different layouts.
 
-<img src="../assets/images/mind-mapping/kurzweil-start-screen.png" alt="The Kurzweil 3000 start screen with Read (Open Existing File), Write (New Draft, New Brainstorm, New Outline) and Scan (Scan Document) options." width="600"> <!-- review-alt -->
-
+<img src="../assets/images/mind-mapping/kurzweil-start-screen.png" alt="The Kurzweil 3000 start screen with Read (Open Existing File), Write (New Draft, New Brainstorm, New Outline) and Scan (Scan Document) options." width="600"> 
 1. Enter a main topic.
 2. Add subtopics as ovals, rectangles, or rounded rectangles.
    1. Using different shapes and colours is another way to organize your ideas.
 3. The Brainstorm Palette has tools for shapes, links, and other options.
-   ![The Brainstorm Palette with buttons for Quick Takes, links, arrange, shapes, colours and delete.](../assets/images/mind-mapping/kurzweil-brainstorm-palette.png) <!-- review-alt -->
+   ![The Brainstorm Palette with buttons for Quick Takes, links, arrange, shapes, colours and delete.](../assets/images/mind-mapping/kurzweil-brainstorm-palette.png) 
    1. Use **Quick Takes** to quickly enter subtopics.
    2. Create **Links** between ideas.
    3. Select **Arrange** to clean up the diagram.
@@ -293,7 +292,7 @@ Select **File > New > Brainstorm > Blank** or **From Template**. There are templ
 To convert the diagram to an outline:
 
 1. Select **Outline View**.
-   ![The Kurzweil Write toolbar with the pointer on the Outline View button.](../assets/images/mind-mapping/kurzweil-outline-view.png) <!-- review-alt -->
+   ![The Kurzweil Write toolbar with the pointer on the Outline View button.](../assets/images/mind-mapping/kurzweil-outline-view.png) 
 2. **Outline View** converts the diagram to a list of indented bullet points.
    1. You can add information, notes, links, or other media in **Outline View**.
    2. Select **Split Screen View** to open a blank **Draft** document beside the outline, and start writing.
