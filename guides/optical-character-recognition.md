@@ -37,22 +37,6 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 
 </details>
 
-<details id="powertoys" markdown="block">
-<summary>PowerToys</summary>
-
-{% include availability.html tags="free" %}
-
-<img src="../assets/images/logos/powertoys.png" alt="" width="10%"> 
-
-[Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys) is a free set of extra tools for Windows. Its **Text Extractor** copies the text from any part of the screen, including images and videos.
-
-1. With PowerToys running, press <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> to activate Text Extractor.
-2. Click and drag over content.
-3. The text is copied to the clipboard.
-4. Paste it into Notepad, Word, or another app.
-
-</details>
-
 <details id="live-text" markdown="block">
 <summary>iOS/iPadOS/macOS</summary>
 
@@ -68,6 +52,26 @@ On iPhone and iPad, open the image in Photos (or point the Camera at the text) a
 
 - [Interact with text in a photo using Live Text in Preview on Mac – Apple Support (CA)](https://support.apple.com/en-ca/guide/preview/prvw625a5b2c/mac)
 - [Copy and translate text from photos on your iPhone or iPad – Apple Support (CA)](https://support.apple.com/en-ca/120004)
+
+</details>
+
+<details id="firefox-copy-text" markdown="block">
+<summary>Firefox (macOS)</summary>
+
+{% include availability.html tags="built-in" %}
+
+<img src="../assets/images/logos/firefox.png" alt="" width="10%"> 
+
+1. Right-click on an image.
+2. Select **Copy Text from Image**.
+3. A pop-up containing the image’s text appears.
+   1. The complete text is automatically copied to the clipboard.
+   2. To copy only part of it, select that text and press <kbd>Command</kbd> + <kbd>C</kbd>.
+4. Click **Close** or press <kbd>Escape</kbd>.
+
+This feature is only available in Firefox for macOS.
+
+[Copy text from images on Firefox for macOS – Firefox Help](https://support.mozilla.org/en-US/kb/text-recognition)
 
 </details>
 
@@ -152,26 +156,6 @@ To select specific text:
 5. The **Grab Text Results** window appears allowing you to edit and copy the text.
 
 [Grab & Edit Text – Snagit tutorial](https://www.techsmith.com/learn/tutorials/snagit/edit-image-text/)
-
-</details>
-
-<details id="firefox-copy-text" markdown="block">
-<summary>Firefox (macOS)</summary>
-
-{% include availability.html tags="built-in" %}
-
-<img src="../assets/images/logos/firefox.png" alt="" width="10%"> 
-
-1. Right-click on an image.
-2. Select **Copy Text from Image**.
-3. A pop-up containing the image’s text appears.
-   1. The complete text is automatically copied to the clipboard.
-   2. To copy only part of it, select that text and press <kbd>Command</kbd> + <kbd>C</kbd>.
-4. Click **Close** or press <kbd>Escape</kbd>.
-
-This feature is only available in Firefox for macOS.
-
-[Copy text from images on Firefox for macOS – Firefox Help](https://support.mozilla.org/en-US/kb/text-recognition)
 
 </details>
 
