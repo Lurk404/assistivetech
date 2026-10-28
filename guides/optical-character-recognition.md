@@ -32,8 +32,7 @@ The Windows Snipping Tool has a text extractor for copying text from anything on
 
 Open Snipping Tool with <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> and click the **Text Extractor** button in the toolbar.
 
-![The Snipping Tool toolbar with the pointer on the Text Extractor button, just before the close button.](../assets/images/optical-character-recognition/snipping-tool-text-extractor.png) <!-- review-alt -->
-
+![The Snipping Tool toolbar with the pointer on the Text Extractor button, just before the close button.](../assets/images/optical-character-recognition/snipping-tool-text-extractor.png)
 Click and drag over the text. The text is copied to the clipboard, ready to paste into a document.
 
 </details>
@@ -43,7 +42,7 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 
 {% include availability.html tags="free" %}
 
-<img src="../assets/images/logos/powertoys.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/powertoys.png" alt="" width="10%"> 
 
 [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys) is a free set of extra tools for Windows. Its **Text Extractor** copies the text from any part of the screen, including images and videos.
 
@@ -59,7 +58,7 @@ Click and drag over the text. The text is copied to the clipboard, ready to past
 
 {% include availability.html tags="built-in" %}
 
-<img src="../assets/images/logos/apple.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/apple.png" alt="" width="10%">
 
 **Live Text** lets you select and copy text in photos, screenshots, and paused videos on iPhone and iPad (iOS and iPadOS 15 or later) and Mac (macOS 12 or later).
 
@@ -77,11 +76,11 @@ On iPhone and iPad, open the image in Photos (or point the Camera at the text) a
 
 {% include availability.html tags="free" %}
 
-<img src="../assets/images/logos/onenote.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/onenote.png" alt="" width="10%"> 
 
 In OneNote for Windows, insert an image or a file printout, right-click it and select **Copy Text from Picture**, then paste the text into OneNote or another document.
 
-![The OneNote right-click menu for a picture with Copy Text from Picture circled.](../assets/images/optical-character-recognition/onenote-copy-text-from-picture.png) <!-- review-alt -->
+![](../assets/images/optical-character-recognition/onenote-copy-text-from-picture.png) 
 
 [Copy text from pictures and file printouts using OCR in OneNote – Microsoft Support](https://support.microsoft.com/en-us/office/copy-text-from-pictures-and-file-printouts-using-ocr-in-onenote-93a70a2f-ebcd-42dc-9f0b-19b09fd775b4)
 
@@ -103,7 +102,7 @@ Google Lens, like Apple’s Live Text, can pick out the text in a photo on your 
 2. Select **Search Image with Google**.
 3. Highlight the text you want, or use the **Select all text** button.
 4. Use the **Copy text** or **Listen** buttons.
-   ![The Google Lens panel in Chrome with the Text tab selected, showing Copy text and Listen buttons.](../assets/images/optical-character-recognition/google-lens-chrome.png) <!-- review-alt -->
+   ![The Google Lens panel in Chrome with the Text tab selected, showing Copy text and Listen buttons.](../assets/images/optical-character-recognition/google-lens-chrome.png) 
 
 [Google Lens – Google Search](https://search.google/ways-to-search/lens/)
 
@@ -114,7 +113,7 @@ Google Lens, like Apple’s Live Text, can pick out the text in a photo on your 
 
 {% include availability.html tags="free" %}
 
-<img src="../assets/images/logos/sharex.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/sharex.png" alt="" width="10%">
 
 ShareX is a free screenshot app for Windows that includes OCR. Capture all or part of the screen, then copy the text into another program, for example to have it read aloud.
 
@@ -136,7 +135,7 @@ ShareX is a free screenshot app for Windows that includes OCR. Capture all or pa
 {: .langara }
 Contact [edtech@langara.ca](mailto:edtech@langara.ca) for Snagit licensing information.
 
-<img src="../assets/images/logos/snagit.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/snagit.png" alt="" width="10%"> 
 
 Snagit is paid screen capture and recording software for Windows and macOS. To copy all the text from an image:
 
@@ -161,7 +160,7 @@ To select specific text:
 
 {% include availability.html tags="built-in" %}
 
-<img src="../assets/images/logos/firefox.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/firefox.png" alt="" width="10%"> 
 
 1. Right-click on an image.
 2. Select **Copy Text from Image**.
@@ -181,7 +180,7 @@ This feature is only available in Firefox for macOS.
 
 {% include availability.html tags="langara paid" %}
 
-<img src="../assets/images/logos/equatio.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/equatio.png" alt="" width="10%"> 
 
 Equatio’s **Screenshot Reader** reads aloud math that is only available as a picture, and can copy it as MathML or LaTeX. For steps, see [Reading math in the Equatio Quick Start Guide](equatio-quick-start-guide.md#reading-math).
 
@@ -201,7 +200,7 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 {: .langara }
 [Access TextAid](https://ws.readspeaker.com/a/wasp/app/8) using your Langara email and password.
 
-<img src="../assets/images/logos/textaid.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/textaid.png" alt="" width="10%"> 
 
 <details markdown="block">
 <summary>Using TextAid</summary>
@@ -209,16 +208,16 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 Upload a picture or scan of text and TextAid converts it to text it can read aloud, and saves it to your Library.
 
 1. Select **Image to Text** in the sidebar.
-   ![The TextAid sidebar with Image to Text circled.](../assets/images/reading-alternate-format-material/textaid-image-to-text.png) <!-- review-alt -->
+   ![The TextAid sidebar with Image to Text circled.](../assets/images/reading-alternate-format-material/textaid-image-to-text.png) 
 2. Choose file, set options, and click **Start**.
-   ![The Convert Image to Text window with the Choose File button circled. Other options include reading voice, save-to folder, and saving as a read-only document or editable text, with a Start button at the bottom.](../assets/images/reading-alternate-format-material/textaid-choose-file.png) <!-- review-alt -->
+   ![The Convert Image to Text window with the Choose File button circled.](../assets/images/reading-alternate-format-material/textaid-choose-file.png)
 3. Wait for the file to process and then select **Go to your library** to access your file.
-   ![A message reading The image was processed successfully, with the saved file name, its size, and a Go to your library button.](../assets/images/reading-alternate-format-material/textaid-image-processed.png) <!-- review-alt -->
+   ![Screenshot of a message reading The image was processed successfully and a Go to your library button.](../assets/images/reading-alternate-format-material/textaid-image-processed.png) 
 4. You can now use the reading options and tools described in [Reading Alternate Format Material](reading-alternate-format-material.md#textaid).
 5. Click the **Listen** button to read the whole document.
-   ![The converted document open in TextAid, with page thumbnails on the left and the scanned page on the right.](../assets/images/reading-alternate-format-material/textaid-converted-document.png) <!-- review-alt -->
+   ![](../assets/images/reading-alternate-format-material/textaid-converted-document.png) 
 6. Select **Text Mode** to see the text as plain text and use more tools, such as selecting text to listen to it.
-   ![The converted document in Text Mode as plain text, with a selected word and a pop-up menu offering Listen, Dictionary and Translate.](../assets/images/reading-alternate-format-material/textaid-converted-text-mode.png) <!-- review-alt -->
+   ![The converted document in Text Mode as plain text](../assets/images/reading-alternate-format-material/textaid-converted-text-mode.png)
 
 [TextAid Image to Text Tool](https://www.readspeaker.com/blog/textaid-features/#7)
 
@@ -261,7 +260,7 @@ See the [Kurzweil 3000 for Windows Getting Started Guide (PDF)](https://www.kurz
 
 {% include availability.html tags="free" %}
 
-<img src="../assets/images/logos/google-drive.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/google-drive.png" alt="" width="10%"> 
 
 
 <details markdown="block">
@@ -283,7 +282,7 @@ Google Drive can convert scanned PDFs and images into editable text:
 {: .langara}
 Acrobat licences can be requested through Langara IT.
 
-<img src="../assets/images/logos/adobe-acrobat.png" alt="" width="10%"> <!-- review-alt -->
+<img src="../assets/images/logos/adobe-acrobat.png" alt="" width="10%"> 
 
 The free Adobe Acrobat Reader can’t do OCR. You need a paid version of Acrobat.
 
