@@ -193,6 +193,9 @@ Many screenshot readers limit how much text they can capture at once, or crash o
 
 ## Optical Character Recognition Tools
 
+{: .langara }
+Langara has an OCR scanner and Kurzweil software available in L121. Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for more information.
+
 ### TextAid
 
 {% include availability.html tags="langara paid" %}
@@ -299,6 +302,3 @@ The free Adobe Acrobat Reader can’t do OCR. You need a paid version of Acrobat
 [How to use Acrobat OCR for PDFs in 4 easy steps](https://www.adobe.com/acrobat/how-to/ocr-software-convert-pdf-to-text.html)
 
 </details>
-
-{: .langara }
-Langara has an OCR scanner and Kurzweil software available in L121. Contact [assistivetech@langara.ca](mailto:assistivetech@langara.ca) for more information.
