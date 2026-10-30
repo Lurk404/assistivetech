@@ -11,7 +11,7 @@ Speech to text, also called dictation, turns what you say into typed text. This 
 **On this page:**
 
 - [Word Dictate](#word-dictate)
-- [Windows Voice Typing](#windows-voice-typing)
+- [Windows Voice Typing](#windows)
 - [Android](#android-and-chromeos)
 - [iOS and macOS](#ios-and-macos)
 - [Dragon](#dragon)
