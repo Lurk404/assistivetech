@@ -16,8 +16,7 @@ This page covers ways to turn on captions in video players, meeting apps, browse
 - [Windows](#windows)
 - [Android](#android)
 - [Chrome](#chrome)
-- [iOS](#ios)
-- [macOS](#macos)
+- [macOS and iOS](#macos)
 
 <details id="kaltura" markdown="block">
 <summary>Kaltura</summary>
@@ -193,7 +192,7 @@ Chrome’s captions use your computer’s caption style settings:
 
 </details>
 
-<details id="ios" markdown="block">
+<details markdown="block">
 <summary>macOS and iOS</summary>
 
 ## macOS

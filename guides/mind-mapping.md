@@ -16,7 +16,7 @@ The most useful mind mapping tools can turn a map into a text outline, which is 
 - [MindMeister](#mindmeister)
 - [MindMup](#mindmup)
 - [Mindomo](#mindomo)
-- [Word Outline](#word-outline)
+- [Word Outline](#microsoft-word)
 - [Inspiration](#inspiration)
 - [Kurzweil](#kurzweil)
 
