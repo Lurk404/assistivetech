@@ -32,8 +32,7 @@ The authors have made a dedicated effort to ensure the accessibility and usabili
 <tr><th scope="col">Location of issue</th><th scope="col">Issue description</th><th scope="col">Timeline for improvement</th></tr>
 </thead>
 <tbody>
-<tr><td>Images throughout</td><td>Alternative text for the screenshots was rewritten when the guides moved from Pressbooks to this website, and is still being reviewed.</td><td>Ongoing</td></tr>
-<tr><td>Some screenshots</td><td>Some screenshots show older versions of software and may not match what you see on screen. The written steps are kept up to date.</td><td>Ongoing</td></tr>
+<tr><td>No active issues</td><td>To the best of the author's knowledge, there are not accessibility issues in this resource</td><td>N/A</td></tr>
 </tbody>
 </table>
 
@@ -51,4 +50,4 @@ Please include as much of the following information as possible:
 A thorough description will assist us in addressing any issues and improving the accessibility and usability of this resource.
 
 {: .note }
-> This statement was last updated on **October 14, 2026**.
+> This statement was last updated on **October 30, 2026**.

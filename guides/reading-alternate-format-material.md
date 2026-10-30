@@ -243,10 +243,10 @@ Speechify is a text to speech app with a free version. It is available for:
 <summary>Getting started with Speechify</summary>
 
 In the web app, you can add files from your device, Dropbox, or Google Drive.
-<img src="../assets/images/reading-alternate-format-material/speechify-new-menu.png" alt="" width="20%"> 
+<img src="../assets/images/reading-alternate-format-material/speechify-new-menu.png" alt="" width="40%"> 
 
 Your files are kept in a library, which you can organize into folders. Click the plus button to create a folder.
-<img src="../assets/images/reading-alternate-format-material/speechify-new-folder.png" alt="My Library in Speechify with the plus button circled, above a test folder and Trash." width="20%"> 
+<img src="../assets/images/reading-alternate-format-material/speechify-new-folder.png" alt="My Library in Speechify with the plus button circled, above a test folder and Trash." width="40%"> 
 
 Folders can be edited, renamed, and deleted.
 
@@ -267,7 +267,7 @@ NaturalReader is a text to speech tool with a free version. Use it [online](http
 <summary>Getting started with NaturalReader</summary>
 
 You can build a library of files:
-<img src="../assets/images/reading-alternate-format-material/naturalreader-menu.png" alt="" width="20%">
+<img src="../assets/images/reading-alternate-format-material/naturalreader-menu.png" alt="" width="40%">
 
 Add files from various sources:
 <img src="../assets/images/reading-alternate-format-material/naturalreader-add-files.png" alt="Add Files circled in the NaturalReader menu, with the Add dialog offering Document, Text, Images and Webpage." width="500"> 
