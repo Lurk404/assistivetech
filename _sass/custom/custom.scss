@@ -153,6 +153,20 @@
     transition: none !important;
     transform: none !important;
   }
+
+  // Just the Docs scrolls smoothly to every link within a page, and animates
+  // the search box. Jump straight there, and open search without the slide.
+  html {
+    scroll-behavior: auto;
+  }
+
+  .search,
+  .search-input-wrap,
+  .search-input,
+  .search-label,
+  .search-overlay {
+    transition: none !important;
+  }
 }
 
 // The "On this page" popover, just above the buttons

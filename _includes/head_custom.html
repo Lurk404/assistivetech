@@ -1,9 +1,10 @@
 <script>
-  /* Dark mode: if the reader chose dark on an earlier visit, switch the stylesheet
-     now, before the page is drawn, so they don't see a flash of the light theme.
+  /* Dark mode: if the reader chose dark (or their computer is set to dark and they haven’t chosen), switch the stylesheet now before the page is drawn, so they don't see a flash of the light theme.
      The toggle button itself is in _includes/theme_toggle.html. */
   try {
-    if (localStorage.getItem('theme') === 'dark') jtd.setTheme('dark');
+    var saved = localStorage.getItem('theme');
+    /* A choice made with the button wins; otherwise follow the computer's setting */
+    if (saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches) jtd.setTheme('dark');
   } catch (e) {}
 
   /* Open collapsed sections (<details>) when a link points to one, or to anything

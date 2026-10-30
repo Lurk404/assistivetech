@@ -4,9 +4,10 @@
   (it stays in the header if the panel can't load). It uses the .page-nav-button
   style, like the other buttons.
 
-  - Light is the default. Dark is the reader's choice, remembered in their
-    browser (localStorage) so it carries over from page to page.
-  - head_custom.html re-applies a saved dark choice before the page is drawn.
+  - Follows the computer's light or dark setting until the reader uses the
+    button; their choice is then remembered in their browser (localStorage)
+    and carries over from page to page.
+  - head_custom.html applies it before the page is drawn.
   - The visible label names the mode the button switches to ("Dark" or "Light").
     Screen readers hear "Switch to dark mode" / "Switch to light mode", which still
     contains the visible word, so voice control ("click Dark") works too.
@@ -28,10 +29,7 @@
     button.addEventListener('click', function () {
       var dark = jtd.getTheme() !== 'dark';
       jtd.setTheme(dark ? 'dark' : 'default');   /* "default" is the site's light theme */
-      try {
-        if (dark) localStorage.setItem('theme', 'dark');
-        else localStorage.removeItem('theme');
-      } catch (e) {}
+            try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
       updateLabel();
     });
 

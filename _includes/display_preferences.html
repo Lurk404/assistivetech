@@ -90,6 +90,20 @@
       toolbar.hidden = false;
       buttons.hidden = false;
 
+      /* The panel uses two fonts the rest of the site doesn't. Fetch them as
+         soon as someone heads for "Show preferences", so they've arrived before
+         the panel opens and don't change its height while it slides. */
+      var showButton = buttons.querySelector('.flc-slidingPanel-toggleButton');
+      if (showButton && document.fonts) {
+        var warmFonts = function () {
+          document.fonts.load('1em "Open Sans Variable"');
+          document.fonts.load('1em "PrefsFramework-Icons"');
+        };
+        ['pointerenter', 'focus', 'touchstart'].forEach(function (type) {
+          showButton.addEventListener(type, warmFonts, { once: true, passive: true });
+        });
+      }
+
       /* Tab order: on wider screens, put the header (search, Show preferences,
          View on GitHub) before the sidebar in the page, so keyboard
          users reach it before the menu. It looks the same: the sidebar is fixed
@@ -192,6 +206,7 @@
         prefsEditorLoader: {
           lazyLoad: true,
           slidingPanel: {
+            animationDurations: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? { show: 0, hide: 0 } : { show: 400, hide: 400 },
             strings: {
               showText: "+ Show preferences",
               hideText: "− Hide preferences",
@@ -239,7 +254,11 @@
       /* How many cards fit, at the current text size */
       function fit() {
         var gap = px(list, 'columnGap');
-        var room = list.clientWidth - px(list, 'paddingLeft') - px(list, 'paddingRight');
+        /* While the panel is closed the row has no width, so use the width it
+           will have when it opens: the container's. (Using 0 would squeeze in
+           1 card, and the panel would open to the wrong height, then jump.) */
+        var width = list.clientWidth || prefs.clientWidth;
+        var room = width - px(list, 'paddingLeft') - px(list, 'paddingRight');
         var min = 15 * px(document.documentElement, 'fontSize');
         perView = Math.max(1, Math.min(3, Math.floor((room + gap) / (min + gap))));
         list.style.setProperty('--per-view', perView);
@@ -311,6 +330,7 @@
          window resizing) or the Text size setting changes (it's set on <html>) */
       function refit() { fit(); update(); }
       new ResizeObserver(refit).observe(scroller);
+      window.addEventListener('resize', refit);   /* the window resized while the panel was closed */
       new MutationObserver(refit).observe(document.documentElement, { attributes: true, attributeFilter: ['style', 'class'] });
 
       pager.hidden = false;
