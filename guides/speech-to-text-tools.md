@@ -12,7 +12,7 @@ Speech to text, also called dictation, turns what you say into typed text. This 
 
 - [Word Dictate](#word-dictate)
 - [Windows Voice Typing](#windows-voice-typing)
-- [Android](#android)
+- [Android](#android-and-chromeos)
 - [iOS and macOS](#ios-and-macos)
 - [Dragon](#dragon)
 
@@ -62,7 +62,7 @@ The gear icon on the toolbar opens **Dictation Settings**:
 
 Microsoft Windows 11 has built-in dictation called **Voice Typing**.
 
-<details id="windows-voice-typing" markdown="block">
+<details markdown="block">
 <summary>Windows Voice Typing</summary>
 
 Windows Voice Typing lets you type with your voice anywhere you can type text, including apps and web pages. To use **Voice Typing**:
@@ -91,7 +91,7 @@ To control your whole computer by voice, see [Voice Control](voice-control.md).
 
 Android and ChromeOS devices offer Google Voice Typing allowing users to dictate text.
 
-<details id="android" markdown="block">
+<details markdown="block">
 <summary>Android and ChromeOS</summary>
 
 You can dictate text on Android and ChromeOS. Many apps (Chrome, Play Store, Docs) have a microphone icon in the search box for searching with your voice.
