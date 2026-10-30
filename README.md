@@ -59,7 +59,7 @@ Callout boxes use a line like `{: .note }` or `{: .tip }` or `{: .warning }` dir
 
 ### Images
 
-Images use paths relative to the page, for example `../assets/images/morphic/morphicbar.jpg` from a file in `guides/`. On the website every image sits on its own line. For a small icon in the middle of a sentence, use `<img class="inline" src="..." alt="..." width="30">` instead. Every image has alt text or an empty alt (`![]()`) if it's decorative. The `<!-- review-alt -->` comments mark alt text drafted during the move from Pressbooks; delete them once it's been checked.
+Images use paths relative to the page, for example `../assets/images/morphic/morphicbar.jpg` from a file in `guides/`. On the website every image sits on its own line. For a small icon in the middle of a sentence, use `<img class="inline" src="..." alt="..." width="30">` instead. Every image has alt text or an empty alt (`![]()`) if it's decorative.
 
 Put each screenshot on its own line under the step it belongs to. Inside a numbered step, indent it 3 spaces so it stays part of that step.
 

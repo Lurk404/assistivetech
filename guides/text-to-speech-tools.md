@@ -300,7 +300,7 @@ To hear everything on screen read aloud:
 
 In Safari, use **Listen to Page** when available:
 
-1. Select the <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-page-menu-icon.png" alt="AA" width="23"> <!-- review-alt --> icon in the address bar and choose **Listen to Page**.
+1. Select the <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-page-menu-icon.png" alt="" width="23"> icon in the address bar and choose **Listen to Page**.
    <img src="../assets/images/text-to-speech-tools/ios-safari-listen-to-page.png" alt="">
 2. Control playback by tapping on <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-listening-icon.png" alt="" width="26"> in the address bar.
 3. Control reading speed, skip forward and back, pause, or stop listening.
