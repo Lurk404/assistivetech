@@ -92,7 +92,7 @@ To control your whole computer by voice, see [Voice Control](voice-control.md).
 Android and ChromeOS devices offer Google Voice Typing allowing users to dictate text.
 
 <details markdown="block">
-<summary>Android and ChromeOS</summary>
+<summary>Google Voice Typing</summary>
 
 You can dictate text on Android and ChromeOS. Many apps (Chrome, Play Store, Docs) have a microphone icon in the search box for searching with your voice.
 
@@ -129,7 +129,7 @@ Use **Live Transcribe** to turn speech around you into text on screen (see also 
 iOS and macOS offer **Dictation** tools built-in.
 
 <details id="ios-and-macos" markdown="block">
-<summary>iOS and macOS</summary>
+<summary>iOS and macOS Dictation</summary>
 
 ### iOS
 
@@ -172,7 +172,7 @@ Langara has a limited number of Dragon licences. Contact Accessibility Services 
 Dragon is powerful speech to text software.
 
 <details id="dragon" markdown="block">
-<summary>Dragon</summary>
+<summary>Dragon Dictation and Transcription</summary>
 
 Dragon can dictate into almost any text field. To do so:
 
