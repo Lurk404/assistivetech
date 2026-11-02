@@ -301,10 +301,10 @@ To hear everything on screen read aloud:
 In Safari, use **Listen to Page** when available:
 
 1. Select the <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-page-menu-icon.png" alt="" width="23"> icon in the address bar and choose **Listen to Page**.
-   <img src="../assets/images/text-to-speech-tools/ios-safari-listen-to-page.png" alt="">
+   <img src="../assets/images/text-to-speech-tools/ios-safari-listen-to-page.png" alt="" width="300">
 2. Control playback by tapping on <img class="inline" src="../assets/images/text-to-speech-tools/ios-safari-listening-icon.png" alt="" width="26"> in the address bar.
 3. Control reading speed, skip forward and back, pause, or stop listening.
-   ![Safari listening controls with More Controls, Speaking rate, skip and pause buttons, and End Listening.](../assets/images/text-to-speech-tools/ios-safari-listening-controls.png)
+  <img src="../assets/images/text-to-speech-tools/ios-safari-listening-controls.png" alt="Safari listening controls with More Controls, Speaking rate, skip and pause buttons, and End Listening" width="300">
 
 ### Learn More
 
@@ -370,15 +370,15 @@ There are 3 ways to activate Read Aloud:
 
 1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd>.
 2. Click the **A** icon in the address bar. Read Aloud will begin reading from the top of the page.
-   <img src="../assets/images/text-to-speech-tools/edge-read-aloud-button.png" alt="">
+   <img src="../assets/images/text-to-speech-tools/edge-read-aloud-button.png" alt="" width="33%">
 3. **Right-click** on text and select **Read Aloud** or **Continue to read aloud from here**. Additionally, users can select text, right-click and click **Read Aloud Selection**.
-   <img src="../assets/images/text-to-speech-tools/edge-right-click-menu.png" alt="">
+   <img src="../assets/images/text-to-speech-tools/edge-right-click-menu.png" alt="" width="33%">
 
 To use **Immersive Reader**, press <kbd>F9</kbd> or click the Immersive Reader icon in the address bar (when available).
-<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-button.png" alt="">
+<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-button.png" alt="" width="33%">
 
 Immersive Reader offers a simplified version of webpages with full Read Aloud functions. Additional visual customizations and reading preferences are available.
-<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-text-preferences.png" alt="Immersive Reader text preferences: text size, text spacing, font, text column style and page themes.">
+<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-text-preferences.png" alt="Immersive Reader text preferences: text size, text spacing, font, text column style and page themes." width="33%">
 
 - [Read aloud – Microsoft Edge](https://www.microsoft.com/en-us/edge/features/read-aloud)
 - [Use Immersive Reader in Microsoft Edge – Microsoft Support](https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1)
@@ -394,10 +394,10 @@ Press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (Windows)
 Reader View includes built-in text to speech and display customization.
 <img src="../assets/images/text-to-speech-tools/firefox-reader-view-toolbar.png" alt="The Reader View toolbar with buttons for close, text and layout, theme, and read aloud">
 The look of webpages can be customized, including the font as well as line, character, and word spacing.
-![Reader View text and layout settings: text size, font, font weight, content width, line spacing, and advanced options for character spacing, word spacing and text alignment.](../assets/images/text-to-speech-tools/firefox-reader-view-text-layout.png)
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-text-layout.png" alt="Reader View text and layout settings: text size, font, font weight, content width, line spacing, and advanced options for character spacing, word spacing and text alignment" width="33%">
 
 The background colour can be changed, as well as the colour of links, font, background, and highlighting under the **Custom** tab.
-![Reader View theme settings with Default and Custom tabs. The Default tab offers Auto, Light, Dark, Sepia, Contrast and Gray.](../assets/images/text-to-speech-tools/firefox-reader-view-theme.png) 
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-theme.png" alt="Reader View theme settings with Default and Custom tabs. The Default tab offers Auto, Light, Dark, Sepia, Contrast and Gray" width="33%"> 
 
 The **Read aloud** tool (headphone icon) offers read aloud functions, variable speed, and voice options.
 ![Reader View read aloud controls with previous, play and next buttons, a speed slider and a voice menu.](../assets/images/text-to-speech-tools/firefox-reader-view-read-aloud.png)
