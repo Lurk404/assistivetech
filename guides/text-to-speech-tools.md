@@ -400,7 +400,7 @@ The background colour can be changed, as well as the colour of links, font, back
 <img src="../assets/images/text-to-speech-tools/firefox-reader-view-theme.png" alt="Reader View theme settings with Default and Custom tabs. The Default tab offers Auto, Light, Dark, Sepia, Contrast and Gray" width="33%"> 
 
 The **Read aloud** tool (headphone icon) offers read aloud functions, variable speed, and voice options.
-![Reader View read aloud controls with previous, play and next buttons, a speed slider and a voice menu.](../assets/images/text-to-speech-tools/firefox-reader-view-read-aloud.png)
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-read-aloud.png" alt="Reader View read aloud controls with previous, play and next buttons, a speed slider and a voice menu" width="33%">
 
 Reader View is not available on all webpages.
 
