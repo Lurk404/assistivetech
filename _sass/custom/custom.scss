@@ -352,6 +352,18 @@ $page-nav-gap: 1rem;
   height: 1.5em;
 }
 
+// Light/dark button: a half-filled circle before "Dark" or "Light"
+// (markup in _includes/theme_toggle.html)
+#theme-toggle {
+  gap: 0.4em;
+}
+
+.theme-toggle__icon {
+  width: 1.25em;
+  height: 1.25em;
+  flex: none;
+}
+
 // Words only screen readers hear ("Previous settings")
 .site-prefs-sr {
   position: absolute;
