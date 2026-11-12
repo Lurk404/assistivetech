@@ -28,7 +28,7 @@ The TextAid web app has several tools to help with reading. Sign in as described
 <summary>New Text</summary>
 
 1. Select **New Text** in the sidebar.
-   ![](../assets/images/reading-alternate-format-material/textaid-new-text.png) 
+   <img src="../assets/images/reading-alternate-format-material/textaid-new-text.png" alt="" width="300">
 2. Type or paste text from another source.
 3. Create, edit, and listen to the text in this window.
 4. **Save** it to your Library, **Print** it to paper or PDF, or **Download** it as an MP3 to listen to later.
@@ -48,7 +48,7 @@ To add a new document to TextAid:
 2. Select **Upload Document** to add PDFs or other documents you want to read.
 3. Once uploaded, click on the file in the Library window to access and read it.
 4. In the sidebar, select **Listen** to begin reading.
-   ![](../assets/images/reading-alternate-format-material/textaid-listen.png)
+   <img src="../assets/images/reading-alternate-format-material/textaid-listen.png" alt="" width="300">
    1. Select **Text Mode** to see the document as plain text. This may change its layout or formatting.
       ![](../assets/images/reading-alternate-format-material/textaid-text-mode-button.png)
 5. Select text and click **Listen** to read only selected passages.
