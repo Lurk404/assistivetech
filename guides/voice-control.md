@@ -241,7 +241,7 @@ To stop the Dictation Box opening in programs Dragon doesn’t support (such as 
 - [Dragon support](https://dragon.nuance.com/en-us/dragon-support.html)
 - [Dragon videos – Microsoft for Healthcare on YouTube](https://www.youtube.com/@MicrosoftforHealthcare)
 - [Using the Dictation Box – Dragon Help](https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/professionalgroup/main/Content/Dictation/using_the_dictation_box.htm)
-- [Using Dragon with Microsoft Word (PDF)](https://dragon.nuance.com/shared/user-docs/ct-dragon-for-word-2007-en-us.pdf)
+- [Using Dragon with Microsoft Word](https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/dps/main/Content/CommandandControl/word_basics.htm)
 - [Using Dragon with Microsoft Excel (PDF)](https://dragon.nuance.com/shared/user-docs/ct-microsoft-word-dragon-for-excel.doc-en-us.pdf)
 - How to [export and import a Dragon profile](https://nuance.custhelp.com/app/answers/detail/a_id/6874/~/how-to-export-and-import-a-user-profile-in-dragon-naturallyspeaking)
 
