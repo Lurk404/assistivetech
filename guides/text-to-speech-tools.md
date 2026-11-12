@@ -370,12 +370,12 @@ There are 3 ways to activate Read Aloud:
 
 1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd>.
 2. Click the **A** icon in the address bar. Read Aloud will begin reading from the top of the page.
-   <img src="../assets/images/text-to-speech-tools/edge-read-aloud-button.png" alt="" width="33%">
+   <img src="../assets/images/text-to-speech-tools/edge-read-aloud-button.png" alt="" width="300">
 3. **Right-click** on text and select **Read Aloud** or **Continue to read aloud from here**. Additionally, users can select text, right-click and click **Read Aloud Selection**.
-   <img src="../assets/images/text-to-speech-tools/edge-right-click-menu.png" alt="" width="33%">
+   <img src="../assets/images/text-to-speech-tools/edge-right-click-menu.png" alt="" width="300">
 
 To use **Immersive Reader**, press <kbd>F9</kbd> or click the Immersive Reader icon in the address bar (when available).
-<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-button.png" alt="" width="33%">
+<img src="../assets/images/text-to-speech-tools/edge-immersive-reader-button.png" alt="" width="300">
 
 Immersive Reader offers a simplified version of webpages with full Read Aloud functions. Additional visual customizations and reading preferences are available.
 <img src="../assets/images/text-to-speech-tools/edge-immersive-reader-text-preferences.png" alt="Immersive Reader text preferences: text size, text spacing, font, text column style and page themes." width="33%">
@@ -389,18 +389,18 @@ Immersive Reader offers a simplified version of webpages with full Read Aloud fu
 <summary>Firefox</summary>
 
 Press <kbd>F9</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> (Windows) or <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd> (macOS) to open or close Reader View, or click the lined paper icon in the address bar.
-<img src="../assets/images/text-to-speech-tools/firefox-reader-view-button.png" alt="">
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-button.png" alt="" width="300">
 
 Reader View includes built-in text to speech and display customization.
 <img src="../assets/images/text-to-speech-tools/firefox-reader-view-toolbar.png" alt="The Reader View toolbar with buttons for close, text and layout, theme, and read aloud">
 The look of webpages can be customized, including the font as well as line, character, and word spacing.
-<img src="../assets/images/text-to-speech-tools/firefox-reader-view-text-layout.png" alt="Reader View text and layout settings: text size, font, font weight, content width, line spacing, and advanced options for character spacing, word spacing and text alignment" width="33%">
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-text-layout.png" alt="Reader View text and layout settings: text size, font, font weight, content width, line spacing, and advanced options for character spacing, word spacing and text alignment" width="300">
 
 The background colour can be changed, as well as the colour of links, font, background, and highlighting under the **Custom** tab.
-<img src="../assets/images/text-to-speech-tools/firefox-reader-view-theme.png" alt="Reader View theme settings with Default and Custom tabs. The Default tab offers Auto, Light, Dark, Sepia, Contrast and Gray" width="33%"> 
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-theme.png" alt="Reader View theme settings with Default and Custom tabs. The Default tab offers Auto, Light, Dark, Sepia, Contrast and Gray" width="300"> 
 
 The **Read aloud** tool (headphone icon) offers read aloud functions, variable speed, and voice options.
-<img src="../assets/images/text-to-speech-tools/firefox-reader-view-read-aloud.png" alt="Reader View read aloud controls with previous, play and next buttons, a speed slider and a voice menu" width="33%">
+<img src="../assets/images/text-to-speech-tools/firefox-reader-view-read-aloud.png" alt="Reader View read aloud controls with previous, play and next buttons, a speed slider and a voice menu" width="300">
 
 Reader View is not available on all webpages.
 
