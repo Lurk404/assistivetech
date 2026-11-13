@@ -42,6 +42,7 @@ Dictate is built into Microsoft 365 versions of Word for Windows, macOS, the web
 5. Say “pause dictation” or “stop dictation” to stop. Click the microphone to start again.
 
 [Dictate your documents in Word – Microsoft Support](https://support.microsoft.com/en-us/office/dictate-your-documents-in-word-3876e05f-3fcc-418f-b8ab-db7ce0d11d3c)
+[Dictate emails in Outlook - Microsoft Support](https://support.microsoft.com/en-us/accessibility/outlook/dictate-your-emails-in-outlook)
 
 ### Settings
 
